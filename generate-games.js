@@ -35,9 +35,18 @@ if (!fs.existsSync(gamesDir)) {
   fs.mkdirSync(gamesDir, { recursive: true });
 }
 
+// 统计新增和更新的游戏
+let newCount = 0;
+let updateCount = 0;
+
 // 生成每个游戏页面
 games.forEach((game, index) => {
   const gameId = game.id;
+  const outputPath = path.join(gamesDir, `${gameId}.html`);
+  
+  // 检查是否已存在
+  const exists = fs.existsSync(outputPath);
+  
   const gameName = game.name;
   const gameNameEn = game.nameEn || '';
   const gameCategory = game.category || '';
@@ -66,18 +75,30 @@ games.forEach((game, index) => {
   // 替换描述
   html = html.replace(/《三国志曹操传》是日本光荣公司出版的英杰传系列游戏。/g, gameDesc);
   
-  // 替换下载链接
-  html = html.replace(/href="\.\.\/"/g, 'href="/"');
-  html = html.replace(/href="\.\.\/games\//g, 'href="/games/');
+  // 替换下载链接（如果有的话）
+  if (baiduLink1) {
+    html = html.replace(/href="https:\/\/pan\.baidu\.com\/s\/1xxxxx"/g, `href="${baiduLink1}"`);
+  }
+  if (thunderLink) {
+    html = html.replace(/href="https:\/\/pan\.xunlei\.com\/s\/1xxxxx"/g, `href="${thunderLink}"`);
+  }
   
   // 保存文件
-  const outputPath = path.join(gamesDir, `${gameId}.html`);
   fs.writeFileSync(outputPath, html, 'utf-8');
   
+  if (exists) {
+    updateCount++;
+  } else {
+    newCount++;
+  }
+  
   if ((index + 1) % 100 === 0) {
-    console.log(`已生成 ${index + 1} / ${games.length} 个游戏页面`);
+    console.log(`已处理 ${index + 1} / ${games.length} 个游戏`);
   }
 });
 
-console.log(`\n✅ 完成！共生成 ${games.length} 个游戏详情页`);
+console.log(`\n✅ 完成！`);
+console.log(`新增: ${newCount} 个游戏页面`);
+console.log(`更新: ${updateCount} 个游戏页面`);
+console.log(`总计: ${games.length} 个游戏页面`);
 console.log(`输出目录: ${gamesDir}`);
