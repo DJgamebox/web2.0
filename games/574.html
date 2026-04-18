@@ -952,7 +952,7 @@
         async function downloadClient(source = 'detail') {
             // 记录下载统计
             try {
-                await fetch('/api/client-download', {
+                await fetch('https://api.djgamebox.com/api/client-download', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -1082,7 +1082,7 @@
         // 记录游戏下载并跳转 - 5.27 新增
         async function recordGameDownload(gameId, link) {
             try {
-                await fetch('/api/game-download', {
+                await fetch('https://api.djgamebox.com/api/game-download', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
