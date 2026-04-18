@@ -75,7 +75,7 @@ games.forEach((game, index) => {
   html = html.replace(/<span>生化危机9：安魂曲<\/span>/g, `<span>${gameName}</span>`);
   
   // 4. 替换游戏封面
-  html = html.replace(/https:\/\/gamebox-api-v2\.danjiyouxihezi\.workers\.dev\/api\/covers\/covers\/120\.jpg/g, gameCover);
+  html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg/g, gameCover);
   html = html.replace(/alt="生化危机9：安魂曲"/g, `alt="${gameName}"`);
   
   // 5. 替换游戏标题
