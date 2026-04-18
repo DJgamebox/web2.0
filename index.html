@@ -2522,8 +2522,41 @@
     }
 
     async function initData() {
-      // 优先从云端同步数据
-      updateSyncStatus('同步中...', true);
+      // 优先使用本地嵌入数据（更快，不依赖网络）
+      if (typeof importedGames !== 'undefined' && importedGames.length > 0) {
+        games = importedGames.filter(game => game.id !== '_banner_config');
+        localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
+        localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
+        filterAndRender();
+        updateStats();
+        updateSyncStatus('已加载 ' + games.length + ' 款游戏', true);
+        
+        // 后台静默同步云端数据（不阻塞页面加载）
+        syncFromCloudSilent();
+        return;
+      }
+      
+      // 如果没有嵌入数据，尝试从本地存储加载
+      const localData = localStorage.getItem(CONFIG.localStorageKey);
+      if (localData) {
+        try {
+          games = JSON.parse(localData).filter(game => game.id !== '_banner_config');
+          filterAndRender();
+          updateStats();
+          updateSyncStatus('已加载 ' + games.length + ' 款游戏 (本地)', true);
+          
+          // 后台静默同步云端数据
+          syncFromCloudSilent();
+          return;
+        } catch (e) {}
+      }
+      
+      // 最后尝试从云端加载
+      await syncFromCloud();
+    }
+    
+    // 后台静默同步（不阻塞UI）
+    async function syncFromCloudSilent() {
       try {
         const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`);
         const data = await response.json();
@@ -2534,7 +2567,7 @@
           };
           
           // 转换云端数据格式为网页版格式，并过滤配置数据
-          games = data.games
+          const cloudGames = data.games
             .filter(game => game.id !== '_banner_config') // 排除宣传栏配置
             .map(game => ({
               id: idMapping[String(game.id)] || game.id,
@@ -2557,36 +2590,19 @@
               downloadsApp: game.downloadsApp || 0,
               hot: game.hot || 0
             }));
-          localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
-          localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
-          filterAndRender();
-          updateStats();
-          updateSyncStatus('同步完成', true);
-          return; // 云端获取成功，不再使用本地数据
-        }
-      } catch (error) {
-        console.error('云端同步失败:', error);
-      }
-      
-      // 云端获取失败，使用本地数据作为备用
-      if (typeof importedGames !== 'undefined' && importedGames.length > 0) {
-        games = importedGames.filter(game => game.id !== '_banner_config');
-        localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
-        localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
-        filterAndRender();
-        updateStats();
-        updateSyncStatus('已加载 ' + games.length + ' 款游戏 (本地)', true);
-      } else {
-        // 如果没有导入数据，尝试从本地存储加载
-        const localData = localStorage.getItem(CONFIG.localStorageKey);
-        if (localData) {
-          try {
-            games = JSON.parse(localData).filter(game => game.id !== '_banner_config');
+          
+          // 检查是否有更新
+          if (cloudGames.length !== games.length) {
+            games = cloudGames;
+            localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
+            localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
             filterAndRender();
             updateStats();
-            updateSyncStatus('已加载 ' + games.length + ' 款游戏 (本地)', true);
-          } catch (e) {}
+            updateSyncStatus('已同步 ' + games.length + ' 款游戏', true);
+          }
         }
+      } catch (error) {
+        console.log('后台同步失败（不影响使用）:', error);
       }
     }
 
