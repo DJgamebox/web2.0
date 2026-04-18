@@ -2528,11 +2528,16 @@
         const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`);
         const data = await response.json();
         if (data.games && data.games.length > 0) {
+          // ID 映射表：将旧ID映射到新ID
+          const idMapping = {
+            '1776409034231': 1990
+          };
+          
           // 转换云端数据格式为网页版格式，并过滤配置数据
           games = data.games
             .filter(game => game.id !== '_banner_config') // 排除宣传栏配置
             .map(game => ({
-              id: game.id,
+              id: idMapping[String(game.id)] || game.id,
               name: game.cn || game.name || '',
               nameEn: game.en || game.nameEn || '',
               cover: game.cover || '',
