@@ -95,13 +95,13 @@ games.forEach((game, index) => {
   // 9. 替换下载链接
   let downloadButtonsHtml = '';
   if (baiduLink1) {
-    downloadButtonsHtml += `<a href="${baiduLink1}" target="_blank" class="download-btn baidu"><i class="fas fa-cloud" style="margin-right:8px;"></i>百度网盘下载</a>`;
+    downloadButtonsHtml += `<a href="${baiduLink1}" target="_blank" class="download-btn baidu"><img src="../images/baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;object-fit:cover;">百度网盘下载</a>`;
   }
   if (baiduLink2) {
-    downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><i class="fas fa-cloud" style="margin-right:8px;"></i>百度网盘备用</a>`;
+    downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><img src="../images/baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;object-fit:cover;">百度网盘备用</a>`;
   }
   if (thunderLink) {
-    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn xunlei"><i class="fas fa-bolt" style="margin-right:8px;"></i>迅雷网盘下载</a>`;
+    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn xunlei"><img src="../images/xunlei-logo.jpg" alt="迅雷网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;object-fit:cover;">迅雷网盘下载</a>`;
   }
   if (!downloadButtonsHtml) {
     downloadButtonsHtml = '<p style="color: var(--text-secondary);">暂无下载链接</p>';
