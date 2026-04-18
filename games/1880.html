@@ -516,7 +516,7 @@
         
         <div class="game-header">
             <div class="game-cover">
-                <img src="https://api.djgamebox.com/api/covers/covers/1880.jpg" alt="闪电十一人:英雄们的胜利之路" onerror="this.style.display='none'">
+                <img src="https://gamebox-api-v2.danjiyouxihezi.workers.dev/api/covers/covers/120.jpg" alt="闪电十一人:英雄们的胜利之路" onerror="this.style.display='none'">
             </div>
             <div class="game-info">
                 <h1 class="game-title">闪电十一人:英雄们的胜利之路</h1>
@@ -848,7 +848,7 @@
             
             try {
                 console.log('[动态加载] 正在从 Worker API 获取游戏数据...');
-                const response = await fetch('https://api.djgamebox.com/api/games');
+                const response = await fetch('https://gamebox-api-v2.danjiyouxihezi.workers.dev/api/games');
                 if (!response.ok) throw new Error('API 请求失败: ' + response.status);
                 
                 const result = await response.json();
@@ -952,7 +952,7 @@
         async function downloadClient(source = 'detail') {
             // 记录下载统计
             try {
-                await fetch('https://api.djgamebox.com/api/client-download', {
+                await fetch('https://gamebox-api-v2.danjiyouxihezi.workers.dev/api/client-download', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -1082,7 +1082,7 @@
         // 记录游戏下载并跳转 - 5.27 新增
         async function recordGameDownload(gameId, link) {
             try {
-                await fetch('https://api.djgamebox.com/api/game-download', {
+                await fetch('https://gamebox-api-v2.danjiyouxihezi.workers.dev/api/game-download', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
