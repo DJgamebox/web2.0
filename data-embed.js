@@ -4,7 +4,7 @@
 
 const importedGames = [
   {
-    "id": 1776409034231,
+    "id": 1990,
     "name": "识质存在",
     "nameEn": "PRAGMATA",
     "cover": "https://api.djgamebox.com/api/covers/covers/1776409032153.jpg",
