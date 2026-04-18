@@ -9,6 +9,8 @@
     <link rel="canonical" href="https://djgamebox.com/games/310.html">
     <link rel="icon" href="../favicon.png?v=2" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 游戏数据源 -->
+    <script src="../data-embed.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
@@ -755,11 +757,27 @@
                 if (currentSeries) {
                     const seriesGames = seriesData[currentSeries].filter(g => !currentGame.includes(g) && !g.includes(currentGame));
                     if (seriesGames.length > 0) {
+                        // 从 data-embed.js 获取游戏ID映射
+                        const gameIdMap = {};
+                        if (typeof importedGames !== 'undefined') {
+                            importedGames.forEach(g => {
+                                gameIdMap[g.name] = g.id;
+                            });
+                        }
+                        
                         const seriesHtml = `
                             <div class="game-series-section">
                                 <h3 class="series-title"><i class="fas fa-layer-group"></i> ${currentSeries}</h3>
                                 <div class="series-games">
-                                    ${seriesGames.map(game => `<a href="${encodeURIComponent(game)}.html" class="series-game-item">${game}</a>`).join('')}
+                                    ${seriesGames.map(game => {
+                                        const gameId = gameIdMap[game];
+                                        if (gameId) {
+                                            return `<a href="${gameId}.html" class="series-game-item">${game}</a>`;
+                                        } else {
+                                            // 如果找不到ID，使用名称（兼容旧数据）
+                                            return `<a href="${encodeURIComponent(game)}.html" class="series-game-item">${game}</a>`;
+                                        }
+                                    }).join('')}
                                 </div>
                             </div>
                         `;
