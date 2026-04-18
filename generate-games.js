@@ -86,8 +86,8 @@ games.forEach((game, index) => {
   // 6. 替换游戏类型
   html = html.replace(/<span class="meta-value">恐怖惊悚<\/span>/g, `<span class="meta-value">${gameCategory}</span>`);
   
-  // 7. 替换游戏大小（保留 id="gameSize" 供动态加载使用）
-  // html = html.replace(/<span class="meta-value" id="gameSize">未知<\/span>/g, `<span class="meta-value" id="gameSize">${gameSize}</span>`);
+  // 7. 替换游戏大小
+  html = html.replace(/<span class="meta-value" id="gameSize">未知<\/span>/g, `<span class="meta-value" id="gameSize">${gameSize}</span>`);
   
   // 8. 替换更新时间
   html = html.replace(/<span class="meta-value">2026\/04\/11<\/span>/g, `<span class="meta-value">${dateAdded}</span>`);
@@ -95,13 +95,13 @@ games.forEach((game, index) => {
   // 9. 替换下载链接
   let downloadButtonsHtml = '';
   if (baiduLink1) {
-    downloadButtonsHtml += `<a href="${baiduLink1}" target="_blank" class="download-btn baidu"><img src="../baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a>`;
+    downloadButtonsHtml += `<a href="${baiduLink1}" target="_blank" class="download-btn baidu"><i class="fas fa-cloud" style="margin-right:8px;"></i>百度网盘下载</a>`;
   }
   if (baiduLink2) {
-    downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><img src="../baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a>`;
+    downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><i class="fas fa-cloud" style="margin-right:8px;"></i>百度网盘备用</a>`;
   }
   if (thunderLink) {
-    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn xunlei"><img src="../xunlei-logo.jpg" alt="迅雷网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷网盘下载</a>`;
+    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn xunlei"><i class="fas fa-bolt" style="margin-right:8px;"></i>迅雷网盘下载</a>`;
   }
   if (!downloadButtonsHtml) {
     downloadButtonsHtml = '<p style="color: var(--text-secondary);">暂无下载链接</p>';
