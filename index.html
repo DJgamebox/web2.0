@@ -3276,9 +3276,16 @@
         console.error('记录客户端下载失败:', error);
       }
       
-      // 使用百度网盘下载链接（客户端安装包较大，暂存网盘）
-      const baiduLink = 'https://pan.baidu.com/s/1xxxxx?pwd=8888'; // 请替换为实际的百度网盘链接
-      window.open(baiduLink, '_blank');
+      // 直接下载本地安装包
+      const link = document.createElement('a');
+      link.href = 'downloads/游戏盒子 Setup 1.1.1.exe';
+      link.download = '游戏盒子 Setup 1.1.1.exe';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      // 显示下载提示
+      showDownloadCompleteTip();
     }
     
     // 显示下载完成提示
