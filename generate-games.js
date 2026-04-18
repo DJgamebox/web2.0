@@ -101,7 +101,7 @@ games.forEach((game, index) => {
     downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><img src="../images/baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;object-fit:cover;">百度网盘备用</a>`;
   }
   if (thunderLink) {
-    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn xunlei"><img src="../images/xunlei-logo.jpg" alt="迅雷网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;object-fit:cover;">迅雷网盘下载</a>`;
+    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn thunder"><img src="../images/xunlei-logo.jpg" alt="迅雷网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;object-fit:cover;">迅雷网盘下载</a>`;
   }
   if (!downloadButtonsHtml) {
     downloadButtonsHtml = '<p style="color: var(--text-secondary);">暂无下载链接</p>';
