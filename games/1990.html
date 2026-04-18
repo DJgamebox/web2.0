@@ -22,7 +22,6 @@
             --accent-red: #e74c3c;
             --border-color: #2a475e;
         }
-        /* 白天模式 */
         [data-theme="light"] {
             --bg-dark: #f5f5f5;
             --bg-light: #ffffff;
@@ -40,7 +39,6 @@
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
-            transition: background 0.3s, color 0.3s;
         }
         .loading-overlay {
             position: fixed;
@@ -50,7 +48,6 @@
             align-items: center;
             justify-content: center;
             z-index: 9999;
-            transition: opacity 0.3s;
         }
         .loading-spinner {
             width: 40px;
@@ -60,9 +57,7 @@
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
+        @keyframes spin { to { transform: rotate(360deg); } }
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -100,12 +95,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            transition: all 0.3s;
         }
         .theme-toggle:hover {
             background: var(--accent-blue);
             color: white;
-            border-color: var(--accent-blue);
         }
         .breadcrumb {
             display: flex;
@@ -117,9 +110,6 @@
         .breadcrumb a {
             color: var(--accent-blue);
             text-decoration: none;
-        }
-        .breadcrumb a:hover {
-            text-decoration: underline;
         }
         .game-header {
             display: flex;
@@ -168,9 +158,6 @@
             color: var(--accent-blue);
             width: 16px;
         }
-        .meta-label {
-            color: var(--text-secondary);
-        }
         .meta-value {
             color: var(--text-primary);
         }
@@ -188,7 +175,6 @@
             text-decoration: none;
             font-size: 14px;
             font-weight: 500;
-            transition: all 0.2s;
             cursor: pointer;
             border: none;
         }
@@ -196,16 +182,10 @@
             background: var(--accent-green);
             color: white;
         }
-        .action-btn.desktop:hover {
-            background: #6b9c12;
-        }
         .action-btn.favorite {
             background: var(--bg-card);
             color: var(--text-primary);
             border: 1px solid var(--border-color);
-        }
-        .action-btn.favorite:hover {
-            background: var(--border-color);
         }
         .action-btn.favorite.active {
             background: var(--accent-red);
@@ -239,17 +219,13 @@
             text-decoration: none;
             font-size: 16px;
             font-weight: 500;
-            transition: all 0.2s;
             border: 1px solid var(--border-color);
-        }
-        .download-btn.baidu {
             background: #2a2a3e;
             color: var(--text-primary);
         }
-        .download-btn.baidu:hover {
+        .download-btn:hover {
             background: #3a8cff;
             color: white;
-            border-color: #3a8cff;
         }
         .game-description {
             background: var(--bg-card);
@@ -277,29 +253,11 @@
             text-decoration: none;
             font-size: 14px;
         }
-        .back-link:hover {
-            text-decoration: underline;
-        }
         @media (max-width: 768px) {
-            .game-header {
-                flex-direction: column;
-            }
-            .game-cover {
-                width: 100%;
-                height: auto;
-            }
-            .action-buttons {
-                flex-direction: column;
-            }
-            .action-btn {
-                width: 100%;
-                justify-content: center;
-            }
-            .header {
-                padding: 12px 16px;
-            }
-            .header img { height: 32px; }
-            .header a { font-size: 18px; }
+            .game-header { flex-direction: column; }
+            .game-cover { width: 100%; height: auto; }
+            .action-buttons { flex-direction: column; }
+            .action-btn { width: 100%; justify-content: center; }
         }
     </style>
 </head>
@@ -342,7 +300,7 @@
                     <div class="meta-item">
                         <i class="fas fa-hdd"></i>
                         <span class="meta-label">游戏大小：</span>
-                        <span class="meta-value" id="gameSize">35G</span>
+                        <span class="meta-value">35G</span>
                     </div>
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
@@ -363,11 +321,11 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1-CBX9guL_Xa2Oo5lnGnreA?pwd=8888" target="_blank" class="download-btn baidu">
+            <div class="download-buttons">
+                <a href="https://pan.baidu.com/s/1-CBX9guL_Xa2Oo5lnGnreA?pwd=8888" target="_blank" class="download-btn">
                     <i class="fas fa-cloud-download-alt"></i>百度网盘下载
                 </a>
-                <a href="https://pan.baidu.com/s/1GbopfY2oVc4Q9CuqSXZE5g?pwd=6666" target="_blank" class="download-btn baidu">
+                <a href="https://pan.baidu.com/s/1GbopfY2oVc4Q9CuqSXZE5g?pwd=6666" target="_blank" class="download-btn">
                     <i class="fas fa-cloud-download-alt"></i>百度网盘备用
                 </a>
             </div>
@@ -375,7 +333,7 @@
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">识质存在,中文绿色版，不是其他网站常见的虚拟机版本，请放心玩！
+            <p>识质存在,中文绿色版，不是其他网站常见的虚拟机版本，请放心玩！
 
 《Pragmata》是卡普空推出的一款独特的科幻动作冒险游戏。玩家将跟随命运多舛的调查队队员"休"和机器人小女孩"戴安娜"，在被失控AI掌管的月球设施内寻找返回地球的方法。</p>
         </div>
@@ -384,17 +342,12 @@
     </div>
     
     <script>
-        // 隐藏加载动画
         window.addEventListener('load', function() {
             setTimeout(function() {
-                document.getElementById('loadingOverlay').style.opacity = '0';
-                setTimeout(function() {
-                    document.getElementById('loadingOverlay').style.display = 'none';
-                }, 300);
+                document.getElementById('loadingOverlay').style.display = 'none';
             }, 500);
         });
 
-        // 收藏功能
         const FAVORITES_KEY = 'gamebox_local_favorites';
         
         function toggleFavorite() {
@@ -409,44 +362,54 @@
                 btn.classList.remove('active');
                 text.textContent = '收藏';
                 icon.className = 'far fa-heart';
-                showToast('已取消收藏', 'info');
             } else {
                 favorites.push(gameId);
                 btn.classList.add('active');
                 text.textContent = '已收藏';
                 icon.className = 'fas fa-heart';
-                showToast('已添加到收藏夹', 'success');
             }
-            
             localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
         }
         
-        // 显示提示消息
-        function showToast(message, type) {
-            const toast = document.createElement('div');
-            toast.style.cssText = `
-                position: fixed;
-                top: 20px;
-                left: 50%;
-                transform: translateX(-50%);
-                padding: 12px 24px;
-                background: ${type === 'success' ? '#10b981' : '#3b82f6'};
-                color: white;
-                border-radius: 8px;
-                font-size: 14px;
-                z-index: 10000;
-                animation: fadeIn 0.3s ease;
-            `;
-            toast.textContent = message;
-            document.body.appendChild(toast);
-            setTimeout(() => {
-                toast.style.opacity = '0';
-                toast.style.transition = 'opacity 0.3s';
-                setTimeout(() => toast.remove(), 300);
-            }, 2000);
-        }
-        
-        // 主题切换功能
         function toggleTheme() {
             const html = document.documentElement;
-            const icon =
+            const icon = document.getElementById('themeIcon');
+            const currentTheme = html.getAttribute('data-theme');
+            
+            if (currentTheme === 'light') {
+                html.removeAttribute('data-theme');
+                icon.className = 'fas fa-moon';
+                localStorage.setItem('theme', 'dark');
+            } else {
+                html.setAttribute('data-theme', 'light');
+                icon.className = 'fas fa-sun';
+                localStorage.setItem('theme', 'light');
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            const icon = document.getElementById('themeIcon');
+            if (savedTheme === 'light') {
+                document.documentElement.setAttribute('data-theme', 'light');
+                icon.className = 'fas fa-sun';
+            }
+            
+            const gameId = '1990';
+            const favorites = JSON.parse(localStorage.getItem(FAVORITES_KEY) || '[]');
+            if (favorites.includes(gameId)) {
+                const btn = document.querySelector('.action-btn.favorite');
+                const text = document.getElementById('favText');
+                const icon = btn.querySelector('i');
+                btn.classList.add('active');
+                text.textContent = '已收藏';
+                icon.className = 'fas fa-heart';
+            }
+        });
+        
+        function downloadClient() {
+            alert('请访问首页下载桌面客户端');
+        }
+    </script>
+</body>
+</html>
