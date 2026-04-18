@@ -47,41 +47,75 @@ games.forEach((game, index) => {
   // 检查是否已存在
   const exists = fs.existsSync(outputPath);
   
-  const gameName = game.name;
+  const gameName = game.name || '未命名游戏';
   const gameNameEn = game.nameEn || '';
-  const gameCategory = game.category || '';
-  const gameSize = game.size || '';
+  const gameCategory = game.category || '其他';
+  const gameSize = game.size || '未知';
   const gameCover = game.cover || '';
-  const gameDesc = game.description || '';
+  const gameDesc = game.description || `${gameName}是一款${gameCategory}游戏。本站提供${gameName}百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。`;
   const baiduLink1 = game.baiduLink1 || '';
   const baiduLink2 = game.baiduLink2 || '';
   const thunderLink = game.thunderLink || '';
+  const dateAdded = game.dateAdded || new Date().toLocaleDateString('zh-CN');
   
-  // 替换模板中的内容
+  // 替换模板中的内容 - 使用新的替换逻辑
   let html = template;
   
-  // 替换标题和 meta 信息
-  html = html.replace(/三国志曹操传/g, gameName);
-  html = html.replace(/Sango CCZ/g, gameNameEn);
-  html = html.replace(/策略/g, gameCategory);
-  html = html.replace(/2\.3G/g, gameSize);
+  // 1. 替换标题和 meta 信息
+  html = html.replace(/生化危机9：安魂曲下载_Resident Evil Requiem/g, `${gameName}下载_${gameNameEn}`);
+  html = html.replace(/生化危机9：安魂曲免费下载/g, `${gameName}免费下载`);
+  html = html.replace(/生化危机9：安魂曲下载,生化危机9：安魂曲网盘,生化危机9：安魂曲百度云/g, `${gameName}下载,${gameName}网盘,${gameName}百度云`);
+  html = html.replace(/恐怖惊悚游戏下载/g, `${gameCategory}游戏下载`);
   
-  // 替换链接
-  html = html.replace(/1\.html/g, `${gameId}.html`);
+  // 2. 替换 canonical URL
+  html = html.replace(/games\/120\.html/g, `games/${gameId}.html`);
   
-  // 替换封面
-  html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/1\.jpg/g, gameCover);
+  // 3. 替换面包屑导航
+  html = html.replace(/<a href="\.\.\/#恐怖惊悚">恐怖惊悚<\/a>/g, `<a href="../#${gameCategory}">${gameCategory}</a>`);
+  html = html.replace(/<span>生化危机9：安魂曲<\/span>/g, `<span>${gameName}</span>`);
   
-  // 替换描述
-  html = html.replace(/《三国志曹操传》是日本光荣公司出版的英杰传系列游戏。/g, gameDesc);
+  // 4. 替换游戏封面
+  html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg/g, gameCover);
+  html = html.replace(/alt="生化危机9：安魂曲"/g, `alt="${gameName}"`);
   
-  // 替换下载链接（如果有的话）
+  // 5. 替换游戏标题
+  html = html.replace(/<h1 class="game-title">生化危机9：安魂曲<\/h1>/g, `<h1 class="game-title">${gameName}</h1>`);
+  html = html.replace(/<div class="game-title-en" style="display: block;">Resident Evil Requiem<\/div>/g, 
+    gameNameEn ? `<div class="game-title-en" style="display: block;">${gameNameEn}</div>` : `<div class="game-title-en" style="display: none;"></div>`);
+  
+  // 6. 替换游戏类型
+  html = html.replace(/<span class="meta-value">恐怖惊悚<\/span>/g, `<span class="meta-value">${gameCategory}</span>`);
+  
+  // 7. 替换游戏大小（保留 id="gameSize" 供动态加载使用）
+  // html = html.replace(/<span class="meta-value" id="gameSize">未知<\/span>/g, `<span class="meta-value" id="gameSize">${gameSize}</span>`);
+  
+  // 8. 替换更新时间
+  html = html.replace(/<span class="meta-value">2026\/04\/11<\/span>/g, `<span class="meta-value">${dateAdded}</span>`);
+  
+  // 9. 替换下载链接
+  let downloadButtonsHtml = '';
   if (baiduLink1) {
-    html = html.replace(/href="https:\/\/pan\.baidu\.com\/s\/1xxxxx"/g, `href="${baiduLink1}"`);
+    downloadButtonsHtml += `<a href="${baiduLink1}" target="_blank" class="download-btn baidu"><img src="../baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a>`;
+  }
+  if (baiduLink2) {
+    downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><img src="../baidu-logo.jpg" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a>`;
   }
   if (thunderLink) {
-    html = html.replace(/href="https:\/\/pan\.xunlei\.com\/s\/1xxxxx"/g, `href="${thunderLink}"`);
+    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn xunlei"><img src="../xunlei-logo.jpg" alt="迅雷网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷网盘下载</a>`;
   }
+  if (!downloadButtonsHtml) {
+    downloadButtonsHtml = '<p style="color: var(--text-secondary);">暂无下载链接</p>';
+  }
+  
+  html = html.replace(/<div class="download-buttons" id="downloadButtons">[\s\S]*?<\/div>/g, 
+    `<div class="download-buttons" id="downloadButtons">${downloadButtonsHtml}</div>`);
+  
+  // 10. 替换游戏描述
+  html = html.replace(/<p id="gameDesc">生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。<\/p>/g, 
+    `<p id="gameDesc">${gameDesc}</p>`);
+  
+  // 11. 替换游戏ID（用于收藏功能）
+  html = html.replace(/const gameId = '120';/g, `const gameId = '${gameId}';`);
   
   // 保存文件
   fs.writeFileSync(outputPath, html, 'utf-8');
