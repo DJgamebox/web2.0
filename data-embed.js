@@ -1,6 +1,7 @@
 // 游戏数据 - 由后台管理系统自动生成
-// 生成时间: 2026/4/18 08:08:00
+// 生成时间: 2026/4/18 11:12:38
 // 游戏数量: 1988
+// 下载统计: 已从老网站导入
 
 const importedGames = [
   {
@@ -18,8 +19,8 @@ const importedGames = [
     "dateAdded": "2026/4/17",
     "isDrm": true,
     "downloadsWeb": 3,
-    "downloadsApp": 7,
-    "hot": 0
+    "downloadsApp": 8,
+    "hot": 11
   },
   {
     "id": 1905,
@@ -37,7 +38,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 2,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 1929,
@@ -55,7 +56,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 1,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 120,
@@ -73,7 +74,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 7,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 7
   },
   {
     "id": 405,
@@ -91,7 +92,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 5,
     "downloadsApp": 4,
-    "hot": 0
+    "hot": 9
   },
   {
     "id": 45,
@@ -109,7 +110,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 1801,
@@ -145,7 +146,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 1,
     "downloadsApp": 2,
-    "hot": 0
+    "hot": 3
   },
   {
     "id": 12,
@@ -163,7 +164,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 28,
@@ -181,7 +182,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 98,
@@ -199,7 +200,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 1,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 263,
@@ -217,7 +218,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 404,
@@ -235,7 +236,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 461,
@@ -289,7 +290,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 0,
     "downloadsApp": 2,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 697,
@@ -361,7 +362,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 487,
@@ -433,7 +434,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 4,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 4
   },
   {
     "id": 1014,
@@ -487,7 +488,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 46,
@@ -559,7 +560,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 1045,
@@ -595,7 +596,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 420,
@@ -685,7 +686,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 2,
@@ -703,7 +704,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 3,
@@ -721,7 +722,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 4,
@@ -739,7 +740,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 5,
@@ -811,7 +812,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 9,
@@ -847,7 +848,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 11,
@@ -883,7 +884,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 14,
@@ -991,7 +992,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 20,
@@ -1063,7 +1064,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 24,
@@ -1081,7 +1082,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 25,
@@ -1243,7 +1244,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 35,
@@ -1693,7 +1694,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 62,
@@ -1783,7 +1784,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 67,
@@ -1819,7 +1820,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 69,
@@ -1981,7 +1982,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 79,
@@ -2197,7 +2198,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 91,
@@ -2359,7 +2360,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 101,
@@ -2593,7 +2594,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 114,
@@ -2629,7 +2630,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 116,
@@ -3187,7 +3188,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
-    "hot": 0
+    "hot": 2
   },
   {
     "id": 148,
@@ -7453,7 +7454,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 390,
@@ -7651,7 +7652,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 401,
@@ -8047,7 +8048,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 427,
@@ -8677,7 +8678,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 463,
@@ -9972,8 +9973,8 @@ const importedGames = [
     "dateAdded": "2026/4/16",
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
-    "hot": 0
+    "downloadsApp": 2,
+    "hot": 2
   },
   {
     "id": 539,
@@ -12583,7 +12584,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 685,
@@ -12907,7 +12908,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 704,
@@ -14923,7 +14924,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 816,
@@ -14959,7 +14960,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 819,
@@ -15805,7 +15806,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 868,
@@ -17767,7 +17768,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 3
   },
   {
     "id": 978,
@@ -17875,7 +17876,7 @@ const importedGames = [
     "isDrm": true,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 984,
@@ -20989,7 +20990,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 1160,
@@ -22573,7 +22574,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 1248,
@@ -28207,7 +28208,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 1561,
@@ -31411,7 +31412,7 @@ const importedGames = [
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
-    "hot": 0
+    "hot": 1
   },
   {
     "id": 1741,
@@ -35789,7 +35790,7 @@ const importedGames = [
   }
 ];
 
-// 导出数据（用于 Node.js 脚本）
+// 导出数据供其他模块使用
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { importedGames };
+    module.exports = { importedGames };
 }
