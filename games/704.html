@@ -801,11 +801,114 @@
         // 先加载游戏系列，然后添加免责声明
         loadGameSeries().then(addDisclaimer).catch(addDisclaimer);
 
-        // 页面加载完成后隐藏 loading
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(function() {
+        // ========== 动态加载最新数据（API作为后备） ==========
+        document.addEventListener('DOMContentLoaded', async function() {
+            const gameId = '704';
+            if (!gameId) {
                 document.getElementById('loadingOverlay').classList.add('hidden');
-            }, 500);
+                return;
+            }
+            
+            try {
+                console.log('[动态加载] 正在从 Worker API 获取游戏数据...');
+                const response = await fetch('https://api.djgamebox.com/api/games');
+                if (!response.ok) throw new Error('API 请求失败: ' + response.status);
+                
+                const result = await response.json();
+                const games = result.games || result.data || [];
+                if (!Array.isArray(games)) {
+                    throw new Error('API 返回格式错误');
+                }
+                
+                // 查找当前游戏
+                const game = games.find(g => String(g.id) === String(gameId));
+                if (!game) {
+                    console.log('[动态加载] API中未找到游戏 ID:', gameId, '使用本地静态数据');
+                    // 使用本地静态数据，无需更新
+                    document.getElementById('loadingOverlay').classList.add('hidden');
+                    return;
+                }
+                
+                console.log('[动态加载] 获取到最新数据:', game.cn || game.name);
+                
+                // 字段映射并更新 DOM（仅当API数据有效时）
+                const name = game.cn || game.name;
+                const nameEn = game.en || game.nameEn;
+                const category = game.type || game.category;
+                const size = game.size;
+                const updateTime = game.update || game.updateTime;
+                const desc = game.desc || game.description;
+                const cover = game.cover;
+                
+                // 仅当API返回有效数据时才更新
+                if (name) {
+                    document.getElementById('gameName').textContent = name;
+                    document.getElementById('breadcrumbName').textContent = name;
+                    document.title = name + ' - 游戏下载 - 游戏盒子';
+                }
+                
+                if (nameEn) {
+                    document.getElementById('gameNameEn').textContent = nameEn;
+                    document.getElementById('gameNameEn').style.display = 'block';
+                }
+                
+                if (category) {
+                    document.getElementById('gameCategory').textContent = category;
+                }
+                
+                if (size) {
+                    document.getElementById('gameSize').textContent = size;
+                }
+                
+                // 格式化更新时间
+                if (updateTime) {
+                    const date = new Date(Number(updateTime));
+                    if (!isNaN(date.getTime())) {
+                        document.getElementById('gameDate').textContent = date.toLocaleDateString('zh-CN');
+                    }
+                }
+                
+                // 更新封面
+                if (cover) {
+                    document.getElementById('gameCover').src = cover;
+                    document.getElementById('gameCover').style.display = 'block';
+                }
+                
+                // 更新下载链接（如果API中有）
+                const downloadContainer = document.getElementById('downloadButtons');
+                if (downloadContainer && (game.link1 || game.baiduLink1)) {
+                    let linksHtml = '';
+                    const link1 = game.link1 || game.baiduLink1;
+                    const link2 = game.link2 || game.baiduLink2;
+                    const link3 = game.link3 || game.thunderLink;
+                    
+                    if (link1) {
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
+                    }
+                    if (link2) {
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
+                    }
+                    if (link3) {
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
+                    }
+                    
+                    if (linksHtml) {
+                        downloadContainer.innerHTML = linksHtml;
+                    }
+                }
+                
+                // 更新描述
+                if (desc) {
+                    const descEl = document.getElementById('gameDesc');
+                    if (descEl) descEl.textContent = desc;
+                }
+                
+                console.log('[动态加载] 数据更新完成');
+            } catch (err) {
+                console.log('[动态加载] 失败，使用静态数据:', err.message);
+            } finally {
+                document.getElementById('loadingOverlay').classList.add('hidden');
+            }
         });
         
         // 下载桌面客户端（与主页保持一致）
