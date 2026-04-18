@@ -757,24 +757,43 @@
                 if (currentSeries) {
                     const seriesGames = seriesData[currentSeries].filter(g => !currentGame.includes(g) && !g.includes(currentGame));
                     if (seriesGames.length > 0) {
-                        // 从 data-embed.js 获取游戏ID映射
-                        const gameIdMap = {};
-                        if (typeof importedGames !== 'undefined') {
-                            importedGames.forEach(g => {
-                                gameIdMap[g.name] = g.id;
+                        // 从 data-embed.js 获取游戏ID映射（支持模糊匹配）
+                        const findGameId = (seriesGameName) => {
+                            if (typeof importedGames === 'undefined') return null;
+                            
+                            // 1. 精确匹配
+                            const exactMatch = importedGames.find(g => g.name === seriesGameName);
+                            if (exactMatch) return exactMatch.id;
+                            
+                            // 2. 提取系列名称中的核心游戏名（去除下划线后的内容）
+                            const coreName = seriesGameName.split(/[_\/]/)[0].trim();
+                            
+                            // 3. 模糊匹配：检查游戏名是否包含核心名称
+                            const fuzzyMatch = importedGames.find(g => {
+                                const gameName = g.name;
+                                // 核心名称匹配
+                                if (gameName.includes(coreName) || coreName.includes(gameName)) return true;
+                                // 去除特殊字符后匹配
+                                const cleanGameName = gameName.replace(/[：:\/\-_]/g, '');
+                                const cleanCoreName = coreName.replace(/[：:\/\-_]/g, '');
+                                if (cleanGameName.includes(cleanCoreName) || cleanCoreName.includes(cleanGameName)) return true;
+                                return false;
                             });
-                        }
+                            
+                            return fuzzyMatch ? fuzzyMatch.id : null;
+                        };
                         
                         const seriesHtml = `
                             <div class="game-series-section">
                                 <h3 class="series-title"><i class="fas fa-layer-group"></i> ${currentSeries}</h3>
                                 <div class="series-games">
                                     ${seriesGames.map(game => {
-                                        const gameId = gameIdMap[game];
+                                        const gameId = findGameId(game);
                                         if (gameId) {
                                             return `<a href="${gameId}.html" class="series-game-item">${game}</a>`;
                                         } else {
                                             // 如果找不到ID，使用名称（兼容旧数据）
+                                            console.warn('游戏系列：未找到游戏ID', game);
                                             return `<a href="${encodeURIComponent(game)}.html" class="series-game-item">${game}</a>`;
                                         }
                                     }).join('')}
