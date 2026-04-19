@@ -832,7 +832,7 @@
             if (page) params.push(`page=${page}`);
             if (filter && filter !== 'all') params.push(`filter=${filter}`);
             if (params.length > 0) backUrl += '?' + params.join('&');
-            document.getElementById('backLink').href = backUrl;
+            const backLinkEl = document.getElementById('backLink'); if (backLinkEl) backLinkEl.href = backUrl;
         }
         
         // 先加载游戏系列，然后添加免责声明
