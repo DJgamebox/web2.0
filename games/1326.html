@@ -879,36 +879,34 @@
                 
                 // 仅当API返回有效数据时才更新
                 if (name) {
-                    document.getElementById('gameName').textContent = name;
-                    document.getElementById('breadcrumbName').textContent = name;
+                    const gameNameEl = document.getElementById('gameName'); if (gameNameEl) gameNameEl.textContent = name;
+                    const breadcrumbNameEl = document.getElementById('breadcrumbName'); if (breadcrumbNameEl) breadcrumbNameEl.textContent = name;
                     document.title = name + ' - 游戏下载 - 游戏盒子';
                 }
                 
                 if (nameEn) {
-                    document.getElementById('gameNameEn').textContent = nameEn;
-                    document.getElementById('gameNameEn').style.display = 'block';
+                    const gameNameEnEl = document.getElementById('gameNameEn'); if (gameNameEnEl) { gameNameEnEl.textContent = nameEn; gameNameEnEl.style.display = 'block'; }
                 }
                 
                 if (category) {
-                    document.getElementById('gameCategory').textContent = category;
+                    const gameCategoryEl = document.getElementById('gameCategory'); if (gameCategoryEl) gameCategoryEl.textContent = category;
                 }
                 
                 if (size) {
-                    document.getElementById('gameSize').textContent = size;
+                    const gameSizeEl = document.getElementById('gameSize'); if (gameSizeEl) gameSizeEl.textContent = size;
                 }
                 
                 // 格式化更新时间
                 if (updateTime) {
                     const date = new Date(Number(updateTime));
                     if (!isNaN(date.getTime())) {
-                        document.getElementById('gameDate').textContent = date.toLocaleDateString('zh-CN');
+                        const gameDateEl = document.getElementById('gameDate'); if (gameDateEl) gameDateEl.textContent = date.toLocaleDateString('zh-CN');
                     }
                 }
                 
                 // 更新封面
                 if (cover) {
-                    document.getElementById('gameCover').src = cover;
-                    document.getElementById('gameCover').style.display = 'block';
+                    const gameCoverEl = document.getElementById('gameCover'); if (gameCoverEl) { gameCoverEl.src = cover; gameCoverEl.style.display = 'block'; }
                 }
                 
                 // 更新下载链接（如果API中有）
@@ -920,13 +918,13 @@
                     const link3 = game.link3 || game.thunderLink;
                     
                     if (link1) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload('1326', '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
                     }
                     if (link2) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload('1326', '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
                     }
                     if (link3) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload('1326', '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
                     }
                     
                     if (linksHtml) {
