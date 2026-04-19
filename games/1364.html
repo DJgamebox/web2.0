@@ -840,6 +840,29 @@
 
         // ========== 动态加载最新数据（API作为后备） ==========
         document.addEventListener('DOMContentLoaded', async function() {
+            // 缓存配置
+            const CACHE_KEY = 'game_cache_1364';
+            const CACHE_TIME_KEY = 'game_cache_time_1364';
+            const CACHE_DURATION = 5 * 60 * 1000; // 5分钟
+            
+            // 立即隐藏 loading
+            const loadingEl = document.getElementById('loadingOverlay');
+            if (loadingEl) loadingEl.classList.add('hidden');
+            
+            // 检查缓存
+            const cached = localStorage.getItem(CACHE_KEY);
+            const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+            if (cached && cachedTime && (Date.now() - parseInt(cachedTime)) < CACHE_DURATION) {
+                console.log('[动态加载] 使用缓存数据');
+                // 使用缓存数据更新UI
+                try {
+                    const game = JSON.parse(cached);
+                    updateUIFromCache(game);
+                    // 后台静默刷新
+                    setTimeout(() => fetchGameData('1364', false), 100);
+                    return;
+                } catch(e) {}
+            }
             const gameId = '1364';
             if (!gameId) {
                 document.getElementById('loadingOverlay').classList.add('hidden');
@@ -867,6 +890,10 @@
                 }
                 
                 console.log('[动态加载] 获取到最新数据:', game.cn || game.name);
+                
+                // 保存到缓存
+                localStorage.setItem(CACHE_KEY, JSON.stringify(game));
+                localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
                 
                 // 字段映射并更新 DOM（仅当API数据有效时）
                 const name = game.cn || game.name;
@@ -941,9 +968,10 @@
                 console.log('[动态加载] 数据更新完成');
             } catch (err) {
                 console.log('[动态加载] 失败，使用静态数据:', err.message);
-            } finally {
-                document.getElementById('loadingOverlay').classList.add('hidden');
+            } catch (error) {
+                console.error('[动态加载] 失败:', error.message);
             }
+            // loading 已在开头隐藏
         });
         
         // 下载桌面客户端（与主页保持一致）
