@@ -1977,7 +1977,7 @@
           </div>
           <div class="tool-actions">
             <button class="btn btn-secondary" onclick="closeToolModal()">关闭</button>
-            <button class="btn btn-primary" onclick="window.open('https://pan.baidu.com/s/1ulzlH0Ga8NsN2InBiO5EwA?pwd=8888', '_blank')">下载链接</button>
+            <button class="btn btn-primary" id="runtimeDownloadBtn" onclick="openToolLink('runtime')">下载链接</button>
           </div>
         </div>
       </div>
@@ -2013,7 +2013,7 @@
           </div>
           <div class="tool-actions">
             <button class="btn btn-secondary" onclick="closeToolModal()">关闭</button>
-            <button class="btn btn-primary" onclick="window.open('https://docs.qq.com/doc/DQldDRld0VXpLeWZk', '_blank')">显示详情</button>
+            <button class="btn btn-primary" id="driverDownloadBtn" onclick="openToolLink('gpuDriver')">下载链接</button>
           </div>
         </div>
       </div>
@@ -2050,7 +2050,7 @@
           </div>
           <div class="tool-actions">
             <button class="btn btn-secondary" onclick="closeToolModal()">关闭</button>
-            <button class="btn btn-primary" onclick="window.open('https://pan.baidu.com/s/1_5aFJlWPZmQ73dIHBWKUeQ?pwd=6666', '_blank')">下载链接</button>
+            <button class="btn btn-primary" id="modifierDownloadBtn" onclick="openToolLink('modifier')">下载链接</button>
           </div>
         </div>
       </div>
@@ -3126,6 +3126,37 @@
       document.getElementById('feedbackModal').classList.remove('show');
     }
     
+    // 工具链接数据缓存
+    let toolsDataCache = null;
+
+    // 打开工具下载链接
+    async function openToolLink(toolType) {
+      // 如果缓存中没有数据，先获取
+      if (!toolsDataCache) {
+        try {
+          const response = await fetch(`${CONFIG.apiBaseUrl}/api/tools?t=${Date.now()}`);
+          if (response.ok) {
+            toolsDataCache = await response.json();
+          }
+        } catch (error) {
+          console.error('获取工具链接失败:', error);
+        }
+      }
+      
+      // 获取对应工具的链接
+      let link = '';
+      if (toolsDataCache && toolsDataCache[toolType]) {
+        link = toolsDataCache[toolType].baidu || toolsDataCache[toolType].thunder || '';
+      }
+      
+      // 如果有链接就打开，否则提示
+      if (link) {
+        window.open(link, '_blank');
+      } else {
+        alert('下载链接暂未设置，请联系管理员');
+      }
+    }
+
     async function showContact() { 
       document.getElementById('contactModal').classList.add('show');
       
