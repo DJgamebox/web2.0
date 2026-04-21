@@ -2601,6 +2601,18 @@
             updateSyncStatus('已同步 ' + games.length + ' 款游戏', true);
           }
         }
+        
+        // 获取工具链接
+        try {
+          const toolsResponse = await fetch(`${CONFIG.apiBaseUrl}/api/tools`);
+          if (toolsResponse.ok) {
+            const toolsData = await toolsResponse.json();
+            updateToolLinks(toolsData);
+            console.log('工具链接已更新:', toolsData);
+          }
+        } catch (toolsError) {
+          console.log('获取工具链接失败:', toolsError);
+        }
       } catch (error) {
         console.log('后台同步失败（不影响使用）:', error);
       }
@@ -3122,6 +3134,47 @@
     
     function showContact() { 
       document.getElementById('contactModal').classList.add('show');
+    }
+
+    // 更新工具下载链接
+    function updateToolLinks(tools) {
+      if (!tools) return;
+      
+      // 更新运行环境库下载按钮
+      const runtimeModal = document.getElementById('runtimeModal');
+      if (runtimeModal && tools.runtime) {
+        const downloadBtn = runtimeModal.querySelector('.btn-primary');
+        if (downloadBtn) {
+          const link = tools.runtime.baidu || tools.runtime.thunder || '';
+          if (link) {
+            downloadBtn.onclick = () => window.open(link, '_blank');
+          }
+        }
+      }
+      
+      // 更新显卡驱动下载按钮
+      const driverModal = document.getElementById('driverModal');
+      if (driverModal && tools.gpuDriver) {
+        const downloadBtn = driverModal.querySelector('.btn-primary');
+        if (downloadBtn) {
+          const link = tools.gpuDriver.baidu || tools.gpuDriver.thunder || '';
+          if (link) {
+            downloadBtn.onclick = () => window.open(link, '_blank');
+          }
+        }
+      }
+      
+      // 更新游戏修改器下载按钮
+      const trainerModal = document.getElementById('trainerModal');
+      if (trainerModal && tools.modifier) {
+        const downloadBtn = trainerModal.querySelector('.btn-primary');
+        if (downloadBtn) {
+          const link = tools.modifier.baidu || tools.modifier.thunder || '';
+          if (link) {
+            downloadBtn.onclick = () => window.open(link, '_blank');
+          }
+        }
+      }
     }
     
     async function submitFeedback() {
