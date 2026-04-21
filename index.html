@@ -2097,15 +2097,9 @@
         <div class="modal-close" onclick="closeToolModal()">&times;</div>
       </div>
       <div class="modal-body">
-        <div class="tool-content contact-content">
-          <div class="contact-item">
-            <i class="fab fa-qq"></i>
-            <span>官方QQ：984786923</span>
-          </div>
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <span>官方邮箱：danjiyouxihezi@gmail.com</span>
-          </div>
+        <div class="tool-content contact-content" id="contactContent">
+          <!-- 动态生成联系方式 -->
+          <div class="contact-loading">加载中...</div>
           <div class="tool-actions" style="margin-top: 30px;">
             <button class="btn btn-primary" style="width: 100%;" onclick="closeToolModal()">关闭</button>
           </div>
@@ -3132,8 +3126,48 @@
       document.getElementById('feedbackModal').classList.remove('show');
     }
     
-    function showContact() { 
+    async function showContact() { 
       document.getElementById('contactModal').classList.add('show');
+      
+      // 从 API 获取联系方式
+      const contentDiv = document.getElementById('contactContent');
+      contentDiv.innerHTML = '<div class="contact-loading">加载中...</div><div class="tool-actions" style="margin-top: 30px;"><button class="btn btn-primary" style="width: 100%;" onclick="closeToolModal()">关闭</button></div>';
+      
+      try {
+        const response = await fetch(`${CONFIG.apiBaseUrl}/api/contact?t=${Date.now()}`);
+        if (response.ok) {
+          const data = await response.json();
+          const contact = data.contact || { title: '联系我们', items: [] };
+          
+          // 生成联系方式 HTML
+          let contactHtml = '';
+          if (contact.items && contact.items.length > 0) {
+            contact.items.forEach(item => {
+              let icon = 'fas fa-info-circle';
+              if (item.type === 'qq') icon = 'fab fa-qq';
+              else if (item.type === 'email') icon = 'fas fa-envelope';
+              else if (item.type === 'wechat') icon = 'fab fa-weixin';
+              else if (item.type === 'phone') icon = 'fas fa-phone';
+              
+              contactHtml += `
+                <div class="contact-item">
+                  <i class="${icon}"></i>
+                  <span>${item.label}：${item.value}</span>
+                </div>
+              `;
+            });
+          } else {
+            contactHtml = '<div class="contact-item"><span>暂无联系方式</span></div>';
+          }
+          
+          contentDiv.innerHTML = contactHtml + '<div class="tool-actions" style="margin-top: 30px;"><button class="btn btn-primary" style="width: 100%;" onclick="closeToolModal()">关闭</button></div>';
+        } else {
+          contentDiv.innerHTML = '<div class="contact-item"><span>加载失败，请稍后重试</span></div><div class="tool-actions" style="margin-top: 30px;"><button class="btn btn-primary" style="width: 100%;" onclick="closeToolModal()">关闭</button></div>';
+        }
+      } catch (error) {
+        console.error('获取联系方式失败:', error);
+        contentDiv.innerHTML = '<div class="contact-item"><span>加载失败，请稍后重试</span></div><div class="tool-actions" style="margin-top: 30px;"><button class="btn btn-primary" style="width: 100%;" onclick="closeToolModal()">关闭</button></div>';
+      }
     }
 
     // 更新工具下载链接
