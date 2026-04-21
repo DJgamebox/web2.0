@@ -1977,7 +1977,8 @@
           </div>
           <div class="tool-actions">
             <button class="btn btn-secondary" onclick="closeToolModal()">关闭</button>
-            <button class="btn btn-primary" id="runtimeDownloadBtn" onclick="openToolLink('runtime')">下载链接</button>
+            <button class="btn btn-primary" id="runtimeBaiduBtn" onclick="openToolLink('runtime', 'baidu')" style="display:none;">百度网盘下载</button>
+            <button class="btn btn-primary" id="runtimeThunderBtn" onclick="openToolLink('runtime', 'thunder')" style="display:none;">迅雷云盘下载</button>
           </div>
         </div>
       </div>
@@ -2050,7 +2051,8 @@
           </div>
           <div class="tool-actions">
             <button class="btn btn-secondary" onclick="closeToolModal()">关闭</button>
-            <button class="btn btn-primary" id="modifierDownloadBtn" onclick="openToolLink('modifier')">下载链接</button>
+            <button class="btn btn-primary" id="modifierBaiduBtn" onclick="openToolLink('modifier', 'baidu')" style="display:none;">百度网盘下载</button>
+            <button class="btn btn-primary" id="modifierThunderBtn" onclick="openToolLink('modifier', 'thunder')" style="display:none;">迅雷云盘下载</button>
           </div>
         </div>
       </div>
@@ -2602,6 +2604,7 @@
           if (toolsResponse.ok) {
             const toolsData = await toolsResponse.json();
             updateToolLinks(toolsData);
+            updateToolButtons(toolsData);
             console.log('工具链接已更新:', toolsData);
           }
         } catch (toolsError) {
@@ -3129,8 +3132,39 @@
     // 工具链接数据缓存
     let toolsDataCache = null;
 
+    // 更新工具按钮显示状态
+    function updateToolButtons(tools) {
+      toolsDataCache = tools;
+      
+      // 更新运行环境库按钮
+      const runtimeBaiduBtn = document.getElementById('runtimeBaiduBtn');
+      const runtimeThunderBtn = document.getElementById('runtimeThunderBtn');
+      if (runtimeBaiduBtn) {
+        runtimeBaiduBtn.style.display = (tools.runtime && tools.runtime.baidu) ? 'inline-block' : 'none';
+      }
+      if (runtimeThunderBtn) {
+        runtimeThunderBtn.style.display = (tools.runtime && tools.runtime.thunder) ? 'inline-block' : 'none';
+      }
+      
+      // 更新显卡驱动按钮
+      const driverLinkBtn = document.getElementById('driverLinkBtn');
+      if (driverLinkBtn) {
+        driverLinkBtn.style.display = (tools.gpuDriver && tools.gpuDriver.link) ? 'inline-block' : 'none';
+      }
+      
+      // 更新游戏修改器按钮
+      const modifierBaiduBtn = document.getElementById('modifierBaiduBtn');
+      const modifierThunderBtn = document.getElementById('modifierThunderBtn');
+      if (modifierBaiduBtn) {
+        modifierBaiduBtn.style.display = (tools.modifier && tools.modifier.baidu) ? 'inline-block' : 'none';
+      }
+      if (modifierThunderBtn) {
+        modifierThunderBtn.style.display = (tools.modifier && tools.modifier.thunder) ? 'inline-block' : 'none';
+      }
+    }
+
     // 打开工具下载链接
-    async function openToolLink(toolType) {
+    async function openToolLink(toolType, linkType) {
       // 如果缓存中没有数据，先获取
       if (!toolsDataCache) {
         try {
@@ -3146,7 +3180,11 @@
       // 获取对应工具的链接
       let link = '';
       if (toolsDataCache && toolsDataCache[toolType]) {
-        link = toolsDataCache[toolType].baidu || toolsDataCache[toolType].thunder || '';
+        if (linkType === 'link') {
+          link = toolsDataCache[toolType].link || '';
+        } else {
+          link = toolsDataCache[toolType][linkType] || '';
+        }
       }
       
       // 如果有链接就打开，否则提示
