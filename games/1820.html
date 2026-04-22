@@ -832,7 +832,7 @@
             if (page) params.push(`page=${page}`);
             if (filter && filter !== 'all') params.push(`filter=${filter}`);
             if (params.length > 0) backUrl += '?' + params.join('&');
-            const backLinkEl = document.getElementById('backLink'); if (backLinkEl) backLinkEl.href = backUrl;
+            document.getElementById('backLink').href = backUrl;
         }
         
         // 先加载游戏系列，然后添加免责声明
@@ -840,29 +840,6 @@
 
         // ========== 动态加载最新数据（API作为后备） ==========
         document.addEventListener('DOMContentLoaded', async function() {
-            // 缓存配置
-            const CACHE_KEY = 'game_cache_1820';
-            const CACHE_TIME_KEY = 'game_cache_time_1820';
-            const CACHE_DURATION = 5 * 60 * 1000; // 5分钟
-            
-            // 立即隐藏 loading
-            const loadingEl = document.getElementById('loadingOverlay');
-            if (loadingEl) loadingEl.classList.add('hidden');
-            
-            // 检查缓存
-            const cached = localStorage.getItem(CACHE_KEY);
-            const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
-            if (cached && cachedTime && (Date.now() - parseInt(cachedTime)) < CACHE_DURATION) {
-                console.log('[动态加载] 使用缓存数据');
-                // 使用缓存数据更新UI
-                try {
-                    const game = JSON.parse(cached);
-                    updateUIFromCache(game);
-                    // 后台静默刷新
-                    setTimeout(() => fetchGameData('1820', false), 100);
-                    return;
-                } catch(e) {}
-            }
             const gameId = '1820';
             if (!gameId) {
                 document.getElementById('loadingOverlay').classList.add('hidden');
@@ -891,10 +868,6 @@
                 
                 console.log('[动态加载] 获取到最新数据:', game.cn || game.name);
                 
-                // 保存到缓存
-                localStorage.setItem(CACHE_KEY, JSON.stringify(game));
-                localStorage.setItem(CACHE_TIME_KEY, Date.now().toString());
-                
                 // 字段映射并更新 DOM（仅当API数据有效时）
                 const name = game.cn || game.name;
                 const nameEn = game.en || game.nameEn;
@@ -906,34 +879,36 @@
                 
                 // 仅当API返回有效数据时才更新
                 if (name) {
-                    const gameNameEl = document.getElementById('gameName'); if (gameNameEl) gameNameEl.textContent = name;
-                    const breadcrumbNameEl = document.getElementById('breadcrumbName'); if (breadcrumbNameEl) breadcrumbNameEl.textContent = name;
+                    document.getElementById('gameName').textContent = name;
+                    document.getElementById('breadcrumbName').textContent = name;
                     document.title = name + ' - 游戏下载 - 游戏盒子';
                 }
                 
                 if (nameEn) {
-                    const gameNameEnEl = document.getElementById('gameNameEn'); if (gameNameEnEl) { gameNameEnEl.textContent = nameEn; gameNameEnEl.style.display = 'block'; }
+                    document.getElementById('gameNameEn').textContent = nameEn;
+                    document.getElementById('gameNameEn').style.display = 'block';
                 }
                 
                 if (category) {
-                    const gameCategoryEl = document.getElementById('gameCategory'); if (gameCategoryEl) gameCategoryEl.textContent = category;
+                    document.getElementById('gameCategory').textContent = category;
                 }
                 
                 if (size) {
-                    const gameSizeEl = document.getElementById('gameSize'); if (gameSizeEl) gameSizeEl.textContent = size;
+                    document.getElementById('gameSize').textContent = size;
                 }
                 
                 // 格式化更新时间
                 if (updateTime) {
                     const date = new Date(Number(updateTime));
                     if (!isNaN(date.getTime())) {
-                        const gameDateEl = document.getElementById('gameDate'); if (gameDateEl) gameDateEl.textContent = date.toLocaleDateString('zh-CN');
+                        document.getElementById('gameDate').textContent = date.toLocaleDateString('zh-CN');
                     }
                 }
                 
                 // 更新封面
                 if (cover) {
-                    const gameCoverEl = document.getElementById('gameCover'); if (gameCoverEl) { gameCoverEl.src = cover; gameCoverEl.style.display = 'block'; }
+                    document.getElementById('gameCover').src = cover;
+                    document.getElementById('gameCover').style.display = 'block';
                 }
                 
                 // 更新下载链接（如果API中有）
@@ -945,13 +920,13 @@
                     const link3 = game.link3 || game.thunderLink;
                     
                     if (link1) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload('1820', '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
                     }
                     if (link2) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload('1820', '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
                     }
                     if (link3) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload('1820', '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
                     }
                     
                     if (linksHtml) {
@@ -968,10 +943,9 @@
                 console.log('[动态加载] 数据更新完成');
             } catch (err) {
                 console.log('[动态加载] 失败，使用静态数据:', err.message);
-            } catch (error) {
-                console.error('[动态加载] 失败:', error.message);
+            } finally {
+                document.getElementById('loadingOverlay').classList.add('hidden');
             }
-            // loading 已在开头隐藏
         });
         
         // 下载桌面客户端（与主页保持一致）
@@ -995,8 +969,8 @@
             
             // 直接下载本地安装包
             const link = document.createElement('a');
-            link.href = '../downloads/游戏盒子 Setup 1.1.1.exe';
-            link.download = '游戏盒子 Setup 1.1.1.exe';
+            link.href = '../downloads/游戏盒子 Setup 1.1.2.exe';
+            link.download = '游戏盒子 Setup 1.1.2.exe';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
