@@ -6,7 +6,6 @@ on:
       gameId:
         description: '游戏ID'
         required: true
-        type: string
 
 jobs:
   update-game-page:
