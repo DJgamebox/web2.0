@@ -129,8 +129,14 @@ if (thunderLink) {
   downloadButtonsHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(${gameId}, '${thunderLink}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
 }
 
-html = html.replace(/<div class="download-buttons" id="downloadButtons">[\s\S]*?<\/div>/, 
-  `<div class="download-buttons" id="downloadButtons">${downloadButtonsHtml}</div>`);
+// 替换下载按钮 - 使用更精确的选择器
+const downloadButtonsPattern = /<div class="download-buttons" id="downloadButtons">[\s\S]*?<\/div>/;
+const downloadButtonsMatch = html.match(downloadButtonsPattern);
+if (downloadButtonsMatch) {
+  // 找到最后一个匹配（应该是 HTML 中的那个，不是 CSS）
+  const lastMatch = downloadButtonsMatch[downloadButtonsMatch.length - 1];
+  html = html.replace(lastMatch, `<div class="download-buttons" id="downloadButtons">${downloadButtonsHtml}</div>`);
+}
 
 // 9. 替换游戏描述
 html = html.replace(/<div class="game-desc" id="gameDesc">[\s\S]*?<\/div>/, 
