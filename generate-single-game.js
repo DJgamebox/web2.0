@@ -101,12 +101,13 @@ html = html.replace(/<meta name="description" content=".*?">/, `<meta name="desc
 html = html.replace(/<meta name="keywords" content=".*?">/, `<meta name="keywords" content="${gameName}下载,${gameName}网盘,${gameName}百度云,${gameCategory}游戏下载,单机游戏网盘,游戏盒子">`);
 html = html.replace(/<link rel="canonical" href=".*?">/, `<link rel="canonical" href="https://djgamebox.com/games/${gameId}.html">`);
 
-// 2. 替换面包屑导航
-html = html.replace(/<a href="\.\.\/#.*?">.*?<\/a>/, `<a href="../#${gameCategory}">${gameCategory}</a>`);
-html = html.replace(/<span>.*?<\/span>/, `<span>${gameName}</span>`);
+// 2. 替换面包屑导航 - 使用更精确的选择器
+html = html.replace(/<a href="\.\.\/#.*?"[^>]*>.*?<\/a>\s*<span[^>]*>.*?<\/span>/, `<a href="../#${gameCategory}">${gameCategory}</a> <span>${gameName}</span>`);
 
-// 3. 替换游戏封面
-html = html.replace(/<img src=".*?" alt=".*?" id="gameCover">/, `<img src="${gameCover}" alt="${gameName}" id="gameCover">`);
+// 3. 替换游戏封面（支持多种格式）
+html = html.replace(/<img src="https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/\d+\.jpg" alt="[^"]*"[^>]*onerror="[^"]*"[^>]*>/, `<img src="${gameCover}" alt="${gameName}" onerror="this.style.display='none'">`);
+// 同时替换可能存在的 id="gameCover" 格式
+html = html.replace(/<img src=".*?" alt=".*?" id="gameCover"[^>]*>/, `<img src="${gameCover}" alt="${gameName}" id="gameCover" onerror="this.style.display='none'">`);
 
 // 4. 替换游戏标题
 html = html.replace(/<h1 class="game-title">.*?<\/h1>/, `<h1 class="game-title">${gameName}</h1>`);
