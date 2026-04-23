@@ -929,12 +929,16 @@
                     const link1 = game.link1 || game.baiduLink1;
                     const link2 = game.link2 || game.baiduLink2;
                     const link3 = game.link3 || game.thunderLink;
+                    const link4 = game.link4 || game.baiduLink3;
                     
                     if (link1) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
                     }
                     if (link2) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
+                    }
+                    if (link4) {
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link4}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘3</a>`;
                     }
                     if (link3) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
