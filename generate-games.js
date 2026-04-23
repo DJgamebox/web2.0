@@ -56,7 +56,26 @@ games.forEach((game, index) => {
   const baiduLink1 = game.baiduLink1 || '';
   const baiduLink2 = game.baiduLink2 || '';
   const thunderLink = game.thunderLink || '';
-  const dateAdded = game.dateAdded || new Date().toLocaleDateString('zh-CN');
+  
+  // 格式化日期
+  function formatDate(timestamp) {
+    if (!timestamp) return new Date().toLocaleDateString('zh-CN');
+    // 如果已经是格式化的日期字符串（如 2026/4/16），直接返回
+    if (typeof timestamp === 'string' && timestamp.includes('/')) {
+      return timestamp;
+    }
+    // 处理字符串时间戳
+    if (typeof timestamp === 'string') {
+      timestamp = parseInt(timestamp);
+    }
+    // 如果是秒级时间戳（10位），转换为毫秒
+    if (timestamp < 10000000000) {
+      timestamp = timestamp * 1000;
+    }
+    return new Date(timestamp).toLocaleDateString('zh-CN');
+  }
+  
+  const dateAdded = formatDate(game.dateAdded);
   
   // 替换模板中的内容 - 使用新的替换逻辑
   let html = template;
