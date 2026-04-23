@@ -70,14 +70,22 @@ const thunderLink = game.thunderLink || '';
 // 格式化时间戳
 function formatDate(timestamp) {
   if (!timestamp) return new Date().toLocaleDateString('zh-CN');
+  
+  // 如果已经是格式化的日期字符串（如 2026/4/16），直接返回
+  if (typeof timestamp === 'string' && timestamp.includes('/')) {
+    return timestamp;
+  }
+  
   // 处理字符串时间戳
   if (typeof timestamp === 'string') {
     timestamp = parseInt(timestamp);
   }
+  
   // 如果是秒级时间戳（10位），转换为毫秒
   if (timestamp < 10000000000) {
     timestamp = timestamp * 1000;
   }
+  
   return new Date(timestamp).toLocaleDateString('zh-CN');
 }
 
