@@ -67,8 +67,22 @@ const baiduLink1 = game.baiduLink1 || '';
 const baiduLink2 = game.baiduLink2 || '';
 const baiduLink3 = game.baiduLink3 || '';
 const thunderLink = game.thunderLink || '';
-const dateAdded = game.dateAdded || new Date().toLocaleDateString('zh-CN');
-const updateTime = game.updateTime || Date.now();
+// 格式化时间戳
+function formatDate(timestamp) {
+  if (!timestamp) return new Date().toLocaleDateString('zh-CN');
+  // 处理字符串时间戳
+  if (typeof timestamp === 'string') {
+    timestamp = parseInt(timestamp);
+  }
+  // 如果是秒级时间戳（10位），转换为毫秒
+  if (timestamp < 10000000000) {
+    timestamp = timestamp * 1000;
+  }
+  return new Date(timestamp).toLocaleDateString('zh-CN');
+}
+
+const dateAdded = formatDate(game.dateAdded) || new Date().toLocaleDateString('zh-CN');
+const updateTime = formatDate(game.updateTime);
 
 // 替换模板中的内容
 let html = template;
