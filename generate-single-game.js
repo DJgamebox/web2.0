@@ -147,9 +147,9 @@ if (downloadButtonsMatch) {
   html = html.replace(lastMatch, `<div class="download-buttons" id="downloadButtons">${downloadButtonsHtml}</div>`);
 }
 
-// 9. 替换游戏描述
-html = html.replace(/<div class="game-desc" id="gameDesc">[\s\S]*?<\/div>/, 
-  `<div class="game-desc" id="gameDesc">${gameDesc.replace(/\n/g, '<br>')}</div>`);
+// 9. 替换游戏描述（支持 p 标签和 div 标签）
+html = html.replace(/<(p|div)[^>]*id="gameDesc"[^>]*>[\s\S]*?<\/\1>/, 
+  `<p id="gameDesc">${gameDesc.replace(/\n/g, '<br>')}</p>`);
 
 // 10. 替换游戏ID（用于JS动态加载）
 html = html.replace(/const gameId = \d+;/, `const gameId = ${gameId};`);
