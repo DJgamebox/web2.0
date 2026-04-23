@@ -901,7 +901,16 @@
                 
                 // 格式化更新时间
                 if (updateTime) {
-                    const date = new Date(Number(updateTime));
+                    // 尝试解析时间戳（支持字符串和数字）
+                    let timestamp = updateTime;
+                    if (typeof timestamp === 'string') {
+                        timestamp = parseInt(timestamp, 10);
+                    }
+                    // 检查是否是毫秒时间戳（13位）或秒时间戳（10位）
+                    if (timestamp < 10000000000) {
+                        timestamp = timestamp * 1000; // 转换为毫秒
+                    }
+                    const date = new Date(timestamp);
                     if (!isNaN(date.getTime())) {
                         document.getElementById('gameDate').textContent = date.toLocaleDateString('zh-CN');
                     }
