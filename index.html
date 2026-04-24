@@ -2724,7 +2724,27 @@
     // 获取宣传栏数据
     async function fetchBanner() {
       try {
-        // 从游戏数据中获取宣传栏配置
+        // 优先从 API 获取宣传栏配置
+        const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data.games) {
+            const bannerGame = data.games.find(g => g.id === '_banner_config');
+            if (bannerGame && bannerGame.desc) {
+              const bannerData = JSON.parse(bannerGame.desc);
+              if (bannerData.text) {
+                renderBanner(bannerData);
+                return;
+              }
+            }
+          }
+        }
+      } catch (e) {
+        console.log('从API获取宣传栏失败，尝试从本地数据获取');
+      }
+      
+      // 备用：从本地游戏数据获取
+      try {
         const bannerGame = games.find(g => g.id === '_banner_config');
         if (bannerGame && bannerGame.desc) {
           const bannerData = JSON.parse(bannerGame.desc);
@@ -2734,7 +2754,7 @@
           }
         }
       } catch (e) {
-        console.log('获取宣传栏失败，使用默认');
+        console.log('从本地获取宣传栏失败，使用默认');
       }
       
       // 使用默认宣传栏
