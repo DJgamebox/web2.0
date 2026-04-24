@@ -560,6 +560,25 @@
         </div>
         
         <a href="../" class="back-link" id="backLink"><i class="fas fa-arrow-left"></i>返回游戏列表</a>
+        <script>
+            // 动态设置返回链接，保留页码和筛选参数
+            (function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const page = urlParams.get('page');
+                const filter = urlParams.get('filter');
+                const backLink = document.getElementById('backLink');
+                if (backLink && (page || filter)) {
+                    let backUrl = '../';
+                    const params = [];
+                    if (page) params.push('page=' + page);
+                    if (filter) params.push('filter=' + filter);
+                    if (params.length > 0) {
+                        backUrl += '?' + params.join('&');
+                    }
+                    backLink.href = backUrl;
+                }
+            })();
+        </script>
     </div>
     
     <script>
@@ -899,7 +918,16 @@
                 
                 // 格式化更新时间
                 if (updateTime) {
-                    const date = new Date(Number(updateTime));
+                    // 尝试解析时间戳（支持字符串和数字）
+                    let timestamp = updateTime;
+                    if (typeof timestamp === 'string') {
+                        timestamp = parseInt(timestamp, 10);
+                    }
+                    // 检查是否是毫秒时间戳（13位）或秒时间戳（10位）
+                    if (timestamp < 10000000000) {
+                        timestamp = timestamp * 1000; // 转换为毫秒
+                    }
+                    const date = new Date(timestamp);
                     if (!isNaN(date.getTime())) {
                         document.getElementById('gameDate').textContent = date.toLocaleDateString('zh-CN');
                     }
@@ -918,12 +946,16 @@
                     const link1 = game.link1 || game.baiduLink1;
                     const link2 = game.link2 || game.baiduLink2;
                     const link3 = game.link3 || game.thunderLink;
+                    const link4 = game.link4 || game.baiduLink3;
                     
                     if (link1) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
                     }
                     if (link2) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
+                    }
+                    if (link4) {
+                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link4}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘3</a>`;
                     }
                     if (link3) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
@@ -969,8 +1001,8 @@
             
             // 直接下载本地安装包
             const link = document.createElement('a');
-            link.href = '../downloads/游戏盒子 Setup 1.1.2.exe';
-            link.download = '游戏盒子 Setup 1.1.2.exe';
+            link.href = '../downloads/游戏盒子 Setup 1.1.5.exe';
+            link.download = '游戏盒子 Setup 1.1.5.exe';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -1000,7 +1032,7 @@
                         <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
                             <p style="margin-bottom: 12px;"><strong style="color: var(--text-white);">安装步骤：</strong></p>
                             <ol style="padding-left: 20px; margin: 0;">
-                                <li style="margin-bottom: 8px;">等待下载完成（约 81MB）</li>
+                                <li style="margin-bottom: 8px;">等待下载完成（约 82MB）</li>
                                 <li style="margin-bottom: 8px;">双击下载的文件运行安装</li>
                                 <li>按提示完成安装即可使用</li>
                             </ol>
