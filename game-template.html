@@ -562,6 +562,25 @@
         </div>
         
         <a href="../" class="back-link" id="backLink"><i class="fas fa-arrow-left"></i>返回游戏列表</a>
+        <script>
+            // 动态设置返回链接，保留页码和筛选参数
+            (function() {
+                const urlParams = new URLSearchParams(window.location.search);
+                const page = urlParams.get('page');
+                const filter = urlParams.get('filter');
+                const backLink = document.getElementById('backLink');
+                if (backLink && (page || filter)) {
+                    let backUrl = '../';
+                    const params = [];
+                    if (page) params.push('page=' + page);
+                    if (filter) params.push('filter=' + filter);
+                    if (params.length > 0) {
+                        backUrl += '?' + params.join('&');
+                    }
+                    backLink.href = backUrl;
+                }
+            })();
+        </script>
     </div>
     
     <script>
