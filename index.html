@@ -3142,6 +3142,21 @@
       const modalIds = { runtime: 'runtimeModal', driver: 'driverModal', trainer: 'trainerModal' };
       const modalId = modalIds[tool];
       if (modalId) {
+        // 如果已有缓存数据，先更新按钮状态
+        if (toolsDataCache) {
+          updateToolButtons(toolsDataCache);
+        } else {
+          // 如果没有缓存，尝试获取并更新
+          fetch(`${CONFIG.apiBaseUrl}/api/tools?t=${Date.now()}`)
+            .then(r => r.ok ? r.json() : null)
+            .then(data => {
+              if (data) {
+                toolsDataCache = data;
+                updateToolButtons(data);
+              }
+            })
+            .catch(() => {});
+        }
         document.getElementById(modalId).classList.add('show');
       }
     }
