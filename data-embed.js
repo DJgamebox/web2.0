@@ -1,10 +1,10 @@
-﻿// 游戏数据 - 由后台管理系统自动生成
-// 生成时间: 2026/4/18 08:08:00
+// 游戏数据 - 由后台管理系统自动生成
+// 生成时间: 2026/5/13 21:45:43
 // 游戏数量: 1988
 
 const importedGames = [
   {
-    "id": 1990,
+    "id": 1776409034231,
     "name": "识质存在",
     "nameEn": "PRAGMATA",
     "cover": "https://api.djgamebox.com/api/covers/covers/1776409032153.jpg",
@@ -35793,5 +35793,3 @@ const importedGames = [
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { importedGames };
 }
-
-

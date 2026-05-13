@@ -1,15 +1,15 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>生化危机9：安魂曲下载_Resident Evil Requiem_百度网盘_迅雷云盘_免费下载 - 游戏盒子</title>
-    <meta name="description" content="生化危机9：安魂曲免费下载，提供百度网盘、迅雷云盘高速下载链接，恐怖惊悚游戏，绿色免安装中文版，游戏盒子提供最新最全的单机游戏资源下载">
-    <meta name="keywords" content="生化危机9：安魂曲下载,生化危机9：安魂曲网盘,生化危机9：安魂曲百度网盘,恐怖惊悚游戏下载,单机游戏网盘,游戏盒子">
+    <meta name="description" content="生化危机9：安魂曲免费下载，提供百度网盘、迅雷云盘高速下载链接，恐怖惊悚游戏，绿色免安装中文版，游戏盒子提供最新最全的单机游戏资源下载。">
+    <meta name="keywords" content="生化危机9：安魂曲下载,生化危机9：安魂曲网盘,生化危机9：安魂曲百度云,恐怖惊悚游戏下载,单机游戏网盘,游戏盒子">
     <link rel="canonical" href="https://djgamebox.com/games/120.html">
     <link rel="icon" href="../favicon.png?v=2" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- 游戏数据 -->
+    <!-- 游戏数据源 -->
     <script src="../data-embed.js"></script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -540,7 +540,8 @@
                 </div>
                 <div class="action-buttons">
                     <button onclick="downloadClient('detail')" class="action-btn desktop">
-                        <i class="fas fa-download"></i>下载桌面客户端                    </button>
+                        <i class="fas fa-download"></i>下载桌面客户端
+                    </button>
                     <button class="action-btn favorite" onclick="toggleFavorite()">
                         <i class="far fa-heart"></i><span id="favText">收藏</span>
                     </button>
@@ -551,35 +552,16 @@
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载</h2>
             <div class="download-buttons" id="downloadButtons">
-                <!-- 下载按钮将由 JavaScript 动态生成 -->
+                <a href="https://pan.baidu.com/s/16BwFw5B81uIInzuA-tXoLw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1s7Xf97oQ_6MwHQ_As5rdZQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a>
             </div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩</p>
+            <p id="gameDesc">生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
         </div>
         
         <a href="../" class="back-link" id="backLink"><i class="fas fa-arrow-left"></i>返回游戏列表</a>
-        <script>
-            // 动态设置返回链接，保留页码和筛选参数
-            (function() {
-                const urlParams = new URLSearchParams(window.location.search);
-                const page = urlParams.get('page');
-                const filter = urlParams.get('filter');
-                const backLink = document.getElementById('backLink');
-                if (backLink && (page || filter)) {
-                    let backUrl = '../';
-                    const params = [];
-                    if (page) params.push('page=' + page);
-                    if (filter) params.push('filter=' + filter);
-                    if (params.length > 0) {
-                        backUrl += '?' + params.join('&');
-                    }
-                    backLink.href = backUrl;
-                }
-            })();
-        </script>
     </div>
     
     <script>
@@ -692,7 +674,7 @@
                     const icon = btn.querySelector('i');
                     if (event.data.isFav) {
                         btn.classList.add('active');
-text.textContent = '已收藏';
+                        text.textContent = '已收藏';
                         icon.className = 'fas fa-heart';
                     } else {
                         btn.classList.remove('active');
@@ -751,12 +733,14 @@ text.textContent = '已收藏';
                 
                 let currentSeries = '';
                 for (const [seriesName, games] of Object.entries(seriesData)) {
-                    // 模糊匹配：提取游戏名称的核心部分（去除版本号、符号等）                    const isMatch = games.some(g => {
+                    // 模糊匹配：提取游戏名称的核心部分（去除版本号、符号等）
+                    const isMatch = games.some(g => {
                         // 直接包含匹配
                         if (currentGame.includes(g) || g.includes(currentGame)) return true;
                         
-                        // 提取核心名称（去除冒号、斜杠、加号等符号后的第一部分）                        const currentCore = currentGame.split(/[：\/\+_]/)[0].trim();
-                        const gameCore = g.split(/[：\/\+_]/)[0].trim();
+                        // 提取核心名称（去除冒号、斜杠、加号等符号后的第一部分）
+                        const currentCore = currentGame.split(/[：:\/\+_]/)[0].trim();
+                        const gameCore = g.split(/[：:\/\+_]/)[0].trim();
                         
                         // 核心名称匹配
                         if (currentCore === gameCore) return true;
@@ -791,8 +775,9 @@ text.textContent = '已收藏';
                                 const gameName = g.name;
                                 // 核心名称匹配
                                 if (gameName.includes(coreName) || coreName.includes(gameName)) return true;
-                                // 去除特殊字符后匹配                                const cleanGameName = gameName.replace(/[：\/\-_]/g, '');
-                                const cleanCoreName = coreName.replace(/[：\/\-_]/g, '');
+                                // 去除特殊字符后匹配
+                                const cleanGameName = gameName.replace(/[：:\/\-_]/g, '');
+                                const cleanCoreName = coreName.replace(/[：:\/\-_]/g, '');
                                 if (cleanGameName.includes(cleanCoreName) || cleanCoreName.includes(cleanGameName)) return true;
                                 return false;
                             });
@@ -826,19 +811,21 @@ text.textContent = '已收藏';
             resolve();
             });
         }
-        // 添加免责声明（在游戏系列之后）        function addDisclaimer() {
+        // 添加免责声明（在游戏系列之后）
+        function addDisclaimer() {
             const disclaimerHtml = `
                 <div class="disclaimer" style="margin-top: 40px; padding: 20px; background: var(--bg-card); border-radius: 8px; border: 1px solid var(--border-color);">
                     <h4 style="color: var(--accent-blue); text-align: center; margin-bottom: 12px; font-size: 14px;"># 免责声明 #</h4>
                     <p style="font-size: 11px; color: var(--text-secondary); line-height: 1.8; text-align: justify;">
-                        本站提供的资源转载自国内外各大媒体和网络，仅供试玩体验；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。您必须在下载后24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该游戏内容，请支持正版，购买注册，得到更好的正版服务。我们非常重视版权问题，如有侵权请邮件与我们联系处理。敬请谅解！E-mail：<a href="mailto:danjiyouxihezi@gmail.com" style="color: var(--accent-blue);">danjiyouxihezi@gmail.com</a>
+                        本站提供的资源转载自国内外各大媒体和网络，仅供试玩体验；不得将上述内容用于商业或者非法用途，否则，一切后果请用户自负。您必须在下载后的24个小时之内，从您的电脑中彻底删除上述内容。如果您喜欢该游戏内容，请支持正版，购买注册，得到更好的正版服务。我们非常重视版权问题，如有侵权请邮件与我们联系处理。敬请谅解！E-mail：<a href="mailto:danjiyouxihezi@gmail.com" style="color: var(--accent-blue);">danjiyouxihezi@gmail.com</a>
                     </p>
                 </div>
             `;
             document.querySelector('.container').insertAdjacentHTML('beforeend', disclaimerHtml);
         }
         
-        // 设置返回链接（带页码参数）        const urlParams = new URLSearchParams(window.location.search);
+        // 设置返回链接（带页码参数）
+        const urlParams = new URLSearchParams(window.location.search);
         const page = urlParams.get('page');
         const filter = urlParams.get('filter');
         if (page) {
@@ -853,7 +840,7 @@ text.textContent = '已收藏';
         // 先加载游戏系列，然后添加免责声明
         loadGameSeries().then(addDisclaimer).catch(addDisclaimer);
 
-        // ========== 动态加载最新数据（API作为后备）==========
+        // ========== 动态加载最新数据（API作为后备） ==========
         document.addEventListener('DOMContentLoaded', async function() {
             const gameId = '120';
             if (!gameId) {
@@ -883,7 +870,7 @@ text.textContent = '已收藏';
                 
                 console.log('[动态加载] 获取到最新数据:', game.cn || game.name);
                 
-                // 字段映射并更新DOM（仅当API数据有效时）
+                // 字段映射并更新 DOM（仅当API数据有效时）
                 const name = game.cn || game.name;
                 const nameEn = game.en || game.nameEn;
                 const category = game.type || game.category;
@@ -912,14 +899,17 @@ text.textContent = '已收藏';
                     document.getElementById('gameSize').textContent = size;
                 }
                 
-                // 格式化更新时间                if (updateTime) {
-                    // 尝试解析时间戳（支持字符串和数字）                    let timestamp = updateTime;
+                // 格式化更新时间
+                if (updateTime) {
+                    // 尝试解析时间戳（支持字符串和数字）
+                    let timestamp = updateTime;
                     if (typeof timestamp === 'string') {
                         timestamp = parseInt(timestamp, 10);
                     }
                     // 检查是否是毫秒时间戳（13位）或秒时间戳（10位）
                     if (timestamp < 10000000000) {
-                        timestamp = timestamp * 1000; // 转换为毫秒                    }
+                        timestamp = timestamp * 1000; // 转换为毫秒
+                    }
                     const date = new Date(timestamp);
                     if (!isNaN(date.getTime())) {
                         document.getElementById('gameDate').textContent = date.toLocaleDateString('zh-CN');
@@ -932,22 +922,19 @@ text.textContent = '已收藏';
                     document.getElementById('gameCover').style.display = 'block';
                 }
                 
-                // 更新下载链接（如果API中有）                const downloadContainer = document.getElementById('downloadButtons');
+                // 更新下载链接（如果API中有）
+                const downloadContainer = document.getElementById('downloadButtons');
                 if (downloadContainer && (game.link1 || game.baiduLink1)) {
                     let linksHtml = '';
                     const link1 = game.link1 || game.baiduLink1;
                     const link2 = game.link2 || game.baiduLink2;
                     const link3 = game.link3 || game.thunderLink;
-                    const link4 = game.link4 || game.baiduLink3;
                     
                     if (link1) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
                     }
                     if (link2) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
-                    }
-                    if (link4) {
-                        linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link4}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘3</a>`;
                     }
                     if (link3) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
@@ -966,7 +953,7 @@ text.textContent = '已收藏';
                 
                 console.log('[动态加载] 数据更新完成');
             } catch (err) {
-                console.log('[动态加载] 失败，使用静态数据', err.message);
+                console.log('[动态加载] 失败，使用静态数据:', err.message);
             } finally {
                 document.getElementById('loadingOverlay').classList.add('hidden');
             }
@@ -988,107 +975,22 @@ text.textContent = '已收藏';
                     })
                 });
             } catch (error) {
-                console.error('记录客户端下载失败', error);
+                console.error('记录客户端下载失败:', error);
             }
             
-            // 显示版本选择弹窗
-            showVersionSelectModal();
-        }
-        
-        // 显示版本选择弹窗
-        function showVersionSelectModal() {
-            const overlay = document.createElement('div');
-            overlay.id = 'versionSelectOverlay';
-            overlay.className = 'modal-overlay show';
-            overlay.style.zIndex = '2000';
-            overlay.onclick = function(e) {
-                if (e.target === overlay) {
-                    document.body.removeChild(overlay);
-                }
-            };
-            
-            overlay.innerHTML = `
-                <div class="modal" style="max-width: 480px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); overflow: hidden;" onclick="event.stopPropagation()">
-                    <div style="padding: 24px; text-align: center; border-bottom: 1px solid var(--border-color);">
-                        <div style="font-size: 18px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">选择下载版本</div>
-                        <div style="font-size: 13px; color: var(--text-secondary);">请根据您的需求选择合适的版本</div>
-                    </div>
-                    <div style="padding: 24px;">
-                        <div style="display: flex; flex-direction: column; gap: 16px;">
-                            <!-- 安装版 -->
-                            <div onclick="downloadSpecificVersion('setup')" 
-                                 style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border: 2px solid var(--border-color); border-radius: 10px; cursor: pointer; transition: all 0.2s;"
-                                 onmouseover="this.style.borderColor='var(--accent-blue)'; this.style.background='rgba(125, 211, 252, 0.1)'"
-                                 onmouseout="this.style.borderColor='var(--border-color)'; this.style.background='var(--bg-light)'">
-                                <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--accent-blue) 0%, #4a9fd8 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 16px;">
-                                    <i class="fas fa-download" style="font-size: 22px; color: #fff;"></i>
-                                </div>
-                                <div style="flex: 1;">
-                                    <div style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5;">GameBox Setup 1.1.7.exe</div>
-                                    <div style="font-size: 11px; color: var(--accent-blue); margin-top: 4px;">推荐：自动创建桌面快捷方式</div>
-                                </div>
-                                <i class="fas fa-chevron-right" style="color: var(--text-secondary);"></i>
-                            </div>
-                            
-                            <!-- 便携版 -->
-                            <div onclick="downloadSpecificVersion('portable')" 
-                                 style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border: 2px solid var(--border-color); border-radius: 10px; cursor: pointer; transition: all 0.2s;"
-                                 onmouseover="this.style.borderColor='var(--accent-green)'; this.style.background='rgba(92, 126, 16, 0.1)'"
-                                 onmouseout="this.style.borderColor='var(--border-color)'; this.style.background='var(--bg-light)'">
-                                <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--accent-green) 0%, #4a6b0f 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 16px;">
-                                    <i class="fas fa-usb" style="font-size: 22px; color: #fff;"></i>
-                                </div>
-                                <div style="flex: 1;">
-                                    <div style="font-size: 15px; font-weight: 600; color: var(--text-primary); margin-bottom: 4px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5;">GameBox 1.1.7.exe</div>
-                                    <div style="font-size: 11px; color: var(--accent-green); margin-top: 4px;">免安装：解压即用，可放U盘携带</div>
-                                </div>
-                                <i class="fas fa-chevron-right" style="color: var(--text-secondary);"></i>
-                            </div>
-                        </div>
-                        
-                        <div style="margin-top: 20px; text-align: center;">
-                            <button onclick="document.getElementById('versionSelectOverlay').remove();" 
-                                    style="padding: 10px 24px; background: transparent; border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-secondary); font-size: 13px; cursor: pointer; transition: all 0.2s;"
-                                    onmouseover="this.style.color='var(--text-primary)'; this.style.borderColor='var(--text-primary)'"
-                                    onmouseout="this.style.color='var(--text-secondary)'; this.style.borderColor='var(--border-color)'">
-                                取消
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            document.body.appendChild(overlay);
-        }
-        
-        // 下载指定版本
-        function downloadSpecificVersion(type) {
-            const overlay = document.getElementById('versionSelectOverlay');
-            if (overlay) {
-                document.body.removeChild(overlay);
-            }
-            
+            // 直接下载本地安装包
             const link = document.createElement('a');
-            if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.7 便携版.exe';
-                link.download = 'GameBox 1.1.7 便携版.exe';
-            } else {
-                link.href = '../downloads/GameBox 1.1.7 安装版.exe';
-                link.download = 'GameBox 1.1.7 安装版.exe';
-            }
+            link.href = '../downloads/游戏盒子 Setup 1.1.3.exe';
+            link.download = '游戏盒子 Setup 1.1.3.exe';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             
-            showDownloadCompleteTip(type);
+            showDownloadCompleteTip();
         }
         
         // 显示下载完成提示弹窗（与主页保持一致）
-        function showDownloadCompleteTip(type = 'setup') {
-            const isPortable = type === 'portable';
-            
+        function showDownloadCompleteTip() {
             const overlay = document.createElement('div');
             overlay.id = 'downloadTipOverlay';
             overlay.className = 'modal-overlay show';
@@ -1101,25 +1003,23 @@ text.textContent = '已收藏';
             
             overlay.innerHTML = `
                 <div class="modal" style="max-width: 420px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); overflow: hidden;" onclick="event.stopPropagation()">
-                    <div style="padding: 30px 24px; text-align: center; background: linear-gradient(135deg, ${isPortable ? 'var(--accent-green)' : 'var(--accent-blue)'} 0%, ${isPortable ? '#4a6b0f' : '#4a9fd8'} 100%);">
+                    <div style="padding: 30px 24px; text-align: center; background: linear-gradient(135deg, var(--accent-green) 0%, #4a6b0f 100%);">
                         <i class="fas fa-check-circle" style="font-size: 56px; color: #fff; margin-bottom: 12px;"></i>
                         <div style="font-size: 20px; font-weight: 600; color: #fff;">下载已开始</div>
                     </div>
                     <div style="padding: 24px;">
                         <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.8; margin-bottom: 20px;">
-                            <p style="margin-bottom: 12px;"><strong style="color: var(--text-primary);">${isPortable ? '使用步骤：' : '安装步骤：'}</strong></p>
+                            <p style="margin-bottom: 12px;"><strong style="color: var(--text-white);">安装步骤：</strong></p>
                             <ol style="padding-left: 20px; margin: 0;">
                                 <li style="margin-bottom: 8px;">等待下载完成（约 82MB）</li>
-                                ${isPortable ? 
-                                    '<li style="margin-bottom: 8px;">双击运行，无需安装</li><li>可放入U盘随身携带</li>' :
-                                    '<li style="margin-bottom: 8px;">双击下载的文件运行安装</li><li>按提示完成安装即可使用</li>'
-                                }
+                                <li style="margin-bottom: 8px;">双击下载的文件运行安装</li>
+                                <li>按提示完成安装即可使用</li>
                             </ol>
                         </div>
                         
                         <div style="background: rgba(102, 192, 244, 0.1); border-left: 3px solid var(--accent-blue); padding: 12px 16px; border-radius: 0 4px 4px 0; margin-bottom: 20px;">
                             <i class="fas fa-lightbulb" style="color: var(--accent-blue); margin-right: 8px;"></i>
-                            <span style="font-size: 12px; color: var(--text-secondary);">${isPortable ? '提示：便携版无需安装，解压即用' : '提示：安装完成后桌面会创建快捷方式'}</span>
+                            <span style="font-size: 12px; color: var(--text-secondary);">提示：安装完成后桌面会创建快捷方式</span>
                         </div>
                         
                         <div style="display: flex; gap: 12px;">
@@ -1143,7 +1043,8 @@ text.textContent = '已收藏';
             document.body.appendChild(overlay);
         }
         
-        // 显示快捷键提示        function showShortcutTip() {
+        // 显示快捷键提示
+        function showShortcutTip() {
             const overlay = document.createElement('div');
             overlay.id = 'shortcutTipOverlay';
             overlay.className = 'modal-overlay show';
@@ -1180,7 +1081,8 @@ text.textContent = '已收藏';
                                 style="padding: 12px 40px; background: var(--accent-blue); border: none; border-radius: 8px; color: #fff; font-size: 15px; font-weight: 600; cursor: pointer; transition: all 0.2s;"
                                 onmouseover="this.style.background='#4a9fd8'"
                                 onmouseout="this.style.background='var(--accent-blue)'">
-                            知道了                        </button>
+                            知道了
+                        </button>
                     </div>
                 </div>
             `;
