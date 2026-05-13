@@ -74,6 +74,10 @@ games.forEach((game, index) => {
   html = html.replace(/href="\.\.\/"/g, 'href="/"');
   html = html.replace(/href="\.\.\/games\//g, 'href="/games/');
   
+  // 替换百度网盘链接（模板中的硬编码链接）
+  html = html.replace(/https:\/\/pan\.baidu\.com\/s\/16BwFw5B81uIInzuA-tXoLw\?pwd=8888/g, baiduLink1 || '#');
+  html = html.replace(/https:\/\/pan\.baidu\.com\/s\/1s7Xf97oQ_6MwHQ_As5rdZQ\?pwd=6666/g, baiduLink2 || '#');
+  
   // 保存文件
   const outputPath = path.join(gamesDir, `${gameId}.html`);
   fs.writeFileSync(outputPath, html, 'utf-8');
