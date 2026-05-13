@@ -46,40 +46,45 @@ games.forEach((game, index) => {
   const gameDesc = game.description || '';
   const baiduLink1 = game.baiduLink1 || '';
   const baiduLink2 = game.baiduLink2 || '';
+  const baiduLink3 = game.baiduLink3 || '';
   const thunderLink = game.thunderLink || '';
-  
+
   // 替换模板中的内容
   let html = template;
-  
+
   // 替换标题和 meta 信息（模板中硬编码的是"生化危机9：安魂曲"）
   html = html.replace(/生化危机9：安魂曲/g, gameName);
   html = html.replace(/Resident Evil Requiem/g, gameNameEn);
   html = html.replace(/恐怖惊悚/g, gameCategory);
   html = html.replace(/77\.2G/g, gameSize);
-  
+
   // 替换游戏ID（模板中硬编码的是120）
   html = html.replace(/游戏盒子 - 生化危机9：安魂曲下载/g, `游戏盒子 - ${gameName}下载`);
-  
+
   // 替换链接
   html = html.replace(/120\.html/g, `${gameId}.html`);
   html = html.replace(/gameId = '120'/g, `gameId = '${gameId}'`);
-  
+
   // 替换封面
   html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg/g, gameCover);
-  
+
   // 替换描述（匹配通用描述格式）
   html = html.replace(/生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。/g, gameDesc);
-  
+
   // 替换游戏大小（模板中硬编码的是"未知"，用于SEO）
   html = html.replace(/id="gameSize">未知</g, `id="gameSize">${gameSize || '未知'}<`);
-  
+
   // 替换下载链接
   html = html.replace(/href="\.\.\/"/g, 'href="/"');
   html = html.replace(/href="\.\.\/games\//g, 'href="/games/');
-  
-  // 替换模板中的下载链接为真实链接
+
+  // 替换模板中的下载链接为真实链接（支持4个链接）
   html = html.replace(/https:\/\/pan\.baidu\.com\/s\/16BwFw5B81uIInzuA-tXoLw\?pwd=8888/g, baiduLink1 || '#');
   html = html.replace(/https:\/\/pan\.baidu\.com\/s\/1s7Xf97oQ_6MwHQ_As5rdZQ\?pwd=6666/g, baiduLink2 || '#');
+  // 替换第3个百度链接（模板中硬编码的示例链接）
+  html = html.replace(/https:\/\/pan\.baidu\.com\/s\/1VeJWBXOXuBsl8czNjMhOUg\?pwd=8888/g, baiduLink3 || '#');
+  // 替换迅雷链接（模板中硬编码的示例链接）
+  html = html.replace(/https:\/\/pan\.xunlei\.com\/s\/VOqtxb9EuUW96dtxkAOL0vNSA1\?pwd=jrtd/g, thunderLink || '#');
   
   // 保存文件
   const outputPath = path.join(gamesDir, `${gameId}.html`);
