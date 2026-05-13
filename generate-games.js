@@ -51,20 +51,24 @@ games.forEach((game, index) => {
   // 替换模板中的内容
   let html = template;
   
-  // 替换标题和 meta 信息
-  html = html.replace(/三国志曹操传/g, gameName);
-  html = html.replace(/Sango CCZ/g, gameNameEn);
-  html = html.replace(/策略/g, gameCategory);
-  html = html.replace(/2\.3G/g, gameSize);
+  // 替换标题和 meta 信息（模板中硬编码的是"生化危机9：安魂曲"）
+  html = html.replace(/生化危机9：安魂曲/g, gameName);
+  html = html.replace(/Resident Evil Requiem/g, gameNameEn);
+  html = html.replace(/恐怖惊悚/g, gameCategory);
+  html = html.replace(/77\.2G/g, gameSize);
+  
+  // 替换游戏ID（模板中硬编码的是120）
+  html = html.replace(/游戏盒子 - 生化危机9：安魂曲下载/g, `游戏盒子 - ${gameName}下载`);
   
   // 替换链接
-  html = html.replace(/1\.html/g, `${gameId}.html`);
+  html = html.replace(/120\.html/g, `${gameId}.html`);
+  html = html.replace(/gameId = '120'/g, `gameId = '${gameId}'`);
   
   // 替换封面
-  html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/1\.jpg/g, gameCover);
+  html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg/g, gameCover);
   
-  // 替换描述
-  html = html.replace(/《三国志曹操传》是日本光荣公司出版的英杰传系列游戏。/g, gameDesc);
+  // 替换描述（匹配通用描述格式）
+  html = html.replace(/生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。/g, gameDesc);
   
   // 替换下载链接
   html = html.replace(/href="\.\.\/"/g, 'href="/"');
