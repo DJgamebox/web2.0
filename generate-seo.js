@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 配置
-const MAX_SEO_LINKS = 50; // 首页隐藏链接数量
+const MAX_SEO_LINKS = 100; // 首页隐藏链接数量
 const GAMES_PER_PAGE = 36; // 每页游戏数
 
 // 读取游戏数据
