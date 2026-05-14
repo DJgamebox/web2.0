@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.djgamebox.com/sitemap.xml
+
+# 允许搜索引擎抓取所有页面
+Allow: /games/
+Allow: /images/
+
+# 禁止抓取不必要的文件
+Disallow: /node_modules/
+Disallow: /.github/
+Disallow: /clean/
+Disallow: /builder-debug.yml

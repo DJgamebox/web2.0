@@ -120,8 +120,16 @@ html = html.replace(/<span class="meta-value" id="gameCategory">.*?<\/span>/, `<
 // 6. 替换游戏大小
 html = html.replace(/<span class="meta-value" id="gameSize">.*?<\/span>/, `<span class="meta-value" id="gameSize">${gameSize}</span>`);
 
-// 7. 替换更新时间
-html = html.replace(/<span class="meta-value" id="gameDate">.*?<\/span>/, `<span class="meta-value" id="gameDate">${dateAdded}</span>`);
+  // 7. 替换更新时间
+  html = html.replace(/<span class="meta-value" id="gameDate">.*?<\/span>/, `<span class="meta-value" id="gameDate">${dateAdded}</span>`);
+
+  // 8. 替换 Schema 结构化数据
+  html = html.replace(/"name": "[^"]*"/g, `"name": "${gameName}"`);
+  html = html.replace(/"alternateName": "[^"]*"/g, `"alternateName": "${gameNameEn || gameName}"`);
+  html = html.replace(/"description": "[^"]*"/g, `"description": "${gameDesc.replace(/"/g, '\\"')}"`);
+  html = html.replace(/"genre": "[^"]*"/g, `"genre": "${gameCategory}"`);
+  html = html.replace(/"image": "[^"]*"/g, `"image": "${gameCover}"`);
+  html = html.replace(/"url": "https:\/\/www\.djgamebox\.com\/games\/[^"]*"/g, `"url": "https://www.djgamebox.com/games/${gameId}.html"`);
 
 // 8. 替换下载链接
 let downloadButtonsHtml = '';

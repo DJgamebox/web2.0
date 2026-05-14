@@ -74,6 +74,14 @@ games.forEach((game, index) => {
   // 替换游戏大小（模板中硬编码的是"未知"，用于SEO）
   html = html.replace(/id="gameSize">未知</g, `id="gameSize">${gameSize || '未知'}<`);
 
+  // 替换 Schema 结构化数据
+  html = html.replace(/"name": "生化危机9：安魂曲"/g, `"name": "${gameName}"`);
+  html = html.replace(/"alternateName": "Resident Evil Requiem"/g, `"alternateName": "${gameNameEn}"`);
+  html = html.replace(/"description": "生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。"/g, `"description": "${gameDesc.replace(/"/g, '\\"')}"`);
+  html = html.replace(/"genre": "恐怖惊悚"/g, `"genre": "${gameCategory}"`);
+  html = html.replace(/"image": "https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg"/g, `"image": "${gameCover}"`);
+  html = html.replace(/"url": "https:\/\/www\.djgamebox\.com\/games\/120\.html"/g, `"url": "https://www.djgamebox.com/games/${gameId}.html"`);
+
   // 替换下载链接
   html = html.replace(/href="\.\.\/"/g, 'href="/"');
   html = html.replace(/href="\.\.\/games\//g, 'href="/games/');
