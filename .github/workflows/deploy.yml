@@ -28,12 +28,15 @@ jobs:
     - name: Generate Game Pages
       run: node generate-games.js
       
+    - name: Generate SEO Links and Sitemap
+      run: node generate-seo.js
+      
     - name: Commit Generated Pages
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add games/
-        git diff --staged --quiet || (git commit -m "Auto-generate game pages" && git push)
+        git add games/ sitemap.xml index.html
+        git diff --staged --quiet || (git commit -m "Auto-generate game pages and SEO" && git push)
       continue-on-error: true
         
     - name: Install Vercel CLI
