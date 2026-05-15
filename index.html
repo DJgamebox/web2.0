@@ -2506,12 +2506,20 @@
     function initCategoryList() {
       const list = document.getElementById('categoryList');
       list.innerHTML = categories.map(cat => `
-        <div class="nav-item" data-filter="${cat.id}" onclick="filterGames('${cat.id}')">
+        <div class="nav-item" data-filter="${cat.id}">
           <i class="fas ${cat.icon}"></i>
           <span>${cat.id}</span>
           <span class="nav-badge" id="count-${cat.id}" data-count="0">0</span>
         </div>
       `).join('');
+      
+      // 使用事件委托，避免内联 onclick 导致的 filterGames is not defined 错误
+      list.addEventListener('click', function(e) {
+        const navItem = e.target.closest('.nav-item');
+        if (navItem && navItem.dataset.filter) {
+          filterGames(navItem.dataset.filter);
+        }
+      });
     }
 
     async function initData() {
