@@ -2506,66 +2506,22 @@
     function initCategoryList() {
       const list = document.getElementById('categoryList');
       list.innerHTML = categories.map(cat => `
-        <div class="nav-item" data-filter="${cat.id}">
+        <div class="nav-item" data-filter="${cat.id}" onclick="filterGames('${cat.id}')">
           <i class="fas ${cat.icon}"></i>
           <span>${cat.id}</span>
           <span class="nav-badge" id="count-${cat.id}" data-count="0">0</span>
         </div>
       `).join('');
-      
-      // 使用事件委托，避免内联 onclick 导致的 filterGames is not defined 错误
-      list.addEventListener('click', function(e) {
-        const navItem = e.target.closest('.nav-item');
-        if (navItem && navItem.dataset.filter) {
-          filterGames(navItem.dataset.filter);
-        }
-      });
     }
 
     async function initData() {
-      // 优先使用本地嵌入数据（最快）
-      updateSyncStatus('正在加载数据...', true);
-      
-      // 首先尝试使用嵌入的 importedGames（最快，无需网络请求）
-      if (typeof importedGames !== 'undefined' && importedGames.length > 0) {
-        games = importedGames.filter(game => game.id !== '_banner_config');
-        localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
-        localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
-        filterAndRender();
-        updateStats();
-        updateSyncStatus('已加载 ' + games.length + ' 款游戏', true);
-        
-        // 后台静默同步（不阻塞UI）
-        setTimeout(() => syncFromCloudSilent(), 100);
-        return;
-      }
-      
-      // 其次尝试从 localStorage 加载
-      const localData = localStorage.getItem(CONFIG.localStorageKey);
-      if (localData) {
-        try {
-          games = JSON.parse(localData).filter(game => game.id !== '_banner_config');
-          filterAndRender();
-          updateStats();
-          updateSyncStatus('已加载 ' + games.length + ' 款游戏 (本地缓存)', true);
-          
-          // 后台静默同步
-          setTimeout(() => syncFromCloudSilent(), 100);
-          return;
-        } catch (e) {
-          console.error('本地缓存解析失败:', e);
-        }
-      }
-      
-      // 最后尝试从服务器 API 获取（最慢）
-      updateSyncStatus('正在从服务器同步...', true);
+      // 优先从服务器 API 获取数据（和桌面客户端保持一致）
+      updateSyncStatus('正在同步数据...', true);
       try {
-        const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`, { timeout: 5000 });
-        if (!response.ok) {
-          throw new Error('API response not ok: ' + response.status);
-        }
+        const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`);
         const data = await response.json();
-        if (data.games && Array.isArray(data.games) && data.games.length > 0) {
+        if (data.games && data.games.length > 0) {
+          // 标准化数据格式
           games = data.games
             .filter(game => game.id !== '_banner_config')
             .map(game => ({
@@ -2601,8 +2557,28 @@
         }
       } catch (error) {
         console.error('从服务器获取数据失败:', error);
-        updateSyncStatus('加载失败，请刷新重试', false);
-        showToast('数据加载失败，请检查网络连接', 'error');
+      }
+      
+      // 服务器获取失败，尝试从本地存储加载
+      const localData = localStorage.getItem(CONFIG.localStorageKey);
+      if (localData) {
+        try {
+          games = JSON.parse(localData).filter(game => game.id !== '_banner_config');
+          filterAndRender();
+          updateStats();
+          updateSyncStatus('已加载 ' + games.length + ' 款游戏 (本地缓存)', true);
+          return;
+        } catch (e) {}
+      }
+      
+      // 最后使用嵌入数据（离线备用）
+      if (typeof importedGames !== 'undefined' && importedGames.length > 0) {
+        games = importedGames.filter(game => game.id !== '_banner_config');
+        localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
+        localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
+        filterAndRender();
+        updateStats();
+        updateSyncStatus('已加载 ' + games.length + ' 款游戏 (离线)', true);
       }
     }
     
@@ -2667,77 +2643,6 @@
         }
       } catch (error) {
         console.log('后台同步失败（不影响使用）:', error);
-      }
-    }
-
-    // 强制刷新数据（清除缓存并重新加载）
-    async function forceReloadData() {
-      if (!confirm('确定要强制刷新数据吗？这将清除本地缓存并从服务器重新加载。')) {
-        return;
-      }
-      
-      // 清除本地缓存
-      localStorage.removeItem(CONFIG.localStorageKey);
-      localStorage.removeItem(CONFIG.localStorageTimeKey);
-      
-      updateSyncStatus('正在强制刷新...', true);
-      
-      try {
-        // 尝试从服务器获取
-        const response = await fetch(`${CONFIG.apiBaseUrl}/api/games?t=${Date.now()}`);
-        if (response.ok) {
-          const data = await response.json();
-          if (data.games && Array.isArray(data.games) && data.games.length > 0) {
-            games = data.games
-              .filter(game => game.id !== '_banner_config')
-              .map(game => ({
-                id: game.id,
-                name: game.cn || game.name || '',
-                nameEn: game.en || game.nameEn || '',
-                cover: game.cover || '',
-                category: game.type || game.category || '',
-                size: game.size || '',
-                description: game.desc || game.description || '',
-                downloadLinks: {
-                  baidu: game.link1 || game.baiduLink1 || '',
-                  baidu2: game.link2 || game.baiduLink2 || '',
-                  baidu3: game.link4 || game.baiduLink3 || '',
-                  thunder: game.link3 || game.thunderLink || ''
-                },
-                favorite: game.favorite || false,
-                isDrm: game.isDrm || false,
-                dateAdded: game.dateAdded || game.update || '',
-                updateTime: game.updateTime || null,
-                downloadsWeb: game.downloadsWeb || 0,
-                downloadsApp: game.downloadsApp || 0,
-                hot: game.hot || 0,
-                sortOrder: game.sortOrder !== undefined ? game.sortOrder : (game.id + 1000)
-              }));
-            
-            localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
-            localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
-            filterAndRender();
-            updateStats();
-            updateSyncStatus('已刷新 ' + games.length + ' 款游戏', true);
-            showToast('数据刷新成功！', 'success');
-            return;
-          }
-        }
-        throw new Error('API 返回空数据');
-      } catch (error) {
-        console.error('强制刷新失败:', error);
-        // 使用嵌入数据
-        if (typeof importedGames !== 'undefined' && importedGames.length > 0) {
-          games = importedGames.filter(game => game.id !== '_banner_config');
-          localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
-          localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());
-          filterAndRender();
-          updateStats();
-          updateSyncStatus('已加载 ' + games.length + ' 款游戏 (离线)', true);
-          showToast('已使用离线数据', 'info');
-        } else {
-          showToast('刷新失败，请检查网络连接', 'error');
-        }
       }
     }
 
