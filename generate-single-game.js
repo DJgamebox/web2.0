@@ -43,6 +43,25 @@ if (!game) {
 
 console.log(`找到游戏: ${game.name}`);
 
+// 读取网页专用描述（优先使用，不影响桌面客户端）
+const webDescPath = path.join(__dirname, 'web-descriptions.json');
+let webDescMap = {};
+let webShortDescMap = {};
+if (fs.existsSync(webDescPath)) {
+  try {
+    const webDescList = JSON.parse(fs.readFileSync(webDescPath, 'utf-8'));
+    webDescList.forEach(item => {
+      webDescMap[item.id] = item.description;
+      if (item.shortDescription) {
+        webShortDescMap[item.id] = item.shortDescription;
+      }
+    });
+    console.log(`📝 加载 ${webDescList.length} 个网页专用描述`);
+  } catch (e) {
+    console.warn('加载 web-descriptions.json 失败:', e.message);
+  }
+}
+
 // 读取模板
 const templatePath = path.join(__dirname, 'game-template.html');
 const template = fs.readFileSync(templatePath, 'utf-8');
@@ -62,7 +81,10 @@ const gameNameEn = game.nameEn || '';
 const gameCategory = game.category || '其他';
 const gameSize = game.size || '未知';
 const gameCover = game.cover || '';
-const gameDesc = game.description || `${gameName}是一款${gameCategory}游戏。本站提供${gameName}百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。`;
+  // 优先使用网页专用描述（SEO优化版），不影响桌面客户端
+  const gameDesc = webDescMap[game.id] || game.description || `${gameName}是一款${gameCategory}游戏。本站提供${gameName}百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。`;
+  // 短描述用于 meta description（搜索结果摘要），优先用专用短描述，否则截取长描述前150字
+  const shortDesc = webShortDescMap[game.id] || (gameDesc.length > 150 ? gameDesc.substring(0, 150) + '...' : gameDesc);
 const baiduLink1 = game.baiduLink1 || '';
 const baiduLink2 = game.baiduLink2 || '';
 const baiduLink3 = game.baiduLink3 || '';
@@ -96,9 +118,9 @@ const updateTime = formatDate(game.updateTime);
 let html = template;
 
 // 1. 替换标题和 meta 信息
-html = html.replace(/<title>.*?<\/title>/, `<title>${gameName}下载_${gameNameEn || gameName}_百度网盘_迅雷云盘_免费下载 - 游戏盒子</title>`);
-html = html.replace(/<meta name="description" content=".*?">/, `<meta name="description" content="${gameName}免费下载，提供百度网盘、迅雷云盘高速下载链接，${gameCategory}游戏，绿色免安装中文版，游戏盒子提供最新最全的单机游戏资源下载。">`);
-html = html.replace(/<meta name="keywords" content=".*?">/, `<meta name="keywords" content="${gameName}下载,${gameName}网盘,${gameName}百度云,${gameCategory}游戏下载,单机游戏网盘,游戏盒子">`);
+html = html.replace(/<title>.*?<\/title>/, `<title>${gameName}破解版下载_${gameNameEn || gameName}_百度网盘_迅雷云盘_免费下载 - 游戏盒子</title>`);
+html = html.replace(/<meta name="description" content=".*?">/, `<meta name="description" content="${shortDesc.replace(/"/g, '&quot;')}">`);
+html = html.replace(/<meta name="keywords" content=".*?">/, `<meta name="keywords" content="${gameName}破解版下载,${gameName}破解版,${gameName}网盘,${gameName}百度云,${gameCategory}游戏下载,单机游戏网盘,游戏盒子">`);
 html = html.replace(/<link rel="canonical" href=".*?">/, `<link rel="canonical" href="https://djgamebox.com/games/${gameId}.html">`);
 
 // 2. 替换面包屑导航 - 使用更精确的选择器

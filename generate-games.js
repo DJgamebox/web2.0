@@ -23,6 +23,21 @@ try {
 // 过滤掉非游戏数据（如 banner 配置）
 games = games.filter(game => game.id !== '_banner_config');
 
+// 读取网页专用描述（优先使用，不影响桌面客户端）
+const webDescPath = path.join(__dirname, 'web-descriptions.json');
+let webDescMap = {};
+if (fs.existsSync(webDescPath)) {
+  try {
+    const webDescList = JSON.parse(fs.readFileSync(webDescPath, 'utf-8'));
+    webDescList.forEach(item => {
+      webDescMap[item.id] = item.description;
+    });
+    console.log(`📝 加载 ${webDescList.length} 个网页专用描述`);
+  } catch (e) {
+    console.warn('加载 web-descriptions.json 失败:', e.message);
+  }
+}
+
 console.log(`找到 ${games.length} 个游戏`);
 
 // 读取模板
@@ -43,7 +58,8 @@ games.forEach((game, index) => {
   const gameCategory = game.category || '';
   const gameSize = game.size || '';
   const gameCover = game.cover || '';
-  const gameDesc = game.description || '';
+  // 优先使用网页专用描述（SEO优化版），不影响桌面客户端
+  const gameDesc = webDescMap[game.id] || game.description || '';
   const baiduLink1 = game.baiduLink1 || '';
   const baiduLink2 = game.baiduLink2 || '';
   const baiduLink3 = game.baiduLink3 || '';
