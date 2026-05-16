@@ -1036,49 +1036,47 @@
             };
             
             overlay.innerHTML = `
-                <div class="modal" style="max-width: 480px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); overflow: hidden;" onclick="event.stopPropagation()">
+                <div class="modal" style="max-width: 640px; background: var(--bg-card); border-radius: 12px; border: 1px solid var(--border-color); overflow: hidden;" onclick="event.stopPropagation()">
                     <div style="padding: 24px; text-align: center; border-bottom: 1px solid var(--border-color);">
                         <div style="font-size: 18px; font-weight: 600; color: var(--text-white); margin-bottom: 4px;">选择下载版本</div>
                         <div style="font-size: 13px; color: var(--text-secondary);">请根据您的需求选择合适的版本</div>
                     </div>
                     <div style="padding: 24px;">
-                        <div style="display: flex; flex-direction: column; gap: 16px;">
+                        <div style="display: flex; flex-direction: row; gap: 16px;">
                             <!-- 安装版 -->
                             <div onclick="downloadSpecificVersion('setup')" 
-                                 style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border: 2px solid var(--border-color); border-radius: 10px; cursor: pointer; transition: all 0.2s;"
+                                 style="flex: 1; display: flex; flex-direction: column; align-items: center; padding: 24px; background: var(--bg-light); border: 2px solid var(--border-color); border-radius: 10px; cursor: pointer; transition: all 0.2s;"
                                  onmouseover="this.style.borderColor='var(--accent-blue)'; this.style.background='var(--bg-hover)'"
                                  onmouseout="this.style.borderColor='var(--border-color)'; this.style.background='var(--bg-light)'">
-                                <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--accent-blue) 0%, #4a9fd8 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 16px;">
-                                    <i class="fas fa-download" style="font-size: 22px; color: #fff;"></i>
+                                <div style="width: 64px; height: 64px; background: linear-gradient(135deg, var(--accent-blue) 0%, #4a9fd8 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
+                                    <i class="fas fa-download" style="font-size: 28px; color: #fff;"></i>
                                 </div>
-                                <div style="flex: 1;">
-                                    <div style="font-size: 15px; font-weight: 600; color: var(--text-white); margin-bottom: 4px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5;">GameBox 1.1.7 安装版.exe</div>
-                                    <div style="font-size: 11px; color: var(--accent-blue); margin-top: 4px;">推荐：自动创建桌面快捷方式</div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.7 安装版.exe</div>
+                                    <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
-                                <i class="fas fa-chevron-right" style="color: var(--text-secondary);"></i>
                             </div>
                             
                             <!-- 便携版 -->
                             <div onclick="downloadSpecificVersion('portable')" 
-                                 style="display: flex; align-items: center; padding: 16px; background: var(--bg-light); border: 2px solid var(--border-color); border-radius: 10px; cursor: pointer; transition: all 0.2s;"
+                                 style="flex: 1; display: flex; flex-direction: column; align-items: center; padding: 24px; background: var(--bg-light); border: 2px solid var(--border-color); border-radius: 10px; cursor: pointer; transition: all 0.2s;"
                                  onmouseover="this.style.borderColor='var(--accent-green)'; this.style.background='var(--bg-hover)'"
                                  onmouseout="this.style.borderColor='var(--border-color)'; this.style.background='var(--bg-light)'">
-                                <div style="width: 48px; height: 48px; background: linear-gradient(135deg, var(--accent-green) 0%, #4a6b0f 100%); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-right: 16px;">
-                                    <i class="fas fa-usb" style="font-size: 22px; color: #fff;"></i>
+                                <div style="width: 64px; height: 64px; background: linear-gradient(135deg, var(--accent-green) 0%, #4a6b0f 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
+                                    <i class="fas fa-usb" style="font-size: 28px; color: #fff;"></i>
                                 </div>
-                                <div style="flex: 1;">
-                                    <div style="font-size: 15px; font-weight: 600; color: var(--text-white); margin-bottom: 4px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5;">GameBox 1.1.7 便携版.exe</div>
-                                    <div style="font-size: 11px; color: var(--accent-green); margin-top: 4px;">免安装：解压即用，可放U盘携带</div>
+                                <div style="text-align: center;">
+                                    <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.7 便携版.exe</div>
+                                    <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
-                                <i class="fas fa-chevron-right" style="color: var(--text-secondary);"></i>
                             </div>
                         </div>
                         
-                        <div style="margin-top: 20px; text-align: center;">
+                        <div style="margin-top: 24px; text-align: center;">
                             <button onclick="document.getElementById('versionSelectOverlay').remove();" 
-                                    style="padding: 10px 24px; background: transparent; border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-secondary); font-size: 13px; cursor: pointer; transition: all 0.2s;"
+                                    style="padding: 10px 32px; background: transparent; border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-secondary); font-size: 13px; cursor: pointer; transition: all 0.2s;"
                                     onmouseover="this.style.color='var(--text-white)'; this.style.borderColor='var(--text-white)'"
                                     onmouseout="this.style.color='var(--text-secondary)'; this.style.borderColor='var(--border-color)'">
                                 取消
