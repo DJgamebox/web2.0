@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>梦幻主义下载_Onirism_百度网盘_迅雷云盘_免费下载 - 游戏盒子</title>
     <meta name="description" content="梦幻主义免费下载，提供百度网盘、迅雷云盘高速下载链接，动作游戏，绿色免安装中文版，游戏盒子提供最新最全的单机游戏资源下载。">
-    <meta name="keywords" content="梦幻主义下载,梦幻主义网盘,梦幻主义百度云,动作游戏下载,单机游戏网盘,游戏盒子">
+    <meta name="keywords" content="梦幻主义下载,梦幻主义网盘,梦幻主义百度云,动作下载地址,单机游戏网盘,游戏盒子">
     <link rel="canonical" href="https://djgamebox.com/games/1850.html">
     <link rel="icon" href="../favicon.png?v=2" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -571,7 +571,7 @@
                 </div>
                 <div class="action-buttons">
                     <button onclick="downloadClient('detail')" class="action-btn desktop">
-                        <i class="fas fa-download"></i>下载桌面客户端
+                        <i class="fas fa-download"></i>下载游戏盒子桌面客户端
                     </button>
                     <button class="action-btn favorite" onclick="toggleFavorite()">
                         <i class="far fa-heart"></i><span id="favText">收藏</span>
@@ -581,7 +581,7 @@
         </div>
         
         <div class="download-section">
-            <h2 class="section-title"><i class="fas fa-download"></i>游戏下载</h2>
+            <h2 class="section-title"><i class="fas fa-download"></i>下载地址</h2>
             <div class="download-buttons" id="downloadButtons">
                 <a href="https://pan.baidu.com/s/1LHShighagoRYZVnXCTXtaA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1U0yMdgh6LgepbKKA8_NzFg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
             </div>
@@ -914,7 +914,7 @@
                 if (name) {
                     document.getElementById('gameName').textContent = name;
                     document.getElementById('breadcrumbName').textContent = name;
-                    document.title = name + ' - 游戏下载 - 游戏盒子';
+                    document.title = name + ' - 下载地址 - 游戏盒子';
                 }
                 
                 if (nameEn) {
@@ -999,7 +999,7 @@
             }
         });
         
-        // 下载桌面客户端（与主页保持一致）
+        // 下载游戏盒子桌面客户端（与主页保持一致）
         async function downloadClient(source = 'detail') {
             // 记录下载统计
             try {
@@ -1219,7 +1219,7 @@
             document.body.appendChild(overlay);
         }
     
-        // 记录游戏下载并跳转 - 5.27 新增
+        // 记录下载地址并跳转 - 5.27 新增
         async function recordGameDownload(gameId, link) {
             try {
                 await fetch('https://api.djgamebox.com/api/game-download', {
@@ -1235,7 +1235,7 @@
                     })
                 });
             } catch (error) {
-                console.error('记录游戏下载失败:', error);
+                console.error('记录下载地址失败:', error);
             }
             // 跳转
             window.open(link, '_blank');
