@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>蝙蝠侠：阿卡姆起源完整版下载_Batman: Arkham Origins_百度网盘_迅雷云盘_免费下载 - 游戏盒子</title>
     <meta name="description" content="蝙蝠侠：阿卡姆起源完整版免费下载，提供百度网盘、迅雷云盘高速下载链接，动作游戏，绿色免安装中文版，游戏盒子提供最新最全的单机游戏资源下载。">
-    <meta name="keywords" content="蝙蝠侠：阿卡姆起源完整版下载,蝙蝠侠：阿卡姆起源完整版网盘,蝙蝠侠：阿卡姆起源完整版百度云,动作下载地址,单机游戏网盘,游戏盒子">
+    <meta name="keywords" content="蝙蝠侠：阿卡姆起源完整版下载,蝙蝠侠：阿卡姆起源完整版网盘,蝙蝠侠：阿卡姆起源完整版百度云,动作游戏下载地址,单机游戏网盘,游戏盒子">
     <link rel="canonical" href="https://djgamebox.com/games/350.html">
     <link rel="icon" href="../favicon.png?v=2" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -581,7 +581,7 @@
         </div>
         
         <div class="download-section">
-            <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
+            <h2 class="section-title"><i class="fas fa-download"></i>游戏游戏下载地址</h2>
             <div class="download-buttons" id="downloadButtons">
                 <a href="https://pan.baidu.com/s/1IZ7qt0wzJwZECz4mBk9t-g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/17rZ0PR1Bi6ecv7XsePpe6A?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
             </div>
@@ -914,7 +914,7 @@
                 if (name) {
                     document.getElementById('gameName').textContent = name;
                     document.getElementById('breadcrumbName').textContent = name;
-                    document.title = name + ' - 下载地址 - 游戏盒子';
+                    document.title = name + ' - 游戏下载地址 - 游戏盒子';
                 }
                 
                 if (nameEn) {
@@ -1219,7 +1219,7 @@
             document.body.appendChild(overlay);
         }
     
-        // 记录下载地址并跳转 - 5.27 新增
+        // 记录游戏下载地址并跳转 - 5.27 新增
         async function recordGameDownload(gameId, link) {
             try {
                 await fetch('https://api.djgamebox.com/api/game-download', {
@@ -1235,7 +1235,7 @@
                     })
                 });
             } catch (error) {
-                console.error('记录下载地址失败:', error);
+                console.error('记录游戏下载地址失败:', error);
             }
             // 跳转
             window.open(link, '_blank');
