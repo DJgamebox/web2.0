@@ -85,7 +85,8 @@ games.forEach((game, index) => {
   html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg/g, gameCover);
 
   // 替换描述（匹配通用描述格式）
-  html = html.replace(/生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。/g, gameDesc);
+  // 替换游戏介绍段落（匹配任意游戏描述）
+  html = html.replace(/<p id="gameDesc">[\s\S]*?<\/p>/, `<p id="gameDesc">${gameDesc}</p>`);
 
   // 替换游戏大小（模板中硬编码的是"未知"，用于SEO）
   html = html.replace(/id="gameSize">未知</g, `id="gameSize">${gameSize || '未知'}<`);
