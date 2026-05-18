@@ -6,14 +6,16 @@ const API_URL = 'https://api.djgamebox.com/api/games';
 console.log('Fetching game data from cloud API...');
 
 https.get(API_URL, (res) => {
-  let data = '';
+  const chunks = [];
   
   res.on('data', (chunk) => {
-    data += chunk;
+    chunks.push(chunk);
   });
   
   res.on('end', () => {
     try {
+      const buffer = Buffer.concat(chunks);
+      const data = buffer.toString('utf8');
       const apiData = JSON.parse(data);
       const games = apiData.games || [];
       
