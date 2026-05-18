@@ -38,7 +38,7 @@ https.get(API_URL, (res) => {
         isDrm: game.isDrm || false,
         downloadsWeb: game.downloadsWeb || 0,
         downloadsApp: game.downloadsApp || 0,
-        updateTime: game.updateTime || Date.now()
+        updateTime: game.updateTime || game.update || Date.now()
       }));
       
       const output = `// 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
