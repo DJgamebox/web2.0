@@ -102,13 +102,23 @@ games.forEach((game, index) => {
   html = html.replace(/href="\.\.\/"/g, 'href="/"');
   html = html.replace(/href="\.\.\/games\//g, 'href="/games/');
 
-  // 替换模板中的下载链接为真实链接（支持4个链接）
-  html = html.replace(/https:\/\/pan\.baidu\.com\/s\/16BwFw5B81uIInzuA-tXoLw\?pwd=8888/g, baiduLink1 || '#');
-  html = html.replace(/https:\/\/pan\.baidu\.com\/s\/1s7Xf97oQ_6MwHQ_As5rdZQ\?pwd=6666/g, baiduLink2 || '#');
-  // 替换第3个百度链接（模板中硬编码的示例链接）
-  html = html.replace(/https:\/\/pan\.baidu\.com\/s\/1VeJWBXOXuBsl8czNjMhOUg\?pwd=8888/g, baiduLink3 || '#');
-  // 替换迅雷链接（模板中硬编码的示例链接）
-  html = html.replace(/https:\/\/pan\.xunlei\.com\/s\/VOqtxb9EuUW96dtxkAOL0vNSA1\?pwd=jrtd/g, thunderLink || '#');
+  // 动态生成下载按钮HTML（只生成有链接的按钮）
+  let downloadButtonsHtml = '';
+  if (baiduLink1) {
+    downloadButtonsHtml += `<a href="${baiduLink1}" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a>`;
+  }
+  if (baiduLink2) {
+    downloadButtonsHtml += `<a href="${baiduLink2}" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a>`;
+  }
+  if (baiduLink3) {
+    downloadButtonsHtml += `<a href="${baiduLink3}" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a>`;
+  }
+  if (thunderLink) {
+    downloadButtonsHtml += `<a href="${thunderLink}" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>`;
+  }
+  
+  // 替换模板中的下载按钮区域
+  html = html.replace(/<div class="download-buttons" id="downloadButtons">[\s\S]*?<\/div>/, `<div class="download-buttons" id="downloadButtons">${downloadButtonsHtml}</div>`);
   
   // 保存文件
   const outputPath = path.join(gamesDir, `${gameId}.html`);
