@@ -24,6 +24,9 @@ jobs:
         
     - name: Update data-embed.js from Cloud API
       run: node update-data-from-api.js
+    
+    - name: Sync game descriptions from Cloud API
+      run: node sync-descriptions.js
         
     - name: Generate Game Pages
       run: node generate-games.js
