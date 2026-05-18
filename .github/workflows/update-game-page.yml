@@ -30,6 +30,11 @@ jobs:
       run: |
         node update-data-from-api.js
         
+    - name: Update web-descriptions.json from API
+      run: |
+        echo "Updating web-descriptions.json for game ID: ${{ github.event.inputs.gameId }}"
+        node update-web-description.js ${{ github.event.inputs.gameId }}
+        
     - name: Generate specific game page
       run: |
         echo "Generating game page for ID: ${{ github.event.inputs.gameId }}"
@@ -40,6 +45,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add games/${{ github.event.inputs.gameId }}.html
+        git add web-descriptions.json
         git diff --staged --quiet || (git commit -m "Update game page: ${{ github.event.inputs.gameId }}" && git push)
       continue-on-error: true
         
