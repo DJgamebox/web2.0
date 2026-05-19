@@ -2528,7 +2528,10 @@
         const localData = localStorage.getItem(CONFIG.localStorageKey);
         if (localData) {
           try {
-            games = JSON.parse(localData).filter(game => game.id !== '_banner_config');
+            games = JSON.parse(localData).filter(game => game.id !== '_banner_config').map(game => ({
+              ...game,
+              sortOrder: game.sortOrder !== undefined ? game.sortOrder : (game.id + 1000)
+            }));
             filterAndRender();
             updateStats();
             updateSyncStatus('已加载 ' + games.length + ' 款游戏 (本地缓存)', true);
@@ -2573,6 +2576,7 @@
               isDrm: game.isDrm || false,
               dateAdded: game.dateAdded || game.update || '',
               updateTime: game.updateTime || game.update || Date.now(),
+              sortOrder: game.sortOrder !== undefined ? game.sortOrder : (game.id + 1000),
               downloadsWeb: game.downloadsWeb || 0,
               downloadsApp: game.downloadsApp || 0,
               hot: game.hot || 0
@@ -3379,13 +3383,6 @@
         });
       } else if (sortType === 'update') {
         // 按更新时间排序（下载链接修改时间，最新的在前）
-        // 先按默认顺序排一次，消除之前排序的影响
-        filteredGames.sort((a, b) => {
-          const orderA = a.sortOrder !== undefined ? a.sortOrder : (a.id + 1000);
-          const orderB = b.sortOrder !== undefined ? b.sortOrder : (b.id + 1000);
-          return orderA - orderB;
-        });
-        // 再按时间排序
         filteredGames.sort((a, b) => {
           const getTime = (game) => {
             // 优先使用 updateTime（数字时间戳）
@@ -3399,7 +3396,18 @@
             }
             return 0;
           };
-          return getTime(b) - getTime(a);
+          
+          const timeA = getTime(a);
+          const timeB = getTime(b);
+          
+          // 如果时间相同，按 sortOrder 排序
+          if (timeA === timeB) {
+            const orderA = a.sortOrder !== undefined ? a.sortOrder : (a.id + 1000);
+            const orderB = b.sortOrder !== undefined ? b.sortOrder : (b.id + 1000);
+            return orderA - orderB;
+          }
+          
+          return timeB - timeA; // 最新的在前
         });
       } else if (sortType === 'hot') {
         // 按下载热度排序（使用服务器统计的 downloadsWeb + downloadsApp，如果没有则使用 hot 字段）

@@ -419,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -515,6 +528,7 @@
     </div>
     <header class="header">
         <div class="header-left">
+            <a href="../" class="back-link" id="backLink"><i class="fas fa-arrow-left"></i>返回游戏列表</a>
             <img src="../favicon.png" alt="游戏盒子">
             <a href="../">游戏盒子</a>
             <button class="theme-toggle" onclick="toggleTheme()" title="切换主题">
@@ -592,7 +606,6 @@
             <p id="gameDesc">生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
         </div>
         
-        <a href="../" class="back-link" id="backLink"><i class="fas fa-arrow-left"></i>返回游戏列表</a>
     </div>
     
     <script>
