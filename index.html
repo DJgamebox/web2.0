@@ -2575,7 +2575,7 @@
               favorite: game.favorite || false,
               isDrm: game.isDrm || false,
               dateAdded: game.dateAdded || game.update || '',
-              updateTime: game.updateTime || game.update || Date.now(),
+              updateTime: game.updateTime || game.update || 0,
               sortOrder: game.sortOrder !== undefined ? game.sortOrder : (game.id + 1000),
               downloadsWeb: game.downloadsWeb || 0,
               downloadsApp: game.downloadsApp || 0,
@@ -2631,7 +2631,7 @@
             thunderLink: game.thunderLink || game.link3 || '',
             favorite: false,
             dateAdded: game.dateAdded || (game.updateTime ? new Date(game.updateTime).toLocaleDateString('zh-CN') : '') || (game.update ? new Date(game.update).toLocaleDateString('zh-CN') : ''),
-            updateTime: game.updateTime || game.update || Date.now(),
+            updateTime: game.updateTime || game.update || 0,
             isDrm: game.isDrm || false,
             downloadsWeb: game.downloadsWeb || 0,
             downloadsApp: game.downloadsApp || 0,
@@ -3400,14 +3400,18 @@
           const timeA = getTime(a);
           const timeB = getTime(b);
           
-          // 如果时间相同，按 sortOrder 排序
-          if (timeA === timeB) {
+          // 时间为0的排在最后（从未更新的游戏）
+          if (timeA === 0 && timeB === 0) {
+            // 如果都没有时间，按 sortOrder 排序
             const orderA = a.sortOrder !== undefined ? a.sortOrder : (a.id + 1000);
             const orderB = b.sortOrder !== undefined ? b.sortOrder : (b.id + 1000);
             return orderA - orderB;
           }
+          if (timeA === 0) return 1;  // A 没有时间，排后面
+          if (timeB === 0) return -1; // B 没有时间，排后面
           
-          return timeB - timeA; // 最新的在前
+          // 都有时间，最新的在前
+          return timeB - timeA;
         });
       } else if (sortType === 'hot') {
         // 按下载热度排序（使用服务器统计的 downloadsWeb + downloadsApp，如果没有则使用 hot 字段）
