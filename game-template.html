@@ -973,23 +973,28 @@
                 const link2 = game.baiduLink2 || game.link2 || '';
                 const link3 = game.baiduLink3 || game.link3 || '';
                 const link4 = game.thunderLink || game.link4 || '';
-                if (downloadContainer && (link1 || link2 || link3 || link4)) {
+                // 严格检查：必须是有效字符串且长度大于0
+                const hasLink1 = link1 && typeof link1 === 'string' && link1.trim().length > 0;
+                const hasLink2 = link2 && typeof link2 === 'string' && link2.trim().length > 0;
+                const hasLink3 = link3 && typeof link3 === 'string' && link3.trim().length > 0;
+                const hasLink4 = link4 && typeof link4 === 'string' && link4.trim().length > 0;
+                if (downloadContainer && (hasLink1 || hasLink2 || hasLink3 || hasLink4)) {
                     let linksHtml = '';
 
                     // 百度网盘链接1
-                    if (link1) {
+                    if (hasLink1) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link1}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘下载</a>`;
                     }
                     // 百度网盘链接2
-                    if (link2) {
+                    if (hasLink2) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link2}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用</a>`;
                     }
                     // 百度网盘链接3
-                    if (link3) {
+                    if (hasLink3) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link3}')" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">百度网盘备用2</a>`;
                     }
                     // 迅雷链接
-                    if (link4) {
+                    if (hasLink4) {
                         linksHtml += `<a href="javascript:void(0)" onclick="recordGameDownload(gameId, '${link4}')" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;vertical-align:middle;margin-right:6px;">迅雷下载</a>`;
                     }
                     
