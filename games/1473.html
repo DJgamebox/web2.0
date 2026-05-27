@@ -583,11 +583,14 @@
                         <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
-                <div class="action-buttons">
-                    <button onclick="downloadClient('detail')" class="action-btn desktop">
-                        <i class="fas fa-download"></i>下载游戏盒子桌面客户端
-                    </button>
-                    <button class="action-btn favorite" onclick="toggleFavorite()">
+                <div class="action-buttons" style="align-items: flex-start;">
+                    <div style="display: flex; flex-direction: column; align-items: center;">
+                        <button onclick="downloadClient('detail')" class="action-btn desktop">
+                            <i class="fas fa-download"></i>下载游戏盒子桌面客户端
+                        </button>
+                        <div style="font-size: 11px; color: #e74c3c; margin-top: 6px; text-align: center; white-space: nowrap;">（⚠️这个按钮不是游戏下载，游戏下载地址在下面）</div>
+                    </div>
+                    <button class="action-btn favorite" onclick="toggleFavorite()" style="align-self: flex-start;">
                         <i class="far fa-heart"></i><span id="favText">收藏</span>
                     </button>
                 </div>
