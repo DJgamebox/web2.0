@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1lLQUmTI9Mj8FmNJukZXsVQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1frAOZpNSC5VONyFNXSBYlw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1lLQUmTI9Mj8FmNJukZXsVQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1frAOZpNSC5VONyFNXSBYlw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">盟军敢死队3高清复刻重制版是一款即时战略游戏。本站提供盟军敢死队3高清复刻重制版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《盟军敢死队3 高清复刻重制版》是系列收官经典高清回归，三大战役（中欧、北非、苏联）全面重制，4K画质、流畅操作、界面优化升级。延续硬核战术潜入玩法，小队配合、敌后破坏、暗杀救援原汁原味，流程紧凑、难度适中、体验流畅，是经典二战战术游戏的完美复刻。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全战役、全关卡、全角色、全内容，PC中文版完整汉化，高清优化、流畅运行，兼容Win10/Win11。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>三部曲终章重制+三大战役+高清画质+紧凑流程+经典潜入战术</strong>打造，二战战术经典复刻神作。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>三大史诗战役</strong>：中欧、北非、苏联全景战场</li><li style="margin-bottom:8px;"><strong>高清复刻全面优化</strong>：4K纹理、光影、操作流畅升级</li><li style="margin-bottom:8px;"><strong>经典队员全员登场</strong>：六大精英角色技能齐全</li><li style="margin-bottom:8px;"><strong>流程紧凑爽快</strong>：关卡节奏快，难度适中，体验极佳</li><li style="margin-bottom:8px;"><strong>原版情怀完美还原</strong>：玩法、剧情、手感原汁原味</li></ul><p style="line-height:1.8;margin-top:24px;margin-bottom:24px;">二战经典复刻神作，无需联网，中文完整，情怀玩家必玩。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">三大战役全通关约15小时，高难度、全收集、挑战模式耐玩度极高。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;line-height:1.4;"><strong style="color:#e7435f;">[最低配置]</strong> Windows 10 | 4GB内存 | GTX 650 | 12GB空间<br><strong style="color:#e7435f;">[推荐配置]</strong> Windows 10/11 | 8GB内存 | GTX 1050Ti+ | SSD</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">配置友好，老旧电脑、笔记本均可高清流畅运行。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>队员分工+潜行推进+诱饵牵制+精准暗杀+快速通关</strong>，完成三大史诗敌后战役。</p><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>狙击手优先清场</strong>：远程解决高危敌人</li><li style="margin-bottom:8px;"><strong>地形掩体利用</strong>：沙漠、城镇、隧道隐蔽前进</li><li style="margin-bottom:8px;"><strong>道具牵制敌人</strong>：分散注意力，安全渗透</li><li style="margin-bottom:8px;"><strong>关卡节奏紧凑</strong>：规划路线，高效完成任务</li></ul><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，体验盟军敢死队3复刻版，畅玩三部曲终章！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

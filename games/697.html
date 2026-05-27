@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1tDw92f1VIBE9a5xJHwBoIw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1CZ6JYOLiX1H9ORr0HjuFWw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1InG3kFDa6VCxhVNwEEssVA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VO1EfvahnRyvg16MmbrdAJELA1?pwd=y3da" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1tDw92f1VIBE9a5xJHwBoIw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1CZ6JYOLiX1H9ORr0HjuFWw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1InG3kFDa6VCxhVNwEEssVA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VO1EfvahnRyvg16MmbrdAJELA1?pwd=y3da" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">钢铁雄心4是一款策略游戏。本站提供钢铁雄心4百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《钢铁雄心4》是由<strong>Paradox</strong>开发的二战题材顶级大战略兵棋模拟神作。玩家执掌任意国家，从政治、工业、陆军、空军、海军全方位指挥，改写二战历史，体验最真实、最硬核的世界大战策略推演，是军事策略爱好者的终极之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+全DLC、国策、模组、国家，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>二战历史推演+国家经营+工业建设+三军作战+外交国策</strong>展开，极致硬核、细节拉满，真实还原全球战争的每一个环节。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全国家可玩</strong>：全球任意国家均可选择，小国也能逆天改命</li><li style="margin-bottom:8px;"><strong>深度国策树</strong>：历史线/虚构线双路线，决定国家命运</li><li style="margin-bottom:8px;"><strong>三军全指挥</strong>：陆军师编制、空军编队、海军舰队完全自定义</li><li style="margin-bottom:8px;"><strong>工业+资源系统</strong>：工厂、资源、后勤直接决定战争胜负</li><li style="margin-bottom:8px;"><strong>海量模组支持</strong>：现代、冷战、魔幻等模组，玩法无限扩展</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机大战略游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、教程，支持创意工坊模组。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">单局二战通关约20–40小时，全国家体验、全成就、模组游玩总时长超数百小时。硬核度极高，适合军事爱好者、历史策略游戏玩家。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+汉化补丁+优化</strong>，解锁全部国家与国策，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 7 64位 / i5-2400 / 4GB内存 / HD 4000 / 4GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/Win11 64位 / i7-8700 / 8GB+内存 / GTX 1050Ti / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K，大后期优化到位，低配也能流畅运行世界大战。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒国家推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手首选：<strong>德国、美国、苏联</strong>，工业强、军队多、容错率高，轻松熟悉工业、陆军、作战三大核心系统。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心玩法技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>工业优先拉满</strong>：民用工厂转军用工厂，战争核心就是产能</li><li style="margin-bottom:8px;"><strong>陆军编制核心</strong>：新手用7步2炮，攻防均衡、性价比极高</li><li style="margin-bottom:8px;"><strong>后勤不能断</strong>：补给红线=溃败，永远保证部队补给畅通</li><li style="margin-bottom:8px;"><strong>空军制空优先</strong>：制空权拿到手，陆军作战效率翻倍</li><li style="margin-bottom:8px;"><strong>国策稳步点</strong>：不贪快，按节奏点国策，稳定发展不崩盘</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先完成教程熟悉基础操作，从德国或美国开局，专注工业建设+陆军编制，熟悉后再尝试外交、海军、空降等高级战术，逐步征服世界。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 三军顶配编制</h4><p style="line-height:1.8;margin-bottom:16px;">陆军：装甲师+摩步师突破防线；空军：制空+近地支援全覆盖；海军：航母舰队制海，立体作战体系碾压对手。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高阶战略战术</h4><p style="line-height:1.8;margin-bottom:16px;">闪电战突破、包饺子围歼、空降偷袭、海峡封锁，用真实军事战术以少胜多；工业布局、资源垄断、外交合纵连横，不战而屈人之兵。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 模组拓展玩法</h4><p style="line-height:1.8;margin-bottom:16px;">安装现代战争、冷战、魔幻等模组，彻底脱离二战，体验全新世界观与作战体系，让游戏寿命无限延长。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，执掌国家命运，改写二战历史，称霸全球！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

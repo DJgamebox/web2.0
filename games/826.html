@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1Ge6fwCpYnlBMPnOFLp0VGw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1AGSYB-IW416eMSEwDa14kA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1Ge6fwCpYnlBMPnOFLp0VGw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1AGSYB-IW416eMSEwDa14kA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">骑马与砍杀2：霸主/骑马与砍杀2：领主是一款角色扮演游戏。本站提供骑马与砍杀2：霸主/骑马与砍杀2：领主百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《骑马与砍杀2：霸主》是由TaleWorlds开发发行的**史诗级中世纪战争沙盒大作**，作为系列正统续作，全面升级画面、战斗、内政、军团系统。玩家将从一介平民起步，招募军队、发展领地、合纵连横、征战大陆，最终建立属于自己的帝国，称霸中世纪战场。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全阵营、全领地、全兵种、全DLC，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>中世纪沙盒征战+军团指挥+冷兵器格斗+领地经营+外交联姻</strong>打造，战斗写实、经营深度、自由度拉满，从士兵到帝王的沉浸式成长体验。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>写实冷兵器战斗</strong>：骑马冲锋、近战格斗、弓箭射击，手感真实硬核</li><li style="margin-bottom:8px;"><strong>超大军团指挥</strong>：指挥数百人军团，布阵、冲锋、包围、战术自由</li><li style="margin-bottom:8px;"><strong>领地经营建设</strong>：建造城堡、发展经济、征兵、训练顶级军团</li><li style="margin-bottom:8px;"><strong>六大阵营可选</strong>：帝国、巴旦尼亚、库赛特等，风格完全不同</li><li style="margin-bottom:8px;"><strong>自由人生路线</strong>：商人、雇佣兵、领主、帝王、强盗，随心所欲</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">单机沙盒巅峰，无需联网，中文完整汉化，玩法自由、耐玩度爆表。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约50–60小时，沙盒模式、统一大陆、全成就可玩数百小时以上。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+全DLC+全解锁+优化补丁</strong>，稳定无闪退、运行丝滑。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 750Ti / 60GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持4K、高帧率，中世纪战场、城堡、人物建模写实精美，优化出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒发展路线</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>跑商赚钱+招募低级兵+做任务提升声望</strong>，稳扎稳打积累实力。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>骑兵最强势</strong>：前期招募骑兵，冲锋碾压步兵军团</li><li style="margin-bottom:8px;"><strong>弓箭远程消耗</strong>：先远程削弱，再近战收割</li><li style="margin-bottom:8px;"><strong>布阵关键</strong>：步兵前排抗伤，骑兵侧翼包抄</li><li style="margin-bottom:8px;"><strong>跑商是核心</strong>：低买高卖，快速积累启动资金</li><li style="margin-bottom:8px;"><strong>声望与荣誉</strong>：提升后可招募强力兵种、成为领主</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">前期不要主动开战，专注跑商与任务，积累资金与军队后再攻打城堡，逐步扩张统一大陆。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 最强军团搭配</h4><p style="line-height:1.8;margin-bottom:16px;">帝国精锐步兵+精英骑兵+神射手，三军配合，横扫全大陆所有阵营。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 领地高效经营</h4><p style="line-height:1.8;margin-bottom:16px;">优先升级经济建筑，稳定税收与征兵速度，多城堡联动发展，实力暴涨。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 统一大陆战术</h4><p style="line-height:1.8;margin-bottom:16px;">远交近攻、逐个击破，联姻结盟减少敌人，集中兵力攻占核心城堡，快速统一全境。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，执掌铁血军团，建立属于你的中世纪帝国！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

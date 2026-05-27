@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/17tk1gPptrY78iTO0AxvYmw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1z6NTwI9H3y6G4zt6sndMdg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/17tk1gPptrY78iTO0AxvYmw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1z6NTwI9H3y6G4zt6sndMdg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">地铁2033重制版是一款射击游戏。本站提供地铁2033重制版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《地铁2033 重制版》是地铁系列开山之作高清重制，核战后的莫斯科地铁成为人类最后的避难所，玩家扮演阿尔乔姆从隧道深处出发，完成生死送信任务，面对黑暗中的变异巨兽、诡异灵异现象与残酷人性。重制版全面升级画质、光影、流畅度，完美还原原著小说氛围，是末日生存游戏的起源经典。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全剧情、全关卡、全武器、全装备，PC中文版完整汉化，高清优化、流畅运行，兼容Win10/Win11。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>地铁系列起源+重制高清画质+隧道生存+恐怖变异+原著剧情还原</strong>打造，末日生存开山神作。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>系列开山经典重制</strong>：地铁宇宙起源之作</li><li style="margin-bottom:8px;"><strong>画质全面升级</strong>：模型、纹理、光影、流畅度优化</li><li style="margin-bottom:8px;"><strong>黑暗隧道生存</strong>：压抑、恐怖、沉浸式拉满</li><li style="margin-bottom:8px;"><strong>变异怪物+灵异现象</strong>：恐怖感、压迫感顶级</li><li style="margin-bottom:8px;"><strong>原著小说完美还原</strong>：世界观、剧情高度贴合</li></ul><p style="line-height:1.8;margin-top:24px;margin-bottom:24px;">末日生存起源神作，无需联网，中文完整，全玩家必收藏。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情通关约12小时，全探索、全收集、挑战模式可玩数十小时。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;line-height:1.4;"><strong style="color:#e7435f;">[最低配置]</strong> Windows 10 | 4GB内存 | GTX 650 | 15GB空间<br><strong style="color:#e7435f;">[推荐配置]</strong> Windows 10/11 | 8GB内存 | GTX 1050Ti+ | SSD</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">配置极低，老旧电脑、笔记本均可高清流畅运行。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>防毒面具维护+潜行躲避+资源收集+隧道探索+剧情体验</strong>，开启地铁系列最初的冒险。</p><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>防毒面具是生命</strong>：破损、缺过滤器直接致命</li><li style="margin-bottom:8px;"><strong>潜行优先于战斗</strong>：资源匮乏，避免正面冲突</li><li style="margin-bottom:8px;"><strong>黑暗环境谨慎前进</strong>：怪物随时突袭</li><li style="margin-bottom:8px;"><strong>剧情沉浸式体验</strong>：原著级世界观，震撼深刻</li></ul><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，体验地铁2033重置版，感受末日起源！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

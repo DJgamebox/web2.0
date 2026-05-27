@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1X3BHaS0cx3psNlyt_Ql9ow?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1jkdvj6M0IXgeceCN6VCAaQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1X3BHaS0cx3psNlyt_Ql9ow?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1jkdvj6M0IXgeceCN6VCAaQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">全面战争：战锤3是一款即时战略游戏。本站提供全面战争：战锤3百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《全面战争：战锤3》是由<strong>Creative Assembly</strong>开发的<strong>奇幻策略战争大作</strong>。本作以战锤奇幻世界为舞台，汇聚恶魔、震旦、基斯里夫、混沌等经典阵营，玩家将统领军团征战全球，指挥千军万马展开史诗级战场对决，体验最震撼的奇幻全面战争。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部阵营、兵种、传奇领主与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>回合制经营+即时战略战场</strong>双模式展开，拥有系列最大规模战场与最丰富阵营。玩家可建设城池、招募兵种、培养领主、发动史诗战争，巨龙、巨兽、恶魔、机甲全登场，战场特效炸裂，策略深度与视觉冲击拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>多奇幻阵营：</strong>混沌、震旦、基斯里夫、色孽、恐虐等全势力登场</li><li style="margin-bottom:8px;"><strong>史诗巨兽战：</strong>巨龙、巨人、恶魔、机甲激战，战场场面宏大</li><li style="margin-bottom:8px;"><strong>双模式玩法：</strong>回合经营+即时战场，战略战术双重体验</li><li style="margin-bottom:8px;"><strong>高清战场特效：</strong>魔法、炮火、巨兽冲锋特效震撼，画质顶级</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机策略游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和任务，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">单阵营主线时长约30-40小时，全阵营收集、传奇战役、多人对战总游玩时长超数百小时。兵种数量上千、战场单位过万，AI智能极高，战争场面与策略性达到系列巅峰。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、传奇领主、兵种皮肤、地图关卡，解锁全部势力与内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1060 / 80GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700K / 16GB内存 / RTX 3070 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化出色，低配流畅运行，高配可开启全特效享受万人大战画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 阵营选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐选择<strong>震旦天朝</strong>或<strong>基斯里夫</strong>，兵种均衡、防御稳定、操作简单，容错率极高。熟悉机制后再体验混沌等进攻型阵营，快速掌握战争节奏。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战争技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>阵型克制：</strong>长矛抗骑兵、弓箭射步兵、巨兽冲后排</li><li style="margin-bottom:8px;"><strong>领主技能：</strong>关键团战释放魔法，扭转战局</li><li style="margin-bottom:8px;"><strong>侧翼包抄：</strong>绕后攻击敌人薄弱后排，快速瓦解阵型</li><li style="margin-bottom:8px;"><strong>守城优先：</strong>弱势时利用城池防御消耗敌人，稳扎稳打</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 经营技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先发展经济与粮食，再扩建军队。合理建设城池建筑，提升兵种战力与经济收入。及时合邦与外交，避免多线开战，稳步扩张统一大陆。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战场微操</h4><p style="line-height:1.8;margin-bottom:16px;">利用地形优势伏击敌军，魔法与巨兽配合清理敌方核心单位。远程火力压制+近战僵持+侧翼包抄，一套战术轻松击溃顶级敌军。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 兵种搭配</h4><p style="line-height:1.8;margin-bottom:16px;">远程、近战、骑兵、巨兽均衡搭配，无短板阵容。针对敌方阵营调整配比，克制对手兵种，以最小伤亡换取最大胜利。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 传奇领主养成</h4><p style="line-height:1.8;margin-bottom:16px;">优先点核心技能与魔法，装备强力神器。培养高等级领主带队冲锋，大幅提升军团属性，成为战场核心战力，轻松碾压敌军。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的战锤奇幻战争之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

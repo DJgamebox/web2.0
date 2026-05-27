@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1GNAYGvf27mBAzgo4ThmRqA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1r6LG4Xr_7SYjeabQit6OAQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1LBZ3h-zdp8kwV7rT-_Cehw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOEKhV9BDYgLjl6t5yXa7A_QA1?pwd=gdd5" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1GNAYGvf27mBAzgo4ThmRqA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1r6LG4Xr_7SYjeabQit6OAQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1LBZ3h-zdp8kwV7rT-_Cehw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOEKhV9BDYgLjl6t5yXa7A_QA1?pwd=gdd5" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战地5/战地风云5是一款射击游戏。本站提供战地5/战地风云5百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战地5》是EA推出的二战题材次世代FPS大作，真实还原二战战场、武器、载具、战役，寒霜引擎打造电影级画质，破坏效果、物理反馈、战场氛围全面升级。游戏拥有超大地图、64人联机、小队系统、建造防御工事玩法，单人战争故事剧情催泪震撼，是二战题材射击游戏的巅峰之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全剧情、全武器、全载具、全地图、全防御工事玩法，PC中文版完整汉化，4K高清、高帧率流畅运行，兼容Win10/Win11。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>真实二战战场+64人小队对战+建造工事+全载具作战+战争故事</strong>打造，二战题材射击天花板。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>真实二战还原</strong>：经典武器、坦克、战机、战役全面复刻</li><li style="margin-bottom:8px;"><strong>小队+工事玩法</strong>：建造掩体、机枪位、防御工事，玩法创新</li><li style="margin-bottom:8px;"><strong>电影级画质</strong>：寒霜引擎光影、天气、破坏效果拉满</li><li style="margin-bottom:8px;"><strong>海陆空载具大战</strong>：虎式坦克、喷火战机、轰炸机自由驾驶</li><li style="margin-bottom:8px;"><strong>单人战争故事</strong>：沉浸式剧情，震撼又催泪</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">二战题材FPS神作，无需联网，中文完整，射击与剧情党必玩。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">单人战争故事通关约10小时，多人对战、工事玩法拥有无限时长。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;line-height:1.4;"><strong style="color:#e7435f;">[最低配置]</strong> Windows 10 | i5-6600K | 8GB内存 | GTX 1050Ti | 50GB空间<br><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 | i7+ | 16GB内存 | RTX 2060+ | SSD</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">次世代画质，优化出色，中高配电脑体验极致流畅。</p><h3 style="line-height:1.8;margin-bottom:16px;">【新手攻略】</h3><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>小队组队+建造防御工事+利用地形+二战武器熟悉+载具支援</strong>，轻松称霸二战战场。</p><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>工事建造核心</strong>：搭建掩体、机枪阵地，提升生存与输出</li><li style="margin-bottom:8px;"><strong>二战武器特性</strong>：栓动步枪、突击步枪、轻机枪玩法各异</li><li style="margin-bottom:8px;"><strong>坦克装甲对抗</strong>：虎式、谢尔曼正面交锋，装甲对决爽感拉满</li><li style="margin-bottom:8px;"><strong>动态天气战场</strong>：雨天、雾天隐蔽突袭，战术更加丰富</li></ul><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，重返二战战场，体验最真实的战地风云！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1oCvImUyQ2q6w0hIyTtdAOg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/17hVt2ajkQKWHPzyKXarGXA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOD0bpI0VwLb0DIzV8vSmgn5A1?pwd=v9hg" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1oCvImUyQ2q6w0hIyTtdAOg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/17hVt2ajkQKWHPzyKXarGXA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.xunlei.com/s/VOD0bpI0VwLb0DIzV8vSmgn5A1?pwd=v9hg" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">三国志8威力加强版/三国志8威力加强版重制版是一款策略游戏。本站提供三国志8威力加强版/三国志8威力加强版重制版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《三国志8威力加强版》是光荣特库摩经典三国RPG+策略神作，主打全武将扮演、自由人生、羁绊养成、内政战争一体化玩法，是系列最具沉浸感的经典版本。重制版在原版基础上升级高清画质、优化UI、适配现代系统、提升流畅度，怀旧与体验双在线。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁经典版+重制版双内容、全剧本、全武将、全羁绊、全宝物、全剧情，PC中文版完整汉化，兼容Win10/Win11，高清优化稳定运行。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>全武将自由扮演+羁绊关系系统+结婚育子+内政战争+威力加强专属功能+重制版高清升级</strong>打造，从一介布衣到帝王，人生路线完全自由。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>双版本合一</strong>：经典怀旧版+高清重制版，一次下载双份体验</li><li style="margin-bottom:8px;"><strong>全武将扮演</strong>：三国任意武将均可操作，自由度天花板</li><li style="margin-bottom:8px;"><strong>羁绊/结婚/育子</strong>：结交兄弟、娶妻生子、培养后代传承霸业</li><li style="margin-bottom:8px;"><strong>威力加强版专属</strong>：新增编辑器、难度、剧情、特技、隐藏要素</li><li style="margin-bottom:8px;"><strong>重制版升级</strong>：高清画质、优化操作、现代系统适配、全屏流畅</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">单机三国RPG巅峰之作，无需联网，中文完整，新手老手都能轻松沉浸。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">单剧本通关约25–35小时，全羁绊、全育子、全剧本、全收集可玩数百小时。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>经典PK版+重制版+全解锁+高清优化</strong>，全Windows系统完美兼容。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;line-height:1.4;"><strong style="color:#e7435f;">[经典版配置]</strong> Windows全适配 | 2GB内存 | 集显 | 2GB空间<br><strong style="color:#3498db;">[重制版配置]</strong> Win10/Win11 | 4GB内存 | GTX1050 | 10GB空间</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">经典版低配畅玩，重制版高清精致，画风怀旧细腻，战斗演出更震撼。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>选择君主/知名武将+提升羁绊+学习技能+稳内政再征战</strong>，快速上手养成+战争双系统。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>武将羁绊是核心</strong>：亲密队友上阵触发合击，战力暴涨</li><li style="margin-bottom:8px;"><strong>技能全面养成</strong>：武艺、智谋、内政、水军、特技全面提升</li><li style="margin-bottom:8px;"><strong>结婚育子传承</strong>：培养强力后代，打造世代霸业家族</li><li style="margin-bottom:8px;"><strong>兵种搭配出战</strong>：骑兵突击、步兵坚守、弓兵压制、计谋控场</li><li style="margin-bottom:8px;"><strong>远交近攻扩张</strong>：先结盟弱敌，集中兵力消灭强敌</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先体验武将养成与羁绊系统，熟悉内政与战斗逻辑，再逐步扩张统一，体验最自由的三国人生。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><p style="line-height:1.8;margin-bottom:16px;">自建全能武将+结义五虎将+娶美女武将+培养顶级后代+统一天下称帝，完美霸业一条龙。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，体验最自由三国RPG，书写你的乱世传奇！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1O1CN7UivgP43zjcrMLfZKw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1rPL40-O7OJ9FSR9HWnykcQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1O1CN7UivgP43zjcrMLfZKw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1rPL40-O7OJ9FSR9HWnykcQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">侠盗猎车手：罪恶都市（经典版/重制版）是一款动作游戏。本站提供侠盗猎车手：罪恶都市（经典版/重制版）百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《侠盗猎车手：罪恶都市》是GTA系列最经典、人气最高的神作之一，80年代迈阿密风情都市，阳光沙滩、跑车美女、黑帮斗争、热带风情完美还原。游戏提供经典原版与高清重制版双版本，自由犯罪、载具竞速、枪战暗杀、房产经营、全地图探索玩法齐全，是无数玩家的童年回忆与GTA启蒙之作，耐玩度与情怀双双拉满。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁经典版+重制版双版本、全剧情、全载具、全武器、全地图，PC中文版完整汉化，高清优化、流畅运行，支持Win7/Win10/Win11。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>80年代迈阿密风情+双版本畅玩+自由犯罪+载具竞速+童年怀旧经典</strong>打造，GTA系列人气天花板。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>经典+重制双版本</strong>：怀旧画质与高清画质自由切换</li><li style="margin-bottom:8px;"><strong>80年代热带风情</strong>：迈阿密海滩、跑车、音乐完美还原</li><li style="margin-bottom:8px;"><strong>全载具全武器解锁</strong>：跑车、摩托、飞机、直升机全可驾驶</li><li style="margin-bottom:8px;"><strong>童年回忆神作</strong>：无数玩家的GTA启蒙之作</li><li style="margin-bottom:8px;"><strong>全系统兼容</strong>：老旧电脑、新电脑均可流畅运行</li></ul><p style="line-height:1.8;margin-top:24px;margin-bottom:24px;">GTA史上最经典神作，无需联网，中文完整，人人必玩。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约20小时，100%完成度+自由探索无限乐趣。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;line-height:1.4;"><strong style="color:#e7435f;">[最低配置]</strong> Windows 7 | 单核CPU | 1GB内存 | 集成显卡 | 5GB空间<br><strong style="color:#e7435f;">[推荐配置]</strong> Windows 10/11 | 双核CPU | 4GB内存 | 独立显卡 | SSD</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">配置极低，所有电脑均可完美流畅运行。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>任务推进+载具收集+房产经营+飞机驾驶+都市探索</strong>，称霸罪恶都市。</p><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>驾驶飞机直升机</strong>：全地图飞行探索，乐趣十足</li><li style="margin-bottom:8px;"><strong>房产经营系统</strong>：购买资产、赚钱称霸都市</li><li style="margin-bottom:8px;"><strong>80年代经典音乐</strong>：电台音乐原汁原味</li><li style="margin-bottom:8px;"><strong>童年回忆重现</strong>：重温当年最纯粹的快乐</li></ul><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，体验GTA罪恶都市，重温童年最经典的开放世界！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1HSKQ8gj2pcJhZXWoIWwxug?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1d19ZLFp88gAQdMDj9qXEPQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1HSKQ8gj2pcJhZXWoIWwxug?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1d19ZLFp88gAQdMDj9qXEPQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战争之人：突击小队是一款即时战略游戏。本站提供战争之人：突击小队百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战争之人：突击小队》是战争之人系列的经典开山之作，也是二战硬核即时战略游戏的标杆作品，游戏以真实二战为背景，包含苏德美日英五大阵营，主打超高精度的微观战术指挥玩法，士兵、载具、弹药、掩体全细节模拟，战术深度与真实感拉满，是无数RTS玩家的启蒙神作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体与全部阵营关卡，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是经典<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置即可畅玩。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏以**微观战术操控**为核心，区别于传统大规模RTS，玩家可以精准指挥每一名士兵、每一辆坦克，管理弹药装填、装备拾取、燃料消耗、装甲击穿等细节，场景物理破坏真实，房屋、树木、墙体均可摧毁，战术选择自由且硬核。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>经典二战RTS：</strong>战争之人系列奠基之作，玩法纯粹且硬核</li><li style="margin-bottom:8px;"><strong>五大阵营参战：</strong>苏德美日英全线登场，兵种载具完全不同</li><li style="margin-bottom:8px;"><strong>极致细节模拟：</strong>弹药、装甲、装备、状态全真实还原</li><li style="margin-bottom:8px;"><strong>全破坏战场：</strong>地形建筑可摧毁，战场环境动态变化</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作<strong>单机游戏</strong>内容完整，离线即可体验全部战役关卡，无需联网。<strong>中文绿色</strong>版汉化精准完整，界面、兵种、武器全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏包含五大阵营专属战役，数十张经典二战地图，上百种士兵、坦克、火炮、飞机单位，单人游玩时长超40小时。游戏优化成熟，运行稳定，AI智能度高，巡逻、警戒、进攻逻辑真实，关卡挑战性与策略性兼备。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的<strong>破解版</strong>已整合汉化与优化补丁，完美兼容Win10/Win11系统，<strong>网盘</strong>下载完整不缺失，老旧电脑也能流畅运行，是入坑二战RTS的首选作品。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 2GB内存 / GTX 450 / 8GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#e74c3c;">[推荐配置]</strong> Windows 10/11 / i5-8400 / 4GB内存 / GTX 650 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏配置要求极低，十年前电脑均可流畅运行，画质清晰，战场细节表现出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手战术技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先利用掩体作战，步兵绝对不要在开阔地带冲锋。对抗坦克必须使用反坦克武器，攻击侧面与尾部装甲。合理分配弹药，不同枪械弹药不通用，优先拾取战场物资维持小队战斗力。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗生存指南</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>掩体生存法则：</strong>墙体、战壕、废墟是步兵保命核心</li><li style="margin-bottom:8px;"><strong>坦克弱点攻击：</strong>侧后装甲最薄弱，正面难以击穿</li><li style="margin-bottom:8px;"><strong>火力搭配：</strong>机枪+步枪+反坦克单位组合最强</li><li style="margin-bottom:8px;"><strong>侦查优先：</strong>提前标记敌人，避免盲目推进被伏击</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关进阶思路</h4><p style="line-height:1.8;margin-bottom:24px;">战役关卡以稳扎稳打为主，逐步占领关键地形，分割包围敌人。不追求大规模冲锋，小规模精英小队战术效率最高。熟悉单位特性后，可实现零伤亡通关，硬核策略乐趣十足。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，体验经典二战战术战场！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1a2pBcKPy5dI7Pc4b_HIqwg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1IemH_OnK-7pMWgv9uiGHFQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1a2pBcKPy5dI7Pc4b_HIqwg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1IemH_OnK-7pMWgv9uiGHFQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">世界树的迷宫2：诸王的圣杯 重制版是一款角色扮演游戏。本站提供世界树的迷宫2：诸王的圣杯 重制版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《世界树的迷宫2：诸王的圣杯 重制版》是由<strong>Atlus</strong>开发的经典硬核迷宫探索角色扮演大作。本作高清重制二代经典内容，在初代基础上新增全新职业、更复杂的立体迷宫、强力BOSS与剧情，延续第一视角探索、手绘地图、回合制战斗核心玩法，带来更深度、更具挑战性的DRPG体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、职业、迷宫、道具与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>立体迷宫探索+全新职业体系+手绘地图标记+策略回合制战斗</strong>展开，重制版全面优化画质、操作、UI。玩家组建5人探险队，挑战多层立体迷宫、陷阱机关、强力FOE，自由搭配全新职业，亲手绘制地图，揭开诸王圣杯的秘密，养成与探索深度全面升级。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全新重制画质：</strong>高清建模、场景、特效优化，体验全面升级</li><li style="margin-bottom:8px;"><strong>新增特色职业：</strong>侍、枪手、符文法师等新职业登场，配队更自由</li><li style="margin-bottom:8px;"><strong>立体复杂迷宫：</strong>多层联动、陷阱、传送、隐藏路线设计精巧</li><li style="margin-bottom:8px;"><strong>深度养成系统：</strong>技能树、装备锻造、小队阵型，策略性拉满</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机角色扮演游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约35-40小时，全迷宫探索、全职业解锁、全收集、全成就总游玩时长超80小时。难度略高于初代，迷宫设计更精巧，适合喜欢硬核DRPG、迷宫探索的玩家。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全职业解锁、全地图存档、高清优化补丁、外观皮肤，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 4GB内存 / HD 4400 / 6GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-6500 / 8GB内存 / GTX 950 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化极佳，老旧电脑也能流畅运行，体验二代重制版经典内容。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒队伍推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐阵容：<strong>圣骑士（主坦）+侍（物理输出）+符文法师（魔法输出）+医者（治疗）+游侠（辅助）</strong>，攻防奶辅齐全，容错率高，轻松应对前期迷宫与BOSS。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 探索必备技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>地图精细标记：</strong>标记陷阱、传送阵、FOE移动路线，避免翻车</li><li style="margin-bottom:8px;"><strong>立体迷宫记层：</strong>多层迷宫牢记上下层对应位置，防止迷路</li><li style="margin-bottom:8px;"><strong>FOE绝对避战：</strong>前期战力不足，绕开移动FOE，满级再回头收割</li><li style="margin-bottom:8px;"><strong>补给不贪刀：</strong>血量蓝量不足立即回城，防止团灭丢失经验</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先完成城镇委托获取资源，解锁锻造与职业技能。一层一层稳步探索，不要越级深入，升级装备、点满核心技能后再挑战强敌，平稳推进剧情。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 职业与技能养成</h4><p style="line-height:1.8;margin-bottom:16px;">技能点优先点满被动加成与核心大招，后期解锁副职业系统，混搭技能打造强力小队。装备优先锻造高防御、高回复套装，提升队伍续航与攻坚能力。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 迷宫高效开荒</h4><p style="line-height:1.8;margin-bottom:16px;">完整绘制全楼层地图，解锁全部隐藏道路与稀有宝箱。利用回城道具快速补给刷级，收集素材锻造顶级装备，轻松碾压高难度迷宫与BOSS。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS与FOE攻略</h4><p style="line-height:1.8;margin-bottom:16px;">战前存档补满状态，坦克拉仇恨、奶妈全程抬血、输出爆发伤害。FOE观察移动轨迹，卡间隙偷袭；BOSS找准攻击规律，闪避关键技能，稳扎稳打完成击杀。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的诸王圣杯迷宫探险之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

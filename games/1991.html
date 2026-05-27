@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1BJ3X4MTU8crxXg7RD5IuDQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Mmw570ZY7yTk9AEahYfP3g?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1BJ3X4MTU8crxXg7RD5IuDQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Mmw570ZY7yTk9AEahYfP3g?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">漫威暗夜之子是一款冒险游戏。本站提供漫威暗夜之子百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《漫威暗夜之子》是由<strong>Firaxis Games</strong>开发的<strong>漫威超级英雄策略卡牌大作</strong>。本作以漫威黑暗宇宙为背景，玩家将带领复仇者联盟、暗夜之子等超级英雄，对抗地狱之力与恶魔军团，融合卡牌策略、角色养成、基地经营于一体，体验沉浸式英雄剧情。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、英雄、卡牌与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>回合制卡牌战斗+英雄养成+基地建设</strong>展开，采用创新策略战斗系统。玩家可自由搭配钢铁侠、美国队长、蜘蛛侠、刀锋战士等英雄，组合专属卡牌连招，释放华丽技能，战场互动丰富，特效炸裂，策略性与爽快感并存。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全漫威英雄集结：</strong>复仇者、暗夜之子、X战警等经典英雄全部登场</li><li style="margin-bottom:8px;"><strong>创新卡牌战斗：</strong>自由组卡、技能连招、环境互动，玩法深度十足</li><li style="margin-bottom:8px;"><strong>英雄养成系统：</strong>升级、解锁技能、培养羁绊、打造专属英雄</li><li style="margin-bottom:8px;"><strong>黑暗漫威风格：</strong>魔幻暗黑剧情，恶魔、地狱、魔法元素拉满</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机策略游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和任务，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情时长约35-40小时，全英雄收集、卡牌养成、支线任务总游玩时长超80小时。敌人包含恶魔军团、地狱领主、黑化反派，技能多样，需要卡牌搭配与战术规划应对。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、英雄皮肤、卡牌外观、隐藏章节，解锁全英雄与剧情内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 960 / 60GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受超级英雄高清特效画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 英雄选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐搭配<strong>刀锋战士+钢铁侠+美国队长</strong>，攻防均衡、操作简单，容错率极高。前排抗伤、中排输出、后排支援，稳定通关主线，熟悉机制后再拓展其他英雄。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>卡牌连招：</strong>先低费卡牌铺垫，再高费技能打爆发</li><li style="margin-bottom:8px;"><strong>英雄羁绊：</strong>搭配羁绊英雄，触发额外效果提升战力</li><li style="margin-bottom:8px;"><strong>环境利用：</strong>引爆场景道具，对敌人造成范围伤害</li><li style="margin-bottom:8px;"><strong>血量管理：</strong>保持英雄血量健康，避免被集火秒杀</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 养成技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先升级主力英雄与核心卡牌，解锁强力技能。基地建设优先提升资源产出，与英雄互动提升羁绊，解锁隐藏剧情与属性加成，稳步提升团队战力。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 卡牌组合</h4><p style="line-height:1.8;margin-bottom:16px;">构建纯色卡组或混搭卡组，搭配英雄专属核心卡牌。实现一回合无限连招，瞬间秒杀敌方核心单位，高难度副本与BOSS战轻松通关。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战术布局</h4><p style="line-height:1.8;margin-bottom:16px;">战斗前规划英雄站位，前排抗伤、后排输出。优先集火敌方高威胁目标，控制技能打断敌方大招，利用地形与道具掌控战场节奏。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战策略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS拥有多阶段技能与召唤小怪，优先清理杂兵再集火BOSS。保留大招与核心卡牌，在BOSS虚弱期打出爆发伤害，稳扎稳打拿下胜利。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的漫威暗夜之子英雄之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

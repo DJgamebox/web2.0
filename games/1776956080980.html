@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1OI8hU6IYc2A8oWkuYDMMdg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/173XhayUUt8MS3KMr-Xw-Cg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1OI8hU6IYc2A8oWkuYDMMdg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/173XhayUUt8MS3KMr-Xw-Cg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">索尼克：超级巨星是一款动作冒险游戏。本站提供索尼克：超级巨星百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《索尼克：超级巨星》是由<strong>Sega</strong>开发的<strong>全新3D像素风高速平台跳跃大作</strong>。本作回归系列经典2D玩法，采用全新高清像素美术，索尼克、塔尔斯、纳克鲁斯、艾咪全员集结，支持本地四人同乐，融合专属技能、全新能力与创意关卡，带来爽快刺激的新生代索尼克冒险体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、角色、关卡与皮肤内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>高速平台跳跃+四人联机+超级能力</strong>展开，经典横版闯关搭配现代化设计。玩家可操控四大角色，使用独特技能探索关卡，释放强力超级能力，体验高速冲刺、跳跃闯关、收集金环、对抗蛋头博士的快乐，支持单人冒险与多人同乐。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全新像素3D画面：</strong>高清精致美术，视觉效果清新炫酷</li><li style="margin-bottom:8px;"><strong>四大经典角色：</strong>索尼克、塔尔斯、纳克鲁斯、艾咪全解锁</li><li style="margin-bottom:8px;"><strong>本地四人联机：</strong>好友同乐闯关，欢乐度拉满</li><li style="margin-bottom:8px;"><strong>专属超级能力：</strong>强力技能助力闯关，玩法更丰富</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机休闲游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、关卡和剧情，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情时长约15-20小时，全收集、全关卡探索、多人挑战总游玩时长超40小时。关卡设计创意十足、节奏轻快，难度友好，适合全年龄段玩家与亲子同乐。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、角色皮肤、奖励关卡、音乐内容，解锁全部隐藏要素。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-6100 / 8GB内存 / GTX 950 / 15GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-8400 / 16GB内存 / GTX 1050Ti / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受高清像素高速闯关体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐使用<strong>索尼克</strong>，操作简单、速度均衡、上手零门槛。塔尔斯可飞行、纳克鲁斯可攀爬滑翔、艾咪可二段跳，可根据喜好切换，熟悉关卡后体验更多玩法。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>金环保命：</strong>携带金环被攻击不会阵亡，尽量保持收集</li><li style="margin-bottom:8px;"><strong>旋转攻击：</strong>跳跃后旋转，消灭敌人、破坏障碍物</li><li style="margin-bottom:8px;"><strong>超级能力：</strong>能量满后释放，清屏+无敌+高速冲刺</li><li style="margin-bottom:8px;"><strong>探索捷径：</strong>关卡藏大量近道，大幅提升通关效率</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先通关主线熟悉机制，收集金环与混沌翡翠，解锁强力超级形态。多人模式可与好友配合，互相辅助通关，轻松体验全部乐趣。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 极速通关</h4><p style="line-height:1.8;margin-bottom:16px;">熟练利用坡道、加速带、连续跳跃保持高速。熟记关卡路线与机关规律，不恋战不迷路，实现极速通关，刷新最快闯关记录。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全收集玩法</h4><p style="line-height:1.8;margin-bottom:16px;">探索全地图隐藏区域，收集金环与混沌翡翠。集齐翡翠解锁超级形态，获得无敌、高速飞行能力，轻松碾压所有关卡与BOSS。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战策略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS攻击有固定规律，观察前摇及时躲避。利用旋转攻击打击弱点，保留超级能力在关键阶段释放，快速击败蛋头博士通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的索尼克超级巨星高速冒险！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

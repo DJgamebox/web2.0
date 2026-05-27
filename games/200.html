@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1gmaxHtAvqHowB5C60RCStw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1wYLUS5eY7N_Dlk4PBCix5w?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOa0qI9HsJsHBJ3gEzDb9wdHA1?pwd=p5yc" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1gmaxHtAvqHowB5C60RCStw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1wYLUS5eY7N_Dlk4PBCix5w?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.xunlei.com/s/VOa0qI9HsJsHBJ3gEzDb9wdHA1?pwd=p5yc" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">寂静岭F是一款恐怖惊悚游戏。本站提供寂静岭F百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《寂静岭F》是寂静岭系列全新正统恐怖新作，由知名团队倾力打造，游戏以1960年代的日本为故事背景，回归系列最经典的心理恐怖与压抑探索玩法，没有廉价的跳吓设计，仅凭氛围、剧情与音效就能带来深入骨髓的恐惧体验，是恐怖游戏爱好者绝对不容错过的重磅作品。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁游戏全部内容，支持<strong>网盘</strong>高速获取，包含<strong>百度网盘下载</strong>、迅雷云盘等多种渠道。本作是优质<strong>单机游戏</strong>，推出<strong>中文版</strong>完整汉化，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，让你无需复杂设置就能沉浸式体验最纯粹的日式恐怖。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">《寂静岭F》以探索、解谜、剧情驱动为核心玩法，玩家将在迷雾笼罩的诡异空间中穿梭，揭开隐藏在黑暗背后的悲惨真相。游戏延续了寂静岭标志性的里世界切换机制，场景会在正常与扭曲之间突变，搭配顶级音效设计，让压迫感时刻拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>正统心理恐怖：</strong>回归系列初心，主打氛围压迫与心理恐惧，体验感极强</li><li style="margin-bottom:8px;"><strong>日式怪谈背景：</strong>1960年代日本舞台，融合东方恐怖元素，风格独特</li><li style="margin-bottom:8px;"><strong>沉浸式叙事：</strong>剧情层层反转，人物刻画细腻，故事极具深度与隐喻</li><li style="margin-bottom:8px;"><strong>顶级氛围营造：</strong>迷雾、警报、环境音效共同构建教科书级恐怖体验</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为纯<strong>单机游戏</strong>，本作无需联网、无需登录，下载后即可永久畅玩。<strong>中文绿色</strong>版完整汉化了全部剧情、界面与道具，<strong>百度云</strong>资源安全稳定，<strong>免费下载</strong>无广告捆绑，真正做到开箱即用。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏主线流程时长约10-12小时，采用线性叙事结构，节奏紧凑不拖沓。场景设计精致且压抑，从乡村街道到封闭建筑，每一处细节都在强化恐怖氛围，敌人造型诡异且具有象征意义，战斗并非核心，躲避与解谜才是生存关键。</p><p style="line-height:1.8;margin-bottom:16px;">本次分享的<strong>破解版</strong>已整合最新优化补丁，完美支持Windows系统，<strong>PC</strong>平台运行稳定流畅。文件经过多次测试，无毒无插件，网盘下载速度快，解压就能直接开始游戏。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 8GB内存 / GTX 1050Ti / 25GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i5-10400 / 16GB内存 / RTX 3060 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏支持1080P、2K、4K多分辨率输出，画质设置丰富，低配电脑也能流畅运行。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手入门技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手玩家不必追求战斗，本作核心是探索与解谜，遇到敌人优先选择躲避。多留意场景中的文件、笔记与互动物品，它们是推进剧情和解谜的关键。建议佩戴耳机游玩，能大幅提升沉浸感。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 生存与探索指南</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>谨慎探索：</strong>黑暗区域务必缓慢前进，避免触发不必要的危险</li><li style="margin-bottom:8px;"><strong>及时存档：</strong>到达存档点立刻保存，防止意外导致进度丢失</li><li style="margin-bottom:8px;"><strong>线索优先：</strong>所有文件和道具都有作用，不要忽略任何细节</li><li style="margin-bottom:8px;"><strong>心态平稳：</strong>氛围压抑，保持冷静才能顺利解开谜题</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关建议</h4><p style="line-height:1.8;margin-bottom:24px;">《寂静岭F》更适合沉浸式体验，不要跳过剧情与对话，完整感受故事全貌。一周目建议慢慢探索，收集全部线索，解锁完整世界观，恐怖游戏新手也能逐步适应游戏节奏。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，体验最正宗的寂静岭恐怖！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

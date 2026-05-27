@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1lMReRXcIPh5a7QiaNidRLQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1qJg6Sm4VL0rOgCMu_vkyNQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1lMReRXcIPh5a7QiaNidRLQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1qJg6Sm4VL0rOgCMu_vkyNQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">小小梦魇3是一款冒险游戏。本站提供小小梦魇3百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《小小梦魇3》是系列全新正统续作，双人联机恐怖解谜大作，全新主角Low与Alone登场，探索诡异沙漠、浮空遗迹、扭曲幻境，全新怪物、全新剧情、全新世界观。支持双人在线协作，氛围更诡异、解谜更巧妙、剧情更黑暗，是系列规模最大、体验最完整的终章之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全剧情、全关卡、全隐藏内容，PC中文版完整汉化，高清优化、流畅运行，兼容Win10/Win11。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>系列全新续作+双人联机协作+全新黑暗世界+创新解谜+史诗级剧情</strong>打造，小小梦魇宇宙终章。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>全新双人联机</strong>：支持在线协作，双人冒险更有趣</li><li style="margin-bottom:8px;"><strong>全新主角设定</strong>：Low与Alone全新组合</li><li style="margin-bottom:8px;"><strong>全新场景设计</strong>：沙漠、幻境、遗迹、浮空城堡</li><li style="margin-bottom:8px;"><strong>创新机关解谜</strong>：难度适中，互动性更强</li><li style="margin-bottom:8px;"><strong>系列终章剧情</strong>：世界观补全，结局震撼</li></ul><p style="line-height:1.8;margin-top:24px;margin-bottom:24px;">系列终章神作，无需联网，中文完整，粉丝必玩。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情通关约8小时，全收集、全隐藏、双人联机可玩数十小时。</p><h4 style="color:#2ecc71;margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;line-height:1.4;"><strong style="color:#e7435f;">[最低配置]</strong> Windows 10 | 4GB内存 | GTX 650 | 12GB空间<br><strong style="color:#e7435f;">[推荐配置]</strong> Windows 10/11 | 8GB内存 | GTX 1050Ti+ | SSD</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">优化良好，低配电脑即可高画质流畅运行。</p><h3 style="color:#e7435f;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>双人联机配合+机关解谜+潜行躲避+幻境探索+剧情解锁</strong>，携手揭开小小梦魇的终极真相。</p><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>双人联机核心</strong>：配合解谜、互相掩护</li><li style="margin-bottom:8px;"><strong>幻境机关破解</strong>：视觉欺骗，规律明显</li><li style="margin-bottom:8px;"><strong>怪物隐蔽躲避</strong>：黑暗环境潜行前进</li><li style="margin-bottom:8px;"><strong>全收集解锁</strong>：解锁世界观、隐藏结局</li></ul><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，体验小小梦魇3，揭开系列终极真相！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

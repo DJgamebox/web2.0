@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1lh0mcpUTzsg3EGScZceW0Q?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1o09VT8RMO9nEFMVUNX97WQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1lh0mcpUTzsg3EGScZceW0Q?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1o09VT8RMO9nEFMVUNX97WQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">索尼克：起源是一款动作冒险游戏。本站提供索尼克：起源百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《索尼克：起源》是由<strong>Sega</strong>开发的<strong>经典刺猬索尼克合集大作</strong>。本作高清重制索尼克1-3、索尼克与纳克鲁斯等系列经典作品，原汁原味还原怀旧玩法，全新画面优化、宽屏适配、动画升级，带你重温童年经典高速平台跳跃体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部游戏、角色、关卡与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>经典高速平台跳跃+怀旧关卡+角色切换</strong>展开，完美复刻原作玩法与手感。玩家可操控索尼克、塔尔斯、纳克鲁斯等角色，在经典绿色山丘、化工工厂、海底遗迹等关卡高速冲刺、收集金环、击败蛋头博士，怀旧感与情怀拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>经典全收录：</strong>索尼克1/2/3/索尼克与纳克鲁斯四部合集</li><li style="margin-bottom:8px;"><strong>高清重制升级：</strong>宽屏支持、画面优化、动画更流畅</li><li style="margin-bottom:8px;"><strong>多角色可选：</strong>索尼克、塔尔斯、纳克鲁斯自由切换</li><li style="margin-bottom:8px;"><strong>怀旧原汁原味：</strong>经典关卡、BGM、机关1:1还原</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机平台跳跃游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、关卡和教程，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">全作主线通关时长约20-25小时，全收集、全关卡探索、隐藏关卡总游玩时长超50小时。操作简单、节奏轻快、难度适中，适合怀旧玩家与全年龄段休闲玩家。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、角色皮肤、音乐播放器、美术画廊，解锁全内容与隐藏关卡。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 4GB内存 / HD 4400 / 10GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498d9;">[推荐配置]</strong> Windows 10/11 64位 / i5-6500 / 8GB内存 / GTX 950 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化极佳，老旧电脑也能流畅运行，重温童年经典索尼克冒险。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐使用<strong>索尼克+塔尔斯</strong>组合，索尼克高速冲刺，塔尔斯自动跟随辅助捡环、攻击敌人，容错率极高。熟悉后可使用纳克鲁斯体验攀爬、滑翔特殊玩法。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 操作技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>金环保命：</strong>保持携带金环，被攻击不会立即死亡</li><li style="margin-bottom:8px;"><strong>旋转冲刺：</strong>跳跃+旋转攻击敌人与破坏障碍物</li><li style="margin-bottom:8px;"><strong>高速下坡：</strong>下坡路段加速冲刺，触发跳跃与机关</li><li style="margin-bottom:8px;"><strong>探索隐藏：</strong>寻找分支路线，解锁奖励关卡与金环</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先通关主线关卡，熟悉地图机关与敌人规律。收集金环进入奖励关卡，获取更多生命与道具，轻松通关全系列经典内容。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 极速跑图</h4><p style="line-height:1.8;margin-bottom:16px;">利用连续跳跃、坡道加速、旋转冲刺保持全程高速。熟悉关卡路线，避开不必要战斗，实现极速通关，刷新最快纪录。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全收集攻略</h4><p style="line-height:1.8;margin-bottom:16px;">探索每一处隐藏通道，收集混沌翡翠与金环。集齐翡翠解锁超级索尼克形态，获得无敌高速能力，轻松碾压BOSS与关卡。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战技巧</h4><p style="line-height:1.8;margin-bottom:16px;">蛋头博士BOSS有固定攻击规律，观察攻击前摇，抓住间隙旋转攻击弱点。携带足够金环，稳扎稳打即可轻松通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的索尼克经典童年怀旧之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

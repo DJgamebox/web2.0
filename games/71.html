@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/10OoStGhyeaYrVZ9z4-WwWg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/11abKoxH97AElZrFs61cpZw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOCsGLhpSDsacofup84RUoqNA1?pwd=ywfx" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/10OoStGhyeaYrVZ9z4-WwWg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/11abKoxH97AElZrFs61cpZw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.xunlei.com/s/VOCsGLhpSDsacofup84RUoqNA1?pwd=ywfx" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">GTA5/侠盗猎车手5(纯净版_增强版）是一款动作游戏。本站提供GTA5/侠盗猎车手5(纯净版_增强版）百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《GTA5/侠盗猎车手5》是由RockStar开发发行的**现象级开放世界动作冒险神作**，游戏以洛圣都为舞台，拥有麦可、富兰克林、崔佛三大主角，自由切换体验截然不同的人生。开放世界自由度、剧情、玩法、细节均为业界巅峰，支持单机剧情与在线模式。纯净版无冗余内容，增强版升级画质、性能、60帧体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁纯净版+增强版双版本、全剧情、全角色、全载具、全武器，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，稳定流畅不掉帧。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>超大都市开放世界+三主角自由切换+枪战竞速+犯罪冒险+海量趣味玩法</strong>打造，城市、乡村、沙漠、海洋全区域自由探索，玩法无任何限制。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>三主角剧情</strong>：麦可、富兰克林、崔佛三线交织，剧情封神</li><li style="margin-bottom:8px;"><strong>极致自由开放</strong>：开车、枪战、飞行、潜水、炒股、生活随心所欲</li><li style="margin-bottom:8px;"><strong>海量载具武器</strong>：跑车、飞机、坦克、战舰、科幻载具一应俱全</li><li style="margin-bottom:8px;"><strong>纯净版+增强版</strong>：纯净稳定无插件，增强版画质拉满、运行更丝滑</li><li style="margin-bottom:8px;"><strong>海量娱乐内容</strong>：高尔夫、网球、瑜伽、炒股、随机事件、支线玩不完</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">单机/联机双模式，无需联网验证，中文完整汉化，新手上手零压力。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约30–40小时，全探索、全收集、全成就、100%完成度可玩100小时以上。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>纯净版+增强版+全解锁+高清优化补丁</strong>，稳定无闪退。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-2500K / 8GB内存 / GTX 750Ti / 120GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持4K、HDR、光追、高帧率，增强版画面达到影视级，优化出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>体验主线剧情+熟悉角色切换+积累资金</strong>，逐步解锁载具与武器。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心玩法技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>主角自由切换</strong>：应对不同任务，灵活使用三人能力</li><li style="margin-bottom:8px;"><strong>炒股赚钱最快</strong>：主线任务配合炒股，轻松暴富</li><li style="margin-bottom:8px;"><strong>武器提前配备</strong>：突击步枪、狙击枪、RPG应对各类战斗</li><li style="margin-bottom:8px;"><strong>载具及时保存</strong>：车库存放豪车、飞机，防止丢失</li><li style="margin-bottom:8px;"><strong>随机事件必做</strong>：奖励丰厚，解锁隐藏内容</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先跟着主线体验完整剧情，赚钱后购买房产与载具，之后自由探索洛圣都，享受开放世界的乐趣。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 快速暴富攻略</h4><p style="line-height:1.8;margin-bottom:16px;">主线任务+股票联动操作，几分钟即可资产过亿，解锁全载具全房产。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全收集高效探索</h4><p style="line-height:1.8;margin-bottom:16px;">按区域收集飞船部件、随机事件、隐藏载具，100%完成度轻松达成。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗与生存技巧</h4><p style="line-height:1.8;margin-bottom:16px;">利用掩体、防弹衣、重型武器，配合角色特殊能力，全任务无伤通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，闯荡洛圣都，成为都市终极霸主！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

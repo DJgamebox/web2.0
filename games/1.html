@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1hDqrODESbay6SYvXnzdy6A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1o3OL41pNVq-hgyr6hU0N5w?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOD0b4amycDBCSTq-XHWZFi6A1?pwd=ej2u" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1hDqrODESbay6SYvXnzdy6A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1o3OL41pNVq-hgyr6hU0N5w?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.xunlei.com/s/VOD0b4amycDBCSTq-XHWZFi6A1?pwd=ej2u" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">三国志曹操传是一款策略游戏。本站提供三国志曹操传百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《三国志曹操传》是由光荣特库摩开发的经典战棋回合制RPG神作，作为三国志英杰传系列巅峰之作，以曹操为主角，还原三国乱世霸权之路。经典战棋玩法、武将养成、兵种克制、剧情分支，承载一代人童年回忆，经典永不褪色。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全关卡、全武将、全道具、全剧情分支，PC中文版完整汉化，兼容Win10/Win11，怀旧高清优化，流畅运行不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>经典战棋回合制战斗+三国武将养成+兵种克制+剧情路线选择+宝物收集</strong>打造，策略性拉满，操作简单、剧情紧凑、耐玩度极高。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>曹操主线剧情</strong>：从讨伐董卓到一统天下，双线剧情（奸雄/霸主）自由选择</li><li style="margin-bottom:8px;"><strong>经典战棋战斗</strong>：回合制走位、兵种克制、地形加成，策略决定胜负</li><li style="margin-bottom:8px;"><strong>全三国名将收录</strong>：典韦、许褚、夏侯惇、张辽、郭嘉等猛将谋士齐聚</li><li style="margin-bottom:8px;"><strong>神器宝物系统</strong>：倚天剑、青釭剑、太平要术等经典道具强力加成</li><li style="margin-bottom:8px;"><strong>高清怀旧优化</strong>：适配现代系统，画面清晰、运行稳定</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">单机经典战棋巅峰，无需联网，中文完整，全年龄玩家轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约30–40小时，全宝物收集、全支线、全剧情路线可玩60小时以上。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>完整版+高清优化+全解锁补丁</strong>，兼容所有Windows系统，无闪退。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435f;">[最低配置]</strong> Windows 7/10/11 全能适配 | 2GB内存 | 集显即可 | 2GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> 任意现代电脑 | 高清全屏流畅运行</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">经典像素画风，高清适配现代屏幕，怀旧感拉满，低配电脑完美畅玩。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>培养核心武将（夏侯惇、张辽、郭嘉）+ 合理搭配兵种 + 收集宝物</strong>，稳扎稳打推关卡。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>兵种克制关键</strong>：骑兵克步兵、步兵克弓兵、弓兵克骑兵，循环克制</li><li style="margin-bottom:8px;"><strong>谋士核心辅助</strong>：郭嘉、荀彧放计策，群伤+控制，清场神器</li><li style="margin-bottom:8px;"><strong>宝物优先装备</strong>：加攻击、防御、策略的道具给核心武将</li><li style="margin-bottom:8px;"><strong>地形利用最大化</strong>：城墙上防御提升，树林克制骑兵</li><li style="margin-bottom:8px;"><strong>等级不要落后</strong>：练级保证全员等级均衡，不卡关</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先熟悉兵种克制关系，重点培养主力武将，每关优先清理杂兵，再集火BOSS，轻松通关全剧情。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 最强阵容搭配</h4><p style="line-height:1.8;margin-bottom:16px;">骑兵（夏侯惇、张辽）+ 步兵（典韦、许褚）+ 谋士（郭嘉、荀彧），全能阵容横扫全图。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全宝物收集攻略</h4><p style="line-height:1.8;margin-bottom:16px;">按关卡隐藏条件获取神器，搭配专属武将，战力暴涨，轻松碾压所有敌人。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 剧情路线选择</h4><p style="line-height:1.8;margin-bottom:16px;">根据选择进入奸雄线或霸主线，体验不同结局，重温三国乱世霸权之路。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，执掌曹魏大军，一统三国乱世！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

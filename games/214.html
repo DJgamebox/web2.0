@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1QqOoxUy92ksXx-L0GgS9FA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1lBws-QcbTBlbDJ64UNdCrQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1QqOoxUy92ksXx-L0GgS9FA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1lBws-QcbTBlbDJ64UNdCrQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战争之人：越南是一款即时战略游戏。本站提供战争之人：越南百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战争之人：越南》是系列唯一以越南战争为背景的作品，将战场从二战转向热带丛林，主打丛林潜行、伏击战、地道战、直升机突袭等特色玩法，新增越战专属武器、迷彩、陷阱与载具，玩法风格独特，丛林氛围真实压抑，是战争之人系列的另类神作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部战役关卡，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是独特<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家直接开启丛林战场。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏保留硬核**微观战术操控**，并结合越战特色打造丛林玩法，玩家在茂密雨林中执行侦查、伏击、救援、破坏任务，新增陷阱、地道、迷彩伪装、武装直升机支援等元素，视野受限、敌人无处不在，压迫感与挑战性远超系列其他作品。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>越战专属背景：</strong>热带丛林战场，风格独一无二，氛围拉满</li><li style="margin-bottom:8px;"><strong>丛林潜行伏击：</strong>视野受限，伏击与反伏击是核心玩法</li><li style="margin-bottom:8px;"><strong>特色装备：</strong>越战武器、迷彩、陷阱、直升机全面上线</li><li style="margin-bottom:8px;"><strong>地道战系统：</strong>地下地道穿梭，战术选择更加自由</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作纯<strong>单机游戏</strong>离线运行，无需联网即可体验全部内容。<strong>中文绿色</strong>版汉化完整，界面、任务、剧情全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行。</p><h3 style="line-height:1.8;margin-bottom:16px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏包含美越双阵营战役，流程时长约12-15小时，地图覆盖热带丛林、村庄、地道、河流等场景，单位包含步兵、直升机、轻型坦克、迫击炮等，丛林AI智能极高，擅长伏击与隐蔽，战场真实感拉满。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的<strong>破解版</strong>已整合汉化与优化补丁，完美兼容Win10/Win11系统，<strong>网盘</strong>下载完整不缺失，运行稳定流畅，低配电脑也能流畅体验越战战场。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 2GB内存 / GTX 450 / 8GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#e74c3c;">[推荐配置]</strong> Windows 10/11 / i5-8400 / 4GB内存 / GTX 650 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏优化成熟，老旧电脑可流畅运行，丛林画面细节丰富，氛围沉浸感顶级。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手丛林战术</h4><p style="line-height:1.8;margin-bottom:16px;">新手核心是**隐蔽与侦查**，丛林视野极差，必须缓慢推进，使用迷彩伪装隐藏行踪。优先清理陷阱与伏击点，利用直升机支援清理集群敌人，地道战中近距离武器最强，避免被敌人包围夹击。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗生存指南</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>迷彩伪装：</strong>穿对应迷彩，大幅降低被发现概率</li><li style="margin-bottom:8px;"><strong>陷阱排查：</strong>前进时小心地雷与诡雷，防止减员</li><li style="margin-bottom:8px;"><strong>小队分散：</strong>丛林中密集站位会被瞬间团灭</li><li style="margin-bottom:8px;"><strong>空中支援：</strong>直升机是破解伏击的最强手段</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关进阶思路</h4><p style="line-height:1.8;margin-bottom:24px;">丛林战切忌直线冲锋，绕后偷袭与伏击效率最高。熟悉敌人刷新点与伏击位置后，可提前布置火力反制。地道战优先使用霰弹枪与冲锋枪，近距离压制力拉满，耐心战术才能通关越战炼狱。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，进入越南战争的丛林战场！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

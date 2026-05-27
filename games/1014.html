@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/10CBogbmiPSEJqude4Nz-LA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1DatSd_b1DEx2dqkM2pUaRQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/10CBogbmiPSEJqude4Nz-LA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1DatSd_b1DEx2dqkM2pUaRQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">勇气默示录HD复刻版是一款角色扮演游戏。本站提供勇气默示录HD复刻版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《勇气默示录HD复刻版》是由Square Enix开发发行的殿堂级日式RPG重制大作，作为经典JRPG的高清复刻，全面升级画质、UI、音质与流畅度，保留原作**勇气指令+职业转职**核心玩法，剧情治愈、世界观宏大，是回合制RPG天花板之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、职业、角色、服装、DLC，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>勇气/怯懦指令系统+全职业自由转职+回合制策略战斗+开放式世界探索+伙伴剧情</strong>打造，战术深度拉满，玩法自由、画风唯美。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>HD高清重制</strong>：角色、场景、特效全面升级，唯美童话画风拉满</li><li style="margin-bottom:8px;"><strong>勇气指令系统</strong>：储蓄回合、爆发输出，策略性独一无二</li><li style="margin-bottom:8px;"><strong>20+职业自由转职</strong>：战士、法师、僧侣、忍者、吟游诗人全自由搭配</li><li style="margin-bottom:8px;"><strong>经典回合制战斗</strong>：弱点打击、属性克制、连携技能，战术丰富</li><li style="margin-bottom:8px;"><strong>宏大治愈剧情</strong>：水晶、世界、伙伴羁绊，温暖又治愈</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机日式RPG，无需联网即可畅玩，中文完整汉化，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约50–60小时，全职业、全收集、多周目可玩100小时以上。难度可调、氛围治愈，适合JRPG、回合制、养成收集爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+全DLC+全解锁+优化补丁</strong>，稳定无闪退、运行流畅。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 750Ti / 25GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-6700 / 16GB内存 / GTX 1050Ti / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K超清画质，画风唯美柔和，低配电脑也能完美畅玩。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 开荒职业推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手首选：<strong>战士+僧侣+黑魔法师</strong>，攻防奶齐全，操作简单、开荒稳定不翻车。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>勇气/怯懦合理使用</strong>：储蓄回合爆发，BOSS战一键清场</li><li style="margin-bottom:8px;"><strong>优先攻击弱点</strong>：属性克制打出高额伤害，快速破敌</li><li style="margin-bottom:8px;"><strong>职业混搭最强</strong>：主职业+副职业自由组合，玩法无限</li><li style="margin-bottom:8px;"><strong>治疗常驻队伍</strong>：僧侣/白魔保证续航，避免团灭</li><li style="margin-bottom:8px;"><strong>等级适度练级</strong>：新区域前练级，保证推图流畅</li></ul><h4 style="line-height:1.8;margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先跟着主线体验剧情，熟悉勇气指令系统后再尝试职业混搭，逐步解锁全职业，轻松体验超长流程。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 最强职业搭配</h4><p style="line-height:1.8;margin-bottom:16px;">魔法流：黑魔+学者；物理流：忍者+战士；辅助流：吟游诗人+僧侣，成型后碾压全BOSS。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 高效养成攻略</h4><p style="line-height:1.8;margin-bottom:16px;">职业技能点满，搭配副职业核心技能，刷取顶级装备，多周目难度轻松通关。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 高难度战术</h4><p style="line-height:1.8;margin-bottom:16px;">勇气爆发+弱点连打，控制+输出循环，即使最强BOSS也能稳定通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，踏上水晶冒险之旅，开启勇气与羁绊的史诗篇章！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

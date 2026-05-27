@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1jukeHtRgcoLgNzjy2KZAOQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1iWiUTkDb8HFGQ5Dw6tbTtQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1jukeHtRgcoLgNzjy2KZAOQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1iWiUTkDb8HFGQ5Dw6tbTtQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">血源诅咒是一款角色扮演游戏。本站提供血源诅咒百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《血源诅咒》是由<strong>FromSoftware</strong>开发的<strong>哥特式魂类动作冒险大作</strong>。本作以诡异阴森的亚楠为舞台，玩家将化身猎人，在血月降临的夜晚对抗畸变怪物、古神与噩梦生物，揭开这座城市的黑暗真相，体验快节奏狠厉战斗与沉浸式克苏鲁黑暗氛围。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、武器与隐藏内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>快节奏近战反击+枪反处决+符文养成</strong>展开，抛弃盾反改用枪械反击，战斗更激进、更流畅。玩家可使用锯刃、猎人手枪、大炮等特色装备，探索哥特式诡异地图，挑战史诗级古神BOSS，黑暗压抑氛围沉浸感拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>枪反处决：</strong>开枪打断攻击触发处决，核心机制爽快感拉满</li><li style="margin-bottom:8px;"><strong>变形武器：</strong>刀剑变形切换形态，远近战斗灵活适配</li><li style="margin-bottom:8px;"><strong>哥特暗黑风格：</strong>亚楠街道、教堂、噩梦场景诡异阴森</li><li style="margin-bottom:8px;"><strong>古神BOSS战：</strong>史诗级巨型BOSS，压迫感与挑战性十足</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和任务，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情时长约25-30小时，多结局、全收集、隐藏地图总游玩时长超60小时。敌人包含畸变怪物、猎人、古神眷属，攻击凶狠节奏极快，考验反应与策略。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、武器外观、符文套装，解锁全结局与老猎人内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-7500 / 8GB内存 / GTX 1050Ti / 40GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700 / 16GB内存 / RTX 2060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受暗黑哥特高清画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 武器选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐<strong>锯肉刀+猎人手枪</strong>，变形流畅、伤害稳定，容错率高。锯肉刀近战清怪，手枪用于枪反处决，远程消耗留到BOSS战使用。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>枪反核心：</strong>敌人攻击瞬间开枪，触发硬直直接处决</li><li style="margin-bottom:8px;"><strong>闪避进攻：</strong>放弃防御，靠灵活闪避贴身输出</li><li style="margin-bottom:8px;"><strong>血质回血：</strong>攻击命中敌人可回血，保持输出保证生存</li><li style="margin-bottom:8px;"><strong>观察前摇：</strong>记住敌人攻击动作，提前闪避或枪反</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 探索技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先点亮灯笼存档点，探索时谨慎前进。血瓶与子弹稀缺，尽量枪反节省资源，阴暗角落多藏有道具与捷径，解锁后大幅降低探索难度。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 枪反精通</h4><p style="line-height:1.8;margin-bottom:16px;">熟练掌握各类敌人攻击前摇，百分百触发枪反。BOSS战用枪反打断关键技能，打出巨额处决伤害，大幅降低通关难度。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 符文搭配</h4><p style="line-height:1.8;margin-bottom:16px;">装备生命、体力、攻击符文，全面提升属性。根据武器类型搭配专属符文，最大化输出与生存能力，轻松挑战高难度BOSS。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战策略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS攻击频率快、范围大，保持闪避观察规律。抓住攻击后摇贴身输出，枪反核心技能，留足血瓶与子弹，稳扎稳打即可通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的亚楠猎人噩梦之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

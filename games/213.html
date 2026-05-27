@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1At56F4iNR7Dc_F7ddBsaHw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1CcU1URYOjE3NmZrlWVmeRQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1At56F4iNR7Dc_F7ddBsaHw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1CcU1URYOjE3NmZrlWVmeRQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战争之人：负罪英雄是一款即时战略游戏。本站提供战争之人：负罪英雄百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战争之人：负罪英雄》是战争之人系列的剧情向硬核作品，以二战东线战场为背景，讲述苏联惩戒营士兵的救赎故事，游戏主打线性剧情战役，玩法更侧重小队生存与剧情叙事，保留系列经典微观战术玩法，氛围压抑真实，是系列中剧情感染力最强的一作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情关卡，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是剧情向<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家一键沉浸式体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏延续战争之人标志性**微观战术指挥**，玩家操控惩戒营小队在东线战场执行必死任务，玩法更强调生存、潜行、伏击与小队配合，资源极度稀缺，弹药与装备需要从战场搜刮，难度偏高，沉浸感与压迫感拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>沉浸式剧情：</strong>惩戒营救赎故事，叙事沉重且极具感染力</li><li style="margin-bottom:8px;"><strong>小队生存玩法：</strong>资源稀缺，依靠搜刮与战术绝境求生</li><li style="margin-bottom:8px;"><strong>东线战场还原：</strong>废墟、雪地、乡村场景真实，氛围拉满</li><li style="margin-bottom:8px;"><strong>硬核战术：</strong>细节拉满，装甲、弹药、掩体全真实模拟</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作纯<strong>单机游戏</strong>离线运行，无需联网即可完整通关剧情。<strong>中文绿色</strong>版汉化完整，剧情、界面、任务全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，流畅不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏为线性剧情战役，流程时长约10-12小时，关卡设计紧凑，从废墟突围到阵地攻坚，从雪地潜行到丛林伏击，玩法多变。小队成员拥有状态与属性，受伤、饥饿会影响战斗力，生存元素丰富，挑战性极强。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的<strong>破解版</strong>已整合汉化与优化补丁，完美兼容Win10/Win11系统，<strong>网盘</strong>下载完整不报错，运行稳定流畅，低配电脑也能轻松体验。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 2GB内存 / GTX 450 / 8GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#e74c3c;">[推荐配置]</strong> Windows 10/11 / i5-8400 / 4GB内存 / GTX 650 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏优化极佳，老旧电脑流畅运行，战场画面质感厚重，氛围营造顶级。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手生存技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手核心思路是**苟活与搜刮**，避免正面硬刚，利用废墟与阴影潜行推进。优先击杀落单敌人，夺取弹药与装备，医疗包与弹药极度稀缺，必须省着使用。小队成员分散站位，防止被炮火一网打尽。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗生存指南</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>潜行伏击优先：</strong>偷袭落单敌人，不触发大规模警报</li><li style="margin-bottom:8px;"><strong>资源全收集：</strong>每一个敌人尸体都要搜刮，补充消耗</li><li style="margin-bottom:8px;"><strong>地形利用：</strong>废墟、弹坑、房屋是最佳生存掩体</li><li style="margin-bottom:8px;"><strong>坦克克制：</strong>使用炸药包近身偷袭，正面无法抗衡</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关进阶思路</h4><p style="line-height:1.8;margin-bottom:24px;">关卡无完美打法，生存就是第一目标。熟悉敌人巡逻路线后，可规划潜行路线，实现零伤亡推进。高难度下耐心与战术是关键，不急躁、不冒进，逐步推进就能完成救赎之旅。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，体验负罪英雄的战场救赎！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

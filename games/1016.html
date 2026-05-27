@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1-y8tki4j8lTOMukaFVD0lw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1qCJdz8lexgVTd4LuSeiJVQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/14j9TdfFichTJZDfcDBkkjQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOEKh7qcHCOIpkWnoYmFxc5MA1?pwd=tx7h" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1-y8tki4j8lTOMukaFVD0lw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1qCJdz8lexgVTd4LuSeiJVQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/14j9TdfFichTJZDfcDBkkjQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOEKh7qcHCOIpkWnoYmFxc5MA1?pwd=tx7h" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">艾尔登法环/艾尔登法环：黄金树幽影是一款角色扮演游戏。本站提供艾尔登法环/艾尔登法环：黄金树幽影百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《艾尔登法环》是FromSoftware开发、万代南梦宫发行的**开放世界魂系RPG神作**，由宫崎英高与乔治·R·R·马丁联手打造，拥有宏大开放世界、超高自由度探索、史诗级Boss战与深邃剧情。《黄金树幽影》为官方终极DLC，全新大陆、全新剧情、全新Boss、全新流派，内容量堪比新游戏。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+黄金树幽影DLC+全装备+全流派+全收集，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅稳定不掉帧。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>超高自由度开放世界探索+硬核魂系战斗+数百种流派养成+联机互助+史诗Boss战</strong>打造，地图规模宏大、玩法自由、难度可调、耐玩度拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>史诗级开放世界</strong>：草原、火山、雪山、地下王朝、天空城全区域自由探索</li><li style="margin-bottom:8px;"><strong>黄金树幽影DLC</strong>：全新大陆“幽影之地”，新剧情、新Boss、新装备、新流派</li><li style="margin-bottom:8px;"><strong>数百种战斗流派</strong>：战士、法师、祷告、感应、出血、寒冷、信仰任意搭配</li><li style="margin-bottom:8px;"><strong>海量史诗Boss</strong>：碎星、拉塔恩、玛莲妮亚、荷莱·露等经典Boss云集</li><li style="margin-bottom:8px;"><strong>联机互助/入侵</strong>：召唤好友联机开荒，也可入侵其他玩家世界</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机/联机开放世界RPG，无需联网验证，中文完整汉化，新手上手轻松。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">本体主线通关约60–80小时，DLC+全探索+全流派+全成就可玩200小时+，魂系天花板，开放世界教科书。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+黄金树幽影DLC+全解锁+优化补丁</strong>，稳定无闪退。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-8400 / 12GB内存 / GTX 1060 / 60GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持4K、HDR、光追，画面大气磅礴，优化出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒流派推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手首选：<strong>武士（出血流）</strong>、<strong>观星者（法师）</strong>，操作简单、伤害高、开荒最稳。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>翻滚是核心</strong>：看准时机翻滚，躲避伤害同时反击</li><li style="margin-bottom:8px;"><strong>优先升级血量</strong>：血量越高，容错率越高</li><li style="margin-bottom:8px;"><strong>召唤骨灰帮手</strong>：吸引仇恨，单人开荒神器</li><li style="margin-bottom:8px;"><strong>打不过就跑</strong>：先练级、拿装备，回头再轻松碾压</li><li style="margin-bottom:8px;"><strong>赐福随时回</strong>：血蓝回满，状态拉满再出发</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先跟着主线走，熟悉地图与战斗，拿到骨灰召唤后难度大幅降低；DLC建议本体通关后再玩。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 强势流派推荐</h4><p style="line-height:1.8;margin-bottom:16px;">出血流、月光大剑法、龙飨祷告、感应血刃、双持大曲剑，成型后横扫全图。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效练级刷魂</h4><p style="line-height:1.8;margin-bottom:16px;">固定刷魂点循环刷，搭配黄金鸟爪，快速满级。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ Boss战高阶打法</h4><p style="line-height:1.8;margin-bottom:16px;">观察Boss攻击前摇，卡距离输出，召唤骨灰吸引火力，高难度Boss轻松通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，成为艾尔登之王，征战幽影之地！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

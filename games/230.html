@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1EmWG_zor3rCaxRcDaUG26A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/16Ik9gjwS-t0STl0ski0QIg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1EmWG_zor3rCaxRcDaUG26A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/16Ik9gjwS-t0STl0ski0QIg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">美国职业摔角联盟WWE 2K15是一款格斗游戏。本站提供美国职业摔角联盟WWE 2K15百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:180%; margin-bottom:1em;">《美国职业摔角联盟WWE 2K15》是系列经典革新之作，主打**硬核拟真摔角玩法**与**超写实人物建模**，收录塞纳、送葬者、兰迪、CM朋克等传奇摔角手，还原WWE经典赛事、擂台、出场动画与终结技。游戏手感扎实、动作流畅，是摔角粉丝必玩的经典怀旧神作。</p><p style="line-height:180%; margin-bottom:1em;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部摔角手、赛事、出场动画与终结技，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作支持单人/双人对战，是经典体育竞技<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家一键体验摔角盛宴。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【核心玩法与特色】</h3><p style="line-height:180%; margin-bottom:1em;">游戏以**拟真摔角格斗+生涯模式养成**为核心。操作深度优化，打击感厚重，抱摔、锁技、连招、终结技高度还原现实赛事。生涯模式让玩家从新人摔角手一路成长为WWE冠军，自定义角色、服装、出场、技能，打造专属传奇巨星。</p><h4 style="margin-bottom:1em;">▶ 主要特色</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>超写实画质：</strong>人物面部、肌肉、动作细节拉满</li><li style="margin-bottom:0.6em;"><strong>传奇阵容：</strong>塞纳、送葬者、兰迪、大秀哥等全收录</li><li style="margin-bottom:0.6em;"><strong>经典赛事：</strong>摔角狂热、皇家大战等经典擂台全还原</li><li style="margin-bottom:0.6em;"><strong>双人对战：</strong>支持本地双人同乐，对战乐趣翻倍</li></ul><p style="line-height:180%; margin-bottom:1em;">本作<strong>单机游戏</strong>离线即可畅玩全部模式，<strong>中文绿色</strong>版汉化完整，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，稳定流畅不卡顿。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏内容与配置】</h3><p style="line-height:180%; margin-bottom:1em;">游戏包含数十名顶级摔角手，多种赛事模式，生涯流程时长30小时+，自定义内容丰富，服装、出场、技能、擂台全自由定制。优化极佳，老旧电脑均可流畅运行，画面写实，动作流畅，打击感十足。</p><p style="line-height:180%; margin-bottom:1em;">本次提供的<strong>破解版</strong>已整合完美汉化、全解锁补丁，兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失，即开即玩。</p><h4 style="margin-bottom:1em;">▶ 配置要求</h4><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#e74c33;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 4GB内存 / GTX 550Ti / 20GB存储空间</div><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i5-4590 / 8GB内存 / GTX 960 / SSD固态硬盘</div><p style="line-height:180%; margin-bottom:1em;">配置要求极低，十年老电脑轻松运行，摔角动作流畅不丢帧。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏攻略】</h3><h4 style="margin-bottom:1em;">▶ 新手摔角技巧</h4><p style="line-height:180%; margin-bottom:1em;">新手核心：**消耗体力+抓破绽放终结技**，先通过普通攻击、抱摔消耗对手体力，待体力变红后释放招牌技与终结技。锁技可快速压制对手血量，反击键是反制对手攻击的核心，看准时机按键即可打断连招。</p><h4 style="margin-bottom:1em;">▶ 对战与养成指南</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>反击时机：</strong>对手攻击瞬间按反击键，反制一切招式</li><li style="margin-bottom:0.6em;"><strong>终结技释放：</strong>对手倒地+自身满气即可释放必杀</li><li style="margin-bottom:0.6em;"><strong>生涯养成：</strong>优先升级体能、力量、必杀技三大属性</li><li style="margin-bottom:0.6em;"><strong>双人玩法：</strong>本地双人对战，好友互搏欢乐拉满</li></ul><h4 style="margin-bottom:1em;">▶ 通关进阶思路</h4><p style="line-height:180%; margin-bottom:1em;">生涯模式从新人一路夺冠，解锁全部服装与技能，打造最强自定义摔角手。对战模式可使用传奇摔角手还原经典赛事，体验送葬者、塞纳的招牌终结技，怀旧感与沉浸感拉满。</p><p style="text-align:center; margin-top:2em; margin-bottom:1em;"><strong style="font-size:16px; color:#2ecc71;">立即获取破解版下载地址，登上WWE擂台成为传奇冠军！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

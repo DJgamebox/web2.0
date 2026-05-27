@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1-GI8oOToug-j5aiZJQ8vyQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1E23Cdkk5A8XsfUTUmY4x1A?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1-GI8oOToug-j5aiZJQ8vyQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1E23Cdkk5A8XsfUTUmY4x1A?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">红色沙漠是一款动作游戏。本站提供红色沙漠百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《红色沙漠》是由<strong>Pearl Abyss</strong>开发的<strong>开放世界动作冒险大作</strong>。本作以广阔的帕维斯大陆为舞台，玩家将扮演佣兵领袖克里夫，在乱世中带领团队生存、战斗与救赎，体验高自由度的真实动作战斗与沉浸式剧情。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情与隐藏内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>开放世界探索与写实动作战斗</strong>展开，采用强力物理引擎打造。玩家可使用刀剑、弓箭、枪械等多种武器，自由切换战斗风格，体验流畅连招、格挡反击与巨型BOSS战，游戏拥有超大开放地图，荒漠、峡谷、遗迹等场景丰富，探索自由度极高。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>佣兵系统：</strong>招募与培养佣兵，搭配队伍协同作战</li><li style="margin-bottom:8px;"><strong>武器自由切换：</strong>近战远程灵活切换，应对各类敌人与场景</li><li style="margin-bottom:8px;"><strong>真实战斗：</strong>格挡、破防、反击机制完善，打击感十足</li><li style="margin-bottom:8px;"><strong>动态世界：</strong>昼夜与天气系统真实，环境互动丰富</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、道具和剧情，中文绿色免安装版本让您轻松体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情时长约25-30小时，丰富支线、探索与佣兵任务让总游玩时长超过80小时。游戏包含人类敌人、野兽、巨型怪物等多种类型，攻击模式各不相同，需要灵活使用战术应对。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、武器外观与佣兵皮肤，新增多个任务章节与挑战内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1060 / 60GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700K / 16GB内存 / RTX 2070 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K分辨率，PC优化出色，低配流畅运行，高配可开启光追享受顶级画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 武器选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐单手剑与盾牌组合，攻防平衡，容错率高。副武器携带弓箭远程消耗，重型武器留到精英敌人与BOSS战使用，节省资源。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 生存技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>格挡反击：</strong>看准敌人攻击时机格挡，触发高伤害反击</li><li style="margin-bottom:8px;"><strong>佣兵配合：</strong>让佣兵吸引火力，寻找安全输出机会</li><li style="margin-bottom:8px;"><strong>利用地形：</strong>掩体与高处可大幅提升生存能力</li><li style="margin-bottom:8px;"><strong>药品充足：</strong>保持回复道具充足，避免被围殴击杀</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 探索技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先清理敌人再搜索宝箱，沙漠场景注意观察路标与痕迹。收集材料制作装备与道具，提升战斗力，轻松推进主线。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 连招系统</h4><p style="line-height:1.8;margin-bottom:16px;">连续攻击可触发专属连招，提升伤害与破防效率。熟练掌握武器连招，可实现持续压制敌人，对精英怪与BOSS效果极强。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 环境利用</h4><p style="line-height:1.8;margin-bottom:16px;">地图中拥有油桶、落石、爆炸物等互动陷阱，引诱敌人进入陷阱区域，可快速清场，节省药品与武器耐久。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战策略</h4><p style="line-height:1.8;margin-bottom:16px;">每个BOSS都有固定攻击模式与弱点，观察规律躲避技能，抓住空隙输出。优先清理召唤小怪，再集火BOSS本体，稳扎稳打即可通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的帕维斯大陆冒险之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

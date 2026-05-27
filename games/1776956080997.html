@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1-MUdhU1X8guxBckZp5Fw8g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1XjtmcD4dw-ekN_DT4DyKZw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1-MUdhU1X8guxBckZp5Fw8g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1XjtmcD4dw-ekN_DT4DyKZw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">凯蒂猫的岛屿冒险是一款动作冒险游戏。本站提供凯蒂猫的岛屿冒险百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《凯蒂猫的岛屿冒险》是由<strong>Bergsia Games</strong>开发的清新治愈系三丽鸥开放世界冒险游戏。本作以阳光海岛为舞台，凯蒂猫、美乐蒂、大耳狗、布丁狗等经典角色全员集结，玩家将在热带岛屿上自由探索、收集材料、建造家园、制作料理、与伙伴互动，体验轻松治愈的海岛生活，画风可爱、氛围温馨，适合全年龄段玩家。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、角色、服装、岛屿、家具与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>开放世界海岛探索+家园建造+料理制作+伙伴互动+迷你游戏</strong>展开，画风软萌治愈、音乐轻松温馨。玩家可以自由探索海滩、森林、洞穴、火山等多样场景，收集素材制作道具与服装，装饰专属小屋，与三丽鸥伙伴组队完成任务，体验无忧无虑的岛屿度假生活。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>三丽鸥全明星集结：</strong>凯蒂猫、美乐蒂、大耳狗、布丁狗等全角色登场</li><li style="margin-bottom:8px;"><strong>治愈系开放世界：</strong>热带海岛风光，清新画风，视觉体验超温馨</li><li style="margin-bottom:8px;"><strong>自由建造与装扮：</strong>自定义岛屿、家具、服装，打造专属乐园</li><li style="margin-bottom:8px;"><strong>轻松休闲无压力：</strong>无战斗、无难度，纯治愈放松体验</li></ul><p style="line-height:1.8;margin-bottom:24px;">作为单机休闲冒险游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约20-25小时，全岛屿探索、全服装收集、家园装饰、迷你游戏全解锁总游玩时长超60小时。难度为零、氛围治愈，适合休闲玩家、亲子游玩、三丽鸥粉丝。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全DLC、全角色解锁、无限材料、全服装家具，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-6100 / 8GB内存 / HD 620 / 10GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-8400 / 16GB内存 / GTX 1050 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化极佳，老旧电脑、轻薄本也能流畅运行，轻松体验治愈海岛冒险。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开局玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先跟着<strong>主线任务</strong>探索岛屿，解锁基础建造、料理、采集功能，先熟悉地图与基础操作。优先解锁快速传送点，收集基础材料，逐步解锁伙伴、服装与家具，自由打造温馨家园。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 休闲核心技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全地图探索：</strong>海滩、森林、洞穴藏大量素材与隐藏道具</li><li style="margin-bottom:8px;"><strong>伙伴组队：</strong>带上三丽鸥伙伴，获得采集、移动加成</li><li style="margin-bottom:8px;"><strong>每日任务必做：</strong>轻松获取稀有素材、限定服装家具</li><li style="margin-bottom:8px;"><strong>自由装扮：</strong>无限制搭配服装与家园，打造可爱风格乐园</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">游戏无压力无失败，完全放松游玩即可。慢慢探索岛屿、与伙伴互动、装饰家园，体验轻松治愈的海岛生活，适合休闲放松、解压娱乐。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效收集与建造</h4><p style="line-height:1.8;margin-bottom:16px;">利用快速传送穿梭全岛，标记稀有素材位置，组队采集效率翻倍。提前规划家园布局，按主题分区装饰（可爱风、沙滩风、森林风），打造独一无二的三丽鸥岛屿。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全收集攻略</h4><p style="line-height:1.8;margin-bottom:16px;">完成所有支线任务、迷你游戏，解锁全部限定服装、家具、角色外观。探索隐藏洞穴与岛屿角落，集齐稀有素材，解锁全部成就与收集要素。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 治愈玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">与伙伴一起钓鱼、采集、做饭、拍照，记录温馨可爱的游戏瞬间。自由调整时间，体验海岛白天、黄昏、夜晚不同风景，沉浸式体验治愈生活。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启凯蒂猫温馨治愈岛屿冒险！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

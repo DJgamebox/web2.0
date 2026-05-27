@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/10Gi9wYO9coPoniLIjJnOmQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/151O4rE5SotW1dVpiW2U1YQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/10Gi9wYO9coPoniLIjJnOmQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/151O4rE5SotW1dVpiW2U1YQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">文明7/席德・梅尔的文明 VII是一款策略游戏。本站提供文明7/席德・梅尔的文明 VII百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《文明 7 / 席德・梅尔的文明 VII》是由<strong>Firaxis Games</strong>开发、<strong>2K</strong>发行的殿堂级回合制4X策略大作，作为《文明》系列正统续作，在经典玩法基础上全面进化，带来更真实的城市运营、动态世界、领袖特质、科技树与胜利路线，是当今最具深度与耐玩度的历史策略游戏。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部文明、领袖、地图、建筑、DLC内容，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，稳定流畅。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>城市建造+科技文化攀升+外交博弈+战争征服+多路线胜利</strong>展开，从远古部落发展到星际时代，体验横跨千年的文明崛起历程。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全新动态世界</strong>：地形、气候、资源、灾害真实影响发展路线</li><li style="margin-bottom:8px;"><strong>历代领袖重做</strong>：专属能力、特色单位、独特建筑差异化极强</li><li style="margin-bottom:8px;"><strong>深度城市运营</strong>：区域规划、人口发展、生产力管理更真实</li><li style="margin-bottom:8px;"><strong>多胜利路线</strong>：科技、文化、统治、宗教、外交五大胜利全面升级</li><li style="margin-bottom:8px;"><strong>多人联机+模组支持</strong>：好友对战、合作PVE、自定义模组扩展玩法</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机/联机策略游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">单局完整通关时长约20–60小时，全文明收集、全成就、多周目总游玩时长超数百小时。难度自由调节、节奏可快可慢，适合策略游戏爱好者、历史模拟爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+全文明领袖解锁</strong>，兼容Win10/Win11，稳定无闪退。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1050 / 50GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K超清画质，优化出色，低配电脑流畅运行，高配享受超清世界地图。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒文明推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手首选：<strong>中国、罗马、德意志</strong>，运营简单、兵种强力、容错率高，轻松熟悉城市发展与战斗机制。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心玩法技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>城市沿河建造</strong>：粮食+生产力拉满，发展速度翻倍</li><li style="margin-bottom:8px;"><strong>优先人口与科技</strong>：人口是核心，科技决定发展上限</li><li style="margin-bottom:8px;"><strong>前期和平发育</strong>：不盲目扩张，稳住经济再对外扩张</li><li style="margin-bottom:8px;"><strong>兵种克制牢记</strong>：近战克远程，骑兵克法师，反装甲克坦克</li><li style="margin-bottom:8px;"><strong>资源贸易换金币</strong>：保持经济健康，避免破产崩盘</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先完成新手教程，熟悉城市规划、科技树、战斗系统；从标准速度、小地图开始体验第一局，逐步掌握运营节奏。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效运营思路</h4><p style="line-height:1.8;margin-bottom:16px;">根据胜利路线定向发展：科技胜利速攀航天、文化胜利堆旅游产值、统治胜利暴兵压制、外交胜利控联合国。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高阶战争战术</h4><p style="line-height:1.8;margin-bottom:16px;">抢占战略资源，利用地形优势围城；先破防再占领，搭配空军与炮兵压制，用最小战损拿下最大地盘。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高分胜利技巧</h4><p style="line-height:1.8;margin-bottom:16px;">全局视野控资源，AI外交合纵连横；远交近攻、发育与战争平衡，在合适时机一锤定音拿下胜利。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，建立不朽文明，书写属于你的人类历史！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

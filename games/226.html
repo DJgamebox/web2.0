@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1l-0g9jkrJZzeN0JG12pCjg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Q-3JzaOE4zxnVEayMf7WTw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1l-0g9jkrJZzeN0JG12pCjg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Q-3JzaOE4zxnVEayMf7WTw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">钢铁之师2全面冲突版是一款即时战略游戏。本站提供钢铁之师2全面冲突版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:180%; margin-bottom:1em;">《钢铁之师2 全面冲突版》是二战RTS天花板级神作，专注**东线巴巴罗萨行动**，主打极致真实的大规模团战、师团级指挥、兵种克制、地形战术，被誉为最专业的二战实时策略游戏。全面冲突版整合本体+全5个DLC+全师团+全地图，内容完全体，是军事爱好者、硬核RTS玩家必玩的战争神作。</p><p style="line-height:180%; margin-bottom:1em;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全面冲突完整版+全DLC+全师团，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作支持单人/多人联机，是硬核军事<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置即可畅玩。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【核心玩法与特色】</h3><p style="line-height:180%; margin-bottom:1em;">游戏以**师团级真实战争指挥**为核心，完全还原二战东线德军、苏军战斗体系，包含坦克、步兵、火炮、飞机、侦察兵等数百种单位。游戏强调侦查、隐蔽、火力压制、地形利用、反坦克战术，没有无脑暴兵，每一场战斗都是真实战争模拟，战术深度极高。全面冲突版包含所有阵营、师团、地图、DLC战役。</p><h4 style="margin-bottom:1em;">▶ 主要特色</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>全面冲突完整版：</strong>本体+全5DLC+全师团全解锁</li><li style="margin-bottom:0.6em;"><strong>极致真实：</strong>二战装备、装甲、火力、战术1:1还原</li><li style="margin-bottom:0.6em;"><strong>师团系统：</strong>自定义卡组，搭配你的作战体系</li><li style="margin-bottom:0.6em;"><strong>大规模团战：</strong>超大地图，千人团战，海陆空联动</li></ul><p style="line-height:180%; margin-bottom:1em;">本作<strong>单机游戏</strong>离线可玩，联机功能可用。<strong>中文绿色</strong>版汉化完整，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏内容与配置】</h3><p style="line-height:180%; margin-bottom:1em;">游戏包含动态战役、单人遭遇战、多人对战，全阵营师团超过30种，单位数百种，地图超大。战役还原巴巴罗萨行动全程，可玩性100小时+。优化良好，中配电脑即可流畅运行大规模战场。</p><p style="line-height:180%; margin-bottom:1em;">本次提供的<strong>破解版</strong>已整合全面冲突完整版+汉化+最新补丁，完美兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失。</p><h4 style="margin-bottom:1em;">▶ 配置要求</h4><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#e74c33;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 950 / 35GB存储空间</div><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i7-8700 / 16GB内存 / RTX 2060 / SSD固态硬盘</div><p style="line-height:180%; margin-bottom:1em;">大规模团战推荐16G内存，运行更流畅。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏攻略】</h3><h4 style="margin-bottom:1em;">▶ 新手硬核战术技巧</h4><p style="line-height:180%; margin-bottom:1em;">新手核心：**侦查＞冲锋**，开局必须用侦察兵开视野，无视野不开火。步兵占建筑、树林隐蔽，坦克反斜面卡点，火炮后排火力覆盖，飞机专门炸坦克和火炮。绝对不要单独冲锋，步坦协同才是真理。</p><h4 style="margin-bottom:1em;">▶ 战争指挥指南</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>侦查开路：</strong>无视野=白给，侦察车、侦察兵必备</li><li style="margin-bottom:0.6em;"><strong>反坦克体系：</strong>步兵筒子+坦克+歼击车三层防御</li><li style="margin-bottom:0.6em;"><strong>火力压制：</strong>火炮、迫击炮压制敌方步兵集群</li><li style="margin-bottom:0.6em;"><strong>卡组搭配：</strong>均衡配置，不要全堆坦克</li></ul><h4 style="margin-bottom:1em;">▶ 通关进阶思路</h4><p style="line-height:180%; margin-bottom:1em;">高难度AI对战主打防御反击，利用地形消耗敌人，再反推。多人对战讲究配合与卡组克制。这是最接近真实战争的RTS，耐心、战术、视野＞数量，军事爱好者绝对沉迷。</p><p style="text-align:center; margin-top:2em; margin-bottom:1em;"><strong style="font-size:16px; color:#2ecc71;">立即获取破解版下载地址，指挥钢铁师团征服东线战场！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

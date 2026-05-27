@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1rgLcS2oCb0nmsP7WzkMCJQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1FdSIC-LifHxpTagn8Z5IQg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1rgLcS2oCb0nmsP7WzkMCJQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1FdSIC-LifHxpTagn8Z5IQg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">侏罗纪世界：进化3是一款模拟经营游戏。本站提供侏罗纪世界：进化3百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《侏罗纪世界：进化3》是由Frontier Developments开发的正版授权恐龙公园模拟经营大作，作为系列正统第三部，全面升级恐龙生态、公园建造、岛屿管理、基因改造与视觉效果，完美还原《侏罗纪世界》电影世界观，打造属于你的史前恐龙乐园。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部恐龙、岛屿、建筑、皮肤、DLC内容，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>恐龙培育+基因改造+公园建造+游客运营+危机管理</strong>展开，从孵化、饲养、展示到安保、科研、盈利全流程管理，体验最真实的恐龙公园经营。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>超70种史前恐龙</strong>：霸王龙、迅猛龙、沧龙、翼龙全收录，建模高度还原</li><li style="margin-bottom:8px;"><strong>深度基因改造</strong>：修改恐龙外观、性格、强度、抗性，打造专属变种恐龙</li><li style="margin-bottom:8px;"><strong>立体公园建造</strong>：陆地+水上+空中全区域开放，设施自由摆放、景观自定义</li><li style="margin-bottom:8px;"><strong>真实生态模拟</strong>：恐龙社交、猎食、争斗、群体行为更智能真实</li><li style="margin-bottom:8px;"><strong>电影式危机事件</strong>：恐龙逃脱、风暴灾害、设施故障，考验应急管理能力</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机模拟经营游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、教程，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">全岛屿通关时长约30–40小时，全恐龙收集、全成就、创意模式建造总游玩时长超80小时。难度自由调节，画面治愈、玩法解压，适合模拟经营、恐龙爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+全恐龙解锁+无限金币</strong>，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1050Ti / 30GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700 / 16GB内存 / RTX 2060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K、光追、高帧率，恐龙纹理、场景渲染达到电影级画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒运营思路</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>稳经济+强安保</strong>，先孵化温顺食草恐龙盈利，解锁资金后再培育食肉恐龙，不盲目扩张导致破产。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心经营技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>安保永远第一</strong>：围栏等级匹配恐龙强度，提前部署巡逻队防逃脱</li><li style="margin-bottom:8px;"><strong>恐龙舒适度拉满</strong>：食物、水源、种群、地形达标，避免暴躁破坏</li><li style="margin-bottom:8px;"><strong>科研优先解锁</strong>：先点孵化、寿命、抗病基因，降低运营成本</li><li style="margin-bottom:8px;"><strong>设施合理布局</strong>：商店、观景台靠近恐龙区，游客满意度直接拉满</li><li style="margin-bottom:8px;"><strong>灾害提前应对</strong>：风暴来临前关闭设施、加固围栏，减少损失</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先跟着教程熟悉孵化、围栏、科研三大核心，前期靠食草恐龙稳定盈利，逐步解锁岛屿与强力恐龙，打造全球顶级侏罗纪公园。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 基因改造路线</h4><p style="line-height:1.8;margin-bottom:16px;">观赏龙点外观与寿命基因，战斗龙点攻击与防御基因，抗病基因必点，大幅降低死亡率与维护成本，收益最大化。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效公园布局</h4><p style="line-height:1.8;margin-bottom:16px;">按食草/食肉/水生分区管理，观景台、缆车全覆盖热门恐龙区，后勤设施集中摆放，巡逻路线全覆盖，零逃脱、零事故运营。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高难度管理</h4><p style="line-height:1.8;margin-bottom:16px;">风暴、疫病、恐龙逃脱联动应对，快速反应部队待命，科研与经济双线拉满，即使最高难度也能稳定盈利、完美管理。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，建造你的史前恐龙乐园，掌控侏罗纪世界！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1x1X4XP1zcajNXUruk95DIQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1AXovrJhMLuNeo4k_c4UwLg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1WOjlfm_8Wndp6PIPTSTaXA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1fgOX3OaYfcnRqy7pjCcX5w?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1x1X4XP1zcajNXUruk95DIQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">塞尔达传说：王国之泪是一款角色扮演游戏。本站提供塞尔达传说：王国之泪百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《塞尔达传说：王国之泪》是任天堂开发的**荒野之息续作**，开放世界再度进化，新增**究极手、余料建造、倒转乾坤、蓝图**四大神技，打造天空+地面+地底三重世界，造物、拼装、飞天、造车、建城堡，自由度突破天际，堪称游戏史上的奇迹之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全地图、全神庙、全装备、全技能，PC中文版完整汉化，模拟器深度优化，4K+60帧流畅运行，兼容Win10/Win11。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>三重开放世界（天空+地面+地底）+四大究极技能+造物建造+自由解谜+创新战斗</strong>打造，只有想不到，没有做不到，万物皆可拼装、建造、改造、飞行。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>三重超大世界</strong>：浮空岛天空、海拉鲁地面、黑暗地底，三层地图自由探索</li><li style="margin-bottom:8px;"><strong>四大神技</strong>：究极手（建造）、余料（合成）、倒转（回溯）、蓝图（保存）</li><li style="margin-bottom:8px;"><strong>自由造物系统</strong>：造车、造船、造飞机、建城堡、造机甲，创意无限</li><li style="margin-bottom:8px;"><strong>全新神庙解谜</strong>：技能组合机关，难度更高、乐趣更足</li><li style="margin-bottom:8px;"><strong>全新剧情BOSS</strong>：魔王复苏、塞尔达传说史诗终章，演出震撼</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">单机开放世界巅峰，无需联网，中文完整汉化，创意与冒险完美结合。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约60–70小时，全建造、全神庙、全收集、全成就可玩150小时以上。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+全解锁+高清优化+60帧补丁</strong>，稳定丝滑、不掉帧不闪退。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-6500 / 8GB内存 / GTX 1050 / 25GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/Win11 64位 / i7-9700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持4K、高清材质、光追优化，画面梦幻治愈，三重世界视觉效果炸裂。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>解锁四大技能+究极手+蓝图</strong>，学会建造载具，探索效率直接起飞。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>余料建造万能</strong>：武器+装备+怪物合成，神器轻松做</li><li style="margin-bottom:8px;"><strong>究极手造载具</strong>：飞机、汽车、船，全图快速移动</li><li style="margin-bottom:8px;"><strong>倒转乾坤解谜</strong>：物体回溯时间，破解高空机关</li><li style="margin-bottom:8px;"><strong>蓝图一键还原</strong>：保存建造方案，随时召唤载具</li><li style="margin-bottom:8px;"><strong>天空岛优先探索</strong>：前期获取大量资源与强力装备</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">尽情发挥创意，不用按攻略走，自己造车、造飞机，体验王国之泪真正的快乐。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 强力装备合成</h4><p style="line-height:1.8;margin-bottom:16px;">余料建造组合顶级武器，盾牌+翅膀、弓箭+光束，伤害拉满、颜值爆表。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 黑科技载具建造</h4><p style="line-height:1.8;margin-bottom:16px;">垂直飞机、高速跑车、潜水艇、机甲战士，一键蓝图召唤，全图横行无阻。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 三重世界全收集</h4><p style="line-height:1.8;margin-bottom:16px;">天空+地面+地底同步探索，解锁全神庙、全装备、全成就，完美毕业。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即下载，开启造物时代，成为海拉鲁创世之王！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

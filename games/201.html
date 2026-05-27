@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1_J3qwnhhlzqV-HoiO4kxUg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1n7XICAI3_PXbFUDblOnUhQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1_J3qwnhhlzqV-HoiO4kxUg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1n7XICAI3_PXbFUDblOnUhQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">死亡空间/死亡空间：重制版是一款射击游戏。本站提供死亡空间/死亡空间：重制版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《死亡空间 / 死亡空间：重制版》是太空恐怖射击游戏的巅峰合集，包含经典原版与次世代重制版两款作品，游戏以孤立无援的太空飞船为舞台，玩家将面对恐怖的尸变体怪物，依靠策略射击与肢解系统绝境求生，是恐怖与射击结合的神作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，一次性收录双版本内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。作为热门<strong>单机游戏</strong>，本作搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>格式，<strong>解压即玩</strong>，省去安装激活步骤，<strong>PC</strong>玩家直接畅玩。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏以<strong>肢解射击</strong>为核心机制，玩家必须攻击怪物肢体才能将其击杀，而非传统的爆头机制，玩法极具策略性。重制版在画质、光影、音效上全面升级，太空密闭环境带来的孤独与恐惧拉满，战斗紧张刺激，氛围压抑窒息。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>双版本合集：</strong>经典原版+次世代重制版，一次下载体验两份内容</li><li style="margin-bottom:8px;"><strong>肢解战斗系统：</strong>策略射击玩法独特，打击感与恐怖感并存</li><li style="margin-bottom:8px;"><strong>太空密闭恐惧：</strong>孤立无援的环境，全程无安全区，压迫感拉满</li><li style="margin-bottom:8px;"><strong>顶级音效设计：</strong>呼吸、怪物嘶吼、环境音构建沉浸式恐怖体验</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作是纯<strong>单机游戏</strong>，无需联网即可完整通关。<strong>中文绿色</strong>版汉化质量极高，文本、界面、剧情全部精准翻译，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>后解压就能直接开启太空求生之旅。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">单版本主线时长约12-15小时，重制版支持4K、光追、高帧率，场景细节、怪物建模全面进化。游戏内武器种类丰富，资源管理至关重要，玩家需要在弹药、血量、道具之间做出合理分配，挑战感十足。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的<strong>破解版</strong>已整合全部优化补丁，兼容Win10/Win11系统，<strong>网盘</strong>下载速度快，文件完整不缺失，解压即可运行，无需额外补丁。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 8GB内存 / GTX 1050Ti / 50GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i5-10400 / 16GB内存 / RTX 3060 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏画质设置丰富，低配可流畅运行，高配可开启顶级画质，体验次世代恐怖效果。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手战斗技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先使用等离子切割枪，这是游戏最通用、最强力的武器，瞄准怪物四肢射击。资源极度稀缺，不要浪费弹药，残血及时使用医疗包，遇到成群敌人优先使用范围武器。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 生存实用指南</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>肢解优先：</strong>永远瞄准四肢，这是击杀怪物的唯一高效方式</li><li style="margin-bottom:8px;"><strong>资源节约：</strong>弹药和血包珍贵，只在必要时使用</li><li style="margin-bottom:8px;"><strong>环境利用：</strong>引爆油桶、利用障碍物可以快速清场保命</li><li style="margin-bottom:8px;"><strong>声音预警：</strong>听到怪物音效立刻备战，防止突袭</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关技巧</h4><p style="line-height:1.8;margin-bottom:24px;">稳步探索每个区域，不要 rush 前进，收集所有道具和弹药。一周目建议熟悉敌人机制，二周目可挑战高难度，武器升级优先强化等离子切割枪，性价比最高。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，在太空展开绝望求生战！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

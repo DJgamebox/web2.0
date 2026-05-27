@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1YHuQiyBa2KKEScXX4DVRoQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1aL9KAgQVlXL5FD6RYNCakQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1YHuQiyBa2KKEScXX4DVRoQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1aL9KAgQVlXL5FD6RYNCakQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">奇异人生：重逢是一款动作冒险游戏。本站提供奇异人生：重逢百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《奇异人生：重逢》是由<strong>DONTNOD</strong>开发的<strong>剧情向互动叙事冒险大作</strong>。本作延续系列经典情感叙事风格，麦克斯与克洛伊再度重逢，围绕时空能力、青春成长、情感羁绊展开沉浸式剧情，多结局选择、细腻情感刻画、治愈又致郁的氛围，带来殿堂级剧情游戏体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、分支、结局与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>剧情选择+时空回溯+互动探索</strong>展开，延续系列标志性机制。玩家的每一个选择都会改变剧情走向、影响角色关系，时空回溯能力可重新改写选择，探索不同分支结局，画面唯美文艺、配乐顶级、情感细腻，沉浸感拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>经典主角回归：</strong>麦克斯与克洛伊重逢，续写青春情感故事</li><li style="margin-bottom:8px;"><strong>时空回溯机制：</strong>随时回溯时间，改写选择与剧情走向</li><li style="margin-bottom:8px;"><strong>多分支剧情：</strong>选择决定结局，角色命运由你掌控</li><li style="margin-bottom:8px;"><strong>文艺视听体验：</strong>唯美画面+顶级配乐，氛围治愈又催泪</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机剧情游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和对话，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线全剧情时长约15-20小时，全分支探索、全结局解锁总游玩时长超30小时。剧情节奏舒缓、情感刻画深刻，角色塑造饱满，适合喜欢剧情向、叙事类游戏的玩家。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、剧情扩展、美术集、原声音乐，解锁全剧情与隐藏内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 4GB内存 / HD 4400 / 15GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-6500 / 8GB内存 / GTX 950 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化极佳，老旧电脑也能流畅运行，享受唯美文艺剧情体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 剧情玩法</h4><p style="line-height:1.8;margin-bottom:16px;">新手无需操作压力，专注剧情与选择即可。遇到关键抉择可使用时空回溯重新选择，探索不同对话分支，解锁更完整的角色故事与情感细节。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 探索技巧</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>全物品收集：</strong>探索场景道具，解锁背景故事与彩蛋</li><li style="margin-bottom:8px;"><strong>对话全看完：</strong>角色对话藏大量情感细节与伏笔</li><li style="margin-bottom:8px;"><strong>善用回溯：</strong>选错可随时回溯，不用担心错过剧情</li><li style="margin-bottom:8px;"><strong>拍照收集：</strong>解锁麦克斯摄影收集品，完成隐藏成就</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 体验建议</h4><p style="line-height:1.8;margin-bottom:24px;">佩戴耳机体验效果最佳，沉浸在配乐与剧情氛围中。慢慢探索不着急推进剧情，感受角色情感变化，享受这款剧情神作带来的感动。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全结局解锁</h4><p style="line-height:1.8;margin-bottom:16px;">关键抉择点存档，通过回溯选择不同选项，解锁全部好结局、坏结局与隐藏结局。收集全部摄影与道具，解锁完美结局与额外剧情片段。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 细节彩蛋</h4><p style="line-height:1.8;margin-bottom:16px;">场景中藏有前作彩蛋、角色细节与伏笔，仔细观察环境与海报、信件等道具，解锁更多世界观设定与隐藏故事。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 情感路线</h4><p style="line-height:1.8;margin-bottom:16px;">通过对话选择提升与角色的羁绊值，解锁专属情感剧情与互动。不同好感度触发不同互动画面，让剧情体验更加完整细腻。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的奇异人生青春重逢之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

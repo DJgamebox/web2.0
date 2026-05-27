@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1flbqH3bW6i08aOnlBRYRAA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1_E95aarpcxsCGIdTt3wENw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1flbqH3bW6i08aOnlBRYRAA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1_E95aarpcxsCGIdTt3wENw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">影子武士是一款动作游戏。本站提供影子武士百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:180%; margin-bottom:1em;">《影子武士》是一款经典重启的**暴力爽快型FPS射击游戏**。游戏风格荒诞搞笑、血腥暴力，玩家扮演传奇忍者王洛，手持武士刀和各种重型枪械，在恶魔横行的世界里大杀四方。游戏主打高速移动、近战砍杀、枪械扫射，解压感和爽快感拉满，是喜欢无脑割草玩家的最爱。</p><p style="line-height:180%; margin-bottom:1em;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体全部关卡+隐藏武器，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是爽快<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家一键开启割草杀戮。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【核心玩法与特色】</h3><p style="line-height:180%; margin-bottom:1em;">游戏以**近战武士刀斩杀**+**FPS枪械射击**为核心玩法。节奏极快，你可以用刀反弹子弹、瞬间处决敌人，也可以用RPG、喷火器进行暴力输出。剧情幽默无厘头，充满了东方元素与黑色幽默，战斗手感丝滑，血腥特效拉满，玩起来非常解压。</p><h4 style="margin-bottom:1em;">▶ 主要特色</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>忍者FPS：</strong>武士刀+枪械，近战远程双快感</li><li style="margin-bottom:0.6em;"><strong>极致爽快：</strong>刀刀见血，暴力处决，解压神器</li><li style="margin-bottom:0.6em;"><strong>高速战斗：</strong>跑酷、冲刺、反弹子弹，操作流畅</li><li style="margin-bottom:0.6em;"><strong>幽默剧情：</strong>嘴强忍者王洛，搞笑对白不断</li></ul><p style="line-height:180%; margin-bottom:1em;">本作<strong>单机游戏</strong>离线即可畅玩全部关卡，无需联网。<strong>中文绿色</strong>版汉化完整，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，流畅不卡顿。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏内容与配置】</h3><p style="line-height:180%; margin-bottom:1em;">游戏流程时长约10-12小时，关卡风格多变，从现代都市到古代神庙。武器库丰富，武士刀、左轮、散弹枪、激光炮应有尽有。升级系统允许强化血量、伤害和技能，越打越强，割草感越往后越爽。</p><p style="line-height:180%; margin-bottom:1em;">本次提供的<strong>破解版</strong>已整合完美汉化与优化补丁，兼容Win10/Win11，<strong>网盘</strong>下载完整，低配电脑也能流畅跑满帧。</p><h4 style="margin-bottom:1em;">▶ 配置要求</h4><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#e74c33;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 4GB内存 / GTX 460 / 15GB存储空间</div><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i5-6500 / 8GB内存 / GTX 960 / SSD固态硬盘</div><p style="line-height:180%; margin-bottom:1em;">优化极佳，核显都能玩，是低配机福音级别的爽快FPS。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏攻略】</h3><h4 style="margin-bottom:1em;">▶ 新手割草技巧</h4><p style="line-height:180%; margin-bottom:1em;">核心技巧：**刀是最强武器**。武士刀可以反弹子弹，近距离一击必杀。看到敌人开枪不要躲，直接用刀反弹回去。枪械主要用来打远程和血厚的精英怪，清杂兵全靠武士刀冲锋陷阵。</p><h4 style="margin-bottom:1em;">▶ 战斗生存指南</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>子弹反弹：</strong>按住近战键，可反弹所有飞行道具</li><li style="margin-bottom:0.6em;"><strong>处决回血：</strong>近身处决敌人可以恢复生命值</li><li style="margin-bottom:0.6em;"><strong>机动拉扯：</strong>利用冲刺技能不停移动，不要站桩</li><li style="margin-bottom:0.6em;"><strong>技能优先：</strong>先点血量和近战伤害，生存输出双提升</li></ul><h4 style="margin-bottom:1em;">▶ 通关进阶思路</h4><p style="line-height:180%; margin-bottom:1em;">这游戏不需要讲策略，就是干！保持移动，见人就砍，不爽不要玩。高难度下利用反弹子弹机制，可以无伤通关。纯粹的暴力美学，工作学习累了玩一关，瞬间满血复活。</p><p style="text-align:center; margin-top:2em; margin-bottom:1em;"><strong style="font-size:16px; color:#2ecc71;">立即获取破解版下载地址，化身忍者王洛暴力屠魔！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

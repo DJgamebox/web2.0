@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1OSJQv7NOjdNYYt0KPuADYQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1-CqqDOrwX2wxQLIsVml65g?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1OSJQv7NOjdNYYt0KPuADYQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1-CqqDOrwX2wxQLIsVml65g?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">索尼克赛车：交叉世界是一款赛车竞速游戏。本站提供索尼克赛车：交叉世界百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《索尼克赛车：交叉世界》是由<strong>Sumo Digital</strong>开发的<strong>卡通竞速赛车大作</strong>。本作汇聚索尼克、刺猬索尼克全系列经典角色，搭载全新赛道、赛车改装与团队竞速机制，画面色彩绚丽、竞速节奏爽快，带来轻松又刺激的卡通赛车体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部角色、赛车、赛道与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>团队竞速+道具对战+赛车改装</strong>展开，主打快节奏卡通竞速。玩家可操控索尼克、塔尔斯、艾咪等角色，驾驶定制赛车，利用道具干扰对手、加速冲刺，赛道场景丰富、特技动作炫酷，支持单人剧情与本地多人对战。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全索尼克角色集结：</strong>经典角色全员登场，外观可爱辨识度高</li><li style="margin-bottom:8px;"><strong>团队竞速机制：</strong>组队配合加速，玩法更具策略性</li><li style="margin-bottom:8px;"><strong>炫酷赛道场景：</strong>奇幻、科幻、都市多风格赛道，视觉效果绚丽</li><li style="margin-bottom:8px;"><strong>赛车自由改装：</strong>外观、性能、零件自由搭配，打造专属赛车</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机竞速游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、赛道和剧情，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">生涯模式时长约20-25小时，全角色解锁、赛车改装、赛道挑战总游玩时长超60小时。竞速节奏轻快、操作简单易上手，适合全年龄段玩家，休闲竞技两不误。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、角色皮肤、赛车配件、隐藏赛道，解锁全内容与模式。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-6100 / 8GB内存 / GTX 950 / 20GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-8400 / 16GB内存 / GTX 1650 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受高清卡通竞速特效。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色与赛车选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐使用<strong>索尼克、塔尔斯</strong>，操控稳定、加速流畅，容错率高。优先改装速度与加速属性，熟悉赛道后再调整漂移与操控，快速掌握竞速技巧。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 竞速技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>漂移攒气：</strong>弯道漂移积累加速，出弯瞬间冲刺</li><li style="margin-bottom:8px;"><strong>道具使用：</strong>防御道具留着保命，攻击道具干扰前排</li><li style="margin-bottom:8px;"><strong>赛道捷径：</strong>熟记赛道近道，大幅缩短用时拉开差距</li><li style="margin-bottom:8px;"><strong>团队配合：</strong>触发团队加速，实现反超与领跑</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先玩生涯模式熟悉赛道与操作，逐步解锁赛车配件与角色。多练习弯道漂移与道具使用，掌握基础技巧后就能轻松拿下比赛胜利。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 完美漂移</h4><p style="line-height:1.8;margin-bottom:16px;">精准控制漂移时机，实现连续完美漂移，全程保持高速状态。弯道不减速、出弯即加速，大幅提升单圈成绩，轻松碾压对手。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 道具战术</h4><p style="line-height:1.8;margin-bottom:16px;">合理搭配攻防道具，领跑用防御，落后用攻击反超。预判对手道具使用，提前规避伤害，在关键弯道完成绝杀超车。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 赛道精通</h4><p style="line-height:1.8;margin-bottom:16px;">熟记全赛道捷径、跳板与加速带，规划最优跑法。结合漂移与道具，全程无失误跑完全程，轻松刷新纪录拿下冠军。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的索尼克极速赛车之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

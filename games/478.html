@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/11XrHRVWIjpKGfksEo3lV7A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Gjq55tgtYY974mWcuSJLww?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/11XrHRVWIjpKGfksEo3lV7A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Gjq55tgtYY974mWcuSJLww?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">人中之龙极３_人中之龙３外传Dark Ties是一款角色扮演游戏。本站提供人中之龙极３_人中之龙３外传Dark Ties百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《人中之龙极３ 外传Dark Ties》是由Ryu Ga Gotoku Studio开发、SEGA发行的如龙系列重制外传动作大作，以桐生一马为主角，延续极道热血世界观，全新独立剧情、战斗全面升级，回归经典即时制格斗，爽快度拉满。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、动作、技能、服装、DLC，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅丝滑不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>经典即时制格斗+极道剧情+神室町探索+热血必杀+角色养成</strong>打造，原汁原味桐生一马传说，战斗硬核、剧情热血、内容量充足。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>回归经典即时格斗</strong>：连招、摔投、热血动作、武器战斗，打击感炸裂</li><li style="margin-bottom:8px;"><strong>桐生一马主角</strong>：外传全新剧情，黑道恩怨、宿命对决全程高能</li><li style="margin-bottom:8px;"><strong>升级版极道战斗</strong>：格挡、反击、必杀技、环境互动全面优化</li><li style="margin-bottom:8px;"><strong>经典神室町探索</strong>：酒吧、赌场、夜店、小巷全开放，探索要素丰富</li><li style="margin-bottom:8px;"><strong>海量支线与小游戏</strong>：打工、KTV、台球、赛车、料理，欢乐与热血并存</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机动作游戏，无需联网即可畅玩，中文完整，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约20–25小时，全收集、全成就、全支线可玩40小时以上。难度适中、节奏爽快，适合如龙粉丝、动作格斗玩家。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+全DLC+全解锁+优化补丁</strong>，稳定无闪退、运行流畅。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-3470 / 8GB内存 / GTX 660 / 50GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-6700 / 16GB内存 / RTX 2060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K、高帧率，画面写实、战斗特效华丽，优化出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 开荒战斗思路</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>连击+闪避</strong>，不贪刀、打一套撤，熟悉节奏后再爆发输出。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>连击衔接必杀</strong>：普通连击叠满后释放，清场效率极高</li><li style="margin-bottom:8px;"><strong>闪避反击核心</strong>：无敌帧规避伤害，反手打出高额输出</li><li style="margin-bottom:8px;"><strong>场景武器必用</strong>：棒球棒、刀具范围大、伤害高</li><li style="margin-bottom:8px;"><strong>支线顺路清理</strong>：经验、金钱、技能点一键拉满</li><li style="margin-bottom:8px;"><strong>BOSS观察前摇</strong>：躲避大招，抓住空隙输出</li></ul><h4 style="line-height:1.8;margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先推进主线体验桐生热血剧情，熟悉连招后探索收集；整体难度轻松，随便玩都能顺畅通关。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 战斗流派养成</h4><p style="line-height:1.8;margin-bottom:16px;">输出流堆攻击暴击，技能优先连击与必杀；生存流堆防御回血，高难度稳如泰山。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 高效收集攻略</h4><p style="line-height:1.8;margin-bottom:16px;">按区域探索宝藏、道具、服装，解锁全部外观；小游戏刷钱最快，轻松兑换限定奖励。</p><h4 style="color:#000;font-size:15px;margin-top:16px;margin-bottom:8px;">▶ 高难度BOSS打法</h4><p style="line-height:1.8;margin-bottom:16px;">拉扯走位+闪避反击，不正面硬抗；范围武器清小怪，再集火BOSS，轻松零伤通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，化身桐生一马，续写极道传说的热血篇章！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1wKAGc2JPVrflL3VIGWxQ0A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1O6CtCBIefDGB5ggABDvbtg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1wKAGc2JPVrflL3VIGWxQ0A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1O6CtCBIefDGB5ggABDvbtg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">如龙8_人中之龙8是一款角色扮演游戏。本站提供如龙8_人中之龙8百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《如龙8 人中之龙8》是由**Ryu Ga Gotoku Studio**开发、SEGA发行的殿堂级日式RPG大作，系列首次完全转型回合制战斗，以夏威夷为全新舞台，讲述春日一番与桐生一马双主角的热血冒险故事。剧情催泪、玩法轻松、搞笑与感动并存，是日式RPG必玩神作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、职业、角色、服装、DLC内容，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，60帧流畅运行。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>回合制指令战斗+职业转职系统+双主角剧情+夏威夷开放探索+极道搞笑日常</strong>展开，战斗策略性强、内容量巨大、支线趣味十足，兼顾剧情党与玩法党。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全新回合制战斗</strong>：技能华丽、职业丰富、策略拉满，新手也能轻松上手</li><li style="margin-bottom:8px;"><strong>双主角史诗剧情</strong>：春日一番×桐生一马，宿命交织，剧情全程高能</li><li style="margin-bottom:8px;"><strong>海量职业转职</strong>：街友、偶像、保镖、法师等数十种搞笑热血职业</li><li style="margin-bottom:8px;"><strong>超大夏威夷地图</strong>：海滩、都市、赌场、迷宫全开放，探索要素海量</li><li style="margin-bottom:8px;"><strong>经典极道支线</strong>：打工、小游戏、交友、支线剧情，欢乐与感动拉满</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机日式RPG游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手上手零压力。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约50–60小时，全职业、全支线、全收集、多周目总游玩时长超100小时。难度自由调节、剧情顶级、玩法解压，适合日式RPG、剧情向游戏爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+全职业解锁+满级优化</strong>，兼容Win10/Win11，稳定流畅不掉帧。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-3470 / 8GB内存 / GTX 660 / 60GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-6700 / 16GB内存 / RTX 2060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K、高帧率，角色建模、场景画质全面升级，演出效果电影级。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒职业推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手首选：<strong>街霸、保镖、舞者</strong>，攻防均衡、操作简单、清怪效率高，轻松熟悉回合制战斗机制。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>属性克制核心</strong>：火、冰、电、物理针对敌人弱点，打出暴击与倒地</li><li style="margin-bottom:8px;"><strong>连携技能必用</strong>：队友合击伤害爆炸，清场打BOSS效率翻倍</li><li style="margin-bottom:8px;"><strong>职业灵活切换</strong>：输出、治疗、坦克搭配，队伍均衡不翻车</li><li style="margin-bottom:8px;"><strong>支线顺路清</strong>：经验、金钱、装备一键拉满，等级不落后</li><li style="margin-bottom:8px;"><strong>桐生一马重点养</strong>：全能战神，前期开荒、后期BOSS战核心输出</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先跟着主线体验剧情，前期优先升级主角与桐生，解锁强力职业后再刷收集；卡关就升级、换职业、做支线，轻松推进全流程。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 最强队伍构筑</h4><p style="line-height:1.8;margin-bottom:16px;">核心配置：桐生一马（主坦输出）+春日一番（全能）+治疗+法师，覆盖输出、恢复、控制，高难度BOSS战轻松碾压。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效养成路线</h4><p style="line-height:1.8;margin-bottom:16px;">优先点满核心职业技能，装备堆属性伤害与暴击，后期刷终极职业与神装，多周目难度轻松通关，全收集毕业。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 小游戏与赚钱</h4><p style="line-height:1.8;margin-bottom:16px;">赌场、KTV、打工、赛车等小游戏收益极高，轻松赚满金钱，解锁全部服装与道具，完美体验所有内容。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启夏威夷极道热血冒险，体验史上最催泪如龙剧情！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

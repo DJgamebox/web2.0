@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1OgATiMSOvCt3fkeyl__vsA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1GWAdXofpyw005G3mdta6Mg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1OgATiMSOvCt3fkeyl__vsA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1GWAdXofpyw005G3mdta6Mg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">钢铁之师：诺曼底44是一款即时战略游戏。本站提供钢铁之师：诺曼底44百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:180%; margin-bottom:1em;">《钢铁之师：诺曼底44》是硬核二战实时策略游戏的开山之作，主打**师团级战术指挥**与**大规模团战**，完美还原1944年诺曼底登陆战役全景。游戏摒弃传统RTS的资源采集与建造，专注于真实战术部署、兵种克制、空中支援与地形利用，是军事爱好者心中最还原二战战场的策略神作。</p><p style="line-height:180%; margin-bottom:1em;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体全部阵营、师团、地图与战役，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作支持单人剧情/多人联机，是顶级硬核军事<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置即可畅玩。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【核心玩法与特色】</h3><p style="line-height:180%; margin-bottom:1em;">游戏以**卡牌式师团部署+实时战术对抗**为核心。玩家从海量真实二战师团中组建卡组，在超大战场地图上指挥步兵、坦克、装甲车、火炮与战机。游戏极度强调侦查、隐蔽、交叉火力与反坦克战术，没有无脑平推，每一次移动、开火、支援都考验战术素养，战场沉浸感与真实度拉满。</p><h4 style="margin-bottom:1em;">▶ 主要特色</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>极致真实：</strong>二战师团、武器、装甲、战术1:1还原</li><li style="margin-bottom:0.6em;"><strong>无建造纯战术：</strong>专注指挥对抗，拒绝枯燥运营</li><li style="margin-bottom:0.6em;"><strong>海陆空联动：</strong>坦克突击、步兵攻坚、战机轰炸立体作战</li><li style="margin-bottom:0.6em;"><strong>诺曼底全景：</strong>还原登陆日、卡昂战役等经典历史战场</li></ul><p style="line-height:180%; margin-bottom:1em;">本作<strong>单机游戏</strong>离线可玩单人战役与遭遇战，<strong>中文绿色</strong>版汉化完整，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，稳定流畅无BUG。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏内容与配置】</h3><p style="line-height:180%; margin-bottom:1em;">游戏包含盟军、德军两大阵营，数十个历史师团，海量作战单位，主线战役还原诺曼底登陆全程，游玩时长50小时+。战场画面细腻，载具细节精致，爆炸特效真实，优化成熟，中配电脑即可流畅运行千人战场。</p><p style="line-height:180%; margin-bottom:1em;">本次提供的<strong>破解版</strong>已整合完美汉化、最新优化补丁，兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失，运行稳定不掉帧。</p><h4 style="margin-bottom:1em;">▶ 配置要求</h4><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#e74c33;">[最低配置]</strong> Windows 10 64位 / i5-3330 / 6GB内存 / GTX 660 / 25GB存储空间</div><div style="background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i7-4790 / 16GB内存 / GTX 1060 / SSD固态硬盘</div><p style="line-height:180%; margin-bottom:1em;">大战场团战建议16GB内存，流畅度大幅提升，战场体验更沉浸。</p><h3 style="color:#2ecc71; margin-top:1.5em; margin-bottom:1em;">【游戏攻略】</h3><h4 style="margin-bottom:1em;">▶ 新手战术指挥技巧</h4><p style="line-height:180%; margin-bottom:1em;">新手核心：**侦查是第一战斗力**，开局必须派出侦察车/侦察兵开视野，无视野不开火。步兵优先占据建筑、树林掩体，坦克利用地形反斜面卡点，火炮部署在后排进行火力覆盖，战机专门猎杀敌方坦克与火炮。绝对禁止单独冲锋，步坦协同才是制胜关键。</p><h4 style="margin-bottom:1em;">▶ 战场指挥指南</h4><ul style="line-height:180%; padding-left:1.2em;"><li style="margin-bottom:0.6em;"><strong>视野压制：</strong>控制高地与侦察点，掌握战场主动权</li><li style="margin-bottom:0.6em;"><strong>反坦克体系：</strong>步兵筒子+坦克+歼击车构建三层防御</li><li style="margin-bottom:0.6em;"><strong>火力支援：</strong>火炮与战机优先打击敌方集群与装甲</li><li style="margin-bottom:0.6em;"><strong>师团搭配：</strong>均衡配置，远近攻防兼备，不盲目堆坦克</li></ul><h4 style="margin-bottom:1em;">▶ 通关进阶思路</h4><p style="line-height:180%; margin-bottom:1em;">高难度主打防御反击，利用诺曼底复杂地形消耗敌人有生力量，等待支援到位后反推。多人联机讲究队友配合与兵种克制，这是最接近真实二战的RTS游戏，战术与耐心远胜于兵力数量，军事爱好者绝对不容错过。</p><p style="text-align:center; margin-top:2em; margin-bottom:1em;"><strong style="font-size:16px; color:#2ecc71;">立即获取破解版下载地址，指挥铁血师团决胜诺曼底！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

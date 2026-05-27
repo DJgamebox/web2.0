@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1R0W3q8wtMkCO92c2ALPgaA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1sTJWONllM4jYnNupqzzAEQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1QBEfpXsp7RROPVTzKKK5-g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1R0W3q8wtMkCO92c2ALPgaA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1sTJWONllM4jYnNupqzzAEQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.baidu.com/s/1QBEfpXsp7RROPVTzKKK5-g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">刺客信条：影是一款动作游戏。本站提供刺客信条：影百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《刺客信条：影》是由<strong>育碧</strong>开发的<strong>开放世界忍者动作冒险大作</strong>。本作以日本战国时代为舞台，玩家将化身忍者与武士，在乱世中展开潜行、暗杀、战斗与探索，体验最真实的江户时代和风开放世界。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、角色、装备与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>双角色切换+潜行暗杀+开放世界探索</strong>展开，采用全新引擎打造。玩家可自由切换忍者奈绪江与武士弥助，潜行暗杀、正面激战、跑酷攀爬、据点攻略，玩法自由度拉满，场景覆盖城镇、山林、城堡、村落，画面精致沉浸。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>双主角系统：</strong>忍者潜行+武士强攻，两种风格自由切换</li><li style="margin-bottom:8px;"><strong>和风开放世界：</strong>日本战国场景高度还原，风景与氛围极具特色</li><li style="margin-bottom:8px;"><strong>暗杀与战斗：</strong>隐秘暗杀、忍具战术、武士硬刚，玩法丰富</li><li style="margin-bottom:8px;"><strong>跑酷攀爬：</strong>流畅飞檐走壁，全场景自由移动</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和任务，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情时长约30-35小时，全收集、支线任务、据点占领、历史事件总游玩时长超100小时。敌人包含卫兵、武士、忍者、BOSS，AI智能高，战斗与潜行策略性极强。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、服装、武器外观、忍具套装，解锁全部区域与剧情。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-8400 / 8GB内存 / GTX 1060 / 70GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700K / 16GB内存 / RTX 3070 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配可开启光追享受顶级和风画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐优先使用<strong>忍者奈绪江</strong>，潜行暗杀容错率高，适合清据点、绕后偷袭。遇到强敌再切换<strong>武士弥助</strong>正面作战，攻防稳定不易翻车。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 生存技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>潜行优先：</strong>草丛、屋顶、阴影隐蔽，避免正面冲突</li><li style="margin-bottom:8px;"><strong>忍具利用：</strong>烟雾弹、手里剑、鞭炮辅助突围与暗杀</li><li style="margin-bottom:8px;"><strong>弱点暗杀：</strong>背刺、空中暗杀一击必杀，节省资源</li><li style="margin-bottom:8px;"><strong>观察巡逻：</strong>看清敌人路线再行动，避免被包围</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 探索技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先解锁传送点与瞭望点，解锁地图方便探索。收集材料升级装备与忍具，宝箱与秘密收集品多在屋顶、地下室、隐蔽角落。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色切换连招</h4><p style="line-height:1.8;margin-bottom:16px;">忍者潜行破防 + 武士正面爆发，无缝切换打出最高伤害。据点战时先潜行清杂兵，再武士强攻BOSS，效率与安全性拉满。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 据点攻略</h4><p style="line-height:1.8;margin-bottom:16px;">优先暗杀警报兵与弓箭手，再清理巡逻敌人，最后攻略目标。使用环境陷阱与忍具可大幅降低攻略难度，实现无伤占领。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战策略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS攻击前摇明显，闪避后输出弱点。武士格挡反击伤害极高，忍者可远程消耗牵制，灵活切换角色轻松通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的战国忍者冒险之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

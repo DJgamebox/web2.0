@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1fREWQLMHMvPURSP8AAeQ3g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1T9lAeUlGjeixchjz1a7Dng?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="https://pan.xunlei.com/s/VOHJ9muJUx3biEbFgJy3cRf1A1?pwd=3jak" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1fREWQLMHMvPURSP8AAeQ3g?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1T9lAeUlGjeixchjz1a7Dng?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="https://pan.xunlei.com/s/VOHJ9muJUx3biEbFgJy3cRf1A1?pwd=3jak" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战争之人2是一款即时战略游戏。本站提供战争之人2百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战争之人2》是系列正统续作，次世代二战硬核即时战略巅峰之作，全面升级画面、物理引擎、AI与玩法系统，保留经典微观战术指挥，新增大规模战场、动态天气、昼夜系统、强化海军与载具系统，画质与流畅度全面进化，是目前最顶级的二战RTS作品。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+全部DLC内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是次世代<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家直接体验最新续作。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏延续并升级<strong>微观战术操控</strong>核心，士兵动作、载具操作、炮火效果、物理破坏全面次世代化，新增动态天气、昼夜循环、火焰蔓延、建筑全摧毁等真实系统，海陆空三军协同作战，战术深度与自由度达到系列巅峰，硬核与画面体验双顶级。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>次世代画质：</strong>全新引擎，高清材质、光影、粒子效果拉满</li><li style="margin-bottom:8px;"><strong>动态战场：</strong>昼夜、天气、火焰、破坏效果全真实模拟</li><li style="margin-bottom:8px;"><strong>三军作战：</strong>步兵、坦克、海军、火炮全方位联动</li><li style="margin-bottom:8px;"><strong>智能AI升级：</strong>敌人战术更灵活，伏击、包抄、防御更真实</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作<strong>单机游戏</strong>离线即可畅玩全部战役，无需联网。<strong>中文绿色</strong>版汉化完整精准，界面、兵种、剧情、任务全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无捆绑无广告。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏包含全阵营大型战役，单人游玩时长超60小时，地图规模翻倍，覆盖欧洲、北非、太平洋战场，单位包含数百种士兵、坦克、舰艇、飞机，动态环境影响战斗策略，雨天影响移动、夜战影响视野，玩法真实度拉满。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的<strong>破解版</strong>已整合最新优化补丁，完美兼容Win10/Win11系统，<strong>网盘</strong>下载完整不缺失，支持高帧率与4K画质，运行稳定流畅，体验次世代二战战场。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-8400 / 8GB内存 / GTX 1050Ti / 25GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i7-10700 / 16GB内存 / RTX 3060 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏优化出色，中高配电脑可开启全特效，画面震撼，低配电脑也能流畅运行。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手次世代战术技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先利用动态环境优势，夜战与雨天隐蔽性更高，适合潜行伏击。步兵依托建筑与地形推进，坦克提供火力支援，海军负责海岸压制。新增动态火焰可烧毁植被与建筑，能用来封锁敌人路线，战术组合更加丰富。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗生存指南</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>动态环境利用：</strong>昼夜天气直接影响战斗难度与隐蔽性</li><li style="margin-bottom:8px;"><strong>火焰战术：</strong>点燃植被封锁敌人，制造进攻机会</li><li style="margin-bottom:8px;"><strong>装甲克制：</strong>坦克侧后弱点依旧是核心突破口</li><li style="margin-bottom:8px;"><strong>三军协同：</strong>步兵+坦克+海军组合，应对所有战局</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关进阶思路</h4><p style="line-height:1.8;margin-bottom:24px;">高难度关卡利用动态天气制定战术，雨天推进、夜战偷袭效率最高。大规模战场分区域清理，避免多线作战。熟悉新引擎物理效果后，可利用环境破坏与火焰打出创意战术，续作玩法深度远超前作。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，体验战争之人2的次世代二战战场！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

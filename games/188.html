@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1FUNMC9KylAj8BI3eogDvRw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1BdGTYt80uuBjkLa1J9hrPw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1FUNMC9KylAj8BI3eogDvRw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1BdGTYt80uuBjkLa1J9hrPw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">纪元117：罗马和平是一款模拟经营游戏。本站提供纪元117：罗马和平百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《纪元117：罗马和平》是由Ubisoft开发发行的经典城市建造+历史模拟经营大作，以古罗马帝国黄金时代为背景，还原图拉真皇帝治下的罗马盛世。玩家将担任行省总督，打造繁荣城市、管理资源、发展贸易、维护秩序，体验古罗马帝国的巅峰治理。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部地图、建筑、剧情、DLC，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>古罗马城市建造+资源产业链+贸易路线+民生管理+军事防御</strong>打造，历史还原度极高，玩法深度与休闲感兼备。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>真实罗马帝国背景</strong>：还原纪元117年罗马黄金时代，建筑、文化、制度高度写实</li><li style="margin-bottom:8px;"><strong>深度城市建造</strong>：住宅、工坊、神庙、浴场、斗兽场、港口全体系搭建</li><li style="margin-bottom:8px;"><strong>产业链与贸易</strong>：农业、矿产、手工业闭环管理，跨区域贸易积累财富</li><li style="margin-bottom:8px;"><strong>民生与秩序管理</strong>：粮食、安全、幸福度、税收全面调控</li><li style="margin-bottom:8px;"><strong>历史事件与任务</strong>：帝国指令、灾害、叛乱、外交事件沉浸式体验</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机模拟经营游戏，无需联网即可畅玩。中文完整汉化，新手上手零压力。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情+全地图通关约40–50小时，沙盒模式、创意建造、全成就可玩80小时以上。难度自由调节，画风写实精致，适合历史、建造、经营类玩家。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+全DLC+全解锁+优化补丁</strong>，稳定无闪退、运行流畅。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 750Ti / 30GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-6700 / 16GB内存 / GTX 1050Ti / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持4K、高帧率，罗马建筑、城市景观、光影效果写实精美，优化出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒经营思路</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>粮食优先 + 基础住宅 + 安全保障</strong>，先稳住民生，再发展经济与贸易。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心经营技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>粮食永远第一位</strong>：农场、面包房拉满，保证城市不饥荒</li><li style="margin-bottom:8px;"><strong>产业链闭环</strong>：原料→加工→销售一条龙，避免资源短缺</li><li style="margin-bottom:8px;"><strong>消防治安全覆盖</strong>：减少火灾、犯罪，城市稳定发展</li><li style="margin-bottom:8px;"><strong>贸易尽早开通</strong>：卖出多余物资，买入稀缺资源</li><li style="margin-bottom:8px;"><strong>幸福度持续提升</strong>：神庙、浴场、娱乐设施拉满，税收更高</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先跟着教程熟悉建筑与资源系统，优先保障民生与安全，逐步扩张城市，轻松打造罗马黄金行省。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效布局规划</h4><p style="line-height:1.8;margin-bottom:16px;">工业区集中、住宅区分区、公共设施辐射全城，交通流畅、效率最大化，零灾难零犯罪。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 贸易与经济垄断</h4><p style="line-height:1.8;margin-bottom:16px;">控制高价值商品生产，垄断帝国贸易路线，轻松成为帝国最富庶行省。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高难度稳定运营</h4><p style="line-height:1.8;margin-bottom:16px;">提前应对灾害、叛乱、资源短缺，军事与民生双线拉满，最高难度也能盛世长存。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，执掌罗马行省，缔造属于你的黄金帝国！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

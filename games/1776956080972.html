@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1AjTRH8Zi3Y2RHL-M5gI0VQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1MdC-0Fw8sEOl4CTviNQZFA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1AjTRH8Zi3Y2RHL-M5gI0VQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1MdC-0Fw8sEOl4CTviNQZFA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">女神异闻录4：无敌究极后桥背摔是一款动作角色扮演游戏。本站提供女神异闻录4：无敌究极后桥背摔百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《女神异闻录4：无敌究极后桥背摔》是由<strong>Arc System Works</strong>开发的<strong>二次元格斗对战大作</strong>。本作基于《女神异闻录4》世界观打造，原版角色全员集结，将人格面具召唤与格斗连招完美结合，流畅爽快的2D格斗、华丽必杀特效、完整剧情模式，带来殿堂级动漫格斗体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、角色、皮肤与模式内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>2D格斗对战+人格面具召唤+连段爆发</strong>展开，采用经典格斗系统。玩家可操控鸣上悠、花村阳介、里中千枝等角色，召唤人格面具释放必杀技，空中连段、地面压制、爆发超必杀流畅衔接，打击感与动漫演出效果拉满，支持单机剧情与本地双人对战。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>P4全角色集结：</strong>主角团、反派角色全登场，原汁原味还原人设</li><li style="margin-bottom:8px;"><strong>人格面具格斗：</strong>召唤人格面具辅助战斗，技能组合丰富多变</li><li style="margin-bottom:8px;"><strong>华丽必杀演出：</strong>超必杀技全屏动画，特效精致还原动漫质感</li><li style="margin-bottom:8px;"><strong>多元模式：</strong>剧情模式、街机模式、对战模式、训练模式齐全</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机格斗游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、技能和剧情，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">剧情模式时长约15-20小时，全角色收集、皮肤解锁、连招练习总游玩时长超60小时。角色平衡性强、招式易上手难精通，对战节奏爽快，适合新手入门与高手竞技。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、角色服装、配色外观、隐藏关卡，解锁全模式与内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 4GB内存 / HD 4400 / 10GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-6500 / 8GB内存 / GTX 950 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化极佳，低配电脑流畅运行，高配享受高清二次元格斗特效。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐使用<strong>鸣上悠、白钟直斗</strong>，招式全面、连招稳定、攻防均衡，容错率极高。熟悉基础操作后再练习速攻型角色，快速掌握格斗核心机制。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>基础连段：</strong>轻攻击起手衔接中重攻击，稳定输出不中断</li><li style="margin-bottom:8px;"><strong>人格面具：</strong>合理召唤辅助进攻与防守，不要滥用</li><li style="margin-bottom:8px;"><strong>格挡反击：</strong>防御对手攻击后及时反击，夺回主动权</li><li style="margin-bottom:8px;"><strong>距离控制：</strong>保持有利站位，限制对手进攻空间</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 练习技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先进入训练模式熟悉角色出招表，熟记必杀技释放方式。反复练习基础连招形成肌肉记忆，逐步挑战高难度连段与必杀取消，快速提升对战实力。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 爆发连段</h4><p style="line-height:1.8;margin-bottom:16px;">利用技能取消衔接人格面具必杀，打出高伤连续技。角落压制+空中连段+超必杀收尾，一套带走对手大量血量，是高阶对战核心打法。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 对策与压制</h4><p style="line-height:1.8;margin-bottom:16px;">熟悉对手角色招式与前摇动作，提前格挡或闪避。起身压制、投技择机、远程牵制结合，让对手全程被动，牢牢掌控战局。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 超必杀使用</h4><p style="line-height:1.8;margin-bottom:16px;">怒气满后保留超必杀，关键回合用于翻盘或斩杀。看准对手硬直再释放，提高命中率避免被格挡，最大化输出收益。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的女神异闻录格斗对决之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

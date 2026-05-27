@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1Jb5kTifPULoG4XwGvRp66w?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/15eci3CQSFpphcqA0AOZeig?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1Jb5kTifPULoG4XwGvRp66w?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/15eci3CQSFpphcqA0AOZeig?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">灵魂骇客2是一款角色扮演游戏。本站提供灵魂骇客2百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《灵魂骇客2》是由**Atlus**开发、SEGA发行的近未来科幻题材日式RPG大作，属于《女神转生》系列衍生作品。游戏以灵魂与科技为核心，讲述主角林檎为拯救世界，与伙伴们展开的热血冒险，画风精致、剧情深邃、战斗策略拉满，是JRPG爱好者必玩之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+全DLC、恶魔、服装、剧情、技能，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不掉帧。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>回合制策略战斗+恶魔召唤合成+角色羁绊系统+都市探索</strong>打造，继承女神转生经典玩法，同时加入全新灵魂系统，养成与战斗深度兼备。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>恶魔召唤与合成</strong>：收集上百种恶魔，自由合成、继承技能，打造专属军团</li><li style="margin-bottom:8px;"><strong>弱点克制战斗</strong>：火、冰、电、物理属性克制，触发追击打出爆炸输出</li><li style="margin-bottom:8px;"><strong>角色羁绊系统</strong>：加深羁绊解锁专属剧情、强力技能与互动内容</li><li style="margin-bottom:8px;"><strong>近未来科幻氛围</strong>：赛博都市+灵魂世界观，剧情深邃、人设精致</li><li style="margin-bottom:8px;"><strong>全程高质量配音</strong>：顶级声优阵容，沉浸式剧情体验</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机日式RPG，无需联网即可畅玩，中文完整汉化，新手上手轻松。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关约30–40小时，全恶魔收集、全成就、多周目游玩时长可达60小时以上。难度自由调节，适合JRPG、回合制、恶魔收集爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次版本整合<strong>本体+全DLC+全解锁+优化补丁</strong>，稳定无闪退、运行流畅。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-3470 / 8GB内存 / GTX 660 / 25GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-6700 / 16GB内存 / GTX 1060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K超清画质，优化出色，低配电脑也能流畅运行。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒阵容推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先搭配：<strong>输出恶魔+治疗恶魔+辅助恶魔</strong>，攻防均衡，开荒稳定不翻车。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>优先攻击弱点</strong>：触发弱点追击，清怪效率翻倍</li><li style="margin-bottom:8px;"><strong>恶魔合成是核心</strong>：继承强力技能，碾压高难度敌人</li><li style="margin-bottom:8px;"><strong>角色羁绊必升级</strong>：解锁大量实用被动与剧情</li><li style="margin-bottom:8px;"><strong>支线顺路完成</strong>：获取稀有素材、经验与道具</li><li style="margin-bottom:8px;"><strong>血量保持健康</strong>：避免被小怪偷袭秒杀</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先跟着主线熟悉战斗与恶魔系统，优先合成强力恶魔，卡关就提升角色羁绊与等级，轻松推进全流程。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 最强恶魔养成</h4><p style="line-height:1.8;margin-bottom:16px;">定向合成终极恶魔，搭配群体输出、弱点特攻、治疗复活技能，多周目高难度也能轻松碾压。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高阶战斗战术</h4><p style="line-height:1.8;margin-bottom:16px;">属性克制全覆盖，先手压制敌人，用控制技能打断大招，BOSS战稳扎稳打零失误通关。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 全收集攻略</h4><p style="line-height:1.8;margin-bottom:16px;">按区域探索恶魔与收集品，完成全部羁绊事件，解锁全服装、全成就，完美毕业。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，召唤恶魔军团，揭开灵魂与未来的终极秘密！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

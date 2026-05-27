@@ -91,6 +91,18 @@ games.forEach((game, index) => {
   // 替换游戏大小（模板中硬编码的是"未知"，用于SEO）
   html = html.replace(/id="gameSize">未知</g, `id="gameSize">${gameSize || '未知'}<`);
 
+  // 替换更新时间（模板中硬编码的是"2026/04/11"）
+  const gameUpdateTime = game.updateTime;
+  let formattedDate = '2026/04/11'; // 默认日期
+  if (gameUpdateTime) {
+    const date = new Date(gameUpdateTime);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    formattedDate = `${year}/${month}/${day}`;
+  }
+  html = html.replace(/id="gameDate">2026\/04\/11</g, `id="gameDate">${formattedDate}<`);
+
   // 替换 Schema 结构化数据
   html = html.replace(/"name": "生化危机9：安魂曲"/g, `"name": "${gameName}"`);
   html = html.replace(/"alternateName": "Resident Evil Requiem"/g, `"alternateName": "${gameNameEn}"`);

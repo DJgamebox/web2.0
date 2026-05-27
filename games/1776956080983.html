@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1qhiZ2L9ODntfdvpDIMX0qQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1U9jGVBzp2_HuaeF0xZqEXw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1qhiZ2L9ODntfdvpDIMX0qQ?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1U9jGVBzp2_HuaeF0xZqEXw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">双点博物馆是一款模拟经营游戏。本站提供双点博物馆百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《双点博物馆》是由<strong>Two Point Studios</strong>开发的<strong>卡通风格模拟经营大作</strong>。本作延续双点系列轻松幽默风格，玩家将化身博物馆馆长，打造史前化石、神秘古物、科幻奇观等主题展区，收集珍贵展品、管理游客、布置场馆设施，经营独一无二的世界级博物馆，玩法休闲治愈、创意十足。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、展区、展品与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>博物馆建造+展品收集+经营管理+考古挖掘</strong>展开，延续双点系列经典经营机制。玩家可自由规划场馆布局，挖掘史前化石、修复珍贵文物、布置特色展区，满足游客参观、购物、餐饮需求，解锁科幻、历史、自然、神秘多重主题展馆，创意无上限。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>多元展区主题：</strong>史前化石、古代文明、科幻奇观、神秘宝藏全覆盖</li><li style="margin-bottom:8px;"><strong>考古挖掘系统：</strong>派遣团队考古，发掘稀有展品与化石</li><li style="margin-bottom:8px;"><strong>自由建造布局：</strong>场馆、走廊、商店、景观自由设计，打造专属博物馆</li><li style="margin-bottom:8px;"><strong>幽默经营风格：</strong>双点系列经典搞笑画风，休闲轻松无压力</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机模拟经营游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、功能和教程，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">生涯模式时长约30-35小时，沙盒建造、全展品收集、场馆装饰总游玩时长超数百小时。操作简单易懂、节奏休闲治愈，适合全年龄段休闲玩家与建造爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、主题包、稀有展品、建筑装饰，解锁全模式与内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-4130 / 8GB内存 / GTX 650Ti / 15GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-6600 / 16GB内存 / GTX 960 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受超清卡通博物馆建造画面。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开局玩法</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先玩<strong>生涯模式</strong>熟悉建造与经营机制，先搭建基础展区+小型化石展品，搭配商店、厕所、休息区，保证游客满意度。优先修复基础展品，逐步解锁考古挖掘，稳扎稳打扩张场馆。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 建造技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>道路规划：</strong>先修参观通道，再布置展区，避免游客迷路</li><li style="margin-bottom:8px;"><strong>展区搭配：</strong>历史+自然+科幻分区布置，提升参观体验</li><li style="margin-bottom:8px;"><strong>设施齐全：</strong>厕所、商店、休息椅、垃圾桶必须配齐，减少差评</li><li style="margin-bottom:8px;"><strong>员工配置：</strong>修复师、保安、讲解员、清洁工配齐，保障运营</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 经营技巧</h4><p style="line-height:1.8;margin-bottom:24px;">门票与商品价格保持适中，及时修复展品防止损坏，派遣考古队持续挖掘新展品。逐步解锁高级展区与稀有文物，提升博物馆星级，打造人气爆棚的世界顶级展馆。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 展品与展区规划</h4><p style="line-height:1.8;margin-bottom:16px;">优先挖掘稀有化石与传奇文物，提升展区价值。按主题统一装修风格，搭配灯光与装饰，大幅提升游客满意度与博物馆评分，解锁高额收益与奖励。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效运营布局</h4><p style="line-height:1.8;margin-bottom:16px;">热门展品展区周边布置纪念品商店，最大化收益。合理安排员工巡逻与修复路线，减少游客等待时间，实现高人气+高利润双丰收。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 考古挖掘策略</h4><p style="line-height:1.8;margin-bottom:16px;">优先派遣高等级考古队，前往高稀有度遗迹挖掘。囤积修复材料，快速修复传奇展品，快速提升博物馆星级，解锁全部隐藏内容与高级建筑。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的世界顶级博物馆经营之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

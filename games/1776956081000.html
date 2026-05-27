@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1rqtk871xSjXbOTJexcW85w?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1B_Qy6tAUlNO4nvRE8KJ_rw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1rqtk871xSjXbOTJexcW85w?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1B_Qy6tAUlNO4nvRE8KJ_rw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">PGA 巡回赛 2K25是一款体育运动游戏。本站提供PGA 巡回赛 2K25百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《PGA 巡回赛 2K25》是由HB Studios开发、2K发行的殿堂级写实高尔夫模拟体育大作，拥有官方PGA巡回赛授权，收录全球顶级真实球场、职业选手与专业赛事机制，画面极致逼真、物理手感细腻，是高尔夫游戏领域的巅峰之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部球场、选手、装备、赛事、DLC内容，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>写实高尔夫击球+生涯模式+在线巡回赛+球场建造+职业选手养成</strong>打造，从挥杆力度、轨迹、地形、风速、果岭坡度全方面模拟真实高尔夫体验。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>官方PGA授权</strong>：真实赛事、职业球手、顶级球场完美还原</li><li style="margin-bottom:8px;"><strong>极致物理击球</strong>：风速、地形、坡度、草地类型全面影响击球轨迹</li><li style="margin-bottom:8px;"><strong>深度生涯模式</strong>：从新人选手一路打到世界第一，解锁赞助与传奇装备</li><li style="margin-bottom:8px;"><strong>自定义球场编辑器</strong>：自由建造专属高尔夫球场，分享给全球玩家</li><li style="margin-bottom:8px;"><strong>多人联机对战</strong>：好友联机、在线锦标赛、排行榜竞技，乐趣翻倍</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机/联机体育模拟游戏，无需联网验证即可畅玩。中文完整汉化，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">生涯模式全流程约30–40小时，全球场解锁、全成就、联机竞技可玩数百小时。难度自由调节，写实画风+休闲玩法，适合体育游戏、高尔夫爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+全解锁+优化补丁</strong>，兼容Win10/Win11，稳定无闪退。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e7435b;">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1050 / 45GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700 / 16GB内存 / RTX 2060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持4K、HDR、光追，球场植被、水面、光影达到照片级画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先：<strong>生涯模式+基础挥杆练习</strong>，先熟悉力度控制与瞄准，不着急打高级赛事。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心击球技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>挥杆稳定最关键</strong>：力度条保持平稳，避免过力/欠力导致失误</li><li style="margin-bottom:8px;"><strong>风速必须参考</strong>：逆风减距离、顺风加距离，精准调整瞄准点</li><li style="margin-bottom:8px;"><strong>果岭看坡度</strong>：上坡慢、下坡快，按曲线推球才能进洞</li><li style="margin-bottom:8px;"><strong>球杆合理选择</strong>：木杆远距离、铁杆中距离、推杆果岭专用</li><li style="margin-bottom:8px;"><strong>优先保标准杆</strong>：不盲目追求小鸟球，稳定发挥才是上分关键</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先完成基础教程熟悉挥杆与瞄准，从简单球场开始练习，熟练后再打生涯赛事，逐步提升排名。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h4><h4 style="margin-top:16px;margin-bottom:8px;">▶ 专业击球战术</h4><p style="line-height:1.8;margin-bottom:16px;">根据地形选择左曲/右曲球，避开沙坑、水障碍；果岭提前读线，控制推杆力度，轻松拿下小鸟球与老鹰球。</p4><h4 style="margin-top:16px;margin-bottom:8px;">▶ 生涯高效养成</h4><p style="line-height:1.8;margin-bottom:16px;">优先升级力量、精准、推杆三大核心属性，解锁高品质球杆，提升比赛竞争力，快速登顶世界第一。</h4><h4 style="margin-top:16px;margin-bottom:8px;">▶ 球场建造技巧</h4><p style="line-height:1.8;margin-bottom:16px;">利用编辑器打造趣味/专业双风格球场，设置陷阱与景观，分享后可获得全球玩家点赞与奖励。</h3><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，征战顶级PGA巡回赛，成为高尔夫世界冠军！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

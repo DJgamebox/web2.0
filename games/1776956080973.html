@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1nuNXJb6pK4qOfgLFe1z9aw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1rCYdAACvRUwHNuBborsDsA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1nuNXJb6pK4qOfgLFe1z9aw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1rCYdAACvRUwHNuBborsDsA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">真人快打1是一款动作格斗游戏。本站提供真人快打1百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《真人快打1》是由<strong>NetherRealm</strong>开发的<strong>硬核血腥格斗竞技大作</strong>。本作开启全新宇宙，经典角色重启归来，流畅3D格斗、震撼必杀技、系列标志性血腥处决系统，带来最刺激的格斗游戏体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部角色、皮肤、处决技与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>格斗连招+处决技+致命攻击</strong>展开，采用全新战斗系统。玩家可操控刘康、绝对零度、强尼凯奇等角色，打出浮空连击、爆发必杀、终结处决，系列经典血腥特效全面升级，打击感炸裂，支持单机剧情与本地双人对战。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>全角色重启归来：</strong>刘康、绝对零度、蝎子等经典斗士全新登场</li><li style="margin-bottom:8px;"><strong>流畅连招系统：</strong>浮空连击、技能取消、爆发输出，爽快感拉满</li><li style="margin-bottom:8px;"><strong>血腥处决技：</strong>系列标志性致命终结技，画面震撼刺激</li><li style="margin-bottom:8px;"><strong>沉浸式剧情：</strong>全新宇宙故事模式，CG级剧情演出</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机格斗游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、技能和剧情，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">剧情模式时长约20-25小时，全角色收集、处决技解锁、连招练习总游玩时长超80小时。角色招式丰富、平衡性强，对战节奏紧张刺激，适合新手入门与高手竞技。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC角色、服装外观、处决动作、场景关卡，解锁全模式与隐藏内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-7500 / 8GB内存 / GTX 980 / 50GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受高清血腥格斗特效。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐使用<strong>刘康、强尼凯奇、绝对零度</strong>，招式简单、连招稳定、攻防均衡，容错率极高。熟悉基础操作后再练习复杂角色，快速提升格斗水平。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>基础连招：</strong>轻击起手衔接浮空连击，稳定输出不中断</li><li style="margin-bottom:8px;"><strong>能量管理：</strong>合理使用技能能量，不要随意浪费</li><li style="margin-bottom:8px;"><strong>格挡反击：</strong>看准时机防御，打出反击压制对手</li><li style="margin-bottom:8px;"><strong>距离控制：</strong>保持有利位置，限制对手近身输出</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 练习技巧</h4><p style="line-height:1.8;margin-bottom:24px;">优先进入训练模式熟悉角色招式与处决技。多看出招表，熟记必杀技释放方式，反复练习形成肌肉记忆，快速掌握连招与终结技巧。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高伤连招爆发</h4><p style="line-height:1.8;margin-bottom:16px;">利用技能取消衔接必杀技，打出超高伤害连招。角落压制+浮空连段+终结技收尾，一套带走对手，是高阶对战核心技巧。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 招式对策克制</h4><p style="line-height:1.8;margin-bottom:16px;">针对不同角色调整打法，远程角色牵制，突进角色防御反击。熟悉对手招式前摇，提前预判做出应对，牢牢掌握战局主动权。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 处决技使用</h4><p style="line-height:1.8;margin-bottom:16px;">将对手血量打空后，在指定位置输入处决指令。精准释放终结技，完成华丽血腥收尾，享受最震撼的格斗演出。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的真人快打血腥格斗之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1ICHkF4-Xp8CJvZP6wdENvw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1hG5OQlMTXcYQagMb5LVaWA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1ICHkF4-Xp8CJvZP6wdENvw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1hG5OQlMTXcYQagMb5LVaWA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">狙击精英5（全DLC)是一款射击游戏。本站提供狙击精英5（全DLC)百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《狙击精英5》是由<strong>Rebellion Developments</strong>开发的二战题材第三人称战术狙击潜行大作。本作以1944年法国为舞台，玩家化身传奇狙击手卡尔·费尔伯恩，深入纳粹防线，阻止秘密的“海怪计划”，凭借标志性X光击杀镜头、真实弹道物理、超大开放沙盒地图，带来极致硬核又爽快的狙击体验。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、武器、配件、皮肤、DLC，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>真实弹道狙击+战术潜行+沙盒探索+武器改装+多人联机</strong>展开，兼顾潜行渗透与远距离狙击，自由度极高、策略性拉满。</p><h4 style="margin-top:24px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;"><li style="margin-bottom:8px;"><strong>标志性X光击杀镜头</strong>：子弹穿透骨骼、器官慢动作特写，爽感与视觉效果拉满</li><li style="margin-bottom:8px;"><strong>真实弹道模拟</strong>：重力、风速、呼吸、距离全面影响弹道，硬核体验拉满</li><li style="margin-bottom:8px;"><strong>超大沙盒地图</strong>：系列最大关卡，多路线潜入、环境破坏、可互动机关极多</li><li style="margin-bottom:8px;"><strong>深度武器改装</strong>：狙击枪、冲锋枪、手枪全配件自定义，适配各种玩法</li><li style="margin-bottom:8px;"><strong>入侵PVP+合作PVE</strong>：可入侵其他玩家成为敌方狙击手，也可双人合作闯关</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机第三人称射击游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约25-30小时，全收集、全武器解锁、全成就总游玩时长超60小时。难度可选，适合狙击爱好者、潜行战术玩家、二战题材粉丝。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+全武器配件解锁</strong>，兼容Win10/Win11，稳定流畅无闪退。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 8GB内存 / GTX 1650 / 85GB空间</div><div style="background:#f8f9fa;padding:12px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i5-8400 / 16GB内存 / RTX 2060 / 85GB SSD</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">支持1080P/2K/4K、HDR、60帧，画面写实、植被物理、光影效果出色。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒推荐玩法</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先选择<strong>普通难度</strong>，开启弹道辅助；开局以潜行、标记、消音暗杀为主，不正面硬刚，熟悉地图后再挑战远程狙击。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗核心技巧</h4><ul style="line-height:1.8;"><li style="margin-bottom:8px;"><strong>屏息稳准星</strong>：开镜后屏息消除晃动，远程狙击必备</li><li style="margin-bottom:8px;"><strong>噪音掩盖枪声</strong>：利用雷声、爆炸声、飞机声开枪，不暴露位置</li><li style="margin-bottom:8px;"><strong>望远镜全标记</strong>：提前标记敌人、巡逻路线、哨塔、陷阱</li><li style="margin-bottom:8px;"><strong>绕后无声暗杀</strong>：草丛潜行近战处决，消音手枪处理落单敌人</li><li style="margin-bottom:8px;"><strong>优先改装消音</strong>：工作台优先解锁消音器、高倍镜、稳定枪管</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">先完成教程关卡掌握屏息、狙击、潜行；前期以稳为主，利用地形和掩体，逐步解锁强力装备，后期再体验入侵与硬核模式。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 武器与技能搭配</h4><p style="line-height:1.8;margin-bottom:16px;">主力用<strong>高伤害+稳定狙击枪</strong>远程点杀，副武器消音冲锋枪应对近战；穿甲弹打装甲，燃烧弹打集群敌人，根据场景灵活切换。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 潜行战术思路</h4><p style="line-height:1.8;margin-bottom:16px;">利用高低差（屋顶、山坡）狙击，白天穿浅色伪装、夜晚穿深色，蹲伏在草丛中完全隐蔽，完美实现零警报通关。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 多人/入侵攻略</h4><p style="line-height:1.8;margin-bottom:16px;">入侵模式：蹲点伏击、布置陷阱，偷袭玩家；合作模式：一人狙击掩护，一人潜行突破，效率最高、体验最爽。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，化身二战幽灵狙击手，一枪制敌！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

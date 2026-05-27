@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1V8nklaWgF7NSrP0fZioFYw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1IW1kZrpH8mt2LETE52Lzvw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1V8nklaWgF7NSrP0fZioFYw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1IW1kZrpH8mt2LETE52Lzvw?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战场女武神4是一款角色扮演游戏。本站提供战场女武神4百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战场女武神4》是由<strong>SEGA</strong>开发的经典策略战术角色扮演大作。本作回归系列核心精髓，以架空第二次世界大战为背景，讲述联邦军E小队在严寒大陆上的热血战争故事，搭载独家「BLiTZ」战术系统，融合回合制策略与即时动作战斗，画面唯美、剧情催泪、战斗策略拉满，堪称战术RPG巅峰之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、角色、兵种、武器、服装与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#e74c3c;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>BLiTZ战术系统+回合制策略+即时动作操控+兵种养成</strong>展开，水彩手绘画风唯美治愈，战争剧情热血催泪。玩家指挥E小队，操控侦查、突击、反坦、支援、狙击五大兵种，利用地形、掩体、指令点规划战术，在战场上实时移动攻击，对抗帝国军精锐部队，体验策略与操作双重乐趣。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>经典BLiTZ战术：</strong>回合策略规划+即时动作战斗，独特玩法</li><li style="margin-bottom:8px;"><strong>唯美水彩画风：</strong>手绘战场+人物立绘，视觉体验治愈又震撼</li><li style="margin-bottom:8px;"><strong>五大经典兵种：</strong>突击、狙击、反坦、支援、侦查，战术搭配自由</li><li style="margin-bottom:8px;"><strong>热血催泪剧情：</strong>小队羁绊、战争成长，故事代入感拉满</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机策略角色扮演游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style="color:#e74c3c;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约35-40小时，全支线、全角色好感、全武器收集、挑战关卡总游玩时长超70小时。策略性强、难度适中、剧情饱满，适合战术RPG、战争故事爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全DLC、服装、武器、角色解锁，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 650Ti / 30GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-6700 / 16GB内存 / GTX 960 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化出色，低配流畅运行，高配享受超清水彩战争画面。</p><h3 style="color:#e74c3c;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒队伍推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手必带配置：<strong>突击兵（主力输出）+狙击兵（点杀）+反坦兵（拆坦克）+支援兵（加血补给）</strong>，攻防补给齐全，容错率最高，轻松应对前期所有关卡。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗核心技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>掩体必利用：</strong>躲在掩体后减伤，大幅提升生存能力</li><li style="margin-bottom:8px;"><strong>指令点节约：</strong>优先给核心输出角色行动，不浪费点数</li><li style="margin-bottom:8px;"><strong>绕后攻击：</strong>绕到敌人背后攻击，必定暴击伤害翻倍</li><li style="margin-bottom:8px;"><strong>坦克对策：</strong>反坦兵侧面/背面攻击，正面几乎无伤害</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先推进主线熟悉战术系统，升级主力角色武器装备，完成角色支线提升好感解锁强力技能。关卡稳扎稳打，不冒进冲锋，利用地形一步步推进，轻松通关。</p><h3 style="color:#e74c3c;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 角色养成与配装</h4><p style="line-height:1.8;margin-bottom:16px;">主力角色优先升级伤害、命中、防御核心属性，武器装备选对应流派。解锁潜在能力后，搭配暴击、绕后、防御强化词条，打造全能战神小队。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高阶战术思路</h4><p style="line-height:1.8;margin-bottom:16px;">侦查兵抢点开视野，突击兵正面压制，狙击兵高台点杀，反坦兵埋伏偷袭，支援兵全程续航。配合小队指令、潜在技能，一波爆发团灭敌人，高效速通关卡。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS与坦克攻略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS战优先清理杂兵，集火弱点；帝国坦克必须绕侧后攻击。支援兵持续加血，保持全员血量健康，抓住技能间隙全力输出，稳扎稳打即可通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#e74c3c;">立即获取下载地址，开启战场女武神热血战争冒险！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1JBI5VHRBsENGPuKTv5f3Og?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1l3n_3p5GIDM2zU0BCed4uQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1JBI5VHRBsENGPuKTv5f3Og?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1l3n_3p5GIDM2zU0BCed4uQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">人中之龙：维新！极/如龙：维新！极是一款动作角色扮演游戏。本站提供人中之龙：维新！极/如龙：维新！极百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《人中之龙：维新！极》是由<strong>世嘉</strong>开发的<strong>幕末时代动作冒险大作</strong>。本作以日本幕末为背景，桐生一马化身坂本龙马，为查明真相投身京都乱世，融合热血动作格斗、道场养成、支线剧情与经典小游戏，重制高清画质，带来沉浸式幕末武士体验。</p><p style="line-height:1.8;margin-bottom:16px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、武器、皮肤与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>武士动作格斗+四大战斗风格+道场养成</strong>展开，采用全新重制引擎。玩家可切换格斗、太刀、短刀、枪四种风格，流畅连招、奥义爆发、热血群战，战斗爽快感拉满，经典如龙小游戏、支线、养成系统全面回归，内容丰富耐玩。</p><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>四大战斗风格：</strong>格斗、太刀、短刀、枪自由切换，应对各类战局</li><li style="margin-bottom:8px;"><strong>幕末剧情重制：</strong>高清画面+全语音，坂本龙马复仇史诗</li><li style="margin-bottom:8px;"><strong>经典如龙玩法：</strong>支线、小游戏、羁绊、养成内容齐全</li><li style="margin-bottom:8px;"><strong>热血群战系统：</strong>一骑当千砍杀敌军，武士战斗爽感十足</li></ul><p style="line-height:1.8;margin-bottom:16px;">作为单机动作游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和任务，免安装解压直接运行，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线剧情时长约25-30小时，全支线、小游戏、收集、养成总游玩时长超80小时。敌人包含武士、忍者、护卫、BOSS大将，战斗节奏爽快，风格切换策略性极强。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全部DLC、服装外观、武器皮肤、强化道具，解锁全剧情与隐藏内容。已通过安全检测，无毒无广告，放心获取。</p><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 960 / 40GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:16px;">支持1080P、2K、4K分辨率，画面优化出色，低配流畅运行，高配享受高清幕末武士画质。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 战斗风格选择</h4><p style="line-height:1.8;margin-bottom:16px;">新手推荐优先使用<strong>格斗+太刀</strong>，操作简单、输出稳定、容错率高。群战用太刀清场，单挑用格斗压制，熟悉后再解锁短刀与枪，快速掌握战斗核心。</p><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>风格切换：</strong>根据敌人类型切换战斗方式，效率更高</li><li style="margin-bottom:8px;"><strong>奥义爆发：</strong>攒满能量释放大招，清场与破防核心</li><li style="margin-bottom:8px;"><strong>闪避反击：</strong>避开攻击后反击，打出高额伤害</li><li style="margin-bottom:8px;"><strong>武器养成：</strong>强化武器提升攻击力，降低通关难度</li></ul><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 探索技巧</h4><p style="line-height:1.8;margin-bottom:16px;">京都各地图都有大量支线与道具，优先完成解锁奖励与羁绊。经典小游戏赚钱效率极高，可快速购买装备与强化材料，稳步提升战力。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 风格连招搭配</h4><p style="line-height:1.8;margin-bottom:16px;">战斗中无缝切换风格，打出无限连段。太刀起手压制+格斗追击+奥义收尾，一套带走强敌，高难度战斗轻松碾压。</p><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ 武器与技能</h4><p style="line-height:1.8;margin-bottom:16px;">优先升级主力风格技能与对应武器，解锁核心连招。装备适配属性道具，全面提升输出、防御、回复能力，成为幕末最强剑士。</p><h4 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">▶ BOSS战策略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS攻击频率高、范围大，保持闪避观察规律。抓住后摇输出连招，留奥义在破防阶段释放，快速压低血量，稳扎稳打通关。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，开启您的幕末武士维新之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

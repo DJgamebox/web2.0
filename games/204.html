@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1O8qVQacyD-v-FbvmPSg41A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1SUbdf57P-Oa7Rez1XRV3lA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1O8qVQacyD-v-FbvmPSg41A?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1SUbdf57P-Oa7Rez1XRV3lA?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">合金装备3：重制版是一款动作游戏。本站提供合金装备3：重制版百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《合金装备3：重制版》是经典潜行动作游戏的次世代重制作品，以冷战丛林为背景，讲述BIG BOSS的起源故事，游戏融合潜行、生存、狙击、格斗、剧情等多重元素，被誉为潜行游戏天花板，重制版在画质、建模、音效上全面升级。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部游戏内容，<strong>网盘</strong>资源稳定高速，支持<strong>百度网盘下载</strong>。本作是顶级<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家一键体验经典。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏以**硬核丛林潜行**为核心玩法，玩家需要在茂密丛林中隐蔽行踪，躲避敌人巡逻，使用伪装、诱敌、暗杀、狙击等方式完成任务。加入独特生存系统，需要进食、治疗伤口、适应环境，玩法真实且极具深度，剧情与角色塑造堪称游戏界巅峰。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>次世代重制：</strong>高清画质、全新建模、光影升级，画面全面进化</li><li style="margin-bottom:8px;"><strong>硬核潜行：</strong>伪装、潜行、暗杀、狙击，玩法策略性极强</li><li style="margin-bottom:8px;"><strong>生存系统：</strong>进食、疗伤、环境互动，沉浸感拉满</li><li style="margin-bottom:8px;"><strong>史诗剧情：</strong>合金装备起源故事，角色与叙事堪称经典</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作纯<strong>单机游戏</strong>离线运行，无需联网即可完整通关。<strong>中文绿色</strong>版汉化精准流畅，界面、剧情、字幕全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接玩，无任何额外步骤。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏主线流程约15-18小时，包含大量经典BOSS战、支线任务与收集要素，场景覆盖丛林、山地、基地、工厂等多种地形。敌人AI智能高，巡逻路线严密，对声音与光线敏感，潜行挑战感十足。</p><p style="line-height:1.8;margin-bottom:16px;">本次分享的<strong>破解版</strong>已整合最新优化补丁，完美适配Win10/Win11系统，<strong>网盘</strong>下载完整不报错，支持4K分辨率、高帧率运行，体验重制版最佳画质。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 8GB内存 / GTX 1050Ti / 35GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 / i5-10400 / 16GB内存 / RTX 3060 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">重制版优化良好，中低配电脑可流畅运行，高配可开启全特效，体验电影级画面。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手潜行技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先使用迷彩伪装，根据环境切换服装，尽量在草丛与阴影中移动。走路保持静音，不要奔跑，利用地形遮挡敌人视野。优先使用 tranquilizer 狙击枪非致命暗杀，避免触发警报。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 生存与任务指南</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>迷彩值优先：</strong>数值越高越难被发现，是潜行核心</li><li style="margin-bottom:8px;"><strong>及时进食：</strong>保持体力充足，体力不足会影响移动与瞄准</li><li style="margin-bottom:8px;"><strong>伤口处理：</strong>受伤后及时治疗，否则会持续掉血影响操作</li><li style="margin-bottom:8px;"><strong>警报应对：</strong>触发警报立刻躲藏，等待警戒值下降再行动</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关进阶思路</h4><p style="line-height:1.8;margin-bottom:24px;">一周目推荐以潜行通关为主，熟悉敌人路线与场景布局。高难度下不杀人、不触发警报是核心目标，收集迷彩与武器可大幅降低游戏难度，建议沉浸式体验剧情。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，重温合金装备3的经典潜行！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1OB3iPYIBu9Thv0x6S-SNQw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/14F-_NL2tg1dNaA9zEcjwbg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1OB3iPYIBu9Thv0x6S-SNQw?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/14F-_NL2tg1dNaA9zEcjwbg?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">女神异闻录3Reload是一款角色扮演游戏。本站提供女神异闻录3Reload百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《女神异闻录3Reload》是由<strong>Atlus</strong>开发的殿堂级JRPG神作，为《女神异闻录3》的完全重制版。本作以「影时间」为独特设定，玩家化身月光馆学园学生，白天上课交友、夜晚率领特别课外活动部（S.E.E.S）讨伐阴影，在校园生活与人格面具养成中揭开世界真相。游戏全程高清重制、UI全面翻新、音乐重编，剧情催泪、玩法经典，是Persona系列必玩的巅峰之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+全DLC、服装、BGM、人格面具，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，60帧流畅运行。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>校园生活模拟+塔尔塔罗斯迷宫探索+人格面具合体+社群COOP养成</strong>展开，白天体验学业、社团、交友的青春日常，夜晚潜入迷宫战斗，平衡生活与战斗的双重乐趣。</p><h4 style="margin-top:24px;margin-bottom:8px;">? 主要特色</h4><ul style="line-height:1.8;"><li style="margin-bottom:8px;"><strong>完全重制画质</strong>：角色、场景、UI全面高清化，60帧丝滑流畅</li><li style="margin-bottom:8px;"><strong>经典社群COOP</strong>：10+角色社群养成，加深羁绊解锁强力技能</li><li style="margin-bottom:8px;"><strong>人格面具合体</strong>：收集、合体、培养数百种面具，技能搭配自由</li><li style="margin-bottom:8px;"><strong>影时间迷宫探索</strong>：挑战巨型塔尔塔罗斯，层层推进讨伐阴影</li><li style="margin-bottom:8px;"><strong>金曲重编</strong>：全BGM重新编曲，青春热血氛围拉满</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机JRPG游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约60-70小时，全社群、全面具、全成就、多周目总游玩时长超120小时。难度自由调节、剧情催泪、养成治愈，适合JRPG爱好者、Persona系列粉丝。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合**本体+全DLC+全服装BGM解锁+满级面具存档**，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">? 配置要求</h4><div style="background:#f8f9fa;padding:12px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-6500 / 8GB内存 / GTX 750Ti / 50GB空间</div><div style="background:#f8f9fa;padding:12px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-8700 / 16GB内存 / GTX 1660 / SSD硬盘</div><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">支持1080P/2K/4K超清画质，优化出色，低配流畅、高配画质炸裂。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">? 开荒核心思路</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先<strong>平衡校园生活与迷宫探索</strong>，每日必做：上课提升属性、放学后提升社群COOP、夜晚进入塔尔塔罗斯练级。初期用物理+火冰风电属性面具，覆盖所有敌人弱点。</p><h4 style="margin-top:16px;margin-bottom:8px;">? 核心玩法技巧</h4><ul style="line-height:1.8;"><li style="margin-bottom:8px;"><strong>属性克制优先</strong>：攻击敌人弱点触发倒地，实现1MORE连击</li><li style="margin-bottom:8px;"><strong>社群必拉满</strong>：社群等级越高，合体面具属性越强</li><li style="margin-bottom:8px;"><strong>每日日程规划</strong>：知识/魅力/勇气三属性均衡提升，解锁剧情</li><li style="margin-bottom:8px;"><strong>迷宫分层推进</strong>：不贪深层数，血量不足及时回城，避免团灭掉钱</li><li style="margin-bottom:8px;"><strong>合体不中断</strong>：收集新面具立刻合体，保持队伍强度跟得上进度</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">? 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先跟着主线推进，社群优先提升主角团成员，属性靠上课与打工提升。战斗以打弱点为主，不用硬肝等级，轻松体验校园与战斗的双重乐趣。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">? 人格面具养成</h4><p style="line-height:1.8;margin-bottom:16px;">主力培养<strong>万能属性+高耐久+辅助技能</strong>面具，继承蓄力、异常状态、群体恢复。二周目解锁最强面具，搭配全属性无效抗性，碾压终局BOSS。</p><h4 style="margin-top:16px;margin-bottom:8px;">? 高效日程攻略</h4><p style="line-height:1.8;margin-bottom:16px;">最大化利用时间：雨天提升属性翻倍、节日必触发社群事件、考前必刷题。完美日程可实现全社群满COOP、全属性满级，完美通关一周目。</p><h4 style="margin-top:16px;margin-bottom:8px;">? BOSS战攻略</h4><p style="line-height:1.8;margin-bottom:16px;">BOSS战前必存档、补满状态，先清小怪再集火BOSS。用异常状态控制BOSS，搭配蓄力弱点爆发，恢复角色保持血量，轻松通关所有BOSS战。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，体验青春与羁绊交织的Persona巅峰之作！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1a3aGfAa81qr8xTWW7pxmRg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Nt5hDbErF4ZacURiMwkS1Q?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1a3aGfAa81qr8xTWW7pxmRg?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Nt5hDbErF4ZacURiMwkS1Q?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">战争之人：赤潮是一款即时战略游戏。本站提供战争之人：赤潮百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《战争之人：赤潮》是战争之人系列专注黑海海战与两栖作战的经典作品，以二战黑海战场为核心，主打海陆协同作战、两栖登陆、港口攻坚、舰艇炮击等特色玩法，新增大量海军单位、登陆艇、护卫舰、海岸炮，完美还原海上与滩头战场，是系列中战场风格最独特的硬核RTS神作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部战役与海军内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是特色鲜明的<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置即可畅玩海陆战场。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏延续战争之人顶级<strong>微观战术指挥</strong>，并首次加入大规模海战系统，玩家可指挥步兵两栖登陆、舰艇火力支援、海岸炮压制、港口突袭，海陆单位联动作战，玩法自由度与策略性拉满。舰艇炮击、鱼雷攻击、滩头防御、登陆攻坚等玩法独一无二，战场体验极具新鲜感。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>海陆双线作战：</strong>步兵登陆+海军炮击，玩法全面升级</li><li style="margin-bottom:8px;"><strong>黑海战场还原：</strong>港口、海岸、岛屿、滩头场景真实</li><li style="margin-bottom:8px;"><strong>完整海军体系：</strong>护卫舰、鱼雷艇、登陆艇、海岸炮齐全</li><li style="margin-bottom:8px;"><strong>硬核战术细节：</strong>装甲、弹药、装填、掩体全真实模拟</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">本作<strong>单机游戏</strong>离线即可畅玩全部内容，无需联网。<strong>中文绿色</strong>版汉化精准完整，界面、兵种、舰艇、任务全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">游戏包含完整黑海战役，流程时长约12-15小时，地图覆盖海岸、港口、岛屿、滩头阵地，单位包含海军舰艇、两栖载具、坦克、步兵、火炮等，海陆AI逻辑真实，登陆战与防御战难度适中、挑战性强，重复游玩乐趣十足。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的<strong>破解版</strong>已整合汉化补丁与优化补丁，完美兼容Win10/Win11系统，<strong>网盘</strong>下载完整不缺失，运行稳定流畅，老旧电脑也能轻松体验海战乐趣。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i3-8100 / 2GB内存 / GTX 450 / 8GB存储空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#e74c3c;">[推荐配置]</strong> Windows 10/11 / i5-8400 / 4GB内存 / GTX 650 / SSD固态硬盘</div><p style="line-height:1.8;margin-bottom:24px;">游戏优化成熟，配置要求极低，十年前电脑均可流畅运行，海战画面与炮击效果震撼。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 新手海陆战术技巧</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先使用海军舰艇远程火力压制，摧毁敌方海岸炮与防御工事，再派出登陆艇输送步兵上岸。滩头阵地利用废墟与岩石掩体，避免暴露在开阔地带。坦克登陆后快速推进占领关键点，舰艇持续提供火力支援，步步为营最稳定。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 战斗生存指南</h4><ul style="line-height:1.8;margin-left:20px;"><li style="margin-bottom:8px;"><strong>海军先清防：</strong>舰艇优先摧毁海岸威胁，再进行登陆</li><li style="margin-bottom:8px;"><strong>滩头掩体：</strong>废墟、弹坑、障碍物是步兵生存关键</li><li style="margin-bottom:8px;"><strong>鱼雷克制舰艇：</strong>鱼雷艇对大型船只伤害毁灭性</li><li style="margin-bottom:8px;"><strong>步坦协同：</strong>登陆后步兵与坦克配合推进效率最高</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 通关进阶思路</h4><p style="line-height:1.8;margin-bottom:24px;">海战关卡优先制海权，掌握海面优势后登陆战难度大幅降低。港口攻坚战分区域清理，避免多线同时作战。熟悉舰艇与步兵配合后，可实现零伤亡快速通关，海陆联动玩法成就感拉满。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取破解版下载地址，体验战争之人赤潮的海陆战场！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

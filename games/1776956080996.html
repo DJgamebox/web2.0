@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1pRGrPXGtC2VTlAo6u-lAcA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Jmv-UhStVm1VDWFGWFBMVQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1pRGrPXGtC2VTlAo6u-lAcA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1Jmv-UhStVm1VDWFGWFBMVQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">建筑模拟器是一款模拟经营游戏。本站提供建筑模拟器百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《建筑模拟器》是由 <strong>astragon Entertainment</strong> 开发的超真实建筑工程模拟经营大作。本作搭载真实物理引擎，完美还原现实建筑施工全流程，收录数十款官方授权的重型工程车辆、挖掘机、起重机、装载机等设备，玩家将化身建筑老板，承接工程、建造房屋、管理团队、打造属于自己的建筑帝国，真实度与沉浸感拉满。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、工程车辆、建筑图纸、地图与DLC内容，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，让您获得最佳游戏体验。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>真实工程建造+重型载具驾驶+建筑公司经营+物理模拟</strong>展开，全流程还原挖地基、浇筑混凝土、搭建钢架、铺设路面、装修房屋等建筑步骤。支持单人建造与多人联机合作，操作拟真、设备齐全、场景开放，带你体验最专业的建筑施工乐趣。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>官方授权载具：</strong>卡特彼勒、小松、利勃海尔等真实品牌工程车</li><li style="margin-bottom:8px;"><strong>全流程建造：</strong>从地基到装修，1:1还原真实建筑流程</li><li style="margin-bottom:8px;"><strong>真实物理引擎：</strong>重量、重力、碰撞、施工物理效果高度拟真</li><li style="margin-bottom:8px;"><strong>公司经营系统：</strong>接订单、雇员工、升级设备、扩张建筑帝国</li></ul><p style="line-height:1.8;margin-bottom:24px;">作为单机模拟经营游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、教程和操作，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线建造通关时长约40-50小时，全载具收集、全建筑解锁、自由建造、联机合作总游玩时长超数百小时。真实度高、难度友好、沉浸感极强，适合模拟游戏爱好者、工程车粉丝。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合全DLC、全载具解锁、全建筑图纸、无限金币，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-4460 / 8GB内存 / GTX 660 / 25GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-7700 / 16GB内存 / GTX 1060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P、2K、4K分辨率，优化出色，低配流畅运行，高配享受超清真实建筑施工画面。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开局玩法推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手优先完成<strong>教程任务</strong>熟悉挖掘机、起重机、装载机基础操作，从小型地基、道路维修等简单工程开始，逐步熟悉车辆控制与建造流程，积累资金后再解锁大型建筑与重型设备。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 施工核心技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>慢操作稳准：</strong>工程车操作轻柔缓慢，避免碰撞翻车</li><li style="margin-bottom:8px;"><strong>按流程施工：</strong>严格按照地基→框架→浇筑→装修顺序建造</li><li style="margin-bottom:8px;"><strong>合理用辅助：</strong>开启辅助瞄准、自动对齐，大幅降低难度</li><li style="margin-bottom:8px;"><strong>优先升级：</strong>先升级常用车辆，提升效率与稳定性</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">不要急于挑战大型工程，先熟练掌握基础车辆操作。完成订单获取稳定收益，逐步扩张公司、解锁新设备，慢慢体验从小工程到摩天大楼的建造乐趣。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 高效施工流程</h4><p style="line-height:1.8;margin-bottom:16px;">规划最优施工路线，多车辆配合作业（挖掘机挖土+起重机吊装+混凝土车浇筑），关闭不必要的特效提升流畅度，实现高速高效完成大型建筑订单，快速赚取高额收益。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 载具与经营管理</h4><p style="line-height:1.8;margin-bottom:16px;">主力优先升级大型挖掘机、移动式起重机、混凝土泵车，覆盖绝大多数工程。雇佣员工自动处理小型任务，自己专注核心建造，实现公司自动化盈利。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 大型建筑攻略</h4><p style="line-height:1.8;margin-bottom:16px;">高层建筑、桥梁等大型工程，提前规划地形与车辆位置，利用起重机精准吊装，严格按照游戏提示步骤执行，耐心操作避免失误，即可完美完成顶级工程。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，打造属于你的专属建筑帝国！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-

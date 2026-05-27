@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -68,7 +68,7 @@
             --border-color: #e8e8e8;
         }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
             background: var(--bg-dark);
             color: var(--text-primary);
             line-height: 1.6;
@@ -115,22 +115,6 @@
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-        }
-                .header .back-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--accent-blue) !important;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 500;
-            transition: all 0.3s;
-        
-            margin-left: -20px;
-            padding-left: 20px;
-        }
-        .header .back-link:hover {
-            text-decoration: underline;
         }
         .header-center {
             flex: 1;
@@ -435,6 +419,19 @@
             font-size: 20px;
             font-weight: 600;
         }
+        .header .back-link {
+            color: var(--accent-blue) !important;
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: -20px;
+            padding-left: 20px;
+        }
+        .header .back-link:hover {
+            text-decoration: underline;
+        }
         .theme-toggle {
             width: 36px;
             height: 36px;
@@ -583,7 +580,7 @@
                     <div class="meta-item">
                         <i class="far fa-calendar-alt"></i>
                         <span class="meta-label">更新时间：</span>
-                        <span class="meta-value">2026/04/11</span>
+                        <span class="meta-value" id="gameDate">2026/05/18</span>
                     </div>
                 </div>
                 <div class="action-buttons">
@@ -599,17 +596,15 @@
         
         <div class="download-section">
             <h2 class="section-title"><i class="fas fa-download"></i>游戏下载地址</h2>
-            <div class="download-buttons" id="downloadButtons">
-                <a href="https://pan.baidu.com/s/1bOBEdNifpxHJrBv1E4tXSA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1DFIV9gTa5eQ407LKLbRGvQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a><a href="#" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用2</a><a href="#" target="_blank" class="download-btn thunder"><img src="../images/xunlei-icon-v2.png" alt="迅雷" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">迅雷下载</a>
-            </div>
+            <div class="download-buttons" id="downloadButtons"><a href="https://pan.baidu.com/s/1bOBEdNifpxHJrBv1E4tXSA?pwd=8888" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘下载</a><a href="https://pan.baidu.com/s/1DFIV9gTa5eQ407LKLbRGvQ?pwd=6666" target="_blank" class="download-btn baidu"><img src="../images/baidu-icon-v2.png" alt="百度网盘" style="width:20px;height:20px;margin-right:8px;border-radius:4px;">百度网盘备用</a></div>
         </div>
         
         <div class="game-description">
             <h2><i class="fas fa-info-circle"></i>游戏介绍</h2>
-            <p id="gameDesc">噬血代码2是一款角色扮演游戏。本站提供噬血代码2百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。</p>
+            <p id="gameDesc"><p style="line-height:1.8;margin-bottom:16px;">《噬血代码2》是由<strong>万代南梦宫</strong>开发的二次元风格类魂动作角色扮演大作，作为《噬血代码》正统续作，延续崩坏末世+吸血鬼「复生者」世界观，带来全新角色、血码系统、高速魂系战斗与深度伙伴协作，画面与战斗流畅度全面升级，二次元魂类游戏天花板之作。</p><p style="line-height:1.8;margin-bottom:24px;">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部剧情、血码、武器、服装、DLC内容，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，60帧丝滑战斗。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【核心玩法与特色】</h3><p style="line-height:1.8;margin-bottom:16px;">本作核心玩法围绕<strong>高难度魂系战斗+自由血码构筑+伙伴联机协作+末世探索+技能自定义</strong>展开，战斗爽快、难度适中、养成深度拉满，兼顾魂系玩家与二次元爱好者。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 主要特色</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>进化版血码系统</strong>：数十种血码自由切换，职业/玩法一键切换</li><li style="margin-bottom:8px;"><strong>高速魂系战斗</strong>：闪避、反击、连招流畅，打击感与节奏双拉满</li><li style="margin-bottom:8px;"><strong>伙伴AI+双人联机</strong>：全程队友协同作战，可双人联机共斗</li><li style="margin-bottom:8px;"><strong>精致二次元画风</strong>：角色建模、场景渲染、CG动画全面升级</li><li style="margin-bottom:8px;"><strong>武器+技能自由搭配</strong>：大剑、刺剑、拳套、枪械全武器自由使用</li></ul><p style="line-height:1.8;margin-top:16px;margin-bottom:24px;">作为单机/联机动作RPG游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【游戏内容与配置】</h3><p style="line-height:1.8;margin-bottom:16px;">主线通关时长约30–40小时，全血码收集、全武器装备、全成就、多周目总游玩时长超80小时。难度可调节，二次元画风降低魂系门槛，适合动作游戏、二次元爱好者。</p><p style="line-height:1.8;margin-bottom:16px;">本次提供的版本整合<strong>本体+全DLC+全服装血码解锁</strong>，兼容Win10/Win11，稳定流畅不掉帧。已通过安全检测，无毒无广告，放心获取。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 配置要求</h4><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;"><strong style="color:#e74c3c;">[最低配置]</strong> Windows 10 64位 / i5-7600 / 8GB内存 / GTX 1050Ti / 50GB空间</div><div style="background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;"><strong style="color:#3498db;">[推荐配置]</strong> Windows 10/11 64位 / i7-9700 / 16GB内存 / RTX 2060 / SSD硬盘</div><p style="line-height:1.8;margin-bottom:24px;">支持1080P/2K/4K、HDR、高帧率，战斗特效华丽，优化出色，丝滑不卡顿。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【新手攻略】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 开荒血码推荐</h4><p style="line-height:1.8;margin-bottom:16px;">新手首选：<strong>战士/骑士型血码</strong>，攻防均衡、操作简单、容错率高，轻松熟悉闪避、连招、反击三大核心战斗机制。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 核心战斗技巧</h4><ul style="margin-left:20px;line-height:1.8;"><li style="margin-bottom:8px;"><strong>闪避比防御更重要</strong>：精准闪避触发无敌，规避所有伤害</li><li style="margin-bottom:8px;"><strong>优先清理小怪</strong>：不贪刀，逐个击破，避免被围殴秒杀</li><li style="margin-bottom:8px;"><strong>伙伴技能合理用</strong>：控制、治疗、增伤技能关键时救命</li><li style="margin-bottom:8px;"><strong>血码灵活切换</strong>：打BOSS换输出，探索换续航，适配场景</li><li style="margin-bottom:8px;"><strong>记得随时回血</strong>：保持血量健康，魂系游戏失误即死</li></ul><h4 style="margin-top:16px;margin-bottom:8px;">▶ 入门建议</h4><p style="line-height:1.8;margin-bottom:24px;">优先跟着主线熟悉地图与战斗，先升级血量与武器，熟悉BOSS攻击节奏后再反击；卡关可召唤伙伴/联机，降低难度轻松推进。</p><h3 style="color:#2ecc71;margin-top:24px;margin-bottom:12px;">【进阶技巧】</h3><h4 style="margin-top:16px;margin-bottom:8px;">▶ 血码&流派构筑</h4><p style="line-height:1.8;margin-bottom:16px;">输出流：高爆发刺客血码+暴击武器；坦克流：防御血码+重甲；辅助流：治疗+buff血码，双人联机强度拉满，多周目轻松碾压。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ BOSS战高阶打法</h4><p style="line-height:1.8;margin-bottom:16px;">先观察BOSS攻击前摇与连招规律，找到输出窗口；用控制技能打断大招，精准闪避后打爆发，熟悉机制后所有BOSS均可无伤通关。</p><h4 style="margin-top:16px;margin-bottom:8px;">▶ 装备&养成路线</h4><p style="line-height:1.8;margin-bottom:16px;">武器优先升级等级，防具堆血量与防御，技能优先点核心输出/闪避；全血码收集后可自由混搭技能，打造专属最强流派。</p><p style="text-align:center;margin-top:32px;margin-bottom:16px;"><strong style="font-size:16px;color:#2ecc71;">立即获取下载地址，化身复生者，在崩坏末世中展开魂系战斗之旅！</strong></p></p>
         </div>
         
-        </div>
+    </div>
     
     <script>
         // 收藏功能 - 使用与主页相同的 localStorage key
@@ -1069,7 +1064,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">安装版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 安装版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 安装版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-blue);">推荐：自动创建桌面快捷方式</div>
                                 </div>
                             </div>
@@ -1084,7 +1079,7 @@
                                 </div>
                                 <div style="text-align: center;">
                                     <div style="font-size: 16px; font-weight: 600; color: var(--text-white); margin-bottom: 6px;">便携版</div>
-                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.8 便携版.exe</div>
+                                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px;">GameBox 1.1.9 便携版.exe</div>
                                     <div style="font-size: 11px; color: var(--accent-green);">免安装：解压即用，可放U盘携带</div>
                                 </div>
                             </div>
@@ -1116,11 +1111,11 @@
             // 下载对应版本
             const link = document.createElement('a');
             if (type === 'portable') {
-                link.href = '../downloads/GameBox 1.1.8 便携版.exe';
-                link.download = 'GameBox 1.1.8 便携版.exe';
+                link.href = '../downloads/GameBox 1.1.9 便携版.exe';
+                link.download = 'GameBox 1.1.9 便携版.exe';
             } else {
-                link.href = '../downloads/GameBox 1.1.8 安装版.exe';
-                link.download = 'GameBox 1.1.8 安装版.exe';
+                link.href = '../downloads/GameBox 1.1.9 安装版.exe';
+                link.download = 'GameBox 1.1.9 安装版.exe';
             }
             document.body.appendChild(link);
             link.click();
@@ -1259,4 +1254,3 @@
 </script>
 </body>
 </html>
-
