@@ -1,8 +1,29 @@
 // 游戏数据 - 由后台管理系统自动生成
-// 生成时间: 2026/5/27 08:09:55
+// 生成时间: 2026/5/27 19:37:07
 // 游戏数量: 1984
 
 const importedGames = [
+  {
+    "id": 2033,
+    "name": "007：初露锋芒/007：黎明曙光",
+    "nameEn": "James Bond 007 First Light",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2033.jpg",
+    "screenshots": [],
+    "category": "射击",
+    "size": "54G",
+    "description": "<p style=\"line-height:180%; margin-bottom:1em;\">《007：初露锋芒》（也译作《007：黎明曙光》）是经典007系列重启之作，主打沉浸式特工潜行、战术射击、高科技装备与电影级剧情演出，玩家化身传奇特工詹姆斯·邦德，执行跨国秘密任务、破解阴谋、对抗恐怖组织，游戏兼具紧张潜行与爽快枪战，电影感拉满，是特工题材游戏中的顶级佳作。</p><p style=\"line-height:180%; margin-bottom:1em;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体全剧情、全关卡、全高科技装备与奖励内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是沉浸式特工题材<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置即可化身邦德执行绝密任务。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【核心玩法与特色】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏以**潜行暗杀+战术射击+高科技特工装备**为核心玩法，完美还原007的经典魅力。玩家可自由选择任务风格：悄无声息潜行绕后、利用环境制敌，或是正面强攻火力全开。游戏配备电击腕带、隐形装置、狙击枪、特制手枪等经典邦德装备，场景包含豪宅、基地、城市、港口等跨国地点，剧情紧凑悬疑，宛如可互动的007大片。</p><h4 style=\"margin-bottom:1em;\">▶ 主要特色</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>双玩法自由：</strong>潜行暗杀/正面强攻，任务完成方式自由选择</li><li style=\"margin-bottom:0.6em;\"><strong>007经典装备：</strong>电击腕带、隐形、特制武器、黑客工具全部收录</li><li style=\"margin-bottom:0.6em;\"><strong>电影级剧情：</strong>悬疑反转、跨国任务、特工对决，沉浸感十足</li><li style=\"margin-bottom:0.6em;\"><strong>真实物理环境：</strong>利用场景道具、掩体、地形完成特工操作</li></ul><p style=\"line-height:180%; margin-bottom:1em;\">本作<strong>单机游戏</strong>离线即可完整通关，全程无联网要求。<strong>中文绿色</strong>版汉化完整精准，剧情、装备说明、任务提示全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏内容与配置】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏主线流程约15-20小时，关卡设计丰富多样，从潜入、追踪、爆破到载具追逐一应俱全。画面风格写实，光影效果出色，角色动作流畅自然，优化成熟，低配电脑也能稳定运行高画质。</p><p style=\"line-height:180%; margin-bottom:1em;\">本次提供的<strong>破解版</strong>已整合完美汉化、全解锁补丁、优化补丁，完美兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失，运行稳定不掉帧。</p><h4 style=\"margin-bottom:1em;\">▶ 配置要求</h4><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#e74c33;\">[最低配置]</strong> Windows 10 64位 / i5-2500 / 8GB内存 / GTX 660 / 25GB存储空间</div><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 10/11 / i7-6700 / 16GB内存 / GTX 1060 / SSD固态硬盘</div><p style=\"line-height:180%; margin-bottom:1em;\">优化表现出色，老旧电脑也能流畅体验特工任务，画面稳定不卡顿。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏攻略】</h3><h4 style=\"margin-bottom:1em;\">▶ 新手特工任务技巧</h4><p style=\"line-height:180%; margin-bottom:1em;\">新手核心：**潜行优先、装备辅助**，开局优先使用潜行绕后，避免正面引发警报。利用电击腕带无声制敌，黑客装置破解安保系统，隐形装置应对紧急场面。战斗时利用掩体精准射击，优先解决敌方狙击手与巡逻兵，保持低暴露度完成任务。</p><h4 style=\"margin-bottom:1em;\">▶ 潜行与战斗指南</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>无声暗杀：</strong>绕后近战秒杀，不触发警报，特工核心玩法</li><li style=\"margin-bottom:0.6em;\"><strong>高科技装备：</strong>按场景使用隐形、黑客、电击装备，大幅降低难度</li><li style=\"margin-bottom:0.6em;\"><strong>掩体战术：</strong>枪战全程依靠掩体，探头射击，减少暴露</li><li style=\"margin-bottom:0.6em;\"><strong>任务探索：</strong>场景藏有道具与捷径，探索可让任务更轻松</li></ul><h4 style=\"margin-bottom:1em;\">▶ 通关进阶思路</h4><p style=\"line-height:180%; margin-bottom:1em;\">高难度任务推荐纯潜行流，全程零警报通关。后期解锁高级装备后，可尝试花式特工操作，结合环境道具完成华丽制敌。游戏剧情悬疑紧凑，结局反转精彩，喜欢特工电影与潜行射击的玩家绝对不容错过。</p><p style=\"text-align:center; margin-top:2em; margin-bottom:1em;\"><strong style=\"font-size:16px; color:#2ecc71;\">立即获取破解版下载地址，化身007执行传奇特工任务！</strong></p>",
+    "baiduLink1": "https://pan.baidu.com/s/1gL_gZRXtdvRb1GHouXVRMA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1erIAG0cMLYfDN5GlX1O7bA?pwd=8888",
+    "baiduLink3": "https://pan.baidu.com/s/1vpN--wafhCRsoSe89RB3gQ?pwd=6666",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/5/27",
+    "isDrm": true,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1779840593844
+  },
   {
     "id": 2000,
     "name": "乐高蝙蝠侠：黑暗骑士之遗",
@@ -41038,27 +41059,6 @@ const importedGames = [
     "updateTime": 1779781708117
   },
   {
-    "id": 1999,
-    "name": "8020号指令",
-    "nameEn": "Directive 8020",
-    "cover": "https://api.djgamebox.com/api/covers/covers/1999.jpg",
-    "screenshots": [],
-    "category": "恐怖惊悚",
-    "size": "34G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/14LTu1Jcx3dhe_FyYrtwFnw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1G31OrMzv7WLt3NLoeNHzbQ?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": "2026/5/27",
-    "isDrm": false,
-    "seoPriority": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1779781683189
-  },
-  {
     "id": 2002,
     "name": "欧陆风云3：神风",
     "nameEn": "Europa Universalis III: Divine Wind",
@@ -41078,6 +41078,27 @@ const importedGames = [
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779716856813
+  },
+  {
+    "id": 1999,
+    "name": "8020号指令",
+    "nameEn": "Directive 8020",
+    "cover": "https://api.djgamebox.com/api/covers/covers/1999.jpg",
+    "screenshots": [],
+    "category": "恐怖惊悚",
+    "size": "34G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/14LTu1Jcx3dhe_FyYrtwFnw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1G31OrMzv7WLt3NLoeNHzbQ?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/5/27",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1779781683189
   },
   {
     "id": 2003,
@@ -41645,27 +41666,6 @@ const importedGames = [
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717678593
-  },
-  {
-    "id": 2033,
-    "name": "007：初露锋芒/007：黎明曙光",
-    "nameEn": "James Bond 007 First Light",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2033.jpg",
-    "screenshots": [],
-    "category": "射击",
-    "size": "54G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1gL_gZRXtdvRb1GHouXVRMA?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1erIAG0cMLYfDN5GlX1O7bA?pwd=8888",
-    "baiduLink3": "https://pan.baidu.com/s/1vpN--wafhCRsoSe89RB3gQ?pwd=6666",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": "2026/5/27",
-    "isDrm": true,
-    "seoPriority": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1779840593844
   }
 ];
 

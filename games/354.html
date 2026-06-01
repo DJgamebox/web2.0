@@ -374,6 +374,16 @@
             color: var(--text-secondary);
             line-height: 1.8;
         }
+        /* 游戏描述中的配置要求区域 - 适配主题切换 */
+        .game-description div[style*="background:#f8f9fa"],
+        .game-description div[style*="background: #f8f9fa"] {
+            background: var(--bg-light) !important;
+            color: var(--text-primary) !important;
+        }
+        .game-description div[style*="background:#f8f9fa"] strong,
+        .game-description div[style*="background: #f8f9fa"] strong {
+            color: inherit !important;
+        }
         .back-link {
             display: inline-flex;
             align-items: center;
