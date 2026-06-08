@@ -190,8 +190,8 @@ if (downloadButtonsMatch) {
 html = html.replace(/<(p|div)[^>]*id="gameDesc"[^>]*>[\s\S]*?<\/\1>/, 
   `<p id="gameDesc">${gameDesc.replace(/\n/g, '<br>')}</p>`);
 
-// 10. 替换游戏ID（用于JS动态加载）
-html = html.replace(/const gameId = \d+;/, `const gameId = ${gameId};`);
+// 10. 替换游戏ID占位符（用于JS动态加载、收藏功能等）
+html = html.replace(/{{GAME_ID}}/g, gameId);
 
 // 写入文件
 fs.writeFileSync(outputPath, html);
