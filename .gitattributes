@@ -1,3 +1,0 @@
-*.exe filter=lfs diff=lfs merge=lfs -text
-downloads/*.exe filter=lfs diff=lfs merge=lfs -text
-downloads/GameBox*.exe filter=lfs diff=lfs merge=lfs -text
