@@ -28,6 +28,10 @@ jobs:
     - name: Sync game descriptions from Cloud API
       run: node sync-descriptions.js
         
+    - name: Clean Deleted Game Pages
+      run: node clean-deleted-games.js --force
+      continue-on-error: true
+      
     - name: Generate Game Pages
       run: node generate-games.js
       
@@ -38,7 +42,10 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add games/ sitemap.xml index.html
+        # 先删除 Git 中已不存在于本地的 games 文件（孤儿页面）
+        git diff --name-only --diff-filter=D | grep '^games/' | xargs -r git rm --ignore-unmatch
+        # 添加所有变更（包括新增、修改、删除）
+        git add -A games/ sitemap.xml index.html
         git diff --staged --quiet || (git commit -m "Auto-generate game pages and SEO" && git push)
       continue-on-error: true
         
