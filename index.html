@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
@@ -2582,8 +2582,9 @@
               hot: game.hot || 0
             }));
           
-          // 检查是否有更新
-          if (cloudGames.length !== games.length) {
+          // 检查是否有更新（数量变化，或前10个游戏的排序指纹变化）
+          const sig = arr => arr.slice(0, 10).map(g => g.id + ':' + g.sortOrder).join('|');
+          if (cloudGames.length !== games.length || sig(cloudGames) !== sig(games)) {
             games = cloudGames;
             localStorage.setItem(CONFIG.localStorageKey, JSON.stringify(games));
             localStorage.setItem(CONFIG.localStorageTimeKey, new Date().toISOString());

@@ -64,7 +64,8 @@ https.get(API_URL, (res) => {
           isDrm: game.isDrm || false,
           downloadsWeb: game.downloadsWeb || 0,
           downloadsApp: game.downloadsApp || 0,
-          updateTime: finalUpdateTime
+          updateTime: finalUpdateTime,
+          sortOrder: game.sortOrder
         };
       });
       
