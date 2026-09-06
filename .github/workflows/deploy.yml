@@ -43,9 +43,10 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         # 先删除 Git 中已不存在于本地的 games 文件（孤儿页面）
-        git diff --name-only --diff-filter=D | grep '^games/' | xargs -r git rm --ignore-unmatch
-        # 添加所有变更（包括新增、修改、删除）
-        git add -A games/ sitemap.xml index.html
+        # 注意：grep 无匹配时会返回 1 导致整个步骤中断，必须加 || true 兜底
+        git diff --name-only --diff-filter=D | grep '^games/' | xargs -r git rm --ignore-unmatch || true
+        # 添加所有变更（包括新增、修改、删除；同时提交数据文件，保证仓库与线上一致）
+        git add -A games/ sitemap.xml index.html data-embed.js web-descriptions.json
         git diff --staged --quiet || (git commit -m "Auto-generate game pages and SEO" && git push)
       continue-on-error: true
         
