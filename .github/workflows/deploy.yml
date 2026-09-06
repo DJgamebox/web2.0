@@ -7,6 +7,10 @@ on:
       - master
   workflow_dispatch:
 
+# 允许 Action 把生成的游戏页面提交回仓库（默认 GITHUB_TOKEN 只读，会导致 push 403）
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
