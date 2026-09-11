@@ -7,10 +7,12 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "redirects": [
     {
-      "src": "/games/(.*)",
-      "dest": "/games/$1"
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "djgamebox.com" }],
+      "destination": "https://www.djgamebox.com/$1",
+      "permanent": true
     }
   ]
 }
