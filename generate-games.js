@@ -60,6 +60,25 @@ games.forEach((game, index) => {
   const gameCover = game.cover || '';
   // 优先使用网页专用描述（SEO优化版），不影响桌面客户端
   const gameDesc = webDescMap[game.id] || game.description || '';
+
+  // 从富文本描述中提取纯文本，生成 120-160 字的 SEO meta 描述（解决 Bing "描述太短" 提示）
+  const stripHtml = (s) => (s || '')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const plainDesc = stripHtml(gameDesc).replace(/"/g, '');
+  let metaDesc;
+  if (plainDesc.length >= 100) {
+    // 截取前 105 字（尽量在标点处断开），再接下载引导语，总长 130-150 字
+    let head = plainDesc.slice(0, 105);
+    const lastStop = Math.max(head.lastIndexOf('。'), head.lastIndexOf('！'), head.lastIndexOf('？'));
+    if (lastStop >= 60) head = head.slice(0, lastStop + 1);
+    metaDesc = `${head}本站提供${gameName}百度网盘、迅雷云盘高速下载，绿色免安装中文版，免费下载即玩。`;
+  } else {
+    metaDesc = `${gameName}免费下载，提供百度网盘、迅雷云盘高速下载链接，${gameCategory || '单机'}游戏，绿色免安装中文版。${plainDesc}`.slice(0, 160);
+  }
   const baiduLink1 = game.baiduLink1 || '';
   const baiduLink2 = game.baiduLink2 || '';
   const baiduLink3 = game.baiduLink3 || '';
@@ -84,7 +103,10 @@ games.forEach((game, index) => {
   // 替换封面
   html = html.replace(/https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg/g, gameCover);
 
-  // 替换描述（匹配通用描述格式）
+  // 替换 meta description 和 og:description 为加长版 SEO 描述
+  html = html.replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${metaDesc}">`);
+  html = html.replace(/<meta property="og:description" content="[^"]*">/, `<meta property="og:description" content="${metaDesc}">`);
+
   // 替换游戏介绍段落（匹配任意游戏描述）
   html = html.replace(/<p id="gameDesc">[\s\S]*?<\/p>/, `<p id="gameDesc">${gameDesc}</p>`);
 
@@ -106,7 +128,7 @@ games.forEach((game, index) => {
   // 替换 Schema 结构化数据
   html = html.replace(/"name": "生化危机9：安魂曲"/g, `"name": "${gameName}"`);
   html = html.replace(/"alternateName": "Resident Evil Requiem"/g, `"alternateName": "${gameNameEn}"`);
-  html = html.replace(/"description": "生化危机9：安魂曲是一款恐怖惊悚游戏。本站提供生化危机9：安魂曲百度网盘、迅雷云盘高速下载，绿色免安装中文版，解压即可玩。"/g, `"description": "${gameDesc.replace(/"/g, '\\"')}"`);
+  html = html.replace(/"description": "[^"]*"/, `"description": "${metaDesc}"`);
   html = html.replace(/"genre": "恐怖惊悚"/g, `"genre": "${gameCategory}"`);
   html = html.replace(/"image": "https:\/\/api\.djgamebox\.com\/api\/covers\/covers\/120\.jpg"/g, `"image": "${gameCover}"`);
   html = html.replace(/"url": "https:\/\/www\.djgamebox\.com\/games\/120\.html"/g, `"url": "https://www.djgamebox.com/games/${gameId}.html"`);
