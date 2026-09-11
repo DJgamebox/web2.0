@@ -67,5 +67,7 @@ jobs:
       run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} --archive=tgz
       
     - name: Submit URLs to IndexNow (Bing)
-      run: node push-indexnow.js
+      run: |
+        sleep 30  # 等 Vercel CDN 生效，避免密钥文件 404 导致推送被拒
+        node push-indexnow.js
       continue-on-error: true
