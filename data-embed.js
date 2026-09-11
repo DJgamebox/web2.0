@@ -1,5 +1,5 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/9/11 10:07:02
+// 生成时间: 2026/9/11 13:34:12
 // 游戏数量: 2078
 
 const importedGames = [
@@ -19,7 +19,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498758078,
     "isDrm": true,
-    "downloadsWeb": 271,
+    "downloadsWeb": 274,
     "downloadsApp": 65,
     "updateTime": 1788498758078,
     "sortOrder": 1
@@ -1615,7 +1615,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 6,
+    "downloadsWeb": 7,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 77
@@ -2225,7 +2225,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 58,
-    "downloadsApp": 22,
+    "downloadsApp": 23,
     "updateTime": 1779073729544,
     "sortOrder": 106
   },
@@ -3296,7 +3296,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 157
   },
@@ -3337,7 +3337,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 13,
+    "downloadsWeb": 14,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 159
@@ -5206,7 +5206,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 248
@@ -5227,7 +5227,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 1,
+    "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 249
@@ -16084,7 +16084,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 766
