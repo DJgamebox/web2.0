@@ -1,6 +1,6 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/9/11 13:34:12
-// 游戏数量: 2078
+// 生成时间: 2026/9/17 10:04:09
+// 游戏数量: 2088
 
 const importedGames = [
   {
@@ -19,8 +19,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498758078,
     "isDrm": true,
-    "downloadsWeb": 274,
-    "downloadsApp": 65,
+    "downloadsWeb": 315,
+    "downloadsApp": 88,
     "updateTime": 1788498758078,
     "sortOrder": 1
   },
@@ -40,8 +40,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498628658,
     "isDrm": false,
-    "downloadsWeb": 6,
-    "downloadsApp": 4,
+    "downloadsWeb": 8,
+    "downloadsApp": 5,
     "updateTime": 1788498628658,
     "sortOrder": 2
   },
@@ -61,8 +61,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498264386,
     "isDrm": false,
-    "downloadsWeb": 9,
-    "downloadsApp": 1,
+    "downloadsWeb": 11,
+    "downloadsApp": 3,
     "updateTime": 1788498264386,
     "sortOrder": 3
   },
@@ -82,8 +82,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498233544,
     "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsWeb": 2,
+    "downloadsApp": 3,
     "updateTime": 1788498233544,
     "sortOrder": 4
   },
@@ -103,8 +103,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1787710135073,
     "isDrm": false,
-    "downloadsWeb": 7,
-    "downloadsApp": 4,
+    "downloadsWeb": 9,
+    "downloadsApp": 5,
     "updateTime": 1787710135073,
     "sortOrder": 5
   },
@@ -124,7 +124,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1787021925053,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 3,
     "downloadsApp": 2,
     "updateTime": 1787021925053,
     "sortOrder": 6
@@ -145,7 +145,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498307657,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 5,
     "downloadsApp": 0,
     "updateTime": 1788498307657,
     "sortOrder": 7
@@ -166,8 +166,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 80,
-    "downloadsApp": 53,
+    "downloadsWeb": 85,
+    "downloadsApp": 55,
     "updateTime": 1779073729544,
     "sortOrder": 8
   },
@@ -187,7 +187,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1786102298538,
     "isDrm": false,
-    "downloadsWeb": 7,
+    "downloadsWeb": 8,
     "downloadsApp": 0,
     "updateTime": 1786102298538,
     "sortOrder": 9
@@ -208,8 +208,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 36,
-    "downloadsApp": 33,
+    "downloadsWeb": 37,
+    "downloadsApp": 37,
     "updateTime": 1779073729544,
     "sortOrder": 10
   },
@@ -229,8 +229,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1785647055011,
     "isDrm": false,
-    "downloadsWeb": 198,
-    "downloadsApp": 22,
+    "downloadsWeb": 200,
+    "downloadsApp": 23,
     "updateTime": 1785647055011,
     "sortOrder": 11
   },
@@ -250,8 +250,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 59,
-    "downloadsApp": 30,
+    "downloadsWeb": 62,
+    "downloadsApp": 32,
     "updateTime": 1779073729544,
     "sortOrder": 12
   },
@@ -271,8 +271,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 64,
-    "downloadsApp": 15,
+    "downloadsWeb": 67,
+    "downloadsApp": 16,
     "updateTime": 1779073729544,
     "sortOrder": 13
   },
@@ -313,8 +313,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779840593844,
     "isDrm": false,
-    "downloadsWeb": 133,
-    "downloadsApp": 31,
+    "downloadsWeb": 134,
+    "downloadsApp": 32,
     "updateTime": 1779840593844,
     "sortOrder": 15
   },
@@ -335,7 +335,7 @@ const importedGames = [
     "dateAdded": 1783836242216,
     "isDrm": true,
     "downloadsWeb": 6,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1783836242216,
     "sortOrder": 16
   },
@@ -356,7 +356,7 @@ const importedGames = [
     "dateAdded": 1782129757974,
     "isDrm": true,
     "downloadsWeb": 26,
-    "downloadsApp": 32,
+    "downloadsApp": 34,
     "updateTime": 1782129757974,
     "sortOrder": 17
   },
@@ -397,8 +397,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 8,
-    "downloadsApp": 9,
+    "downloadsWeb": 9,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 19
   },
@@ -440,7 +440,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 21
   },
@@ -481,7 +481,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 46,
+    "downloadsWeb": 47,
     "downloadsApp": 28,
     "updateTime": 1779073729544,
     "sortOrder": 23
@@ -502,7 +502,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 13,
+    "downloadsWeb": 14,
     "downloadsApp": 17,
     "updateTime": 1779073729544,
     "sortOrder": 24
@@ -523,8 +523,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 26,
-    "downloadsApp": 16,
+    "downloadsWeb": 27,
+    "downloadsApp": 18,
     "updateTime": 1779073729544,
     "sortOrder": 25
   },
@@ -545,7 +545,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 7,
-    "downloadsApp": 18,
+    "downloadsApp": 19,
     "updateTime": 1779073729544,
     "sortOrder": 26
   },
@@ -565,7 +565,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 27
@@ -608,7 +608,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 16,
-    "downloadsApp": 24,
+    "downloadsApp": 27,
     "updateTime": 1779073729544,
     "sortOrder": 29
   },
@@ -629,7 +629,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 1,
-    "downloadsApp": 3,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 30
   },
@@ -755,7 +755,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 1,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 36
   },
@@ -797,7 +797,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 12,
-    "downloadsApp": 10,
+    "downloadsApp": 12,
     "updateTime": 1779073729544,
     "sortOrder": 38
   },
@@ -839,7 +839,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 30,
-    "downloadsApp": 16,
+    "downloadsApp": 17,
     "updateTime": 1779073729544,
     "sortOrder": 40
   },
@@ -860,7 +860,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 6,
-    "downloadsApp": 0,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 41
   },
@@ -881,7 +881,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 3,
-    "downloadsApp": 13,
+    "downloadsApp": 16,
     "updateTime": 1779073729544,
     "sortOrder": 42
   },
@@ -901,7 +901,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 10,
+    "downloadsWeb": 12,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 43
@@ -923,7 +923,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 7,
-    "downloadsApp": 11,
+    "downloadsApp": 14,
     "updateTime": 1779073729544,
     "sortOrder": 44
   },
@@ -944,7 +944,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 8,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 45
   },
@@ -985,8 +985,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 29,
-    "downloadsApp": 10,
+    "downloadsWeb": 31,
+    "downloadsApp": 11,
     "updateTime": 1779073729544,
     "sortOrder": 47
   },
@@ -1028,7 +1028,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 3,
-    "downloadsApp": 4,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 49
   },
@@ -1090,7 +1090,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 52
@@ -1111,31 +1111,10 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 4,
-    "downloadsApp": 11,
+    "downloadsWeb": 5,
+    "downloadsApp": 12,
     "updateTime": 1779073729544,
     "sortOrder": 53
-  },
-  {
-    "id": 12,
-    "name": "三国志14：标准/威力加强版",
-    "nameEn": "Sangokushi 14+Sangokushi 14 Power-up Kit",
-    "cover": "https://api.djgamebox.com/api/covers/covers/12.jpg",
-    "screenshots": [],
-    "category": "策略",
-    "size": "48.1G",
-    "description": "<p style=\"line-height:1.8;margin-bottom:16px;\">《三国志14/三国志14威力加强版》是由<strong>光荣特库摩（Koei Tecmo）</strong>开发的经典三国题材策略模拟神作。本作回归经典「一张地图统一天下」玩法，主打领地涂色占领、武将羁绊系统、实时内政与军团作战，威力加强版新增称霸战记、地利系统、异民族、更多剧本与武将，内容更完整、策略性更强，是三国SLG爱好者必玩之作。</p><p style=\"line-height:1.8;margin-bottom:24px;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+威力加强版全内容、全剧本、全武将、全DLC、全特典服装，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【核心玩法与特色】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">本作核心玩法围绕<strong>全域涂色占领+武将主义系统+实时内政+军团大战+威力加强版专属内容</strong>展开，操作简化、策略深度拉满。玩家选择三国君主，招募武将、发展经济、调配兵力、合纵连横，在一张大地图上攻城略地，最终一统中原。</p><h4 style=\"margin-top:24px;margin-bottom:8px;\">▶ 主要特色</h4><ul style=\"line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>一张地图全域占领</strong>：经典涂色占地玩法，区域连接、补给线、战线策略十足</li><li style=\"margin-bottom:8px;\"><strong>武将主义&个性</strong>：数百名武将专属特性、羁绊、战法，搭配自由度极高</li><li style=\"margin-bottom:8px;\"><strong>威力加强版强化</strong>：新增地利、异民族、称霸战记、攻城兵器、更多剧本难度</li><li style=\"margin-bottom:8px;\"><strong>内政+战争一体</strong>：委任、手动双模式，新手轻松上手，老玩家深度研究</li><li style=\"margin-bottom:8px;\"><strong>全剧本全势力</strong>：从黄巾之乱到三国时代，全势力可选，体验不同统一路线</li></ul><p style=\"line-height:1.8;margin-top:16px;margin-bottom:24px;\">作为单机策略模拟游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【游戏内容与配置】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">主线统一全国时长约50-80小时，全剧本体验、全武将收集、全成就总游玩时长超数百小时。难度分级丰富、节奏可快可慢，适合三国粉丝、SLG策略游戏爱好者。</p><p style=\"line-height:1.8;margin-bottom:16px;\">本次提供的版本整合**本体+威力加强版+全DLC+全特典**，解锁全部武将、剧本、CG、服装，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 配置要求</h4><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;\"><strong style=\"color:#e74c3c;\">[最低配置]</strong> Windows 10 64位 / Intel i3-3220 / 4GB内存 / GTX 660 / 20GB空间</div><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 10/11 64位 / i5-6600 / 8GB内存 / GTX 1060 / SSD硬盘</div><p style=\"line-height:1.8;margin-bottom:24px;\">支持1080P/2K/4K超清画质，优化出色，低配电脑流畅运行，高配享受超清三国战场。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【新手攻略】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 开荒君主推荐</h4><p style=\"line-height:1.8;margin-bottom:16px;\">新手首选：<strong>曹操（人才多）、刘备（羁绊强）、孙策（地盘稳）</strong>，武将豪华、内政简单、容错率高，轻松熟悉占领、内政、战斗三大核心系统。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 核心玩法技巧</h4><ul style=\"line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>优先连地占领</strong>：保持领地连接，保证兵粮补给，避免孤立城池被围</li><li style=\"margin-bottom:8px;\"><strong>内政全自动委任</strong>：新手直接委任太守，专注战争与外交，降低上手压力</li><li style=\"margin-bottom:8px;\"><strong>武将搭配羁绊</strong>：夫妻、兄弟、君臣同队加成极高，战力大幅提升</li><li style=\"margin-bottom:8px;\"><strong>围点打援优先</strong>：先切断敌军补给，再攻城，不伤一兵一卒轻松破城</li><li style=\"margin-bottom:8px;\"><strong>远交近攻</strong>：与远方势力结盟，集中兵力消灭周边邻居，逐步扩张</li></ul><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 入门建议</h4><p style=\"line-height:1.8;margin-bottom:24px;\">优先玩**称霸战记**熟悉机制，再开普通剧本统一天下。前期稳发展、不冒进，攒足兵力、钱粮再扩张，利用武将个性与羁绊打造最强军团，逐步统一全国。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【进阶技巧】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 武将&军团养成</h4><p style=\"line-height:1.8;margin-bottom:16px;\">主力军团搭配：统帅前排+军师buff+猛将输出，优先升级战法与个性。利用地利系统加成城池，异民族招降作为奇兵，后期横扫全图无压力。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 高阶战略战术</h4><p style=\"line-height:1.8;margin-bottom:16px;\">用切断补给线、火攻、离间、伪报等计策削弱敌军；高级难度下，外交与谍报比正面作战更重要，以最小代价换取最大地盘。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 威力加强版专属玩法</h4><p style=\"line-height:1.8;margin-bottom:16px;\">充分利用**地利、攻城兵器、异民族、新剧本**，挑战更高难度称霸战记，体验完全体三国志14的全部内容，收集全武将CG与成就。</p><p style=\"text-align:center;margin-top:32px;margin-bottom:16px;\"><strong style=\"font-size:16px;color:#2ecc71;\">立即获取下载地址，招募三国名将，开启一统天下霸业！</strong></p>",
-    "baiduLink1": "https://pan.baidu.com/s/1NPL1esFuO_RBXOeEZTtDZQ?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1CieHhgKb9EkNKOmKO3Zh4g?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "https://pan.xunlei.com/s/VOD0ekI_vp_aoCAofMHCjMMGA1?pwd=5cwz",
-    "favorite": false,
-    "dateAdded": 1779073729544,
-    "isDrm": false,
-    "downloadsWeb": 10,
-    "downloadsApp": 16,
-    "updateTime": 1779073729544,
-    "sortOrder": 54
   },
   {
     "id": 28,
@@ -1237,7 +1216,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 59
@@ -1321,7 +1300,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 4,
+    "downloadsWeb": 5,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 63
@@ -1511,7 +1490,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 72
   },
@@ -1552,7 +1531,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 4,
+    "downloadsWeb": 5,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 74
@@ -1615,8 +1594,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 7,
-    "downloadsApp": 5,
+    "downloadsWeb": 8,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 77
   },
@@ -1720,8 +1699,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 9,
-    "downloadsApp": 19,
+    "downloadsWeb": 10,
+    "downloadsApp": 20,
     "updateTime": 1779073729544,
     "sortOrder": 82
   },
@@ -1826,7 +1805,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 87
   },
@@ -1847,7 +1826,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 88
   },
@@ -1868,7 +1847,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 89
   },
@@ -1951,8 +1930,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
-    "downloadsApp": 3,
+    "downloadsWeb": 4,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 93
   },
@@ -2141,7 +2120,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 102
   },
@@ -2182,7 +2161,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 1,
+    "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 104
@@ -2224,8 +2203,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 58,
-    "downloadsApp": 23,
+    "downloadsWeb": 60,
+    "downloadsApp": 24,
     "updateTime": 1779073729544,
     "sortOrder": 106
   },
@@ -2308,8 +2287,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 11,
-    "downloadsApp": 8,
+    "downloadsWeb": 12,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 110
   },
@@ -2329,7 +2308,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 111
@@ -2497,8 +2476,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsWeb": 2,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 119
   },
@@ -2519,7 +2498,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 120
   },
@@ -2602,7 +2581,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 6,
+    "downloadsWeb": 7,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 124
@@ -2707,7 +2686,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 5,
+    "downloadsWeb": 6,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 129
@@ -2749,8 +2728,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1784986428291,
     "isDrm": false,
-    "downloadsWeb": 55,
-    "downloadsApp": 13,
+    "downloadsWeb": 56,
+    "downloadsApp": 14,
     "updateTime": 1784986428291,
     "sortOrder": 131
   },
@@ -2770,7 +2749,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 7,
+    "downloadsWeb": 8,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 132
@@ -2813,7 +2792,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 134
   },
@@ -2855,7 +2834,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 0,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 136
   },
@@ -2939,7 +2918,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 5,
-    "downloadsApp": 7,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 140
   },
@@ -3169,7 +3148,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 6,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 151
@@ -3254,7 +3233,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 155
   },
@@ -3338,7 +3317,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 14,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 159
   },
@@ -3380,7 +3359,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 161
   },
@@ -3484,7 +3463,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 4,
+    "downloadsWeb": 5,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 166
@@ -3548,7 +3527,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 169
   },
@@ -3610,7 +3589,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 5,
+    "downloadsWeb": 6,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 172
@@ -3631,7 +3610,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 173
@@ -3652,7 +3631,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 7,
+    "downloadsWeb": 10,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 174
@@ -3736,7 +3715,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 4,
+    "downloadsWeb": 5,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 178
@@ -4135,7 +4114,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 197
@@ -4219,7 +4198,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 201
@@ -4451,7 +4430,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 212
   },
@@ -4555,8 +4534,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsWeb": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 217
   },
@@ -4702,7 +4681,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 224
@@ -4723,7 +4702,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 1,
+    "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 225
@@ -4829,7 +4808,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 230
   },
@@ -4955,7 +4934,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 236
   },
@@ -4976,7 +4955,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 237
   },
@@ -5038,7 +5017,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 240
@@ -5165,7 +5144,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 246
   },
@@ -5228,7 +5207,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 249
   },
@@ -5290,7 +5269,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 252
@@ -5795,7 +5774,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 3,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 276
   },
@@ -6172,7 +6151,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 294
@@ -6298,8 +6277,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 1,
-    "downloadsApp": 4,
+    "downloadsWeb": 2,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 300
   },
@@ -6803,7 +6782,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 324
   },
@@ -7979,7 +7958,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 380
   },
@@ -8168,7 +8147,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 389
   },
@@ -9449,7 +9428,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 450
   },
@@ -9511,7 +9490,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 453
@@ -10204,8 +10183,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsWeb": 1,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 486
   },
@@ -10268,7 +10247,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 489
   },
@@ -10288,7 +10267,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 5,
+    "downloadsWeb": 6,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 490
@@ -10330,7 +10309,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 492
@@ -10751,7 +10730,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 512
   },
@@ -11758,7 +11737,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 5,
+    "downloadsWeb": 6,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 560
@@ -11779,7 +11758,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 561
@@ -13711,7 +13690,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 653
@@ -15727,7 +15706,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 749
@@ -16694,7 +16673,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 795
   },
@@ -17260,7 +17239,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 822
@@ -17344,7 +17323,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 826
@@ -18500,7 +18479,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 881
   },
@@ -18731,7 +18710,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 892
   },
@@ -19276,7 +19255,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 918
@@ -20327,7 +20306,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 968
   },
@@ -20788,8 +20767,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsWeb": 1,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 990
   },
@@ -20809,8 +20788,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsWeb": 1,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 991
   },
@@ -20830,8 +20809,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsWeb": 1,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 992
   },
@@ -20852,7 +20831,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 993
   },
@@ -21250,8 +21229,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1783836155460,
     "isDrm": false,
-    "downloadsWeb": 28,
-    "downloadsApp": 40,
+    "downloadsWeb": 30,
+    "downloadsApp": 42,
     "updateTime": 1783836155460,
     "sortOrder": 1012
   },
@@ -21355,8 +21334,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": true,
-    "downloadsWeb": 106,
-    "downloadsApp": 95,
+    "downloadsWeb": 107,
+    "downloadsApp": 99,
     "updateTime": 1779073729544,
     "sortOrder": 1017
   },
@@ -21439,7 +21418,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1021
@@ -21482,7 +21461,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1023
   },
@@ -22096,6 +22075,27 @@ const importedGames = [
     "sortOrder": 1052
   },
   {
+    "id": 12,
+    "name": "三国志14/三国志14威力加强版/传承版",
+    "nameEn": "Sangokushi 14+Sangokushi 14 Power-up Kit",
+    "cover": "https://api.djgamebox.com/api/covers/covers/12.jpg",
+    "screenshots": [],
+    "category": "策略",
+    "size": "48.1G",
+    "description": "<p style=\"line-height:1.8;margin-bottom:16px;\">《三国志14/三国志14威力加强版》是由<strong>光荣特库摩（Koei Tecmo）</strong>开发的经典三国题材策略模拟神作。本作回归经典「一张地图统一天下」玩法，主打领地涂色占领、武将羁绊系统、实时内政与军团作战，威力加强版新增称霸战记、地利系统、异民族、更多剧本与武将，内容更完整、策略性更强，是三国SLG爱好者必玩之作。</p><p style=\"line-height:1.8;margin-bottom:24px;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体+威力加强版全内容、全剧本、全武将、全DLC、全特典服装，通过网盘下载获取。PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅运行不卡顿。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【核心玩法与特色】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">本作核心玩法围绕<strong>全域涂色占领+武将主义系统+实时内政+军团大战+威力加强版专属内容</strong>展开，操作简化、策略深度拉满。玩家选择三国君主，招募武将、发展经济、调配兵力、合纵连横，在一张大地图上攻城略地，最终一统中原。</p><h4 style=\"margin-top:24px;margin-bottom:8px;\">▶ 主要特色</h4><ul style=\"line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>一张地图全域占领</strong>：经典涂色占地玩法，区域连接、补给线、战线策略十足</li><li style=\"margin-bottom:8px;\"><strong>武将主义&个性</strong>：数百名武将专属特性、羁绊、战法，搭配自由度极高</li><li style=\"margin-bottom:8px;\"><strong>威力加强版强化</strong>：新增地利、异民族、称霸战记、攻城兵器、更多剧本难度</li><li style=\"margin-bottom:8px;\"><strong>内政+战争一体</strong>：委任、手动双模式，新手轻松上手，老玩家深度研究</li><li style=\"margin-bottom:8px;\"><strong>全剧本全势力</strong>：从黄巾之乱到三国时代，全势力可选，体验不同统一路线</li></ul><p style=\"line-height:1.8;margin-top:16px;margin-bottom:24px;\">作为单机策略模拟游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【游戏内容与配置】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">主线统一全国时长约50-80小时，全剧本体验、全武将收集、全成就总游玩时长超数百小时。难度分级丰富、节奏可快可慢，适合三国粉丝、SLG策略游戏爱好者。</p><p style=\"line-height:1.8;margin-bottom:16px;\">本次提供的版本整合**本体+威力加强版+全DLC+全特典**，解锁全部武将、剧本、CG、服装，兼容Win10/Win11，稳定流畅。已通过安全检测，无毒无广告，放心获取。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 配置要求</h4><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;\"><strong style=\"color:#e74c3c;\">[最低配置]</strong> Windows 10 64位 / Intel i3-3220 / 4GB内存 / GTX 660 / 20GB空间</div><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 10/11 64位 / i5-6600 / 8GB内存 / GTX 1060 / SSD硬盘</div><p style=\"line-height:1.8;margin-bottom:24px;\">支持1080P/2K/4K超清画质，优化出色，低配电脑流畅运行，高配享受超清三国战场。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【新手攻略】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 开荒君主推荐</h4><p style=\"line-height:1.8;margin-bottom:16px;\">新手首选：<strong>曹操（人才多）、刘备（羁绊强）、孙策（地盘稳）</strong>，武将豪华、内政简单、容错率高，轻松熟悉占领、内政、战斗三大核心系统。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 核心玩法技巧</h4><ul style=\"line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>优先连地占领</strong>：保持领地连接，保证兵粮补给，避免孤立城池被围</li><li style=\"margin-bottom:8px;\"><strong>内政全自动委任</strong>：新手直接委任太守，专注战争与外交，降低上手压力</li><li style=\"margin-bottom:8px;\"><strong>武将搭配羁绊</strong>：夫妻、兄弟、君臣同队加成极高，战力大幅提升</li><li style=\"margin-bottom:8px;\"><strong>围点打援优先</strong>：先切断敌军补给，再攻城，不伤一兵一卒轻松破城</li><li style=\"margin-bottom:8px;\"><strong>远交近攻</strong>：与远方势力结盟，集中兵力消灭周边邻居，逐步扩张</li></ul><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 入门建议</h4><p style=\"line-height:1.8;margin-bottom:24px;\">优先玩**称霸战记**熟悉机制，再开普通剧本统一天下。前期稳发展、不冒进，攒足兵力、钱粮再扩张，利用武将个性与羁绊打造最强军团，逐步统一全国。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【进阶技巧】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 武将&军团养成</h4><p style=\"line-height:1.8;margin-bottom:16px;\">主力军团搭配：统帅前排+军师buff+猛将输出，优先升级战法与个性。利用地利系统加成城池，异民族招降作为奇兵，后期横扫全图无压力。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 高阶战略战术</h4><p style=\"line-height:1.8;margin-bottom:16px;\">用切断补给线、火攻、离间、伪报等计策削弱敌军；高级难度下，外交与谍报比正面作战更重要，以最小代价换取最大地盘。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 威力加强版专属玩法</h4><p style=\"line-height:1.8;margin-bottom:16px;\">充分利用**地利、攻城兵器、异民族、新剧本**，挑战更高难度称霸战记，体验完全体三国志14的全部内容，收集全武将CG与成就。</p><p style=\"text-align:center;margin-top:32px;margin-bottom:16px;\"><strong style=\"font-size:16px;color:#2ecc71;\">立即获取下载地址，招募三国名将，开启一统天下霸业！</strong></p>",
+    "baiduLink1": "https://pan.baidu.com/s/1NPL1esFuO_RBXOeEZTtDZQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1CieHhgKb9EkNKOmKO3Zh4g?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "https://pan.xunlei.com/s/VOD0ekI_vp_aoCAofMHCjMMGA1?pwd=5cwz",
+    "favorite": false,
+    "dateAdded": 1779073729544,
+    "isDrm": false,
+    "downloadsWeb": 10,
+    "downloadsApp": 19,
+    "updateTime": 1779073729544,
+    "sortOrder": 1053
+  },
+  {
     "id": 1013,
     "name": "真女神转生5",
     "nameEn": "Shin Megami Tensei V",
@@ -22112,7 +22112,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 3,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 1053
   },
@@ -22279,8 +22279,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 7,
-    "downloadsApp": 4,
+    "downloadsWeb": 8,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 1061
   },
@@ -22321,7 +22321,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1063
@@ -23246,7 +23246,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1107
   },
@@ -23267,7 +23267,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1108
   },
@@ -23749,7 +23749,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1131
@@ -24800,7 +24800,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1181
   },
@@ -25514,7 +25514,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1215
   },
@@ -25913,7 +25913,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1234
   },
@@ -26038,7 +26038,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1240
@@ -26291,7 +26291,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1252
   },
@@ -26374,7 +26374,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1256
@@ -26941,7 +26941,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1283
@@ -30407,7 +30407,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1449
   },
@@ -31645,7 +31645,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1508
@@ -32507,7 +32507,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1550
   },
@@ -33724,7 +33724,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 5,
+    "downloadsWeb": 6,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1608
@@ -34733,7 +34733,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 1656
   },
@@ -35257,7 +35257,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 4,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 1681
@@ -36013,7 +36013,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1717
@@ -37589,7 +37589,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 1795
   },
@@ -38302,7 +38302,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 0,
+    "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1829
@@ -38680,7 +38680,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1847
@@ -42020,7 +42020,7 @@ const importedGames = [
     "dateAdded": 1781425929016,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 3,
+    "downloadsApp": 5,
     "updateTime": 1781425929016,
     "sortOrder": 2006
   },
@@ -42823,27 +42823,6 @@ const importedGames = [
     "sortOrder": 2044
   },
   {
-    "id": 1992,
-    "name": "FC小霸王经典游戏合集",
-    "nameEn": "",
-    "cover": "https://api.djgamebox.com/api/covers/covers/1992.jpg",
-    "screenshots": [],
-    "category": "",
-    "size": "152M",
-    "description": "1941反击战\n1942反击战\n1943-中途岛决战\n19XX：命运否决战\nBlood Bros\n幻影战士\n自由战士\nQ版沙罗曼蛇\nSPY特别计划\n兽王记\n原始岛\n双截龙\n变身忍者\n古巴战士\n名将\n吞食天地2：赤壁之战\n圆桌骑士\n大旋风\n奇迹三合一\n威虎战机-雷暴行动\n对决：坦克大战\n忍者神龟\n快打旋风\n怒\n恐龙时代\n惩罚者/复仇者\n战国之刃\n战斗原始人\n战斧\n打击着\n捉鬼敢死队/双子星/昆虫世界\n捉鬼大师\n摔跤霸王\n暴力克星\n沙罗曼蛇\n海底大战争\n特殊部队\n电神魔傀\n绿色兵团\n绿色兵团2\n群殴\n联合大作战\n脱狱-战俘\n花式桌球\n落日骑士\n街头霸王\n街头霸王2：天下斗士\n街头霸王2：四大天王\n西游降魔录\n豪血侍一族\n赤色要塞/特殊部队\n超级魂斗罗\n钢铁要塞\n铁钩船长\n雌虎战机/美国海军\n雪人兄弟\n饿流祸\n魂斗罗\n魔法警备队\n龙行忍者",
-    "baiduLink1": "https://pan.baidu.com/s/1mnF0N27vkrYoLjobWAHVfQ?pwd=6666",
-    "baiduLink2": "",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1779073729544,
-    "isDrm": false,
-    "downloadsWeb": 8,
-    "downloadsApp": 5,
-    "updateTime": 1779073729544,
-    "sortOrder": 2045
-  },
-  {
     "id": 1776956080997,
     "name": "凯蒂猫岛屿冒险",
     "nameEn": "Hello Kitty Island Adventure",
@@ -43069,8 +43048,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1787021409787,
     "isDrm": false,
-    "downloadsWeb": 4,
-    "downloadsApp": 1,
+    "downloadsWeb": 6,
+    "downloadsApp": 2,
     "updateTime": 1787021409787,
     "sortOrder": 2056
   },
@@ -43091,7 +43070,7 @@ const importedGames = [
     "dateAdded": 1787021454075,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1787021454075,
     "sortOrder": 2057
   },
@@ -43640,6 +43619,237 @@ const importedGames = [
     "downloadsApp": 0,
     "updateTime": 1788498744379,
     "sortOrder": 2083
+  },
+  {
+    "id": 1992,
+    "name": "FC小霸王经典游戏合集",
+    "nameEn": "",
+    "cover": "https://api.djgamebox.com/api/covers/covers/1992.jpg",
+    "screenshots": [],
+    "category": "街机怀旧",
+    "size": "152M",
+    "description": "1941反击战\n1942反击战\n1943-中途岛决战\n19XX：命运否决战\nBlood Bros\n幻影战士\n自由战士\nQ版沙罗曼蛇\nSPY特别计划\n兽王记\n原始岛\n双截龙\n变身忍者\n古巴战士\n名将\n吞食天地2：赤壁之战\n圆桌骑士\n大旋风\n奇迹三合一\n威虎战机-雷暴行动\n对决：坦克大战\n忍者神龟\n快打旋风\n怒\n恐龙时代\n惩罚者/复仇者\n战国之刃\n战斗原始人\n战斧\n打击着\n捉鬼敢死队/双子星/昆虫世界\n捉鬼大师\n摔跤霸王\n暴力克星\n沙罗曼蛇\n海底大战争\n特殊部队\n电神魔傀\n绿色兵团\n绿色兵团2\n群殴\n联合大作战\n脱狱-战俘\n花式桌球\n落日骑士\n街头霸王\n街头霸王2：天下斗士\n街头霸王2：四大天王\n西游降魔录\n豪血侍一族\n赤色要塞/特殊部队\n超级魂斗罗\n钢铁要塞\n铁钩船长\n雌虎战机/美国海军\n雪人兄弟\n饿流祸\n魂斗罗\n魔法警备队\n龙行忍者",
+    "baiduLink1": "https://pan.baidu.com/s/1mnF0N27vkrYoLjobWAHVfQ?pwd=6666",
+    "baiduLink2": "",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1779073729544,
+    "isDrm": false,
+    "downloadsWeb": 8,
+    "downloadsApp": 6,
+    "updateTime": 1779073729544,
+    "sortOrder": 2992
+  },
+  {
+    "id": 2140,
+    "name": "模拟火车世界7",
+    "nameEn": "Train Sim World 7",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2140.jpg",
+    "screenshots": [],
+    "category": "模拟驾驶",
+    "size": "27G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1Z9pymyN4wit69Dw6KQXS-w?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1TLdeiIAWyqg8p1xOYOWrAg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639136290,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639136290,
+    "sortOrder": 3140
+  },
+  {
+    "id": 2141,
+    "name": "浪客灾疫",
+    "nameEn": "Rogue Blight",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2141.jpg",
+    "screenshots": [],
+    "category": "角色扮演",
+    "size": "1.9G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1cvwuiitnXJMg1yc5YblxzA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/18VKMXfxiMoFPDZIQ8irSRg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639185278,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639185278,
+    "sortOrder": 3141
+  },
+  {
+    "id": 2142,
+    "name": "让它去死",
+    "nameEn": "LET IT DIE",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2142.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "28G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1JTZg1eAqWeN0tfuLPzcR1w?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1xEmEn306RRDX9-0Bh52Vkw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639226455,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639226455,
+    "sortOrder": 3142
+  },
+  {
+    "id": 2143,
+    "name": "流星洛克人完美合集",
+    "nameEn": "Mega Man Star Force Legacy Collection",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2143.jpg",
+    "screenshots": [],
+    "category": "角色扮演",
+    "size": "100G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/11agvJQTSE6-Zdy7LR5VV7A?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1LXTrtxQD2Icx2z_PYDNydw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639241640,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639241640,
+    "sortOrder": 3143
+  },
+  {
+    "id": 2144,
+    "name": "幻世录重制版",
+    "nameEn": "The Legend of Fancy Realm Remake",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2144.jpg",
+    "screenshots": [],
+    "category": "角色扮演",
+    "size": "4G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1l4ymzorue59XSrIga7LteQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1Wyg869S_pkw_-d8GIC-dmA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639251259,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639251259,
+    "sortOrder": 3144
+  },
+  {
+    "id": 2145,
+    "name": "月光光心慌慌",
+    "nameEn": "Halloween: The Game",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2145.jpg",
+    "screenshots": [],
+    "category": "恐怖惊悚",
+    "size": "28G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1-wfEYHDfr87lg0ONyXMkyQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1mf3fUCrHFDS2jrw_jMdQqQ?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639263221,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639263221,
+    "sortOrder": 3145
+  },
+  {
+    "id": 2146,
+    "name": "遗忘之海",
+    "nameEn": "Forgotten Seas",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2146.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "3G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1PStoGLcTp9dOELHa74u7Iw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1o2RBURyLBMMCg4p0Essehg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639294275,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639294275,
+    "sortOrder": 3146
+  },
+  {
+    "id": 2147,
+    "name": "放血医师",
+    "nameEn": "BLOODLETTER",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2147.jpg",
+    "screenshots": [],
+    "category": "策略战棋",
+    "size": "1.1G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/14Djr3Cq-Zfu_rXc1ZDF3Eg?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1X2-ukDC8QNvrR_9MGaUawQ?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639393228,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639393228,
+    "sortOrder": 3147
+  },
+  {
+    "id": 2148,
+    "name": "欢迎来到古原镇",
+    "nameEn": "Welcome to Elderfield",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2148.jpg",
+    "screenshots": [],
+    "category": "恐怖惊悚",
+    "size": "1G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1jQZKeUtz6zrf3UDwWZ-HcA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1wu7Ti8KkUNWDH2-1wwIQLg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639326822,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639326822,
+    "sortOrder": 3148
+  },
+  {
+    "id": 2149,
+    "name": "虫群来袭",
+    "nameEn": "Here Comes The Swarm",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2149.jpg",
+    "screenshots": [],
+    "category": "策略战棋",
+    "size": "1.1G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1yL8cnahK-SxkePXytb1y0Q?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/11GIr6gpm7tpP3PFhMDHSPA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1789639346889,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639346889,
+    "sortOrder": 3149
   }
 ];
 
