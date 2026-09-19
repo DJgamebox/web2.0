@@ -1,6 +1,6 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/9/17 10:04:09
-// 游戏数量: 2088
+// 生成时间: 2026/9/19 13:41:45
+// 游戏数量: 2087
 
 const importedGames = [
   {
@@ -19,8 +19,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1788498758078,
     "isDrm": true,
-    "downloadsWeb": 315,
-    "downloadsApp": 88,
+    "downloadsWeb": 318,
+    "downloadsApp": 89,
     "updateTime": 1788498758078,
     "sortOrder": 1
   },
@@ -359,27 +359,6 @@ const importedGames = [
     "downloadsApp": 34,
     "updateTime": 1782129757974,
     "sortOrder": 17
-  },
-  {
-    "id": 2000,
-    "name": "乐高蝙蝠侠：黑暗骑士之遗 豪华版全DLC",
-    "nameEn": "LEGO Batman: Legacy of the Dark Knight",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2000.jpg",
-    "screenshots": [],
-    "category": "冒险",
-    "size": "77G",
-    "description": "<p style=\"line-height:1.8;margin-bottom:16px;\">《乐高蝙蝠侠：黑暗骑士之遗》是乐高系列超级英雄动作冒险经典之作，以DC蝙蝠侠宇宙为核心，融合乐高积木搭建、爽快战斗、双人合作、剧情解谜等特色玩法，还原哥谭市经典场景与蝙蝠侠、罗宾、小丑等海量角色，画风可爱、玩法轻松休闲，全年龄段玩家都能享受欢乐冒险，是乐高与DC爱好者必玩的经典单机游戏。</p><p style=\"line-height:1.8;margin-bottom:24px;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部角色、关卡与隐藏内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作支持单人/双人同乐，是休闲向<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置即可畅玩哥谭冒险。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【核心玩法与特色】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">游戏以**双人合作冒险+乐高自由搭建**为核心玩法，玩家可操控蝙蝠侠、罗宾、蝙蝠女、超人等数十名DC角色，每个角色拥有专属技能与战斗动作，战斗轻松爽快、解谜趣味十足，关卡包含街道、地下基地、飞艇、监狱等经典场景，积木破坏与搭建贯穿全程，欢乐氛围拉满。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 主要特色</h4><ul style=\"line-height:1.8;margin-left:20px;\"><li style=\"margin-bottom:8px;\"><strong>双人同乐：</strong>支持双人协作闯关，配合解谜与战斗</li><li style=\"margin-bottom:8px;\"><strong>海量角色：</strong>蝙蝠侠、罗宾、小丑、谜语人等全收录</li><li style=\"margin-bottom:8px;\"><strong>积木搭建：</strong>破坏场景、搭建道具、解锁新路线</li><li style=\"margin-bottom:8px;\"><strong>轻松休闲：</strong>难度友好，全年龄段玩家均可上手</li></ul><p style=\"line-height:1.8;margin-top:16px;margin-bottom:24px;\">本作<strong>单机游戏</strong>离线即可畅玩全部关卡，双人模式无需联网。<strong>中文绿色</strong>版汉化完整精准，界面、剧情、技能提示全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【游戏内容与配置】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">游戏包含完整主线关卡，流程时长约12-15小时，隐藏角色、收集要素、解锁内容丰富，耐玩度极高，场景高度还原哥谭市风格，角色动作可爱诙谐，战斗打击感轻松流畅，优化成熟，运行稳定不报错。</p><p style=\"line-height:1.8;margin-bottom:16px;\">本次提供的<strong>破解版</strong>已整合完美汉化、解锁补丁与优化补丁，完美兼容Win10/Win11系统，<strong>网盘</strong>下载完整不缺失，老旧电脑也能流畅运行。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 配置要求</h4><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;\"><strong style=\"color:#e74c3c;\">[最低配置]</strong> Windows 10 64位 / i3-8100 / 4GB内存 / GTX 650 / 15GB存储空间</div><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 10/11 / i5-8400 / 8GB内存 / GTX 1050 / SSD固态硬盘</div><p style=\"line-height:1.8;margin-bottom:24px;\">游戏配置要求极低，十年前电脑均可流畅运行，画面明亮可爱，运行稳定不掉帧。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【游戏攻略】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 新手闯关技巧</h4><p style=\"line-height:1.8;margin-bottom:16px;\">新手优先利用角色专属技能解谜，蝙蝠侠可破坏金属、罗宾可攀爬特殊区域，双人模式互相配合触发机关。战斗无需复杂操作，自动瞄准+连续攻击即可清场，场景中所有积木都可破坏，收集金币用于解锁角色与道具。</p4><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 战斗与收集指南</h4><ul style=\"line-height:1.8;margin-left:20px;\"><li style=\"margin-bottom:8px;\"><strong>积木破坏：</strong>打碎一切物品获取金币，解锁隐藏内容</li><li style=\"margin-bottom:8px;\"><strong>角色切换：</strong>不同机关需要对应角色技能才能开启</li><li style=\"margin-bottom:8px;\"><strong>双人配合：</strong>双人协作可快速破解高难度谜题</li><li style=\"margin-bottom:8px;\"><strong>金币收集：</strong>关卡全收集可解锁全部角色与皮肤</li></ul><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 通关进阶思路</h4><p style=\"line-height:1.8;margin-bottom:24px;\">主线通关后可自由选择关卡完成全收集，解锁全部超级英雄与反派角色。游戏难度极低，主打轻松欢乐，适合休闲玩家、亲子同乐、双人好友一起闯关，每一关都充满惊喜与乐趣。</p><p style=\"text-align:center;margin-top:32px;margin-bottom:16px;\"><strong style=\"font-size:16px;color:#2ecc71;\">立即获取破解版下载地址，开启乐高蝙蝠侠的哥谭欢乐冒险！</strong></p>",
-    "baiduLink1": "https://pan.baidu.com/s/1pCi3lYklyxoQnA1k8xsAVw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1IazCmoe3Es734uwH8F5BWA?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1779716824550,
-    "isDrm": false,
-    "downloadsWeb": 4,
-    "downloadsApp": 4,
-    "updateTime": 1779716824550,
-    "sortOrder": 18
   },
   {
     "id": 1993,
@@ -2351,7 +2330,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 113
   },
@@ -14845,7 +14824,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 2,
+    "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 708
@@ -14866,7 +14845,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 709
@@ -14887,7 +14866,7 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1779073729544,
     "isDrm": false,
-    "downloadsWeb": 3,
+    "downloadsWeb": 4,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 710
@@ -26333,7 +26312,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1254
   },
