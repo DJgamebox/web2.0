@@ -1294,9 +1294,12 @@
         }
     
         // 记录游戏下载地址并跳转 - 5.27 新增
-        async function recordGameDownload(gameId, link) {
+        function recordGameDownload(gameId, link) {
+            // 先立即跳转网盘，避免浏览器把跳转当成弹窗拦截
+            window.open(link, '_blank');
+            // 下载统计在后台上报，不阻塞跳转
             try {
-                await fetch('https://api.djgamebox.com/api/game-download', {
+                fetch('https://api.djgamebox.com/api/game-download', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -1307,12 +1310,12 @@
                         page: window.location.href,
                         timestamp: new Date().toISOString()
                     })
+                }).catch(function(error) {
+                    console.error('记录游戏下载地址失败:', error);
                 });
             } catch (error) {
                 console.error('记录游戏下载地址失败:', error);
             }
-            // 跳转
-            window.open(link, '_blank');
         }
 </script>
 </body>
