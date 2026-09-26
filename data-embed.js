@@ -1,5 +1,5 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/9/26 05:00:43
+// 生成时间: 2026/9/26 08:14:52
 // 游戏数量: 2100
 
 const importedGames = [
@@ -13565,7 +13565,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 646
   },
@@ -21377,7 +21377,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 107,
-    "downloadsApp": 100,
+    "downloadsApp": 101,
     "updateTime": 1779073729544,
     "sortOrder": 1018
   },
@@ -22259,7 +22259,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1060
   },
