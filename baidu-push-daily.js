@@ -1,18 +1,56 @@
 const fs = require('fs');
 const http = require('http');
+const https = require('https');
 const path = require('path');
 
 // 配置
 const CONFIG = {
   site: 'https://www.djgamebox.com',
   token: '1MMvNno3FJA1snA5',
-  urlsFile: 'game-urls.txt',
+  liveSitemapUrl: 'https://www.djgamebox.com/sitemap.xml', // 优先抓线上，部署后即刻最新
+  sitemapFile: 'sitemap.xml', // 兜底1：本地仓库副本
+  urlsFile: 'game-urls.txt', // 兜底2：静态列表
   pushedFile: 'pushed-urls.json', // 记录已推送的 URL
   batchSize: 10 // 每天最多推送数量（根据配额调整）
 };
 
-// 读取 URL 列表
-function readUrls() {
+// 从 sitemap 文本中提取 URL
+function parseSitemap(data) {
+  return [...data.matchAll(/<loc>(https:\/\/www\.djgamebox\.com\/[^<]+)<\/loc>/g)].map(m => m[1]);
+}
+
+// 抓取线上 sitemap（10 秒超时）
+function fetchLiveSitemap() {
+  return new Promise((resolve) => {
+    const req = https.get(CONFIG.liveSitemapUrl, { timeout: 10000 }, (res) => {
+      if (res.statusCode !== 200) { resolve(null); res.resume(); return; }
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => resolve(data));
+    });
+    req.on('error', () => resolve(null));
+    req.on('timeout', () => { req.destroy(); resolve(null); });
+  });
+}
+
+// 读取 URL 列表：线上 sitemap 优先（新增游戏自动纳入、已删游戏自动剔除），本地文件兜底
+async function readUrls() {
+  const live = await fetchLiveSitemap();
+  if (live) {
+    const urls = parseSitemap(live);
+    if (urls.length > 0) {
+      console.log('🌐 使用线上 sitemap.xml（实时最新）');
+      return urls;
+    }
+  }
+  if (fs.existsSync(CONFIG.sitemapFile)) {
+    const urls = parseSitemap(fs.readFileSync(CONFIG.sitemapFile, 'utf8'));
+    if (urls.length > 0) {
+      console.log('📁 线上抓取失败，使用本地 sitemap.xml');
+      return urls;
+    }
+  }
+  console.log('📁 使用静态列表 game-urls.txt');
   const data = fs.readFileSync(CONFIG.urlsFile, 'utf8');
   return data.split('\n').filter(url => url.trim() !== '');
 }
@@ -80,11 +118,12 @@ function pushUrls(urls) {
 // 主函数
 async function main() {
   // 读取所有 URL
-  const allUrls = readUrls();
+  const allUrls = await readUrls();
   console.log(`📊 总共 ${allUrls.length} 个 URL`);
 
-  // 读取已推送的 URL
-  const pushedUrls = readPushedUrls();
+  // 读取已推送的 URL，并剔除已从网站删除的页面（保持记录干净）
+  const allUrlSet = new Set(allUrls);
+  const pushedUrls = readPushedUrls().filter(url => allUrlSet.has(url));
   console.log(`✅ 已推送 ${pushedUrls.length} 个 URL`);
 
   // 找出未推送的 URL

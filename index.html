@@ -2806,12 +2806,32 @@
       filterAndRender();
     }
 
+    // 搜索归一化：去掉标点符号和空格，统一小写
+    // 让"鬼武者剑之道"能匹配"鬼武者：剑之道 高级豪华版"
+    function normalizeSearchText(text) {
+      if (!text) return '';
+      return text.toLowerCase().replace(/[\s:：\-—_·•,，.。!！?？'’‘"“”()（）\[\]【】\/\\|~～&＆+#＃]/g, '');
+    }
+
+    // 搜索匹配：先整串归一化匹配，失败再按空格分词（每个词都命中才算匹配）
+    function gameMatchesSearch(game, rawQuery) {
+      const query = (rawQuery || '').trim();
+      if (!query) return true;
+      const name = normalizeSearchText(game.name);
+      const nameEn = normalizeSearchText(game.nameEn);
+      const whole = normalizeSearchText(query);
+      if (whole && (name.includes(whole) || nameEn.includes(whole))) return true;
+      const tokens = query.toLowerCase().split(/\s+/).map(normalizeSearchText).filter(Boolean);
+      if (tokens.length > 1) {
+        return tokens.every(t => name.includes(t) || nameEn.includes(t));
+      }
+      return false;
+    }
+
     function filterAndRender(keepPage = false) {
-      const search = document.getElementById('searchInput').value.toLowerCase();
+      const search = document.getElementById('searchInput').value;
       filteredGames = games.filter(game => {
-        const matchSearch = !search || 
-          (game.name && game.name.toLowerCase().includes(search)) ||
-          (game.nameEn && game.nameEn.toLowerCase().includes(search));
+        const matchSearch = gameMatchesSearch(game, search);
         let matchFilter = true;
         if (currentFilter === 'favorite') matchFilter = isFavorited(game.id);
         else if (currentFilter === 'drm') matchFilter = game.isDrm === true;
@@ -3027,11 +3047,9 @@
             if (item.dataset.filter === filter) item.classList.add('active');
           });
           // 筛选后需要重新过滤，但不重置页码
-          const search = document.getElementById('searchInput').value.toLowerCase();
+          const search = document.getElementById('searchInput').value;
           filteredGames = games.filter(game => {
-            const matchSearch = !search || 
-              (game.name && game.name.toLowerCase().includes(search)) ||
-              (game.nameEn && game.nameEn.toLowerCase().includes(search));
+            const matchSearch = gameMatchesSearch(game, search);
             let matchFilter = true;
             if (currentFilter === 'favorite') matchFilter = isFavorited(game.id);
             else if (currentFilter === 'drm') matchFilter = game.isDrm === true;
