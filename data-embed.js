@@ -1,5 +1,5 @@
-// 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/9/24 04:48:03
+// 游戏数据 - 由后台管理系统自动生成
+// 生成时间: 2026/9/24 12:50:00
 // 游戏数量: 2100
 
 const importedGames = [
@@ -17,12 +17,101 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498758078,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 344,
     "downloadsApp": 99,
     "updateTime": 1788498758078,
     "sortOrder": 1
+  },
+  {
+    "id": 2151,
+    "name": "寂静岭：小镇陷落",
+    "nameEn": "SILENT HILL: Townfall",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2151.jpg",
+    "screenshots": [],
+    "category": "恐怖惊悚",
+    "size": "52G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1pQhLD0I8dYqX2VRprkMObg?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1G4tT7u_VcPVyNVjMCbiXzA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1790225016333,
+    "sortOrder": 2
+  },
+  {
+    "id": 2152,
+    "name": "空之轨迹the2nd",
+    "nameEn": "Trails in the Sky 2nd Chapter",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2152.jpg",
+    "screenshots": [],
+    "category": "",
+    "size": "32G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1yRmi0AjLIhjfi8tMmINQBw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1ENUdYeGcf0jGYc6WYUJhFg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1790225029918,
+    "sortOrder": 3
+  },
+  {
+    "id": 2154,
+    "name": "沙丘：觉醒",
+    "nameEn": "Dune: Awakening",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2154.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "43G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1PQp8Euy4hXdRgxVm9u3wXg?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1xCEmwao5w29NxRcn2hSZMg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1790225064757,
+    "sortOrder": 4
+  },
+  {
+    "id": 2162,
+    "name": "控制：共振数字豪华版",
+    "nameEn": "CONTROL Resonant Digital Deluxe Edition",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2162.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "104G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1X6VRdki1S3UsbGGY5VzyKA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1JiNGKw0XvJPUajngAnvCEw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1790225211389,
+    "sortOrder": 5
   },
   {
     "id": 2133,
@@ -38,12 +127,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498628658,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 9,
     "downloadsApp": 5,
     "updateTime": 1788498628658,
-    "sortOrder": 2
+    "sortOrder": 6
   },
   {
     "id": 2120,
@@ -59,12 +149,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498264386,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 12,
     "downloadsApp": 3,
     "updateTime": 1788498264386,
-    "sortOrder": 3
+    "sortOrder": 7
   },
   {
     "id": 2119,
@@ -80,12 +171,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498233544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1788498233544,
-    "sortOrder": 4
+    "sortOrder": 8
   },
   {
     "id": 2116,
@@ -101,12 +193,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787710135073,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 11,
     "downloadsApp": 5,
     "updateTime": 1787710135073,
-    "sortOrder": 5
+    "sortOrder": 9
   },
   {
     "id": 2109,
@@ -122,12 +215,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787021925053,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1787021925053,
-    "sortOrder": 6
+    "sortOrder": 10
   },
   {
     "id": 2121,
@@ -143,12 +237,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498307657,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 1,
     "updateTime": 1788498307657,
-    "sortOrder": 7
+    "sortOrder": 11
   },
   {
     "id": 1995,
@@ -164,12 +259,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 85,
     "downloadsApp": 58,
     "updateTime": 1779073729544,
-    "sortOrder": 8
+    "sortOrder": 12
   },
   {
     "id": 2103,
@@ -185,12 +281,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786102298538,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 0,
     "updateTime": 1786102298538,
-    "sortOrder": 9
+    "sortOrder": 13
   },
   {
     "id": 405,
@@ -206,12 +303,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1sLSqzhPDlYm3nTKFtR1tSQ?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 38,
     "downloadsApp": 37,
     "updateTime": 1779073729544,
-    "sortOrder": 10
+    "sortOrder": 14
   },
   {
     "id": 2093,
@@ -227,12 +325,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785647055011,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 201,
     "downloadsApp": 23,
     "updateTime": 1785647055011,
-    "sortOrder": 11
+    "sortOrder": 15
   },
   {
     "id": 1796,
@@ -248,12 +347,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOd1OS75ykYPU5Ckq5sckUIlA1?pwd=mafv",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 64,
     "downloadsApp": 32,
     "updateTime": 1779073729544,
-    "sortOrder": 12
+    "sortOrder": 16
   },
   {
     "id": 697,
@@ -269,12 +369,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1InG3kFDa6VCxhVNwEEssVA?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VO1EfvahnRyvg16MmbrdAJELA1?pwd=y3da",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 67,
     "downloadsApp": 16,
     "updateTime": 1779073729544,
-    "sortOrder": 13
+    "sortOrder": 17
   },
   {
     "id": 2079,
@@ -290,12 +391,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501132910,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 27,
     "downloadsApp": 24,
     "updateTime": 1785501132910,
-    "sortOrder": 14
+    "sortOrder": 18
   },
   {
     "id": 2033,
@@ -311,12 +413,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1vpN--wafhCRsoSe89RB3gQ?pwd=6666",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779840593844,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 135,
     "downloadsApp": 33,
     "updateTime": 1779840593844,
-    "sortOrder": 15
+    "sortOrder": 19
   },
   {
     "id": 2052,
@@ -332,12 +435,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1783836242216,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 8,
     "updateTime": 1783836242216,
-    "sortOrder": 16
+    "sortOrder": 20
   },
   {
     "id": 2049,
@@ -353,12 +457,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1782129757974,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 26,
     "downloadsApp": 35,
     "updateTime": 1782129757974,
-    "sortOrder": 17
+    "sortOrder": 21
   },
   {
     "id": 1993,
@@ -374,12 +479,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 9,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
-    "sortOrder": 19
+    "sortOrder": 22
   },
   {
     "id": 2072,
@@ -395,12 +501,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986833027,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 8,
     "updateTime": 1784986833027,
-    "sortOrder": 20
+    "sortOrder": 23
   },
   {
     "id": 487,
@@ -416,12 +523,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 21
+    "sortOrder": 24
   },
   {
     "id": 2108,
@@ -437,12 +545,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787022676307,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1787022676307,
-    "sortOrder": 22
+    "sortOrder": 25
   },
   {
     "id": 587,
@@ -458,12 +567,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 48,
     "downloadsApp": 29,
     "updateTime": 1779073729544,
-    "sortOrder": 23
+    "sortOrder": 26
   },
   {
     "id": 1920,
@@ -479,12 +589,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 15,
     "downloadsApp": 17,
     "updateTime": 1779073729544,
-    "sortOrder": 24
+    "sortOrder": 27
   },
   {
     "id": 46,
@@ -500,12 +611,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 7,
     "downloadsApp": 19,
     "updateTime": 1779073729544,
-    "sortOrder": 26
+    "sortOrder": 28
   },
   {
     "id": 478,
@@ -521,12 +633,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 27
+    "sortOrder": 29
   },
   {
     "id": 1776956080972,
@@ -542,12 +655,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 28
+    "sortOrder": 30
   },
   {
     "id": 1776956081016,
@@ -563,12 +677,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 18,
     "downloadsApp": 27,
     "updateTime": 1779073729544,
-    "sortOrder": 29
+    "sortOrder": 31
   },
   {
     "id": 1991,
@@ -584,12 +699,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 30
+    "sortOrder": 32
   },
   {
     "id": 404,
@@ -605,12 +721,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1BrNmmDHVmmmeowIhl5voAg?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 21,
     "downloadsApp": 12,
     "updateTime": 1779073729544,
-    "sortOrder": 31
+    "sortOrder": 33
   },
   {
     "id": 1776956080976,
@@ -626,12 +743,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 32
+    "sortOrder": 34
   },
   {
     "id": 1776956080973,
@@ -647,12 +765,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 15,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 33
+    "sortOrder": 35
   },
   {
     "id": 461,
@@ -668,12 +787,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 23,
     "downloadsApp": 12,
     "updateTime": 1779073729544,
-    "sortOrder": 34
+    "sortOrder": 36
   },
   {
     "id": 277,
@@ -689,12 +809,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/17Q0b2L-XRhp8hlKYCTMkeA?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 16,
     "downloadsApp": 17,
     "updateTime": 1779073729544,
-    "sortOrder": 35
+    "sortOrder": 37
   },
   {
     "id": 1776956080974,
@@ -710,12 +831,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 36
+    "sortOrder": 38
   },
   {
     "id": 1776956080977,
@@ -731,12 +853,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 16,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 37
+    "sortOrder": 39
   },
   {
     "id": 1045,
@@ -752,12 +875,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOd2QfKTGqWOaIJBagCKqg-OA1?pwd=byzs",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 13,
     "downloadsApp": 12,
     "updateTime": 1779073729544,
-    "sortOrder": 38
+    "sortOrder": 40
   },
   {
     "id": 32,
@@ -773,12 +897,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1GNAYGvf27mBAzgo4ThmRqA?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOCSnArQbuB5DdkNAEb9fYULA1?pwd=a7j9",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 39
+    "sortOrder": 41
   },
   {
     "id": 1776956080983,
@@ -794,12 +919,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 31,
     "downloadsApp": 17,
     "updateTime": 1779073729544,
-    "sortOrder": 40
+    "sortOrder": 42
   },
   {
     "id": 486,
@@ -815,12 +941,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 41
+    "sortOrder": 43
   },
   {
     "id": 188,
@@ -836,12 +963,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 16,
     "updateTime": 1779073729544,
-    "sortOrder": 42
+    "sortOrder": 44
   },
   {
     "id": 421,
@@ -857,12 +985,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1x1X4XP1zcajNXUruk95DIQ?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 12,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
-    "sortOrder": 43
+    "sortOrder": 45
   },
   {
     "id": 253,
@@ -878,12 +1007,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 7,
     "downloadsApp": 14,
     "updateTime": 1779073729544,
-    "sortOrder": 44
+    "sortOrder": 46
   },
   {
     "id": 1016,
@@ -899,12 +1029,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/14j9TdfFichTJZDfcDBkkjQ?pwd=6666",
     "thunderLink": "https://pan.xunlei.com/s/VOEKh7qcHCOIpkWnoYmFxc5MA1?pwd=tx7h",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 15,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
-    "sortOrder": 45
+    "sortOrder": 47
   },
   {
     "id": 420,
@@ -920,12 +1051,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1M3MvvAb9TfwU-sznxUGLxw?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 11,
     "downloadsApp": 11,
     "updateTime": 1779073729544,
-    "sortOrder": 46
+    "sortOrder": 48
   },
   {
     "id": 71,
@@ -941,12 +1073,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCsGLhpSDsacofup84RUoqNA1?pwd=ywfx",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 31,
     "downloadsApp": 12,
     "updateTime": 1779073729544,
-    "sortOrder": 47
+    "sortOrder": 49
   },
   {
     "id": 1776956080981,
@@ -962,12 +1095,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 48
+    "sortOrder": 50
   },
   {
     "id": 1776956080982,
@@ -983,12 +1117,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 49
+    "sortOrder": 51
   },
   {
     "id": 2055,
@@ -1004,12 +1139,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128211514,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 5,
     "updateTime": 1784128211514,
-    "sortOrder": 50
+    "sortOrder": 52
   },
   {
     "id": 1776956080994,
@@ -1025,12 +1161,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 51
+    "sortOrder": 53
   },
   {
     "id": 1776956081000,
@@ -1046,12 +1183,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 52
+    "sortOrder": 54
   },
   {
     "id": 45,
@@ -1067,12 +1205,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 12,
     "updateTime": 1779073729544,
-    "sortOrder": 53
+    "sortOrder": 55
   },
   {
     "id": 28,
@@ -1088,12 +1227,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCsGuS99SMFi6VBhBIg7TEHA1?pwd=f8yv",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 55
+    "sortOrder": 56
   },
   {
     "id": 263,
@@ -1109,12 +1249,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 10,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 56
+    "sortOrder": 57
   },
   {
     "id": 1994,
@@ -1130,12 +1271,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779925489078,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 4,
     "updateTime": 1779925489078,
-    "sortOrder": 57
+    "sortOrder": 58
   },
   {
     "id": 255,
@@ -1151,12 +1293,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 58
+    "sortOrder": 59
   },
   {
     "id": 935,
@@ -1172,12 +1315,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 59
+    "sortOrder": 60
   },
   {
     "id": 820,
@@ -1193,12 +1337,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 60
+    "sortOrder": 61
   },
   {
     "id": 2001,
@@ -1214,12 +1359,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716842994,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 4,
     "updateTime": 1779716842994,
-    "sortOrder": 61
+    "sortOrder": 62
   },
   {
     "id": 485,
@@ -1235,12 +1381,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 62
+    "sortOrder": 63
   },
   {
     "id": 1014,
@@ -1256,12 +1403,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 63
+    "sortOrder": 64
   },
   {
     "id": 1923,
@@ -1277,12 +1425,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 64
+    "sortOrder": 65
   },
   {
     "id": 826,
@@ -1298,12 +1447,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 65
+    "sortOrder": 66
   },
   {
     "id": 1,
@@ -1319,12 +1469,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0b4amycDBCSTq-XHWZFi6A1?pwd=ej2u",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 66
+    "sortOrder": 67
   },
   {
     "id": 2,
@@ -1340,12 +1491,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0bdvOFLjmGqay1jaK6E0aA1?pwd=xumg",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 67
+    "sortOrder": 68
   },
   {
     "id": 3,
@@ -1361,12 +1513,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0bjgtxqgXxbKgPwvDBt5aA1?pwd=tja8",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 68
+    "sortOrder": 69
   },
   {
     "id": 4,
@@ -1382,12 +1535,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0bmRq7hM9oHrKkKJLS4SuA1?pwd=gtrq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 69
+    "sortOrder": 70
   },
   {
     "id": 5,
@@ -1403,12 +1557,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0bpI0VwLb0DIzV8vSmgn5A1?pwd=v9hg",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 70
+    "sortOrder": 71
   },
   {
     "id": 6,
@@ -1424,12 +1579,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0eK7plqm1IfRRL4WkGHx5A1?pwd=nvrn",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 71
+    "sortOrder": 72
   },
   {
     "id": 7,
@@ -1445,12 +1601,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0eNNe-FM5HGfR9B0e3cpoA1?pwd=nssi",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 72
+    "sortOrder": 73
   },
   {
     "id": 8,
@@ -1466,12 +1623,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0eRWYSDsacofup84V51T6A1?pwd=tte5",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 73
+    "sortOrder": 74
   },
   {
     "id": 9,
@@ -1487,12 +1645,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0eUkVIpcmP0BG11sqTQ5mA1?pwd=r8xi",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 74
+    "sortOrder": 75
   },
   {
     "id": 10,
@@ -1508,12 +1667,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0eYJVa8MjSyYO4sxoC4fFA1?pwd=9uva",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 75
+    "sortOrder": 76
   },
   {
     "id": 11,
@@ -1529,12 +1689,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0efNyuaw45kuLJi6ueQiIA1?pwd=epym",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 76
+    "sortOrder": 77
   },
   {
     "id": 13,
@@ -1550,12 +1711,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 9,
     "downloadsApp": 7,
     "updateTime": 1779073729544,
-    "sortOrder": 77
+    "sortOrder": 78
   },
   {
     "id": 16,
@@ -1571,12 +1733,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0sHe4uaw45kuLJi6uj7QSA1?pwd=idg3",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 78
+    "sortOrder": 79
   },
   {
     "id": 17,
@@ -1592,12 +1755,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0s9ZLr4Bsgd_5OQPc-53SA1?pwd=fm8j",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 79
+    "sortOrder": 80
   },
   {
     "id": 18,
@@ -1613,12 +1777,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFHuzeuMcYuE5BO4dabr8RA1?pwd=xgmz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 80
+    "sortOrder": 81
   },
   {
     "id": 19,
@@ -1634,12 +1799,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFFvRpLphcRPydnvG1veAOA1?pwd=4gh3",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 7,
     "updateTime": 1779073729544,
-    "sortOrder": 81
+    "sortOrder": 82
   },
   {
     "id": 20,
@@ -1655,12 +1821,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFFy40j07TAzvYr3yh_F3LA1?pwd=jkym",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 10,
     "downloadsApp": 20,
     "updateTime": 1779073729544,
-    "sortOrder": 82
+    "sortOrder": 83
   },
   {
     "id": 21,
@@ -1676,12 +1843,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFHzb24prXWDrD9cN2E7APA1?pwd=drsq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 83
+    "sortOrder": 84
   },
   {
     "id": 22,
@@ -1697,12 +1865,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFI31qLphcRPydnvG1wSDEA1?pwd=fu7b",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 84
+    "sortOrder": 85
   },
   {
     "id": 23,
@@ -1718,12 +1887,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFGPAO5LTOLwfXzEDPS1uoA1?pwd=wzrz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 85
+    "sortOrder": 86
   },
   {
     "id": 24,
@@ -1739,12 +1909,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFGRqRejnrK91Z58ZkcIZ7A1?pwd=7ec6",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 86
+    "sortOrder": 87
   },
   {
     "id": 25,
@@ -1760,12 +1931,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFGWyx2cpHv51-wiPI-uxiA1?pwd=86dq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 87
+    "sortOrder": 88
   },
   {
     "id": 26,
@@ -1781,12 +1953,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFGZwbj07TAzvYr3yh_SwQA1?pwd=58z2",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 88
+    "sortOrder": 89
   },
   {
     "id": 27,
@@ -1802,12 +1975,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODFGayRvpk9c3z4YtkZF9ZmA1?pwd=bgq5",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 89
+    "sortOrder": 90
   },
   {
     "id": 29,
@@ -1823,12 +1997,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODOIZmmv-ZWVvvmUMfid0NUA1?pwd=mqdz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 90
+    "sortOrder": 91
   },
   {
     "id": 30,
@@ -1844,12 +2019,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODOIcERO6a-Op5jkaPiv6OQA1?pwd=8r4x",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 91
+    "sortOrder": 92
   },
   {
     "id": 31,
@@ -1865,12 +2041,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODOIf9MEKqQO88_QWNLwkrQA1?pwd=rh8b",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 92
+    "sortOrder": 93
   },
   {
     "id": 90,
@@ -1886,12 +2063,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KURePdUp6Ziqj314TmiYBA1?pwd=f9zm",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 93
+    "sortOrder": 94
   },
   {
     "id": 33,
@@ -1907,12 +2085,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1LBZ3h-zdp8kwV7rT-_Cehw?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOEKhV9BDYgLjl6t5yXa7A_QA1?pwd=gdd5",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 94
+    "sortOrder": 95
   },
   {
     "id": 34,
@@ -1928,12 +2107,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1Une73E5rt86ZgiJaj7ACnA?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 95
+    "sortOrder": 96
   },
   {
     "id": 35,
@@ -1949,12 +2129,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODOImnbyy1z6q518Mu1cLi8A1?pwd=62zf",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 96
+    "sortOrder": 97
   },
   {
     "id": 2004,
@@ -1970,12 +2151,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716918401,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779716918401,
-    "sortOrder": 97
+    "sortOrder": 98
   },
   {
     "id": 36,
@@ -1991,12 +2173,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODOIi8LjtmV_aXEGyuZtCByA1?pwd=dy47",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 98
+    "sortOrder": 99
   },
   {
     "id": 37,
@@ -2012,12 +2195,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODTFZaJyy1z6q518Mu3VtehA1?pwd=yvfe",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 99
+    "sortOrder": 100
   },
   {
     "id": 38,
@@ -2033,12 +2217,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODTFgz1rKhvnW1T9uXCBRrrA1?pwd=e9iq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 100
+    "sortOrder": 101
   },
   {
     "id": 39,
@@ -2054,12 +2239,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODTFkGlUaMf0noeAimirbQJA1?pwd=2fjv",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 101
+    "sortOrder": 102
   },
   {
     "id": 40,
@@ -2075,12 +2261,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_dycw8QyYjsUDcJ2XgA7Q5A1?pwd=tq5g",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 102
+    "sortOrder": 103
   },
   {
     "id": 41,
@@ -2096,12 +2283,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODVDcg8gXUAgJbj2b0xEfFnA1?pwd=z4m6",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 103
+    "sortOrder": 104
   },
   {
     "id": 42,
@@ -2117,12 +2305,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODVDgRwSxw4BNDNl39bCqyTA1?pwd=gi6j",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 104
+    "sortOrder": 105
   },
   {
     "id": 43,
@@ -2138,12 +2327,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODVDm3ISGdbrVOBEsW6jqj3A1?pwd=b6zf",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 105
+    "sortOrder": 106
   },
   {
     "id": 98,
@@ -2159,12 +2349,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1QBEfpXsp7RROPVTzKKK5-g?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 60,
     "downloadsApp": 24,
     "updateTime": 1779073729544,
-    "sortOrder": 106
+    "sortOrder": 107
   },
   {
     "id": 44,
@@ -2180,12 +2371,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODYmJphp1RpwO2MmKj_7LrcA1?pwd=t4ih",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 107
+    "sortOrder": 108
   },
   {
     "id": 47,
@@ -2201,12 +2393,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED2sVpvFxPQGjNKQcd_lpWA1?pwd=9urc",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 108
+    "sortOrder": 109
   },
   {
     "id": 48,
@@ -2222,12 +2415,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED333uHhVNNX9xVu9lIECIA1?pwd=seyu",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 109
+    "sortOrder": 110
   },
   {
     "id": 49,
@@ -2243,12 +2437,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED355YNz58usCYR_fXMyr8A1?pwd=6eab",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 12,
     "downloadsApp": 9,
     "updateTime": 1779073729544,
-    "sortOrder": 110
+    "sortOrder": 111
   },
   {
     "id": 50,
@@ -2264,12 +2459,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED38MdG538zTHMBUsqWar5A1?pwd=siuf",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 111
+    "sortOrder": 112
   },
   {
     "id": 51,
@@ -2285,12 +2481,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3AMxcLtsj6HFfncMgsg6A1?pwd=kkcr",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 112
+    "sortOrder": 113
   },
   {
     "id": 52,
@@ -2306,12 +2503,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3Ce8oHufl_CSkLpLNw3_A1?pwd=h69y",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 113
+    "sortOrder": 114
   },
   {
     "id": 53,
@@ -2327,12 +2525,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3F91BwaXY3UcKYy4nIvEA1?pwd=jyhw",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 114
+    "sortOrder": 115
   },
   {
     "id": 54,
@@ -2348,12 +2547,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3HKXZA_oijEsYUJ8tdc3A1?pwd=vuh4",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 115
+    "sortOrder": 116
   },
   {
     "id": 55,
@@ -2369,12 +2569,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHHZTcPue_B4WS5UAvjzw_LA1?pwd=b9bd",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 116
+    "sortOrder": 117
   },
   {
     "id": 56,
@@ -2390,12 +2591,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3Jfu3TYKFnm5V8T3SUKyA1?pwd=e2km",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 117
+    "sortOrder": 118
   },
   {
     "id": 57,
@@ -2411,12 +2613,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3OueARgNqcvAm1e30C9fA1?pwd=2a3t",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 118
+    "sortOrder": 119
   },
   {
     "id": 58,
@@ -2432,12 +2635,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED3RrLicqkMYz2MmS958mLA1?pwd=p2dh",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 119
+    "sortOrder": 120
   },
   {
     "id": 59,
@@ -2453,12 +2657,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG3ZUA7_l_Hc0ULIfowD9oqA1?pwd=sgjj",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 120
+    "sortOrder": 121
   },
   {
     "id": 60,
@@ -2474,12 +2679,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG3ZaAhsre_vWok6Pn6zBnZA1?pwd=c85t",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 121
+    "sortOrder": 122
   },
   {
     "id": 61,
@@ -2495,12 +2701,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 10,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 122
+    "sortOrder": 123
   },
   {
     "id": 62,
@@ -2516,12 +2723,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOEKgWBw8HiN-rT80AMc9bBwA1?pwd=paea",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 123
+    "sortOrder": 124
   },
   {
     "id": 63,
@@ -2537,12 +2745,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOShs_zvXeQc4CkybItncA9LA1?pwd=nwea",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 124
+    "sortOrder": 125
   },
   {
     "id": 64,
@@ -2558,12 +2767,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOShshNCpIIo7xNOSrjqjwDNA1?pwd=9hxg",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 9,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 125
+    "sortOrder": 126
   },
   {
     "id": 65,
@@ -2579,12 +2789,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 126
+    "sortOrder": 127
   },
   {
     "id": 66,
@@ -2600,12 +2811,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1Wgj97qi8tzPKA67kOlXF_A?pwd=8888",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
-    "sortOrder": 127
+    "sortOrder": 128
   },
   {
     "id": 67,
@@ -2621,12 +2833,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 128
+    "sortOrder": 129
   },
   {
     "id": 68,
@@ -2642,12 +2855,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 129
+    "sortOrder": 130
   },
   {
     "id": 69,
@@ -2663,12 +2877,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 130
+    "sortOrder": 131
   },
   {
     "id": 120,
@@ -2684,12 +2899,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1VeJWBXOXuBsl8czNjMhOUg?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOqtxb9EuUW96dtxkAOL0vNSA1?pwd=jrtd",
     "favorite": false,
-    "dateAdded": 1784986428291,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 57,
     "downloadsApp": 14,
     "updateTime": 1784986428291,
-    "sortOrder": 131
+    "sortOrder": 132
   },
   {
     "id": 70,
@@ -2705,12 +2921,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 9,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 132
+    "sortOrder": 133
   },
   {
     "id": 72,
@@ -2726,12 +2943,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 133
+    "sortOrder": 134
   },
   {
     "id": 73,
@@ -2747,12 +2965,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 134
+    "sortOrder": 135
   },
   {
     "id": 74,
@@ -2768,12 +2987,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 135
+    "sortOrder": 136
   },
   {
     "id": 75,
@@ -2789,12 +3009,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 136
+    "sortOrder": 137
   },
   {
     "id": 76,
@@ -2810,12 +3031,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 137
+    "sortOrder": 138
   },
   {
     "id": 77,
@@ -2831,12 +3053,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 138
+    "sortOrder": 139
   },
   {
     "id": 78,
@@ -2852,12 +3075,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 139
+    "sortOrder": 140
   },
   {
     "id": 79,
@@ -2873,12 +3097,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOGgBqjD_EyYEN2Mvv99vaotA1?pwd=7rue",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
-    "sortOrder": 140
+    "sortOrder": 141
   },
   {
     "id": 80,
@@ -2894,12 +3119,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 141
+    "sortOrder": 142
   },
   {
     "id": 81,
@@ -2915,12 +3141,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 142
+    "sortOrder": 143
   },
   {
     "id": 82,
@@ -2936,12 +3163,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 143
+    "sortOrder": 144
   },
   {
     "id": 83,
@@ -2957,12 +3185,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 144
+    "sortOrder": 145
   },
   {
     "id": 84,
@@ -2978,12 +3207,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 145
+    "sortOrder": 146
   },
   {
     "id": 85,
@@ -2999,12 +3229,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUqwZ9PaN2PXYrOFCqA07A1?pwd=7925",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 146
+    "sortOrder": 147
   },
   {
     "id": 86,
@@ -3020,12 +3251,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KU6xak_v0lpNssTx2ZZ8AA1?pwd=6j7v",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 147
+    "sortOrder": 148
   },
   {
     "id": 87,
@@ -3041,12 +3273,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUD3UAceMqoUzJFhRlypzA1?pwd=upse",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 148
+    "sortOrder": 149
   },
   {
     "id": 88,
@@ -3062,12 +3295,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUHccYFQ03JreB7NHeOHAA1?pwd=enqa",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 149
+    "sortOrder": 150
   },
   {
     "id": 89,
@@ -3083,12 +3317,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUMmr2JonE4QL24yCndLGA1?pwd=meez",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 150
+    "sortOrder": 151
   },
   {
     "id": 91,
@@ -3104,12 +3339,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUVtYaN2fL-duJjK14zjJA1?pwd=53s7",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 151
+    "sortOrder": 152
   },
   {
     "id": 92,
@@ -3125,12 +3361,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCsGn7HdazTj3LqPTahid9dA1?pwd=n342",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 152
+    "sortOrder": 153
   },
   {
     "id": 93,
@@ -3146,12 +3383,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KU_OKdUp6Ziqj314TmluXA1?pwd=5a5p",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 153
+    "sortOrder": 154
   },
   {
     "id": 94,
@@ -3167,12 +3405,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUlBCMuQutdXY8vSNAn2AA1?pwd=xywk",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 154
+    "sortOrder": 155
   },
   {
     "id": 95,
@@ -3188,12 +3427,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUhVnkr1pM6bcCtFbmGi1A1?pwd=xyhw",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 155
+    "sortOrder": 156
   },
   {
     "id": 96,
@@ -3209,12 +3449,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KUjWQvm9j2k8pBGQJ8kKxA1?pwd=e84z",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 156
+    "sortOrder": 157
   },
   {
     "id": 97,
@@ -3230,12 +3471,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_KU1AhRhjxx_c6o2J_0hS0A1?pwd=b38c",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 157
+    "sortOrder": 158
   },
   {
     "id": 99,
@@ -3251,12 +3493,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 158
+    "sortOrder": 159
   },
   {
     "id": 100,
@@ -3272,12 +3515,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 14,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 159
+    "sortOrder": 160
   },
   {
     "id": 101,
@@ -3293,12 +3537,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 160
+    "sortOrder": 161
   },
   {
     "id": 102,
@@ -3314,12 +3559,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 161
+    "sortOrder": 162
   },
   {
     "id": 103,
@@ -3335,12 +3581,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 162
+    "sortOrder": 163
   },
   {
     "id": 104,
@@ -3356,12 +3603,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 163
+    "sortOrder": 164
   },
   {
     "id": 105,
@@ -3377,12 +3625,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 164
+    "sortOrder": 165
   },
   {
     "id": 106,
@@ -3398,12 +3647,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 165
+    "sortOrder": 166
   },
   {
     "id": 107,
@@ -3419,12 +3669,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 166
+    "sortOrder": 167
   },
   {
     "id": 108,
@@ -3440,12 +3691,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 167
+    "sortOrder": 168
   },
   {
     "id": 109,
@@ -3461,12 +3713,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 168
+    "sortOrder": 169
   },
   {
     "id": 110,
@@ -3482,12 +3735,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0upMnvWz47Z0FuknRXhMsA1?pwd=2ven",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 169
+    "sortOrder": 170
   },
   {
     "id": 111,
@@ -3503,12 +3757,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 170
+    "sortOrder": 171
   },
   {
     "id": 112,
@@ -3524,12 +3779,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 171
+    "sortOrder": 172
   },
   {
     "id": 113,
@@ -3545,12 +3801,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 172
+    "sortOrder": 173
   },
   {
     "id": 114,
@@ -3566,12 +3823,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCsHEQfa8MjSyYO4sxkbGtzA1?pwd=vsej",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 173
+    "sortOrder": 174
   },
   {
     "id": 115,
@@ -3587,12 +3845,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/15zP64T9ExqWIRUN6BCrYLg?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOEcOPzBi1CtgNtrHebH5uBFA1?pwd=dawz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 10,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 174
+    "sortOrder": 175
   },
   {
     "id": 116,
@@ -3608,12 +3867,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 175
+    "sortOrder": 176
   },
   {
     "id": 117,
@@ -3629,12 +3889,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 176
+    "sortOrder": 177
   },
   {
     "id": 118,
@@ -3650,12 +3911,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 177
+    "sortOrder": 178
   },
   {
     "id": 119,
@@ -3671,12 +3933,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1Ndt5G7pC54YMiGplOgx7HQ?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOEcP0IOD31AE28YmnNUtn1_A1?pwd=2w7h",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 178
+    "sortOrder": 179
   },
   {
     "id": 121,
@@ -3692,12 +3955,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIRFj3yKwf_Gua8R2g8iNnlA1?pwd=zjpy",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 179
+    "sortOrder": 180
   },
   {
     "id": 167,
@@ -3713,12 +3977,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 180
+    "sortOrder": 181
   },
   {
     "id": 122,
@@ -3734,12 +3999,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 181
+    "sortOrder": 182
   },
   {
     "id": 123,
@@ -3755,12 +4021,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 182
+    "sortOrder": 183
   },
   {
     "id": 124,
@@ -3776,12 +4043,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 183
+    "sortOrder": 184
   },
   {
     "id": 125,
@@ -3797,12 +4065,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 184
+    "sortOrder": 185
   },
   {
     "id": 126,
@@ -3818,12 +4087,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 185
+    "sortOrder": 186
   },
   {
     "id": 127,
@@ -3839,12 +4109,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 186
+    "sortOrder": 187
   },
   {
     "id": 128,
@@ -3860,12 +4131,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0fOlTuaw45kuLJi6ueeIaA1?pwd=wwaq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 9,
     "updateTime": 1779073729544,
-    "sortOrder": 187
+    "sortOrder": 188
   },
   {
     "id": 129,
@@ -3881,12 +4153,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 188
+    "sortOrder": 189
   },
   {
     "id": 130,
@@ -3902,12 +4175,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 189
+    "sortOrder": 190
   },
   {
     "id": 131,
@@ -3923,12 +4197,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 190
+    "sortOrder": 191
   },
   {
     "id": 132,
@@ -3944,12 +4219,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 191
+    "sortOrder": 192
   },
   {
     "id": 133,
@@ -3965,12 +4241,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 192
+    "sortOrder": 193
   },
   {
     "id": 134,
@@ -3986,12 +4263,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 193
+    "sortOrder": 194
   },
   {
     "id": 135,
@@ -4007,12 +4285,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 194
+    "sortOrder": 195
   },
   {
     "id": 136,
@@ -4028,12 +4307,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 195
+    "sortOrder": 196
   },
   {
     "id": 137,
@@ -4049,12 +4329,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 196
+    "sortOrder": 197
   },
   {
     "id": 138,
@@ -4070,12 +4351,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 197
+    "sortOrder": 198
   },
   {
     "id": 2024,
@@ -4091,12 +4373,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717478324,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779717478324,
-    "sortOrder": 198
+    "sortOrder": 199
   },
   {
     "id": 139,
@@ -4112,12 +4395,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 199
+    "sortOrder": 200
   },
   {
     "id": 140,
@@ -4133,12 +4417,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCsHRIAy0DuETTCqmBBfamfA1?pwd=59j7",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 200
+    "sortOrder": 201
   },
   {
     "id": 141,
@@ -4154,12 +4439,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 201
+    "sortOrder": 202
   },
   {
     "id": 142,
@@ -4175,12 +4461,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 202
+    "sortOrder": 203
   },
   {
     "id": 143,
@@ -4196,12 +4483,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 203
+    "sortOrder": 204
   },
   {
     "id": 144,
@@ -4217,12 +4505,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 204
+    "sortOrder": 205
   },
   {
     "id": 145,
@@ -4238,12 +4527,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/19kXx5_EolSqSsu7R7Opqtg?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOEcPGvCy4gOxWn5uYzVs_0JA1?pwd=t3b2",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 205
+    "sortOrder": 206
   },
   {
     "id": 146,
@@ -4259,12 +4549,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 206
+    "sortOrder": 207
   },
   {
     "id": 147,
@@ -4280,12 +4571,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 207
+    "sortOrder": 208
   },
   {
     "id": 148,
@@ -4301,12 +4593,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 208
+    "sortOrder": 209
   },
   {
     "id": 149,
@@ -4322,12 +4615,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 209
+    "sortOrder": 210
   },
   {
     "id": 150,
@@ -4343,12 +4637,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 210
+    "sortOrder": 211
   },
   {
     "id": 151,
@@ -4364,12 +4659,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 211
+    "sortOrder": 212
   },
   {
     "id": 152,
@@ -4385,12 +4681,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 212
+    "sortOrder": 213
   },
   {
     "id": 153,
@@ -4406,12 +4703,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 213
+    "sortOrder": 214
   },
   {
     "id": 154,
@@ -4427,12 +4725,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 214
+    "sortOrder": 215
   },
   {
     "id": 155,
@@ -4448,12 +4747,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 215
+    "sortOrder": 216
   },
   {
     "id": 156,
@@ -4469,12 +4769,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 216
+    "sortOrder": 217
   },
   {
     "id": 157,
@@ -4490,12 +4791,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 217
+    "sortOrder": 218
   },
   {
     "id": 158,
@@ -4511,12 +4813,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 218
+    "sortOrder": 219
   },
   {
     "id": 159,
@@ -4532,12 +4835,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 219
+    "sortOrder": 220
   },
   {
     "id": 160,
@@ -4553,12 +4857,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 220
+    "sortOrder": 221
   },
   {
     "id": 161,
@@ -4574,12 +4879,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 221
+    "sortOrder": 222
   },
   {
     "id": 162,
@@ -4595,12 +4901,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 222
+    "sortOrder": 223
   },
   {
     "id": 163,
@@ -4616,12 +4923,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 223
+    "sortOrder": 224
   },
   {
     "id": 164,
@@ -4637,12 +4945,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1DHUS31MZSKwazkNpt6olqQ?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOIRGkoK0qhO14ePW8Q1LUMoA1?pwd=hw3v",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 224
+    "sortOrder": 225
   },
   {
     "id": 165,
@@ -4658,12 +4967,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 225
+    "sortOrder": 226
   },
   {
     "id": 166,
@@ -4679,12 +4989,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 226
+    "sortOrder": 227
   },
   {
     "id": 168,
@@ -4700,12 +5011,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 227
+    "sortOrder": 228
   },
   {
     "id": 169,
@@ -4721,12 +5033,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 228
+    "sortOrder": 229
   },
   {
     "id": 170,
@@ -4742,12 +5055,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 229
+    "sortOrder": 230
   },
   {
     "id": 171,
@@ -4763,12 +5077,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 230
+    "sortOrder": 231
   },
   {
     "id": 172,
@@ -4784,12 +5099,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 231
+    "sortOrder": 232
   },
   {
     "id": 173,
@@ -4805,12 +5121,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 232
+    "sortOrder": 233
   },
   {
     "id": 174,
@@ -4826,12 +5143,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 233
+    "sortOrder": 234
   },
   {
     "id": 175,
@@ -4847,12 +5165,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 234
+    "sortOrder": 235
   },
   {
     "id": 176,
@@ -4868,12 +5187,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 235
+    "sortOrder": 236
   },
   {
     "id": 177,
@@ -4889,12 +5209,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 236
+    "sortOrder": 237
   },
   {
     "id": 178,
@@ -4910,12 +5231,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 237
+    "sortOrder": 238
   },
   {
     "id": 179,
@@ -4931,12 +5253,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 238
+    "sortOrder": 239
   },
   {
     "id": 180,
@@ -4952,12 +5275,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 239
+    "sortOrder": 240
   },
   {
     "id": 181,
@@ -4973,12 +5297,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 240
+    "sortOrder": 241
   },
   {
     "id": 182,
@@ -4994,12 +5319,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 241
+    "sortOrder": 242
   },
   {
     "id": 184,
@@ -5015,12 +5341,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 242
+    "sortOrder": 243
   },
   {
     "id": 185,
@@ -5036,12 +5363,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 243
+    "sortOrder": 244
   },
   {
     "id": 186,
@@ -5057,12 +5385,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 244
+    "sortOrder": 245
   },
   {
     "id": 187,
@@ -5078,12 +5407,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 245
+    "sortOrder": 246
   },
   {
     "id": 189,
@@ -5099,12 +5429,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 246
+    "sortOrder": 247
   },
   {
     "id": 190,
@@ -5120,12 +5451,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 247
+    "sortOrder": 248
   },
   {
     "id": 191,
@@ -5141,12 +5473,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 248
+    "sortOrder": 249
   },
   {
     "id": 192,
@@ -5162,12 +5495,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 249
+    "sortOrder": 250
   },
   {
     "id": 193,
@@ -5183,12 +5517,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 250
+    "sortOrder": 251
   },
   {
     "id": 194,
@@ -5204,12 +5539,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 251
+    "sortOrder": 252
   },
   {
     "id": 195,
@@ -5225,12 +5561,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 252
+    "sortOrder": 253
   },
   {
     "id": 196,
@@ -5246,12 +5583,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 253
+    "sortOrder": 254
   },
   {
     "id": 197,
@@ -5267,12 +5605,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 254
+    "sortOrder": 255
   },
   {
     "id": 198,
@@ -5288,12 +5627,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 255
+    "sortOrder": 256
   },
   {
     "id": 199,
@@ -5309,12 +5649,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 256
+    "sortOrder": 257
   },
   {
     "id": 200,
@@ -5330,12 +5671,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOa0qI9HsJsHBJ3gEzDb9wdHA1?pwd=p5yc",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 257
+    "sortOrder": 258
   },
   {
     "id": 201,
@@ -5351,12 +5693,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 258
+    "sortOrder": 259
   },
   {
     "id": 202,
@@ -5372,12 +5715,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 259
+    "sortOrder": 260
   },
   {
     "id": 203,
@@ -5393,12 +5737,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 260
+    "sortOrder": 261
   },
   {
     "id": 204,
@@ -5414,12 +5759,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 261
+    "sortOrder": 262
   },
   {
     "id": 205,
@@ -5435,12 +5781,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 262
+    "sortOrder": 263
   },
   {
     "id": 206,
@@ -5456,12 +5803,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 263
+    "sortOrder": 264
   },
   {
     "id": 207,
@@ -5477,12 +5825,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 264
+    "sortOrder": 265
   },
   {
     "id": 208,
@@ -5498,12 +5847,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 265
+    "sortOrder": 266
   },
   {
     "id": 209,
@@ -5519,12 +5869,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 266
+    "sortOrder": 267
   },
   {
     "id": 210,
@@ -5540,12 +5891,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 267
+    "sortOrder": 268
   },
   {
     "id": 211,
@@ -5561,12 +5913,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 268
+    "sortOrder": 269
   },
   {
     "id": 212,
@@ -5582,12 +5935,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 269
+    "sortOrder": 270
   },
   {
     "id": 213,
@@ -5603,12 +5957,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 270
+    "sortOrder": 271
   },
   {
     "id": 214,
@@ -5624,12 +5979,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 271
+    "sortOrder": 272
   },
   {
     "id": 215,
@@ -5645,12 +6001,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 272
+    "sortOrder": 273
   },
   {
     "id": 216,
@@ -5666,12 +6023,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 273
+    "sortOrder": 274
   },
   {
     "id": 217,
@@ -5687,12 +6045,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9muJUx3biEbFgJy3cRf1A1?pwd=3jak",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 274
+    "sortOrder": 275
   },
   {
     "id": 218,
@@ -5708,12 +6067,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 275
+    "sortOrder": 276
   },
   {
     "id": 269,
@@ -5729,12 +6089,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 276
+    "sortOrder": 277
   },
   {
     "id": 219,
@@ -5750,12 +6111,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 277
+    "sortOrder": 278
   },
   {
     "id": 1776956080978,
@@ -5771,12 +6133,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 278
+    "sortOrder": 279
   },
   {
     "id": 220,
@@ -5792,12 +6155,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 279
+    "sortOrder": 280
   },
   {
     "id": 221,
@@ -5813,12 +6177,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 280
+    "sortOrder": 281
   },
   {
     "id": 222,
@@ -5834,12 +6199,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 281
+    "sortOrder": 282
   },
   {
     "id": 223,
@@ -5855,12 +6221,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 282
+    "sortOrder": 283
   },
   {
     "id": 224,
@@ -5876,12 +6243,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 283
+    "sortOrder": 284
   },
   {
     "id": 225,
@@ -5897,12 +6265,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 284
+    "sortOrder": 285
   },
   {
     "id": 226,
@@ -5918,12 +6287,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 285
+    "sortOrder": 286
   },
   {
     "id": 227,
@@ -5939,12 +6309,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 286
+    "sortOrder": 287
   },
   {
     "id": 230,
@@ -5960,12 +6331,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 287
+    "sortOrder": 288
   },
   {
     "id": 231,
@@ -5981,12 +6353,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 288
+    "sortOrder": 289
   },
   {
     "id": 232,
@@ -6002,12 +6375,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 289
+    "sortOrder": 290
   },
   {
     "id": 233,
@@ -6023,12 +6397,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 290
+    "sortOrder": 291
   },
   {
     "id": 234,
@@ -6044,12 +6419,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 291
+    "sortOrder": 292
   },
   {
     "id": 235,
@@ -6065,12 +6441,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 292
+    "sortOrder": 293
   },
   {
     "id": 236,
@@ -6086,12 +6463,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 293
+    "sortOrder": 294
   },
   {
     "id": 237,
@@ -6107,12 +6485,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 294
+    "sortOrder": 295
   },
   {
     "id": 239,
@@ -6128,12 +6507,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_NF9YRuAuUgP3EEQcvLSwVA1?pwd=7epp",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 295
+    "sortOrder": 296
   },
   {
     "id": 240,
@@ -6149,12 +6529,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1s2AHhLLSoGK0dUOkSa4kdA?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOEcPXZPJmWs3zbXouHSvxZ8A1?pwd=mpxn",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 296
+    "sortOrder": 297
   },
   {
     "id": 241,
@@ -6170,12 +6551,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_I6tuV674kghYwbCID-iVzA1?pwd=cjar",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 297
+    "sortOrder": 298
   },
   {
     "id": 242,
@@ -6191,12 +6573,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_I6wnPXHjSBcEWoJIbDiFLA1?pwd=navk",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 298
+    "sortOrder": 299
   },
   {
     "id": 1776956080979,
@@ -6212,12 +6595,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 299
+    "sortOrder": 300
   },
   {
     "id": 243,
@@ -6233,12 +6617,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_I6z4L_ZCaxcpiAQVKt6BEA1?pwd=7ukd",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 300
+    "sortOrder": 301
   },
   {
     "id": 244,
@@ -6254,12 +6639,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HnqxzZGb_vSzgUzN3sCztA1?pwd=fype",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 301
+    "sortOrder": 302
   },
   {
     "id": 245,
@@ -6275,12 +6661,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HnyXHRhjxx_c6o2JYgv2FA1?pwd=xsvi",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 302
+    "sortOrder": 303
   },
   {
     "id": 246,
@@ -6296,12 +6683,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_Ho7E-VRBO2dsnMkSCYrE1A1?pwd=gs3g",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 303
+    "sortOrder": 304
   },
   {
     "id": 247,
@@ -6317,12 +6705,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 304
+    "sortOrder": 305
   },
   {
     "id": 248,
@@ -6338,12 +6727,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 305
+    "sortOrder": 306
   },
   {
     "id": 249,
@@ -6359,12 +6749,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 306
+    "sortOrder": 307
   },
   {
     "id": 250,
@@ -6380,12 +6771,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 307
+    "sortOrder": 308
   },
   {
     "id": 251,
@@ -6401,12 +6793,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 308
+    "sortOrder": 309
   },
   {
     "id": 252,
@@ -6422,12 +6815,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 309
+    "sortOrder": 310
   },
   {
     "id": 1776956080988,
@@ -6443,12 +6837,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 310
+    "sortOrder": 311
   },
   {
     "id": 254,
@@ -6464,12 +6859,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 311
+    "sortOrder": 312
   },
   {
     "id": 256,
@@ -6485,12 +6881,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_Kcp3iKT147JsU_RI2H0XKA1?pwd=tm7v",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 312
+    "sortOrder": 313
   },
   {
     "id": 257,
@@ -6506,12 +6903,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 313
+    "sortOrder": 314
   },
   {
     "id": 258,
@@ -6527,12 +6925,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 314
+    "sortOrder": 315
   },
   {
     "id": 259,
@@ -6548,12 +6947,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 315
+    "sortOrder": 316
   },
   {
     "id": 260,
@@ -6569,12 +6969,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 316
+    "sortOrder": 317
   },
   {
     "id": 261,
@@ -6590,12 +6991,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 317
+    "sortOrder": 318
   },
   {
     "id": 313,
@@ -6611,12 +7013,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 318
+    "sortOrder": 319
   },
   {
     "id": 262,
@@ -6632,12 +7035,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 319
+    "sortOrder": 320
   },
   {
     "id": 264,
@@ -6653,12 +7057,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 320
+    "sortOrder": 321
   },
   {
     "id": 1776956080980,
@@ -6674,12 +7079,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 321
+    "sortOrder": 322
   },
   {
     "id": 265,
@@ -6695,12 +7101,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 322
+    "sortOrder": 323
   },
   {
     "id": 266,
@@ -6716,12 +7123,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 323
+    "sortOrder": 324
   },
   {
     "id": 267,
@@ -6737,12 +7145,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 324
+    "sortOrder": 325
   },
   {
     "id": 268,
@@ -6758,12 +7167,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 325
+    "sortOrder": 326
   },
   {
     "id": 319,
@@ -6779,12 +7189,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 326
+    "sortOrder": 327
   },
   {
     "id": 270,
@@ -6800,12 +7211,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 327
+    "sortOrder": 328
   },
   {
     "id": 320,
@@ -6821,12 +7233,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 328
+    "sortOrder": 329
   },
   {
     "id": 271,
@@ -6842,12 +7255,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 329
+    "sortOrder": 330
   },
   {
     "id": 321,
@@ -6863,12 +7277,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 330
+    "sortOrder": 331
   },
   {
     "id": 272,
@@ -6884,12 +7299,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 331
+    "sortOrder": 332
   },
   {
     "id": 1776956080989,
@@ -6905,12 +7321,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 332
+    "sortOrder": 333
   },
   {
     "id": 273,
@@ -6926,12 +7343,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 333
+    "sortOrder": 334
   },
   {
     "id": 274,
@@ -6947,12 +7365,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 334
+    "sortOrder": 335
   },
   {
     "id": 275,
@@ -6968,12 +7387,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 335
+    "sortOrder": 336
   },
   {
     "id": 276,
@@ -6989,12 +7409,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 336
+    "sortOrder": 337
   },
   {
     "id": 278,
@@ -7010,12 +7431,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 337
+    "sortOrder": 338
   },
   {
     "id": 279,
@@ -7031,12 +7453,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 338
+    "sortOrder": 339
   },
   {
     "id": 280,
@@ -7052,12 +7475,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 339
+    "sortOrder": 340
   },
   {
     "id": 281,
@@ -7073,12 +7497,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 340
+    "sortOrder": 341
   },
   {
     "id": 282,
@@ -7094,12 +7519,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 341
+    "sortOrder": 342
   },
   {
     "id": 283,
@@ -7115,12 +7541,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 342
+    "sortOrder": 343
   },
   {
     "id": 284,
@@ -7136,12 +7563,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 343
+    "sortOrder": 344
   },
   {
     "id": 285,
@@ -7157,12 +7585,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 344
+    "sortOrder": 345
   },
   {
     "id": 286,
@@ -7178,12 +7607,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 345
+    "sortOrder": 346
   },
   {
     "id": 287,
@@ -7199,12 +7629,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 346
+    "sortOrder": 347
   },
   {
     "id": 288,
@@ -7220,12 +7651,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 347
+    "sortOrder": 348
   },
   {
     "id": 289,
@@ -7241,12 +7673,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 348
+    "sortOrder": 349
   },
   {
     "id": 290,
@@ -7262,12 +7695,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 349
+    "sortOrder": 350
   },
   {
     "id": 291,
@@ -7283,12 +7717,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 350
+    "sortOrder": 351
   },
   {
     "id": 292,
@@ -7304,12 +7739,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 351
+    "sortOrder": 352
   },
   {
     "id": 293,
@@ -7325,12 +7761,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 352
+    "sortOrder": 353
   },
   {
     "id": 1776956080990,
@@ -7346,12 +7783,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 353
+    "sortOrder": 354
   },
   {
     "id": 294,
@@ -7367,12 +7805,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 354
+    "sortOrder": 355
   },
   {
     "id": 295,
@@ -7388,12 +7827,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 355
+    "sortOrder": 356
   },
   {
     "id": 296,
@@ -7409,12 +7849,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 356
+    "sortOrder": 357
   },
   {
     "id": 297,
@@ -7430,12 +7871,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 357
+    "sortOrder": 358
   },
   {
     "id": 298,
@@ -7451,12 +7893,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 358
+    "sortOrder": 359
   },
   {
     "id": 299,
@@ -7472,12 +7915,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 359
+    "sortOrder": 360
   },
   {
     "id": 300,
@@ -7493,12 +7937,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 360
+    "sortOrder": 361
   },
   {
     "id": 301,
@@ -7514,12 +7959,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 361
+    "sortOrder": 362
   },
   {
     "id": 302,
@@ -7535,12 +7981,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 362
+    "sortOrder": 363
   },
   {
     "id": 303,
@@ -7556,12 +8003,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 363
+    "sortOrder": 364
   },
   {
     "id": 304,
@@ -7577,12 +8025,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 364
+    "sortOrder": 365
   },
   {
     "id": 305,
@@ -7598,12 +8047,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 365
+    "sortOrder": 366
   },
   {
     "id": 306,
@@ -7619,12 +8069,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 366
+    "sortOrder": 367
   },
   {
     "id": 307,
@@ -7640,12 +8091,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIRIB70xsRJ4ReLEKnhekJcA1?pwd=ghye",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 367
+    "sortOrder": 368
   },
   {
     "id": 308,
@@ -7661,12 +8113,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_dyu64AGOQuhyVKgfwyKsiA1?pwd=5epw",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 368
+    "sortOrder": 369
   },
   {
     "id": 309,
@@ -7682,12 +8135,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1jIfr7kNNd9Zu-KKZqXSRWg?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOED4PoioAJa-HTxB4Ow1izMA1?pwd=jc7x",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 369
+    "sortOrder": 370
   },
   {
     "id": 310,
@@ -7703,12 +8157,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 370
+    "sortOrder": 371
   },
   {
     "id": 311,
@@ -7724,12 +8179,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 371
+    "sortOrder": 372
   },
   {
     "id": 312,
@@ -7745,12 +8201,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 372
+    "sortOrder": 373
   },
   {
     "id": 314,
@@ -7766,12 +8223,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 373
+    "sortOrder": 374
   },
   {
     "id": 1776956080995,
@@ -7787,12 +8245,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 374
+    "sortOrder": 375
   },
   {
     "id": 315,
@@ -7808,12 +8267,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 375
+    "sortOrder": 376
   },
   {
     "id": 316,
@@ -7829,12 +8289,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1tJGU9lqLoYuDeBxsMEAQGQ?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOED43GB3TYKFnm5V8T3Sl8CA1?pwd=gxk4",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 376
+    "sortOrder": 377
   },
   {
     "id": 317,
@@ -7850,12 +8311,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 377
+    "sortOrder": 378
   },
   {
     "id": 318,
@@ -7871,12 +8333,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 378
+    "sortOrder": 379
   },
   {
     "id": 322,
@@ -7892,12 +8355,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 379
+    "sortOrder": 380
   },
   {
     "id": 323,
@@ -7913,12 +8377,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 380
+    "sortOrder": 381
   },
   {
     "id": 324,
@@ -7934,12 +8399,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 381
+    "sortOrder": 382
   },
   {
     "id": 368,
@@ -7955,12 +8421,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 382
+    "sortOrder": 383
   },
   {
     "id": 325,
@@ -7976,12 +8443,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 383
+    "sortOrder": 384
   },
   {
     "id": 326,
@@ -7997,12 +8465,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 384
+    "sortOrder": 385
   },
   {
     "id": 1776956080996,
@@ -8018,12 +8487,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 385
+    "sortOrder": 386
   },
   {
     "id": 327,
@@ -8039,12 +8509,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 386
+    "sortOrder": 387
   },
   {
     "id": 328,
@@ -8060,12 +8531,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 387
+    "sortOrder": 388
   },
   {
     "id": 329,
@@ -8081,12 +8553,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 388
+    "sortOrder": 389
   },
   {
     "id": 330,
@@ -8102,12 +8575,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 389
+    "sortOrder": 390
   },
   {
     "id": 331,
@@ -8123,12 +8597,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 390
+    "sortOrder": 391
   },
   {
     "id": 332,
@@ -8144,12 +8619,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 391
+    "sortOrder": 392
   },
   {
     "id": 333,
@@ -8165,12 +8641,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 392
+    "sortOrder": 393
   },
   {
     "id": 334,
@@ -8186,12 +8663,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 393
+    "sortOrder": 394
   },
   {
     "id": 335,
@@ -8207,12 +8685,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 394
+    "sortOrder": 395
   },
   {
     "id": 336,
@@ -8228,12 +8707,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 395
+    "sortOrder": 396
   },
   {
     "id": 337,
@@ -8249,12 +8729,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 396
+    "sortOrder": 397
   },
   {
     "id": 338,
@@ -8270,12 +8751,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 397
+    "sortOrder": 398
   },
   {
     "id": 339,
@@ -8291,12 +8773,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 398
+    "sortOrder": 399
   },
   {
     "id": 340,
@@ -8312,12 +8795,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 399
+    "sortOrder": 400
   },
   {
     "id": 341,
@@ -8333,12 +8817,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 400
+    "sortOrder": 401
   },
   {
     "id": 342,
@@ -8354,12 +8839,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 401
+    "sortOrder": 402
   },
   {
     "id": 343,
@@ -8375,12 +8861,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 402
+    "sortOrder": 403
   },
   {
     "id": 344,
@@ -8396,12 +8883,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 403
+    "sortOrder": 404
   },
   {
     "id": 345,
@@ -8417,12 +8905,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 404
+    "sortOrder": 405
   },
   {
     "id": 346,
@@ -8438,12 +8927,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 405
+    "sortOrder": 406
   },
   {
     "id": 347,
@@ -8459,12 +8949,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 406
+    "sortOrder": 407
   },
   {
     "id": 1776956080998,
@@ -8480,12 +8971,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 407
+    "sortOrder": 408
   },
   {
     "id": 348,
@@ -8501,12 +8993,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 408
+    "sortOrder": 409
   },
   {
     "id": 349,
@@ -8522,12 +9015,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 409
+    "sortOrder": 410
   },
   {
     "id": 350,
@@ -8543,12 +9037,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 410
+    "sortOrder": 411
   },
   {
     "id": 351,
@@ -8564,12 +9059,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 411
+    "sortOrder": 412
   },
   {
     "id": 352,
@@ -8585,12 +9081,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 412
+    "sortOrder": 413
   },
   {
     "id": 353,
@@ -8606,12 +9103,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 413
+    "sortOrder": 414
   },
   {
     "id": 354,
@@ -8627,12 +9125,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 414
+    "sortOrder": 415
   },
   {
     "id": 355,
@@ -8648,12 +9147,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 415
+    "sortOrder": 416
   },
   {
     "id": 356,
@@ -8669,12 +9169,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 416
+    "sortOrder": 417
   },
   {
     "id": 357,
@@ -8690,12 +9191,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0ttauGpJHmBXBYLJCBfaHA1?pwd=iw49",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 417
+    "sortOrder": 418
   },
   {
     "id": 358,
@@ -8711,12 +9213,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 418
+    "sortOrder": 419
   },
   {
     "id": 359,
@@ -8732,12 +9235,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 419
+    "sortOrder": 420
   },
   {
     "id": 360,
@@ -8753,12 +9257,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 420
+    "sortOrder": 421
   },
   {
     "id": 361,
@@ -8774,12 +9279,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 421
+    "sortOrder": 422
   },
   {
     "id": 362,
@@ -8795,12 +9301,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 422
+    "sortOrder": 423
   },
   {
     "id": 364,
@@ -8816,12 +9323,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 423
+    "sortOrder": 424
   },
   {
     "id": 365,
@@ -8837,12 +9345,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 424
+    "sortOrder": 425
   },
   {
     "id": 366,
@@ -8858,12 +9367,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 425
+    "sortOrder": 426
   },
   {
     "id": 367,
@@ -8879,12 +9389,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 7,
     "updateTime": 1779073729544,
-    "sortOrder": 426
+    "sortOrder": 427
   },
   {
     "id": 369,
@@ -8900,12 +9411,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 427
+    "sortOrder": 428
   },
   {
     "id": 370,
@@ -8921,12 +9433,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 428
+    "sortOrder": 429
   },
   {
     "id": 371,
@@ -8942,12 +9455,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 429
+    "sortOrder": 430
   },
   {
     "id": 372,
@@ -8963,12 +9477,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 430
+    "sortOrder": 431
   },
   {
     "id": 373,
@@ -8984,12 +9499,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 431
+    "sortOrder": 432
   },
   {
     "id": 374,
@@ -9005,12 +9521,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 432
+    "sortOrder": 433
   },
   {
     "id": 375,
@@ -9026,12 +9543,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 433
+    "sortOrder": 434
   },
   {
     "id": 376,
@@ -9047,12 +9565,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 434
+    "sortOrder": 435
   },
   {
     "id": 377,
@@ -9068,12 +9587,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 435
+    "sortOrder": 436
   },
   {
     "id": 378,
@@ -9089,12 +9609,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 436
+    "sortOrder": 437
   },
   {
     "id": 379,
@@ -9110,12 +9631,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 437
+    "sortOrder": 438
   },
   {
     "id": 380,
@@ -9131,12 +9653,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 438
+    "sortOrder": 439
   },
   {
     "id": 381,
@@ -9152,12 +9675,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 439
+    "sortOrder": 440
   },
   {
     "id": 382,
@@ -9173,12 +9697,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 440
+    "sortOrder": 441
   },
   {
     "id": 383,
@@ -9194,12 +9719,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 441
+    "sortOrder": 442
   },
   {
     "id": 384,
@@ -9215,12 +9741,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 442
+    "sortOrder": 443
   },
   {
     "id": 385,
@@ -9236,12 +9763,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 443
+    "sortOrder": 444
   },
   {
     "id": 386,
@@ -9257,12 +9785,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 444
+    "sortOrder": 445
   },
   {
     "id": 387,
@@ -9278,12 +9807,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 445
+    "sortOrder": 446
   },
   {
     "id": 430,
@@ -9299,12 +9829,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1780587600105,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1780587600105,
-    "sortOrder": 446
+    "sortOrder": 447
   },
   {
     "id": 388,
@@ -9320,12 +9851,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 447
+    "sortOrder": 448
   },
   {
     "id": 389,
@@ -9341,12 +9873,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 448
+    "sortOrder": 449
   },
   {
     "id": 390,
@@ -9362,12 +9895,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 449
+    "sortOrder": 450
   },
   {
     "id": 391,
@@ -9383,12 +9917,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 450
+    "sortOrder": 451
   },
   {
     "id": 392,
@@ -9404,12 +9939,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 451
+    "sortOrder": 452
   },
   {
     "id": 393,
@@ -9425,12 +9961,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 452
+    "sortOrder": 453
   },
   {
     "id": 394,
@@ -9446,12 +9983,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 453
+    "sortOrder": 454
   },
   {
     "id": 397,
@@ -9467,12 +10005,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 454
+    "sortOrder": 455
   },
   {
     "id": 398,
@@ -9488,12 +10027,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 455
+    "sortOrder": 456
   },
   {
     "id": 399,
@@ -9509,12 +10049,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 456
+    "sortOrder": 457
   },
   {
     "id": 400,
@@ -9530,12 +10071,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 457
+    "sortOrder": 458
   },
   {
     "id": 401,
@@ -9551,12 +10093,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 458
+    "sortOrder": 459
   },
   {
     "id": 402,
@@ -9572,12 +10115,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 459
+    "sortOrder": 460
   },
   {
     "id": 403,
@@ -9593,12 +10137,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 460
+    "sortOrder": 461
   },
   {
     "id": 407,
@@ -9614,12 +10159,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 461
+    "sortOrder": 462
   },
   {
     "id": 408,
@@ -9635,12 +10181,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 462
+    "sortOrder": 463
   },
   {
     "id": 409,
@@ -9656,12 +10203,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 463
+    "sortOrder": 464
   },
   {
     "id": 410,
@@ -9677,12 +10225,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 464
+    "sortOrder": 465
   },
   {
     "id": 411,
@@ -9698,12 +10247,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 465
+    "sortOrder": 466
   },
   {
     "id": 412,
@@ -9719,12 +10269,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 466
+    "sortOrder": 467
   },
   {
     "id": 413,
@@ -9740,12 +10291,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 467
+    "sortOrder": 468
   },
   {
     "id": 414,
@@ -9761,12 +10313,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 468
+    "sortOrder": 469
   },
   {
     "id": 415,
@@ -9782,12 +10335,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 7,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 469
+    "sortOrder": 470
   },
   {
     "id": 416,
@@ -9803,12 +10357,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 470
+    "sortOrder": 471
   },
   {
     "id": 417,
@@ -9824,12 +10379,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 471
+    "sortOrder": 472
   },
   {
     "id": 418,
@@ -9845,12 +10401,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 472
+    "sortOrder": 473
   },
   {
     "id": 419,
@@ -9866,12 +10423,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 473
+    "sortOrder": 474
   },
   {
     "id": 422,
@@ -9887,12 +10445,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 474
+    "sortOrder": 475
   },
   {
     "id": 423,
@@ -9908,12 +10467,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 475
+    "sortOrder": 476
   },
   {
     "id": 424,
@@ -9929,12 +10489,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 476
+    "sortOrder": 477
   },
   {
     "id": 425,
@@ -9950,12 +10511,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 477
+    "sortOrder": 478
   },
   {
     "id": 426,
@@ -9971,12 +10533,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOH6LFfivikTjA4jSDQcEUBuA1?pwd=g72n",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 15,
     "downloadsApp": 15,
     "updateTime": 1779073729544,
-    "sortOrder": 478
+    "sortOrder": 479
   },
   {
     "id": 427,
@@ -9992,12 +10555,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 479
+    "sortOrder": 480
   },
   {
     "id": 428,
@@ -10013,12 +10577,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 480
+    "sortOrder": 481
   },
   {
     "id": 429,
@@ -10034,12 +10599,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 481
+    "sortOrder": 482
   },
   {
     "id": 431,
@@ -10055,12 +10621,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 482
+    "sortOrder": 483
   },
   {
     "id": 432,
@@ -10076,12 +10643,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 483
+    "sortOrder": 484
   },
   {
     "id": 433,
@@ -10097,12 +10665,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 484
+    "sortOrder": 485
   },
   {
     "id": 434,
@@ -10118,12 +10687,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 485
+    "sortOrder": 486
   },
   {
     "id": 435,
@@ -10139,12 +10709,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 486
+    "sortOrder": 487
   },
   {
     "id": 436,
@@ -10160,12 +10731,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 487
+    "sortOrder": 488
   },
   {
     "id": 437,
@@ -10181,12 +10753,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 488
+    "sortOrder": 489
   },
   {
     "id": 438,
@@ -10202,12 +10775,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 489
+    "sortOrder": 490
   },
   {
     "id": 439,
@@ -10223,12 +10797,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 490
+    "sortOrder": 491
   },
   {
     "id": 440,
@@ -10244,12 +10819,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 491
+    "sortOrder": 492
   },
   {
     "id": 441,
@@ -10265,12 +10841,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 492
+    "sortOrder": 493
   },
   {
     "id": 442,
@@ -10286,12 +10863,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1NrBVBQifqZoHIE3orKj6nw?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOd2R2U0OezShiledcByKpNdA1?pwd=cbac",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 493
+    "sortOrder": 494
   },
   {
     "id": 443,
@@ -10307,12 +10885,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 494
+    "sortOrder": 495
   },
   {
     "id": 444,
@@ -10328,12 +10907,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 495
+    "sortOrder": 496
   },
   {
     "id": 445,
@@ -10349,12 +10929,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 496
+    "sortOrder": 497
   },
   {
     "id": 481,
@@ -10370,12 +10951,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIV3F1tIehFU5sCIKdzlg6TA1?pwd=w5xk",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 497
+    "sortOrder": 498
   },
   {
     "id": 446,
@@ -10391,12 +10973,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 498
+    "sortOrder": 499
   },
   {
     "id": 447,
@@ -10412,12 +10995,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 499
+    "sortOrder": 500
   },
   {
     "id": 448,
@@ -10433,12 +11017,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 500
+    "sortOrder": 501
   },
   {
     "id": 449,
@@ -10454,12 +11039,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 501
+    "sortOrder": 502
   },
   {
     "id": 450,
@@ -10475,12 +11061,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 502
+    "sortOrder": 503
   },
   {
     "id": 451,
@@ -10496,12 +11083,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 503
+    "sortOrder": 504
   },
   {
     "id": 452,
@@ -10517,12 +11105,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 504
+    "sortOrder": 505
   },
   {
     "id": 453,
@@ -10538,12 +11127,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 505
+    "sortOrder": 506
   },
   {
     "id": 454,
@@ -10559,12 +11149,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 506
+    "sortOrder": 507
   },
   {
     "id": 455,
@@ -10580,12 +11171,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 507
+    "sortOrder": 508
   },
   {
     "id": 1776956080999,
@@ -10601,12 +11193,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 508
+    "sortOrder": 509
   },
   {
     "id": 456,
@@ -10622,12 +11215,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 509
+    "sortOrder": 510
   },
   {
     "id": 457,
@@ -10643,12 +11237,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 510
+    "sortOrder": 511
   },
   {
     "id": 458,
@@ -10664,12 +11259,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 511
+    "sortOrder": 512
   },
   {
     "id": 459,
@@ -10685,12 +11281,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 512
+    "sortOrder": 513
   },
   {
     "id": 460,
@@ -10706,12 +11303,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 9,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 513
+    "sortOrder": 514
   },
   {
     "id": 462,
@@ -10727,12 +11325,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 514
+    "sortOrder": 515
   },
   {
     "id": 463,
@@ -10748,12 +11347,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 515
+    "sortOrder": 516
   },
   {
     "id": 464,
@@ -10769,12 +11369,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 516
+    "sortOrder": 517
   },
   {
     "id": 465,
@@ -10790,12 +11391,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 517
+    "sortOrder": 518
   },
   {
     "id": 466,
@@ -10811,12 +11413,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 518
+    "sortOrder": 519
   },
   {
     "id": 467,
@@ -10832,12 +11435,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 519
+    "sortOrder": 520
   },
   {
     "id": 468,
@@ -10853,12 +11457,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 520
+    "sortOrder": 521
   },
   {
     "id": 469,
@@ -10874,12 +11479,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 521
+    "sortOrder": 522
   },
   {
     "id": 470,
@@ -10895,12 +11501,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 522
+    "sortOrder": 523
   },
   {
     "id": 471,
@@ -10916,12 +11523,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 523
+    "sortOrder": 524
   },
   {
     "id": 472,
@@ -10937,12 +11545,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 524
+    "sortOrder": 525
   },
   {
     "id": 473,
@@ -10958,12 +11567,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 525
+    "sortOrder": 526
   },
   {
     "id": 474,
@@ -10979,12 +11589,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 526
+    "sortOrder": 527
   },
   {
     "id": 475,
@@ -11000,12 +11611,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 527
+    "sortOrder": 528
   },
   {
     "id": 476,
@@ -11021,12 +11633,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 528
+    "sortOrder": 529
   },
   {
     "id": 477,
@@ -11042,12 +11655,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 529
+    "sortOrder": 530
   },
   {
     "id": 479,
@@ -11063,12 +11677,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 530
+    "sortOrder": 531
   },
   {
     "id": 480,
@@ -11084,12 +11699,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 531
+    "sortOrder": 532
   },
   {
     "id": 482,
@@ -11105,12 +11721,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 532
+    "sortOrder": 533
   },
   {
     "id": 483,
@@ -11126,12 +11743,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 533
+    "sortOrder": 534
   },
   {
     "id": 484,
@@ -11147,12 +11765,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 534
+    "sortOrder": 535
   },
   {
     "id": 488,
@@ -11168,12 +11787,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 535
+    "sortOrder": 536
   },
   {
     "id": 489,
@@ -11189,12 +11809,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1EQhNpHaIrm-sQ3SWyBy3wA?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOd1bDUMOezShiledcBxj3PjA1?pwd=2fcb",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 536
+    "sortOrder": 537
   },
   {
     "id": 490,
@@ -11210,12 +11831,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 537
+    "sortOrder": 538
   },
   {
     "id": 491,
@@ -11231,12 +11853,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 538
+    "sortOrder": 539
   },
   {
     "id": 492,
@@ -11252,12 +11875,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 539
+    "sortOrder": 540
   },
   {
     "id": 493,
@@ -11273,12 +11897,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 540
+    "sortOrder": 541
   },
   {
     "id": 494,
@@ -11294,12 +11919,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 541
+    "sortOrder": 542
   },
   {
     "id": 495,
@@ -11315,12 +11941,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 542
+    "sortOrder": 543
   },
   {
     "id": 496,
@@ -11336,12 +11963,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 543
+    "sortOrder": 544
   },
   {
     "id": 497,
@@ -11357,12 +11985,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 544
+    "sortOrder": 545
   },
   {
     "id": 498,
@@ -11378,12 +12007,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 545
+    "sortOrder": 546
   },
   {
     "id": 499,
@@ -11399,12 +12029,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 546
+    "sortOrder": 547
   },
   {
     "id": 500,
@@ -11420,12 +12051,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 547
+    "sortOrder": 548
   },
   {
     "id": 501,
@@ -11441,12 +12073,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 548
+    "sortOrder": 549
   },
   {
     "id": 502,
@@ -11462,12 +12095,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 549
+    "sortOrder": 550
   },
   {
     "id": 503,
@@ -11483,12 +12117,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 550
+    "sortOrder": 551
   },
   {
     "id": 504,
@@ -11504,12 +12139,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 551
+    "sortOrder": 552
   },
   {
     "id": 505,
@@ -11525,12 +12161,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 552
+    "sortOrder": 553
   },
   {
     "id": 506,
@@ -11546,12 +12183,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 553
+    "sortOrder": 554
   },
   {
     "id": 507,
@@ -11567,12 +12205,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 554
+    "sortOrder": 555
   },
   {
     "id": 508,
@@ -11588,12 +12227,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 555
+    "sortOrder": 556
   },
   {
     "id": 509,
@@ -11609,12 +12249,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 556
+    "sortOrder": 557
   },
   {
     "id": 510,
@@ -11630,12 +12271,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 557
+    "sortOrder": 558
   },
   {
     "id": 511,
@@ -11651,12 +12293,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 558
+    "sortOrder": 559
   },
   {
     "id": 512,
@@ -11672,12 +12315,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 559
+    "sortOrder": 560
   },
   {
     "id": 513,
@@ -11693,12 +12337,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 560
+    "sortOrder": 561
   },
   {
     "id": 514,
@@ -11714,12 +12359,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 561
+    "sortOrder": 562
   },
   {
     "id": 515,
@@ -11735,12 +12381,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 562
+    "sortOrder": 563
   },
   {
     "id": 516,
@@ -11756,12 +12403,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 563
+    "sortOrder": 564
   },
   {
     "id": 517,
@@ -11777,12 +12425,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 564
+    "sortOrder": 565
   },
   {
     "id": 518,
@@ -11798,12 +12447,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 565
+    "sortOrder": 566
   },
   {
     "id": 519,
@@ -11819,12 +12469,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 566
+    "sortOrder": 567
   },
   {
     "id": 520,
@@ -11840,12 +12491,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 567
+    "sortOrder": 568
   },
   {
     "id": 521,
@@ -11861,12 +12513,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 568
+    "sortOrder": 569
   },
   {
     "id": 522,
@@ -11882,12 +12535,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 569
+    "sortOrder": 570
   },
   {
     "id": 523,
@@ -11903,12 +12557,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 570
+    "sortOrder": 571
   },
   {
     "id": 524,
@@ -11924,12 +12579,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 571
+    "sortOrder": 572
   },
   {
     "id": 525,
@@ -11945,12 +12601,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 572
+    "sortOrder": 573
   },
   {
     "id": 526,
@@ -11966,12 +12623,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 573
+    "sortOrder": 574
   },
   {
     "id": 527,
@@ -11987,12 +12645,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 574
+    "sortOrder": 575
   },
   {
     "id": 528,
@@ -12008,12 +12667,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 575
+    "sortOrder": 576
   },
   {
     "id": 529,
@@ -12029,12 +12689,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 576
+    "sortOrder": 577
   },
   {
     "id": 530,
@@ -12050,12 +12711,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIUzHwfGb9fmQfPF_tmR-OJA1?pwd=pcge",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 577
+    "sortOrder": 578
   },
   {
     "id": 531,
@@ -12071,12 +12733,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 578
+    "sortOrder": 579
   },
   {
     "id": 532,
@@ -12092,12 +12755,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 579
+    "sortOrder": 580
   },
   {
     "id": 533,
@@ -12113,12 +12777,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 580
+    "sortOrder": 581
   },
   {
     "id": 534,
@@ -12134,12 +12799,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 581
+    "sortOrder": 582
   },
   {
     "id": 535,
@@ -12155,12 +12821,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 582
+    "sortOrder": 583
   },
   {
     "id": 536,
@@ -12176,12 +12843,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 583
+    "sortOrder": 584
   },
   {
     "id": 537,
@@ -12197,12 +12865,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 584
+    "sortOrder": 585
   },
   {
     "id": 538,
@@ -12218,12 +12887,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 585
+    "sortOrder": 586
   },
   {
     "id": 539,
@@ -12239,12 +12909,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 586
+    "sortOrder": 587
   },
   {
     "id": 540,
@@ -12260,12 +12931,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 587
+    "sortOrder": 588
   },
   {
     "id": 541,
@@ -12281,12 +12953,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 588
+    "sortOrder": 589
   },
   {
     "id": 542,
@@ -12302,12 +12975,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 589
+    "sortOrder": 590
   },
   {
     "id": 543,
@@ -12323,12 +12997,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 590
+    "sortOrder": 591
   },
   {
     "id": 544,
@@ -12344,12 +13019,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 591
+    "sortOrder": 592
   },
   {
     "id": 545,
@@ -12365,12 +13041,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 592
+    "sortOrder": 593
   },
   {
     "id": 546,
@@ -12386,12 +13063,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 593
+    "sortOrder": 594
   },
   {
     "id": 547,
@@ -12407,12 +13085,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 594
+    "sortOrder": 595
   },
   {
     "id": 548,
@@ -12428,12 +13107,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 595
+    "sortOrder": 596
   },
   {
     "id": 549,
@@ -12449,12 +13129,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 596
+    "sortOrder": 597
   },
   {
     "id": 550,
@@ -12470,12 +13151,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 597
+    "sortOrder": 598
   },
   {
     "id": 551,
@@ -12491,12 +13173,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 598
+    "sortOrder": 599
   },
   {
     "id": 552,
@@ -12512,12 +13195,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 599
+    "sortOrder": 600
   },
   {
     "id": 553,
@@ -12533,12 +13217,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 600
+    "sortOrder": 601
   },
   {
     "id": 554,
@@ -12554,12 +13239,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 601
+    "sortOrder": 602
   },
   {
     "id": 555,
@@ -12575,12 +13261,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 602
+    "sortOrder": 603
   },
   {
     "id": 556,
@@ -12596,12 +13283,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 603
+    "sortOrder": 604
   },
   {
     "id": 557,
@@ -12617,12 +13305,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 604
+    "sortOrder": 605
   },
   {
     "id": 558,
@@ -12638,12 +13327,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 605
+    "sortOrder": 606
   },
   {
     "id": 559,
@@ -12659,12 +13349,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 606
+    "sortOrder": 607
   },
   {
     "id": 560,
@@ -12680,12 +13371,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 607
+    "sortOrder": 608
   },
   {
     "id": 561,
@@ -12701,12 +13393,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 608
+    "sortOrder": 609
   },
   {
     "id": 562,
@@ -12722,12 +13415,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 609
+    "sortOrder": 610
   },
   {
     "id": 563,
@@ -12743,12 +13437,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 610
+    "sortOrder": 611
   },
   {
     "id": 564,
@@ -12764,12 +13459,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 611
+    "sortOrder": 612
   },
   {
     "id": 565,
@@ -12785,12 +13481,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 612
+    "sortOrder": 613
   },
   {
     "id": 566,
@@ -12806,12 +13503,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 613
+    "sortOrder": 614
   },
   {
     "id": 567,
@@ -12827,12 +13525,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 614
+    "sortOrder": 615
   },
   {
     "id": 568,
@@ -12848,12 +13547,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 615
+    "sortOrder": 616
   },
   {
     "id": 569,
@@ -12869,12 +13569,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 616
+    "sortOrder": 617
   },
   {
     "id": 570,
@@ -12890,12 +13591,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 617
+    "sortOrder": 618
   },
   {
     "id": 571,
@@ -12911,12 +13613,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 618
+    "sortOrder": 619
   },
   {
     "id": 572,
@@ -12932,12 +13635,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 619
+    "sortOrder": 620
   },
   {
     "id": 573,
@@ -12953,12 +13657,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 620
+    "sortOrder": 621
   },
   {
     "id": 574,
@@ -12974,12 +13679,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 621
+    "sortOrder": 622
   },
   {
     "id": 575,
@@ -12995,12 +13701,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 622
+    "sortOrder": 623
   },
   {
     "id": 576,
@@ -13016,12 +13723,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 623
+    "sortOrder": 624
   },
   {
     "id": 577,
@@ -13037,12 +13745,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 624
+    "sortOrder": 625
   },
   {
     "id": 578,
@@ -13058,12 +13767,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 625
+    "sortOrder": 626
   },
   {
     "id": 579,
@@ -13079,12 +13789,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 626
+    "sortOrder": 627
   },
   {
     "id": 580,
@@ -13100,12 +13811,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 627
+    "sortOrder": 628
   },
   {
     "id": 581,
@@ -13121,12 +13833,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 628
+    "sortOrder": 629
   },
   {
     "id": 582,
@@ -13142,12 +13855,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 629
+    "sortOrder": 630
   },
   {
     "id": 583,
@@ -13163,12 +13877,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 630
+    "sortOrder": 631
   },
   {
     "id": 584,
@@ -13184,12 +13899,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 631
+    "sortOrder": 632
   },
   {
     "id": 585,
@@ -13205,12 +13921,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 632
+    "sortOrder": 633
   },
   {
     "id": 586,
@@ -13226,12 +13943,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 633
+    "sortOrder": 634
   },
   {
     "id": 588,
@@ -13247,12 +13965,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 634
+    "sortOrder": 635
   },
   {
     "id": 589,
@@ -13268,12 +13987,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 635
+    "sortOrder": 636
   },
   {
     "id": 590,
@@ -13289,12 +14009,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 636
+    "sortOrder": 637
   },
   {
     "id": 592,
@@ -13310,12 +14031,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 637
+    "sortOrder": 638
   },
   {
     "id": 593,
@@ -13331,12 +14053,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 638
+    "sortOrder": 639
   },
   {
     "id": 594,
@@ -13352,12 +14075,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 639
+    "sortOrder": 640
   },
   {
     "id": 595,
@@ -13373,12 +14097,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 640
+    "sortOrder": 641
   },
   {
     "id": 596,
@@ -13394,12 +14119,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 641
+    "sortOrder": 642
   },
   {
     "id": 597,
@@ -13415,12 +14141,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 642
+    "sortOrder": 643
   },
   {
     "id": 598,
@@ -13436,12 +14163,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 643
+    "sortOrder": 644
   },
   {
     "id": 599,
@@ -13457,12 +14185,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 644
+    "sortOrder": 645
   },
   {
     "id": 600,
@@ -13478,12 +14207,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 645
+    "sortOrder": 646
   },
   {
     "id": 601,
@@ -13499,12 +14229,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 646
+    "sortOrder": 647
   },
   {
     "id": 602,
@@ -13520,12 +14251,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 647
+    "sortOrder": 648
   },
   {
     "id": 603,
@@ -13541,12 +14273,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 648
+    "sortOrder": 649
   },
   {
     "id": 604,
@@ -13562,12 +14295,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 649
+    "sortOrder": 650
   },
   {
     "id": 605,
@@ -13583,12 +14317,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 650
+    "sortOrder": 651
   },
   {
     "id": 606,
@@ -13604,12 +14339,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 651
+    "sortOrder": 652
   },
   {
     "id": 607,
@@ -13625,12 +14361,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 652
+    "sortOrder": 653
   },
   {
     "id": 608,
@@ -13646,12 +14383,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 653
+    "sortOrder": 654
   },
   {
     "id": 609,
@@ -13667,12 +14405,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 654
+    "sortOrder": 655
   },
   {
     "id": 610,
@@ -13688,12 +14427,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 655
+    "sortOrder": 656
   },
   {
     "id": 611,
@@ -13709,12 +14449,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 656
+    "sortOrder": 657
   },
   {
     "id": 612,
@@ -13730,12 +14471,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 657
+    "sortOrder": 658
   },
   {
     "id": 613,
@@ -13751,12 +14493,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 658
+    "sortOrder": 659
   },
   {
     "id": 614,
@@ -13772,12 +14515,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 659
+    "sortOrder": 660
   },
   {
     "id": 615,
@@ -13793,12 +14537,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 660
+    "sortOrder": 661
   },
   {
     "id": 616,
@@ -13814,12 +14559,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 661
+    "sortOrder": 662
   },
   {
     "id": 617,
@@ -13835,12 +14581,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 662
+    "sortOrder": 663
   },
   {
     "id": 618,
@@ -13856,12 +14603,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 663
+    "sortOrder": 664
   },
   {
     "id": 619,
@@ -13877,12 +14625,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 664
+    "sortOrder": 665
   },
   {
     "id": 620,
@@ -13898,12 +14647,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 665
+    "sortOrder": 666
   },
   {
     "id": 621,
@@ -13919,12 +14669,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 666
+    "sortOrder": 667
   },
   {
     "id": 622,
@@ -13940,12 +14691,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 667
+    "sortOrder": 668
   },
   {
     "id": 623,
@@ -13961,12 +14713,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 668
+    "sortOrder": 669
   },
   {
     "id": 624,
@@ -13982,12 +14735,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 669
+    "sortOrder": 670
   },
   {
     "id": 625,
@@ -14003,12 +14757,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 670
+    "sortOrder": 671
   },
   {
     "id": 626,
@@ -14024,12 +14779,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 671
+    "sortOrder": 672
   },
   {
     "id": 627,
@@ -14045,12 +14801,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 672
+    "sortOrder": 673
   },
   {
     "id": 628,
@@ -14066,12 +14823,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 673
+    "sortOrder": 674
   },
   {
     "id": 629,
@@ -14087,12 +14845,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 674
+    "sortOrder": 675
   },
   {
     "id": 630,
@@ -14108,12 +14867,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 675
+    "sortOrder": 676
   },
   {
     "id": 631,
@@ -14129,12 +14889,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HjHzJaN2fL-duJjK-hqVqA1?pwd=bwfc",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 676
+    "sortOrder": 677
   },
   {
     "id": 632,
@@ -14150,12 +14911,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_Hj85EDRz0iK0WYxsy59PAA1?pwd=d4b7",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 677
+    "sortOrder": 678
   },
   {
     "id": 633,
@@ -14171,12 +14933,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HjENZAgSJjNCgx8tvoALiA1?pwd=9j33",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 678
+    "sortOrder": 679
   },
   {
     "id": 634,
@@ -14192,12 +14955,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 679
+    "sortOrder": 680
   },
   {
     "id": 635,
@@ -14213,12 +14977,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 680
+    "sortOrder": 681
   },
   {
     "id": 636,
@@ -14234,12 +14999,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 681
+    "sortOrder": 682
   },
   {
     "id": 637,
@@ -14255,12 +15021,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 682
+    "sortOrder": 683
   },
   {
     "id": 638,
@@ -14276,12 +15043,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 683
+    "sortOrder": 684
   },
   {
     "id": 639,
@@ -14297,12 +15065,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 684
+    "sortOrder": 685
   },
   {
     "id": 640,
@@ -14318,12 +15087,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 685
+    "sortOrder": 686
   },
   {
     "id": 641,
@@ -14339,12 +15109,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 686
+    "sortOrder": 687
   },
   {
     "id": 642,
@@ -14360,12 +15131,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 687
+    "sortOrder": 688
   },
   {
     "id": 643,
@@ -14381,12 +15153,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 688
+    "sortOrder": 689
   },
   {
     "id": 644,
@@ -14402,12 +15175,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 689
+    "sortOrder": 690
   },
   {
     "id": 645,
@@ -14423,12 +15197,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 690
+    "sortOrder": 691
   },
   {
     "id": 646,
@@ -14444,12 +15219,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 691
+    "sortOrder": 692
   },
   {
     "id": 647,
@@ -14465,12 +15241,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 692
+    "sortOrder": 693
   },
   {
     "id": 648,
@@ -14486,12 +15263,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 693
+    "sortOrder": 694
   },
   {
     "id": 649,
@@ -14507,12 +15285,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 694
+    "sortOrder": 695
   },
   {
     "id": 650,
@@ -14528,12 +15307,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 695
+    "sortOrder": 696
   },
   {
     "id": 651,
@@ -14549,12 +15329,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 696
+    "sortOrder": 697
   },
   {
     "id": 652,
@@ -14570,12 +15351,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 697
+    "sortOrder": 698
   },
   {
     "id": 653,
@@ -14591,12 +15373,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 698
+    "sortOrder": 699
   },
   {
     "id": 654,
@@ -14612,12 +15395,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 699
+    "sortOrder": 700
   },
   {
     "id": 655,
@@ -14633,12 +15417,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 700
+    "sortOrder": 701
   },
   {
     "id": 656,
@@ -14654,12 +15439,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 701
+    "sortOrder": 702
   },
   {
     "id": 657,
@@ -14675,12 +15461,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 702
+    "sortOrder": 703
   },
   {
     "id": 658,
@@ -14696,12 +15483,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 703
+    "sortOrder": 704
   },
   {
     "id": 659,
@@ -14717,12 +15505,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 704
+    "sortOrder": 705
   },
   {
     "id": 660,
@@ -14738,12 +15527,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 705
+    "sortOrder": 706
   },
   {
     "id": 661,
@@ -14759,12 +15549,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 706
+    "sortOrder": 707
   },
   {
     "id": 662,
@@ -14780,12 +15571,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 707
+    "sortOrder": 708
   },
   {
     "id": 663,
@@ -14801,12 +15593,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 708
+    "sortOrder": 709
   },
   {
     "id": 664,
@@ -14822,12 +15615,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 709
+    "sortOrder": 710
   },
   {
     "id": 665,
@@ -14843,12 +15637,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 710
+    "sortOrder": 711
   },
   {
     "id": 666,
@@ -14864,12 +15659,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 711
+    "sortOrder": 712
   },
   {
     "id": 667,
@@ -14885,12 +15681,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 712
+    "sortOrder": 713
   },
   {
     "id": 668,
@@ -14906,12 +15703,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 713
+    "sortOrder": 714
   },
   {
     "id": 669,
@@ -14927,12 +15725,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 714
+    "sortOrder": 715
   },
   {
     "id": 670,
@@ -14948,12 +15747,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 715
+    "sortOrder": 716
   },
   {
     "id": 671,
@@ -14969,12 +15769,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 716
+    "sortOrder": 717
   },
   {
     "id": 672,
@@ -14990,12 +15791,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 717
+    "sortOrder": 718
   },
   {
     "id": 673,
@@ -15011,12 +15813,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 718
+    "sortOrder": 719
   },
   {
     "id": 674,
@@ -15032,12 +15835,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 719
+    "sortOrder": 720
   },
   {
     "id": 675,
@@ -15053,12 +15857,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 720
+    "sortOrder": 721
   },
   {
     "id": 676,
@@ -15074,12 +15879,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 721
+    "sortOrder": 722
   },
   {
     "id": 678,
@@ -15095,12 +15901,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 722
+    "sortOrder": 723
   },
   {
     "id": 679,
@@ -15116,12 +15923,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N02E-Z-r_eNP-BYl2jujBA1?pwd=2z6u",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 723
+    "sortOrder": 724
   },
   {
     "id": 680,
@@ -15137,12 +15945,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-zHW3D3DC96rhIFXfS-eA1?pwd=f7s7",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 724
+    "sortOrder": 725
   },
   {
     "id": 681,
@@ -15158,12 +15967,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-uuXKT147JsU_RI3pmRIA1?pwd=vnqz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 725
+    "sortOrder": 726
   },
   {
     "id": 682,
@@ -15179,12 +15989,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-npclM4GrYQb6pxh3CFiA1?pwd=rqnv",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 726
+    "sortOrder": 727
   },
   {
     "id": 683,
@@ -15200,12 +16011,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-bbli8SDyZZ2xGpD5BxYA1?pwd=9hkm",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 727
+    "sortOrder": 728
   },
   {
     "id": 684,
@@ -15221,12 +16033,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-fsKHmwqo-X2gQFrEJ7kA1?pwd=br7s",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 728
+    "sortOrder": 729
   },
   {
     "id": 685,
@@ -15242,12 +16055,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-jTYP7Ka7m4zVNYwK2NjA1?pwd=bstn",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 729
+    "sortOrder": 730
   },
   {
     "id": 686,
@@ -15263,12 +16077,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_N-Xnjx0hKzzdc5QoV9a9eA1?pwd=qepf",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 730
+    "sortOrder": 731
   },
   {
     "id": 687,
@@ -15284,12 +16099,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 731
+    "sortOrder": 732
   },
   {
     "id": 688,
@@ -15305,12 +16121,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 732
+    "sortOrder": 733
   },
   {
     "id": 689,
@@ -15326,12 +16143,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 733
+    "sortOrder": 734
   },
   {
     "id": 691,
@@ -15347,12 +16165,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 734
+    "sortOrder": 735
   },
   {
     "id": 692,
@@ -15368,12 +16187,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 735
+    "sortOrder": 736
   },
   {
     "id": 693,
@@ -15389,12 +16209,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 736
+    "sortOrder": 737
   },
   {
     "id": 694,
@@ -15410,12 +16231,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 737
+    "sortOrder": 738
   },
   {
     "id": 695,
@@ -15431,12 +16253,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 738
+    "sortOrder": 739
   },
   {
     "id": 696,
@@ -15452,12 +16275,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 739
+    "sortOrder": 740
   },
   {
     "id": 698,
@@ -15473,12 +16297,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 740
+    "sortOrder": 741
   },
   {
     "id": 699,
@@ -15494,12 +16319,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 741
+    "sortOrder": 742
   },
   {
     "id": 700,
@@ -15515,12 +16341,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 742
+    "sortOrder": 743
   },
   {
     "id": 701,
@@ -15536,12 +16363,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 743
+    "sortOrder": 744
   },
   {
     "id": 704,
@@ -15557,12 +16385,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 744
+    "sortOrder": 745
   },
   {
     "id": 705,
@@ -15578,12 +16407,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 745
+    "sortOrder": 746
   },
   {
     "id": 706,
@@ -15599,12 +16429,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_I0EAwRhjxx_c6o2JYqpbtA1?pwd=h7jq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 746
+    "sortOrder": 747
   },
   {
     "id": 707,
@@ -15620,12 +16451,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_I0IcJiNj_CvrWGUfajgClA1?pwd=fme8",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 747
+    "sortOrder": 748
   },
   {
     "id": 708,
@@ -15641,12 +16473,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 748
+    "sortOrder": 749
   },
   {
     "id": 709,
@@ -15662,12 +16495,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 749
+    "sortOrder": 750
   },
   {
     "id": 710,
@@ -15683,12 +16517,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 750
+    "sortOrder": 751
   },
   {
     "id": 711,
@@ -15704,12 +16539,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 751
+    "sortOrder": 752
   },
   {
     "id": 712,
@@ -15725,12 +16561,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 752
+    "sortOrder": 753
   },
   {
     "id": 713,
@@ -15746,12 +16583,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 753
+    "sortOrder": 754
   },
   {
     "id": 714,
@@ -15767,12 +16605,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 754
+    "sortOrder": 755
   },
   {
     "id": 715,
@@ -15788,12 +16627,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 755
+    "sortOrder": 756
   },
   {
     "id": 716,
@@ -15809,12 +16649,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 756
+    "sortOrder": 757
   },
   {
     "id": 717,
@@ -15830,12 +16671,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 757
+    "sortOrder": 758
   },
   {
     "id": 718,
@@ -15851,12 +16693,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIV6Z-bXRcMqwdqOwJ7VKQrA1?pwd=bgeq",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 758
+    "sortOrder": 759
   },
   {
     "id": 719,
@@ -15872,12 +16715,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 759
+    "sortOrder": 760
   },
   {
     "id": 720,
@@ -15893,12 +16737,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIV6PJnfVE3LdHXdnWIi9WcA1?pwd=nnpc",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 760
+    "sortOrder": 761
   },
   {
     "id": 721,
@@ -15914,12 +16759,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 761
+    "sortOrder": 762
   },
   {
     "id": 722,
@@ -15935,12 +16781,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 762
+    "sortOrder": 763
   },
   {
     "id": 723,
@@ -15956,12 +16803,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 763
+    "sortOrder": 764
   },
   {
     "id": 724,
@@ -15977,12 +16825,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 764
+    "sortOrder": 765
   },
   {
     "id": 725,
@@ -15998,12 +16847,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 765
+    "sortOrder": 766
   },
   {
     "id": 726,
@@ -16019,12 +16869,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 766
+    "sortOrder": 767
   },
   {
     "id": 727,
@@ -16040,12 +16891,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 767
+    "sortOrder": 768
   },
   {
     "id": 728,
@@ -16061,12 +16913,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
-    "sortOrder": 768
+    "sortOrder": 769
   },
   {
     "id": 729,
@@ -16082,12 +16935,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 769
+    "sortOrder": 770
   },
   {
     "id": 730,
@@ -16103,12 +16957,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 770
+    "sortOrder": 771
   },
   {
     "id": 731,
@@ -16124,12 +16979,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 771
+    "sortOrder": 772
   },
   {
     "id": 732,
@@ -16145,12 +17001,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 772
+    "sortOrder": 773
   },
   {
     "id": 733,
@@ -16166,12 +17023,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 773
+    "sortOrder": 774
   },
   {
     "id": 734,
@@ -16187,12 +17045,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 774
+    "sortOrder": 775
   },
   {
     "id": 735,
@@ -16208,12 +17067,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 775
+    "sortOrder": 776
   },
   {
     "id": 736,
@@ -16229,12 +17089,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 776
+    "sortOrder": 777
   },
   {
     "id": 737,
@@ -16250,12 +17111,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 777
+    "sortOrder": 778
   },
   {
     "id": 738,
@@ -16271,12 +17133,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 778
+    "sortOrder": 779
   },
   {
     "id": 739,
@@ -16292,12 +17155,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 779
+    "sortOrder": 780
   },
   {
     "id": 740,
@@ -16313,12 +17177,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 780
+    "sortOrder": 781
   },
   {
     "id": 741,
@@ -16334,12 +17199,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 781
+    "sortOrder": 782
   },
   {
     "id": 742,
@@ -16355,12 +17221,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 782
+    "sortOrder": 783
   },
   {
     "id": 743,
@@ -16376,12 +17243,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 783
+    "sortOrder": 784
   },
   {
     "id": 744,
@@ -16397,12 +17265,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 784
+    "sortOrder": 785
   },
   {
     "id": 745,
@@ -16418,12 +17287,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 785
+    "sortOrder": 786
   },
   {
     "id": 746,
@@ -16439,12 +17309,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 786
+    "sortOrder": 787
   },
   {
     "id": 747,
@@ -16460,12 +17331,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 787
+    "sortOrder": 788
   },
   {
     "id": 748,
@@ -16481,12 +17353,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 788
+    "sortOrder": 789
   },
   {
     "id": 749,
@@ -16502,12 +17375,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 789
+    "sortOrder": 790
   },
   {
     "id": 750,
@@ -16523,12 +17397,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 790
+    "sortOrder": 791
   },
   {
     "id": 751,
@@ -16544,12 +17419,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 791
+    "sortOrder": 792
   },
   {
     "id": 752,
@@ -16565,12 +17441,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 792
+    "sortOrder": 793
   },
   {
     "id": 753,
@@ -16586,12 +17463,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HxKiR-GVIfNrz8wvNxSOhA1?pwd=8pgk",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 793
+    "sortOrder": 794
   },
   {
     "id": 754,
@@ -16607,12 +17485,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HxPbFf4Q3k2gJtSJ9XZ7iA1?pwd=rci6",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 794
+    "sortOrder": 795
   },
   {
     "id": 755,
@@ -16628,12 +17507,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HxSbEDRz0iK0WYxsyFu34A1?pwd=3f7j",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 795
+    "sortOrder": 796
   },
   {
     "id": 756,
@@ -16649,12 +17529,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HxW1jAceMqoUzJFhQ_0lrA1?pwd=mjc4",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 796
+    "sortOrder": 797
   },
   {
     "id": 757,
@@ -16670,12 +17551,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_Hx_bxNx_STqrGQA1akI3_A1?pwd=8tnp",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 797
+    "sortOrder": 798
   },
   {
     "id": 758,
@@ -16691,12 +17573,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_HxdF-jzasHyppE2fBWknkA1?pwd=sbz3",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 798
+    "sortOrder": 799
   },
   {
     "id": 759,
@@ -16712,12 +17595,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_Hxgk8xcpOCcNTNCXg_3TuA1?pwd=n32a",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 799
+    "sortOrder": 800
   },
   {
     "id": 760,
@@ -16733,12 +17617,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 800
+    "sortOrder": 801
   },
   {
     "id": 761,
@@ -16754,12 +17639,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 801
+    "sortOrder": 802
   },
   {
     "id": 762,
@@ -16775,12 +17661,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 802
+    "sortOrder": 803
   },
   {
     "id": 763,
@@ -16796,12 +17683,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 803
+    "sortOrder": 804
   },
   {
     "id": 764,
@@ -16817,12 +17705,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 804
+    "sortOrder": 805
   },
   {
     "id": 765,
@@ -16838,12 +17727,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 805
+    "sortOrder": 806
   },
   {
     "id": 766,
@@ -16859,12 +17749,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 806
+    "sortOrder": 807
   },
   {
     "id": 767,
@@ -16880,12 +17771,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 807
+    "sortOrder": 808
   },
   {
     "id": 768,
@@ -16901,12 +17793,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 808
+    "sortOrder": 809
   },
   {
     "id": 769,
@@ -16922,12 +17815,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 809
+    "sortOrder": 810
   },
   {
     "id": 770,
@@ -16943,12 +17837,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 810
+    "sortOrder": 811
   },
   {
     "id": 771,
@@ -16964,12 +17859,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 811
+    "sortOrder": 812
   },
   {
     "id": 773,
@@ -16985,12 +17881,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODGeTGZ62H0uZU1Y6_lILnpA1?pwd=fbdy",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 812
+    "sortOrder": 813
   },
   {
     "id": 774,
@@ -17006,12 +17903,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 813
+    "sortOrder": 814
   },
   {
     "id": 775,
@@ -17027,12 +17925,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 814
+    "sortOrder": 815
   },
   {
     "id": 776,
@@ -17048,12 +17947,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 815
+    "sortOrder": 816
   },
   {
     "id": 777,
@@ -17069,12 +17969,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 816
+    "sortOrder": 817
   },
   {
     "id": 778,
@@ -17090,12 +17991,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 817
+    "sortOrder": 818
   },
   {
     "id": 779,
@@ -17111,12 +18013,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 818
+    "sortOrder": 819
   },
   {
     "id": 780,
@@ -17132,12 +18035,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 819
+    "sortOrder": 820
   },
   {
     "id": 781,
@@ -17153,12 +18057,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 820
+    "sortOrder": 821
   },
   {
     "id": 782,
@@ -17174,12 +18079,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 821
+    "sortOrder": 822
   },
   {
     "id": 783,
@@ -17195,12 +18101,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 822
+    "sortOrder": 823
   },
   {
     "id": 784,
@@ -17216,12 +18123,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 823
+    "sortOrder": 824
   },
   {
     "id": 785,
@@ -17237,12 +18145,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 824
+    "sortOrder": 825
   },
   {
     "id": 786,
@@ -17258,12 +18167,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 825
+    "sortOrder": 826
   },
   {
     "id": 787,
@@ -17279,12 +18189,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 826
+    "sortOrder": 827
   },
   {
     "id": 788,
@@ -17300,12 +18211,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 827
+    "sortOrder": 828
   },
   {
     "id": 789,
@@ -17321,12 +18233,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9DB9kbDfGefo8fk5wQvDA1?pwd=qhnr",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 828
+    "sortOrder": 829
   },
   {
     "id": 790,
@@ -17342,12 +18255,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9I37ue_B4WS5UAvkvZcEA1?pwd=hz3v",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 829
+    "sortOrder": 830
   },
   {
     "id": 791,
@@ -17363,12 +18277,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9L1MFB9FS56Al_m3KxOwA1?pwd=cfv4",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 830
+    "sortOrder": 831
   },
   {
     "id": 792,
@@ -17384,12 +18299,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9NmCODsYaWi0iRLegebNA1?pwd=q5bt",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 831
+    "sortOrder": 832
   },
   {
     "id": 793,
@@ -17405,12 +18321,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9QNmpz6nbTPUI1EZgbZgA1?pwd=peti",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 832
+    "sortOrder": 833
   },
   {
     "id": 794,
@@ -17426,12 +18343,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHJ9SwYyzj9EdbVQFZk82wuA1?pwd=r98v",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 833
+    "sortOrder": 834
   },
   {
     "id": 795,
@@ -17447,12 +18365,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 834
+    "sortOrder": 835
   },
   {
     "id": 796,
@@ -17468,12 +18387,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 835
+    "sortOrder": 836
   },
   {
     "id": 797,
@@ -17489,12 +18409,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVCoQej_dlcYt3A3Zvqao7A1?pwd=zi3g",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 836
+    "sortOrder": 837
   },
   {
     "id": 798,
@@ -17510,12 +18431,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 837
+    "sortOrder": 838
   },
   {
     "id": 799,
@@ -17531,12 +18453,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVJgLiABHCWhzpZ8jpPT4uA1?pwd=c467",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 838
+    "sortOrder": 839
   },
   {
     "id": 800,
@@ -17552,12 +18475,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 839
+    "sortOrder": 840
   },
   {
     "id": 801,
@@ -17573,12 +18497,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 840
+    "sortOrder": 841
   },
   {
     "id": 802,
@@ -17594,12 +18519,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 841
+    "sortOrder": 842
   },
   {
     "id": 803,
@@ -17615,12 +18541,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 842
+    "sortOrder": 843
   },
   {
     "id": 804,
@@ -17636,12 +18563,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 843
+    "sortOrder": 844
   },
   {
     "id": 805,
@@ -17657,12 +18585,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 844
+    "sortOrder": 845
   },
   {
     "id": 806,
@@ -17678,12 +18607,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 845
+    "sortOrder": 846
   },
   {
     "id": 807,
@@ -17699,12 +18629,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 846
+    "sortOrder": 847
   },
   {
     "id": 808,
@@ -17720,12 +18651,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 847
+    "sortOrder": 848
   },
   {
     "id": 809,
@@ -17741,12 +18673,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 848
+    "sortOrder": 849
   },
   {
     "id": 810,
@@ -17762,12 +18695,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 849
+    "sortOrder": 850
   },
   {
     "id": 811,
@@ -17783,12 +18717,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 850
+    "sortOrder": 851
   },
   {
     "id": 812,
@@ -17804,12 +18739,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 851
+    "sortOrder": 852
   },
   {
     "id": 813,
@@ -17825,12 +18761,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 852
+    "sortOrder": 853
   },
   {
     "id": 814,
@@ -17846,12 +18783,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 853
+    "sortOrder": 854
   },
   {
     "id": 816,
@@ -17867,12 +18805,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 854
+    "sortOrder": 855
   },
   {
     "id": 817,
@@ -17888,12 +18827,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 855
+    "sortOrder": 856
   },
   {
     "id": 819,
@@ -17909,12 +18849,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 856
+    "sortOrder": 857
   },
   {
     "id": 821,
@@ -17930,12 +18871,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 857
+    "sortOrder": 858
   },
   {
     "id": 815,
@@ -17951,12 +18893,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 858
+    "sortOrder": 859
   },
   {
     "id": 822,
@@ -17972,12 +18915,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 859
+    "sortOrder": 860
   },
   {
     "id": 823,
@@ -17993,12 +18937,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 860
+    "sortOrder": 861
   },
   {
     "id": 824,
@@ -18014,12 +18959,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 861
+    "sortOrder": 862
   },
   {
     "id": 825,
@@ -18035,12 +18981,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 862
+    "sortOrder": 863
   },
   {
     "id": 827,
@@ -18056,12 +19003,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 863
+    "sortOrder": 864
   },
   {
     "id": 828,
@@ -18077,12 +19025,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 864
+    "sortOrder": 865
   },
   {
     "id": 829,
@@ -18098,12 +19047,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 865
+    "sortOrder": 866
   },
   {
     "id": 830,
@@ -18119,12 +19069,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 866
+    "sortOrder": 867
   },
   {
     "id": 831,
@@ -18140,12 +19091,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 867
+    "sortOrder": 868
   },
   {
     "id": 832,
@@ -18161,12 +19113,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 868
+    "sortOrder": 869
   },
   {
     "id": 833,
@@ -18182,12 +19135,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 869
+    "sortOrder": 870
   },
   {
     "id": 834,
@@ -18203,12 +19157,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 870
+    "sortOrder": 871
   },
   {
     "id": 835,
@@ -18224,12 +19179,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 871
+    "sortOrder": 872
   },
   {
     "id": 836,
@@ -18245,12 +19201,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 872
+    "sortOrder": 873
   },
   {
     "id": 837,
@@ -18266,12 +19223,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 873
+    "sortOrder": 874
   },
   {
     "id": 838,
@@ -18287,12 +19245,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 874
+    "sortOrder": 875
   },
   {
     "id": 839,
@@ -18308,12 +19267,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 875
+    "sortOrder": 876
   },
   {
     "id": 840,
@@ -18329,12 +19289,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 876
+    "sortOrder": 877
   },
   {
     "id": 841,
@@ -18350,12 +19311,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 877
+    "sortOrder": 878
   },
   {
     "id": 842,
@@ -18371,12 +19333,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 878
+    "sortOrder": 879
   },
   {
     "id": 843,
@@ -18392,12 +19355,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 879
+    "sortOrder": 880
   },
   {
     "id": 844,
@@ -18413,12 +19377,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 880
+    "sortOrder": 881
   },
   {
     "id": 845,
@@ -18434,12 +19399,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 881
+    "sortOrder": 882
   },
   {
     "id": 846,
@@ -18455,12 +19421,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 882
+    "sortOrder": 883
   },
   {
     "id": 847,
@@ -18476,12 +19443,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 883
+    "sortOrder": 884
   },
   {
     "id": 848,
@@ -18497,12 +19465,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 884
+    "sortOrder": 885
   },
   {
     "id": 849,
@@ -18518,12 +19487,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 885
+    "sortOrder": 886
   },
   {
     "id": 850,
@@ -18539,12 +19509,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 886
+    "sortOrder": 887
   },
   {
     "id": 851,
@@ -18560,12 +19531,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 887
+    "sortOrder": 888
   },
   {
     "id": 852,
@@ -18581,12 +19553,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 888
+    "sortOrder": 889
   },
   {
     "id": 853,
@@ -18602,12 +19575,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 889
+    "sortOrder": 890
   },
   {
     "id": 854,
@@ -18623,12 +19597,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 890
+    "sortOrder": 891
   },
   {
     "id": 855,
@@ -18644,12 +19619,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 891
+    "sortOrder": 892
   },
   {
     "id": 856,
@@ -18665,12 +19641,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 892
+    "sortOrder": 893
   },
   {
     "id": 857,
@@ -18686,12 +19663,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 893
+    "sortOrder": 894
   },
   {
     "id": 858,
@@ -18707,12 +19685,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 894
+    "sortOrder": 895
   },
   {
     "id": 859,
@@ -18728,12 +19707,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 895
+    "sortOrder": 896
   },
   {
     "id": 860,
@@ -18749,12 +19729,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 896
+    "sortOrder": 897
   },
   {
     "id": 861,
@@ -18770,12 +19751,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 897
+    "sortOrder": 898
   },
   {
     "id": 862,
@@ -18791,12 +19773,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 898
+    "sortOrder": 899
   },
   {
     "id": 863,
@@ -18812,12 +19795,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 899
+    "sortOrder": 900
   },
   {
     "id": 864,
@@ -18833,12 +19817,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 900
+    "sortOrder": 901
   },
   {
     "id": 865,
@@ -18854,12 +19839,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 901
+    "sortOrder": 902
   },
   {
     "id": 866,
@@ -18875,12 +19861,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 902
+    "sortOrder": 903
   },
   {
     "id": 867,
@@ -18896,12 +19883,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 903
+    "sortOrder": 904
   },
   {
     "id": 868,
@@ -18917,12 +19905,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 904
+    "sortOrder": 905
   },
   {
     "id": 869,
@@ -18938,12 +19927,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 905
+    "sortOrder": 906
   },
   {
     "id": 870,
@@ -18959,12 +19949,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 906
+    "sortOrder": 907
   },
   {
     "id": 871,
@@ -18980,12 +19971,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 907
+    "sortOrder": 908
   },
   {
     "id": 872,
@@ -19001,12 +19993,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 908
+    "sortOrder": 909
   },
   {
     "id": 873,
@@ -19022,12 +20015,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 909
+    "sortOrder": 910
   },
   {
     "id": 874,
@@ -19043,12 +20037,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 910
+    "sortOrder": 911
   },
   {
     "id": 875,
@@ -19064,12 +20059,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 911
+    "sortOrder": 912
   },
   {
     "id": 876,
@@ -19085,12 +20081,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 912
+    "sortOrder": 913
   },
   {
     "id": 877,
@@ -19106,12 +20103,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 913
+    "sortOrder": 914
   },
   {
     "id": 878,
@@ -19127,12 +20125,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 914
+    "sortOrder": 915
   },
   {
     "id": 879,
@@ -19148,12 +20147,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 915
+    "sortOrder": 916
   },
   {
     "id": 880,
@@ -19169,12 +20169,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 916
+    "sortOrder": 917
   },
   {
     "id": 881,
@@ -19190,12 +20191,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 917
+    "sortOrder": 918
   },
   {
     "id": 882,
@@ -19211,12 +20213,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 918
+    "sortOrder": 919
   },
   {
     "id": 883,
@@ -19232,12 +20235,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 919
+    "sortOrder": 920
   },
   {
     "id": 884,
@@ -19253,12 +20257,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 920
+    "sortOrder": 921
   },
   {
     "id": 885,
@@ -19274,12 +20279,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 921
+    "sortOrder": 922
   },
   {
     "id": 886,
@@ -19295,12 +20301,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 922
+    "sortOrder": 923
   },
   {
     "id": 887,
@@ -19316,12 +20323,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 923
+    "sortOrder": 924
   },
   {
     "id": 888,
@@ -19337,12 +20345,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 924
+    "sortOrder": 925
   },
   {
     "id": 889,
@@ -19358,12 +20367,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 925
+    "sortOrder": 926
   },
   {
     "id": 890,
@@ -19379,12 +20389,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 926
+    "sortOrder": 927
   },
   {
     "id": 891,
@@ -19400,12 +20411,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 927
+    "sortOrder": 928
   },
   {
     "id": 892,
@@ -19421,12 +20433,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 928
+    "sortOrder": 929
   },
   {
     "id": 893,
@@ -19442,12 +20455,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 929
+    "sortOrder": 930
   },
   {
     "id": 894,
@@ -19463,12 +20477,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 930
+    "sortOrder": 931
   },
   {
     "id": 895,
@@ -19484,12 +20499,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 931
+    "sortOrder": 932
   },
   {
     "id": 896,
@@ -19505,12 +20521,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 932
+    "sortOrder": 933
   },
   {
     "id": 897,
@@ -19526,12 +20543,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 933
+    "sortOrder": 934
   },
   {
     "id": 898,
@@ -19547,12 +20565,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 934
+    "sortOrder": 935
   },
   {
     "id": 899,
@@ -19568,12 +20587,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 935
+    "sortOrder": 936
   },
   {
     "id": 900,
@@ -19589,12 +20609,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 936
+    "sortOrder": 937
   },
   {
     "id": 901,
@@ -19610,12 +20631,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 937
+    "sortOrder": 938
   },
   {
     "id": 902,
@@ -19631,12 +20653,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 938
+    "sortOrder": 939
   },
   {
     "id": 903,
@@ -19652,12 +20675,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 939
+    "sortOrder": 940
   },
   {
     "id": 904,
@@ -19673,12 +20697,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 940
+    "sortOrder": 941
   },
   {
     "id": 905,
@@ -19694,12 +20719,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 941
+    "sortOrder": 942
   },
   {
     "id": 906,
@@ -19715,12 +20741,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 942
+    "sortOrder": 943
   },
   {
     "id": 907,
@@ -19736,12 +20763,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 943
+    "sortOrder": 944
   },
   {
     "id": 908,
@@ -19757,12 +20785,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 944
+    "sortOrder": 945
   },
   {
     "id": 909,
@@ -19778,12 +20807,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 945
+    "sortOrder": 946
   },
   {
     "id": 910,
@@ -19799,12 +20829,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 946
+    "sortOrder": 947
   },
   {
     "id": 911,
@@ -19820,12 +20851,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 947
+    "sortOrder": 948
   },
   {
     "id": 912,
@@ -19841,12 +20873,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 948
+    "sortOrder": 949
   },
   {
     "id": 913,
@@ -19862,12 +20895,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 949
+    "sortOrder": 950
   },
   {
     "id": 914,
@@ -19883,12 +20917,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 950
+    "sortOrder": 951
   },
   {
     "id": 915,
@@ -19904,12 +20939,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 951
+    "sortOrder": 952
   },
   {
     "id": 916,
@@ -19925,12 +20961,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 952
+    "sortOrder": 953
   },
   {
     "id": 917,
@@ -19946,12 +20983,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 953
+    "sortOrder": 954
   },
   {
     "id": 918,
@@ -19967,12 +21005,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 954
+    "sortOrder": 955
   },
   {
     "id": 919,
@@ -19988,12 +21027,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 955
+    "sortOrder": 956
   },
   {
     "id": 920,
@@ -20009,12 +21049,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 956
+    "sortOrder": 957
   },
   {
     "id": 921,
@@ -20030,12 +21071,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 957
+    "sortOrder": 958
   },
   {
     "id": 922,
@@ -20051,12 +21093,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 958
+    "sortOrder": 959
   },
   {
     "id": 923,
@@ -20072,12 +21115,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 959
+    "sortOrder": 960
   },
   {
     "id": 924,
@@ -20093,12 +21137,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 960
+    "sortOrder": 961
   },
   {
     "id": 925,
@@ -20114,12 +21159,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1kr4kh6tdc0DDrSE6qRsuug?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOD0uD9w52dtlOsLn-eHrur0A1?pwd=ifxa",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 961
+    "sortOrder": 962
   },
   {
     "id": 926,
@@ -20135,12 +21181,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 962
+    "sortOrder": 963
   },
   {
     "id": 927,
@@ -20156,12 +21203,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 963
+    "sortOrder": 964
   },
   {
     "id": 928,
@@ -20177,12 +21225,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 964
+    "sortOrder": 965
   },
   {
     "id": 929,
@@ -20198,12 +21247,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVk5cYI8nQ0uPwSi2J3z1sA1?pwd=9men",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 965
+    "sortOrder": 966
   },
   {
     "id": 930,
@@ -20219,12 +21269,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 966
+    "sortOrder": 967
   },
   {
     "id": 931,
@@ -20240,12 +21291,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 967
+    "sortOrder": 968
   },
   {
     "id": 932,
@@ -20261,12 +21313,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 968
+    "sortOrder": 969
   },
   {
     "id": 933,
@@ -20282,12 +21335,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 969
+    "sortOrder": 970
   },
   {
     "id": 934,
@@ -20303,12 +21357,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 970
+    "sortOrder": 971
   },
   {
     "id": 936,
@@ -20324,12 +21379,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 971
+    "sortOrder": 972
   },
   {
     "id": 937,
@@ -20345,12 +21401,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 972
+    "sortOrder": 973
   },
   {
     "id": 938,
@@ -20366,12 +21423,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 973
+    "sortOrder": 974
   },
   {
     "id": 939,
@@ -20387,12 +21445,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 974
+    "sortOrder": 975
   },
   {
     "id": 940,
@@ -20408,12 +21467,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 975
+    "sortOrder": 976
   },
   {
     "id": 941,
@@ -20429,12 +21489,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 976
+    "sortOrder": 977
   },
   {
     "id": 942,
@@ -20450,12 +21511,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 977
+    "sortOrder": 978
   },
   {
     "id": 943,
@@ -20471,12 +21533,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 978
+    "sortOrder": 979
   },
   {
     "id": 944,
@@ -20492,12 +21555,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 979
+    "sortOrder": 980
   },
   {
     "id": 945,
@@ -20513,12 +21577,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 980
+    "sortOrder": 981
   },
   {
     "id": 946,
@@ -20534,12 +21599,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 981
+    "sortOrder": 982
   },
   {
     "id": 947,
@@ -20555,12 +21621,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 982
+    "sortOrder": 983
   },
   {
     "id": 948,
@@ -20576,12 +21643,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 983
+    "sortOrder": 984
   },
   {
     "id": 949,
@@ -20597,12 +21665,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 984
+    "sortOrder": 985
   },
   {
     "id": 950,
@@ -20618,12 +21687,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 985
+    "sortOrder": 986
   },
   {
     "id": 951,
@@ -20639,12 +21709,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 986
+    "sortOrder": 987
   },
   {
     "id": 952,
@@ -20660,12 +21731,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 987
+    "sortOrder": 988
   },
   {
     "id": 953,
@@ -20681,12 +21753,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 988
+    "sortOrder": 989
   },
   {
     "id": 954,
@@ -20702,12 +21775,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 989
+    "sortOrder": 990
   },
   {
     "id": 955,
@@ -20723,12 +21797,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSlx2hb-JCo3mjeTf5vAKdA1?pwd=4eh3",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 990
+    "sortOrder": 991
   },
   {
     "id": 956,
@@ -20744,12 +21819,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSlud99CGaChTH_5228pc9A1?pwd=7qmj",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 991
+    "sortOrder": 992
   },
   {
     "id": 957,
@@ -20765,12 +21841,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSls4MFJhfB9elMElOp8G5A1?pwd=6vkw",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 992
+    "sortOrder": 993
   },
   {
     "id": 958,
@@ -20786,12 +21863,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSlnxfnTkFADa103FTkJ40A1?pwd=kgr4",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 993
+    "sortOrder": 994
   },
   {
     "id": 959,
@@ -20807,12 +21885,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 994
+    "sortOrder": 995
   },
   {
     "id": 960,
@@ -20828,12 +21907,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG3ZumLQtjRTb6SWttxXuNVA1?pwd=64wx",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 995
+    "sortOrder": 996
   },
   {
     "id": 961,
@@ -20849,12 +21929,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG3ZyHM_l_Hc0ULIfowDKtJA1?pwd=46se",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 996
+    "sortOrder": 997
   },
   {
     "id": 962,
@@ -20870,12 +21951,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 997
+    "sortOrder": 998
   },
   {
     "id": 963,
@@ -20891,12 +21973,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 998
+    "sortOrder": 999
   },
   {
     "id": 964,
@@ -20912,12 +21995,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 999
+    "sortOrder": 1000
   },
   {
     "id": 965,
@@ -20933,12 +22017,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVmdsZGb9fmQfPF_tmwKFpA1?pwd=zx6c",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1000
+    "sortOrder": 1001
   },
   {
     "id": 966,
@@ -20954,12 +22039,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1001
+    "sortOrder": 1002
   },
   {
     "id": 967,
@@ -20975,12 +22061,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1002
+    "sortOrder": 1003
   },
   {
     "id": 968,
@@ -20996,12 +22083,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1003
+    "sortOrder": 1004
   },
   {
     "id": 969,
@@ -21017,12 +22105,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1004
+    "sortOrder": 1005
   },
   {
     "id": 970,
@@ -21038,12 +22127,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1005
+    "sortOrder": 1006
   },
   {
     "id": 2104,
@@ -21059,12 +22149,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786103186299,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1786103186299,
-    "sortOrder": 1006
+    "sortOrder": 1007
   },
   {
     "id": 971,
@@ -21080,12 +22171,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1007
+    "sortOrder": 1008
   },
   {
     "id": 972,
@@ -21101,12 +22193,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1008
+    "sortOrder": 1009
   },
   {
     "id": 973,
@@ -21122,12 +22215,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1009
+    "sortOrder": 1010
   },
   {
     "id": 974,
@@ -21143,12 +22237,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1010
+    "sortOrder": 1011
   },
   {
     "id": 975,
@@ -21164,12 +22259,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1011
+    "sortOrder": 1012
   },
   {
     "id": 2051,
@@ -21185,12 +22281,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1783836155460,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 30,
     "downloadsApp": 42,
     "updateTime": 1783836155460,
-    "sortOrder": 1012
+    "sortOrder": 1013
   },
   {
     "id": 976,
@@ -21206,12 +22303,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1013
+    "sortOrder": 1014
   },
   {
     "id": 977,
@@ -21227,12 +22325,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1014
+    "sortOrder": 1015
   },
   {
     "id": 978,
@@ -21248,12 +22347,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODYmjlDzd-y_4HQhcvIhR81A1?pwd=q6vn",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1015
+    "sortOrder": 1016
   },
   {
     "id": 979,
@@ -21269,12 +22369,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1016
+    "sortOrder": 1017
   },
   {
     "id": 1929,
@@ -21290,12 +22391,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 107,
     "downloadsApp": 99,
     "updateTime": 1779073729544,
-    "sortOrder": 1017
+    "sortOrder": 1018
   },
   {
     "id": 980,
@@ -21311,12 +22413,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1018
+    "sortOrder": 1019
   },
   {
     "id": 981,
@@ -21332,12 +22435,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1019
+    "sortOrder": 1020
   },
   {
     "id": 982,
@@ -21353,12 +22457,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1020
+    "sortOrder": 1021
   },
   {
     "id": 983,
@@ -21374,12 +22479,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1021
+    "sortOrder": 1022
   },
   {
     "id": 984,
@@ -21395,12 +22501,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1022
+    "sortOrder": 1023
   },
   {
     "id": 14,
@@ -21416,12 +22523,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0siZer4Bsgd_5OQPc-KazA1?pwd=ncge",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1023
+    "sortOrder": 1024
   },
   {
     "id": 985,
@@ -21437,12 +22545,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1024
+    "sortOrder": 1025
   },
   {
     "id": 986,
@@ -21458,12 +22567,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVN76ojRTnfFw6pH9pVBvPA1?pwd=5x47",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1025
+    "sortOrder": 1026
   },
   {
     "id": 987,
@@ -21479,12 +22589,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1026
+    "sortOrder": 1027
   },
   {
     "id": 988,
@@ -21500,12 +22611,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1027
+    "sortOrder": 1028
   },
   {
     "id": 989,
@@ -21521,12 +22633,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1028
+    "sortOrder": 1029
   },
   {
     "id": 990,
@@ -21542,12 +22655,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1029
+    "sortOrder": 1030
   },
   {
     "id": 991,
@@ -21563,12 +22677,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1030
+    "sortOrder": 1031
   },
   {
     "id": 992,
@@ -21584,12 +22699,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1031
+    "sortOrder": 1032
   },
   {
     "id": 993,
@@ -21605,12 +22721,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1032
+    "sortOrder": 1033
   },
   {
     "id": 15,
@@ -21626,12 +22743,13 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1_3GG21fwYOIQVfpAGohc6Q?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOC_trtwGMsBkZk3UBq9aOoIA1?pwd=2ad6",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 14,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 1033
+    "sortOrder": 1034
   },
   {
     "id": 994,
@@ -21647,12 +22765,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1034
+    "sortOrder": 1035
   },
   {
     "id": 995,
@@ -21668,12 +22787,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1035
+    "sortOrder": 1036
   },
   {
     "id": 996,
@@ -21689,12 +22809,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1036
+    "sortOrder": 1037
   },
   {
     "id": 997,
@@ -21710,12 +22831,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1037
+    "sortOrder": 1038
   },
   {
     "id": 998,
@@ -21731,12 +22853,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1038
+    "sortOrder": 1039
   },
   {
     "id": 999,
@@ -21752,12 +22875,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1039
+    "sortOrder": 1040
   },
   {
     "id": 1000,
@@ -21773,12 +22897,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1040
+    "sortOrder": 1041
   },
   {
     "id": 1001,
@@ -21794,12 +22919,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1041
+    "sortOrder": 1042
   },
   {
     "id": 1002,
@@ -21815,12 +22941,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1042
+    "sortOrder": 1043
   },
   {
     "id": 1003,
@@ -21836,12 +22963,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1043
+    "sortOrder": 1044
   },
   {
     "id": 1004,
@@ -21857,12 +22985,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1044
+    "sortOrder": 1045
   },
   {
     "id": 1005,
@@ -21878,12 +23007,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1045
+    "sortOrder": 1046
   },
   {
     "id": 1006,
@@ -21899,12 +23029,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1046
+    "sortOrder": 1047
   },
   {
     "id": 1007,
@@ -21920,12 +23051,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1047
+    "sortOrder": 1048
   },
   {
     "id": 1008,
@@ -21941,12 +23073,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1048
+    "sortOrder": 1049
   },
   {
     "id": 1009,
@@ -21962,12 +23095,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1049
+    "sortOrder": 1050
   },
   {
     "id": 1010,
@@ -21983,12 +23117,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1050
+    "sortOrder": 1051
   },
   {
     "id": 1011,
@@ -22004,12 +23139,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1051
+    "sortOrder": 1052
   },
   {
     "id": 1012,
@@ -22025,12 +23161,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1052
+    "sortOrder": 1053
   },
   {
     "id": 12,
@@ -22046,12 +23183,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0ekI_vp_aoCAofMHCjMMGA1?pwd=5cwz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 10,
     "downloadsApp": 19,
     "updateTime": 1779073729544,
-    "sortOrder": 1053
+    "sortOrder": 1054
   },
   {
     "id": 1013,
@@ -22067,12 +23205,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 1053
+    "sortOrder": 1055
   },
   {
     "id": 1015,
@@ -22088,12 +23227,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1054
+    "sortOrder": 1056
   },
   {
     "id": 1017,
@@ -22109,12 +23249,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_FlxnwwWflOpb7KXCv4Cw9A1?pwd=yc97",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1055
+    "sortOrder": 1057
   },
   {
     "id": 1018,
@@ -22130,12 +23271,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1056
+    "sortOrder": 1058
   },
   {
     "id": 1019,
@@ -22151,12 +23293,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1057
+    "sortOrder": 1059
   },
   {
     "id": 1020,
@@ -22172,12 +23315,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSmbKn_r0RVrEaHWmkBmeqA1?pwd=ejh6",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1058
+    "sortOrder": 1060
   },
   {
     "id": 1021,
@@ -22193,12 +23337,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSmfx-oMfPCTwbB54YF_ISA1?pwd=vazd",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1059
+    "sortOrder": 1061
   },
   {
     "id": 1022,
@@ -22214,12 +23359,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1060
+    "sortOrder": 1062
   },
   {
     "id": 1023,
@@ -22235,12 +23381,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSmk04jiyg7aJOcNXhRLpFA1?pwd=qx89",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
-    "sortOrder": 1061
+    "sortOrder": 1063
   },
   {
     "id": 1024,
@@ -22256,12 +23403,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1062
+    "sortOrder": 1064
   },
   {
     "id": 1025,
@@ -22277,12 +23425,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1063
+    "sortOrder": 1065
   },
   {
     "id": 1026,
@@ -22298,12 +23447,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1064
+    "sortOrder": 1066
   },
   {
     "id": 1027,
@@ -22319,12 +23469,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1065
+    "sortOrder": 1067
   },
   {
     "id": 1028,
@@ -22340,12 +23491,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1066
+    "sortOrder": 1068
   },
   {
     "id": 1029,
@@ -22361,12 +23513,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1067
+    "sortOrder": 1069
   },
   {
     "id": 1030,
@@ -22382,12 +23535,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1068
+    "sortOrder": 1070
   },
   {
     "id": 1031,
@@ -22403,12 +23557,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1069
+    "sortOrder": 1071
   },
   {
     "id": 1032,
@@ -22424,12 +23579,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1070
+    "sortOrder": 1072
   },
   {
     "id": 1033,
@@ -22445,12 +23601,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1071
+    "sortOrder": 1073
   },
   {
     "id": 1034,
@@ -22466,12 +23623,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1072
+    "sortOrder": 1074
   },
   {
     "id": 1035,
@@ -22487,12 +23645,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1073
+    "sortOrder": 1075
   },
   {
     "id": 1036,
@@ -22508,12 +23667,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1074
+    "sortOrder": 1076
   },
   {
     "id": 1037,
@@ -22529,12 +23689,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1075
+    "sortOrder": 1077
   },
   {
     "id": 1038,
@@ -22550,12 +23711,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1076
+    "sortOrder": 1078
   },
   {
     "id": 1039,
@@ -22571,12 +23733,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1077
+    "sortOrder": 1079
   },
   {
     "id": 1040,
@@ -22592,12 +23755,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1078
+    "sortOrder": 1080
   },
   {
     "id": 1041,
@@ -22613,12 +23777,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1079
+    "sortOrder": 1081
   },
   {
     "id": 1042,
@@ -22634,12 +23799,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1080
+    "sortOrder": 1082
   },
   {
     "id": 1043,
@@ -22655,12 +23821,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1081
+    "sortOrder": 1083
   },
   {
     "id": 1044,
@@ -22676,12 +23843,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCSms0dnTkFADa103FTlEjyA1?pwd=xnww",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1082
+    "sortOrder": 1084
   },
   {
     "id": 1046,
@@ -22697,12 +23865,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1083
+    "sortOrder": 1085
   },
   {
     "id": 1047,
@@ -22718,12 +23887,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1084
+    "sortOrder": 1086
   },
   {
     "id": 1048,
@@ -22739,12 +23909,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1085
+    "sortOrder": 1087
   },
   {
     "id": 1049,
@@ -22760,12 +23931,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1086
+    "sortOrder": 1088
   },
   {
     "id": 1050,
@@ -22781,12 +23953,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 1087
+    "sortOrder": 1089
   },
   {
     "id": 1051,
@@ -22802,12 +23975,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1088
+    "sortOrder": 1090
   },
   {
     "id": 1052,
@@ -22823,12 +23997,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1089
+    "sortOrder": 1091
   },
   {
     "id": 1053,
@@ -22844,12 +24019,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1090
+    "sortOrder": 1092
   },
   {
     "id": 1054,
@@ -22865,12 +24041,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1091
+    "sortOrder": 1093
   },
   {
     "id": 1055,
@@ -22886,12 +24063,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1092
+    "sortOrder": 1094
   },
   {
     "id": 1056,
@@ -22907,12 +24085,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG0iHxoIo_hl3rjSvl3r-gZA1?pwd=wi99",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1093
+    "sortOrder": 1095
   },
   {
     "id": 1057,
@@ -22928,12 +24107,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1094
+    "sortOrder": 1096
   },
   {
     "id": 1058,
@@ -22949,12 +24129,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1095
+    "sortOrder": 1097
   },
   {
     "id": 1059,
@@ -22970,12 +24151,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1096
+    "sortOrder": 1098
   },
   {
     "id": 1060,
@@ -22991,12 +24173,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1097
+    "sortOrder": 1099
   },
   {
     "id": 1061,
@@ -23012,12 +24195,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1098
+    "sortOrder": 1100
   },
   {
     "id": 1062,
@@ -23033,12 +24217,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1099
+    "sortOrder": 1101
   },
   {
     "id": 1063,
@@ -23054,12 +24239,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1100
+    "sortOrder": 1102
   },
   {
     "id": 1064,
@@ -23075,12 +24261,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1101
+    "sortOrder": 1103
   },
   {
     "id": 1065,
@@ -23096,12 +24283,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1102
+    "sortOrder": 1104
   },
   {
     "id": 1067,
@@ -23117,12 +24305,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1103
+    "sortOrder": 1105
   },
   {
     "id": 1068,
@@ -23138,12 +24327,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1104
+    "sortOrder": 1106
   },
   {
     "id": 1069,
@@ -23159,12 +24349,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1105
+    "sortOrder": 1107
   },
   {
     "id": 1070,
@@ -23180,12 +24371,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1106
+    "sortOrder": 1108
   },
   {
     "id": 1071,
@@ -23201,12 +24393,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VO_Kf05z4pJmzKYKYSnX8cTdA1?pwd=zfep",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1107
+    "sortOrder": 1109
   },
   {
     "id": 1072,
@@ -23222,12 +24415,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1108
+    "sortOrder": 1110
   },
   {
     "id": 1073,
@@ -23243,12 +24437,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1109
+    "sortOrder": 1111
   },
   {
     "id": 1075,
@@ -23264,12 +24459,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1110
+    "sortOrder": 1112
   },
   {
     "id": 1077,
@@ -23285,12 +24481,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1111
+    "sortOrder": 1113
   },
   {
     "id": 1078,
@@ -23306,12 +24503,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1112
+    "sortOrder": 1114
   },
   {
     "id": 1079,
@@ -23327,12 +24525,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1113
+    "sortOrder": 1115
   },
   {
     "id": 1080,
@@ -23348,12 +24547,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1114
+    "sortOrder": 1116
   },
   {
     "id": 1081,
@@ -23369,12 +24569,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1115
+    "sortOrder": 1117
   },
   {
     "id": 1082,
@@ -23390,12 +24591,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1116
+    "sortOrder": 1118
   },
   {
     "id": 1083,
@@ -23411,12 +24613,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1117
+    "sortOrder": 1119
   },
   {
     "id": 1084,
@@ -23432,12 +24635,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1118
+    "sortOrder": 1120
   },
   {
     "id": 1085,
@@ -23453,12 +24657,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1119
+    "sortOrder": 1121
   },
   {
     "id": 1086,
@@ -23474,12 +24679,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1120
+    "sortOrder": 1122
   },
   {
     "id": 1087,
@@ -23495,12 +24701,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1121
+    "sortOrder": 1123
   },
   {
     "id": 1088,
@@ -23516,12 +24723,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1122
+    "sortOrder": 1124
   },
   {
     "id": 1089,
@@ -23537,12 +24745,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1123
+    "sortOrder": 1125
   },
   {
     "id": 1090,
@@ -23558,12 +24767,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1124
+    "sortOrder": 1126
   },
   {
     "id": 1091,
@@ -23579,12 +24789,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1125
+    "sortOrder": 1127
   },
   {
     "id": 1092,
@@ -23600,12 +24811,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1126
+    "sortOrder": 1128
   },
   {
     "id": 1093,
@@ -23621,12 +24833,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1127
+    "sortOrder": 1129
   },
   {
     "id": 1094,
@@ -23642,12 +24855,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1128
+    "sortOrder": 1130
   },
   {
     "id": 1095,
@@ -23663,12 +24877,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1129
+    "sortOrder": 1131
   },
   {
     "id": 1096,
@@ -23684,12 +24899,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1130
+    "sortOrder": 1132
   },
   {
     "id": 1097,
@@ -23705,12 +24921,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1131
+    "sortOrder": 1133
   },
   {
     "id": 1098,
@@ -23726,12 +24943,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1132
+    "sortOrder": 1134
   },
   {
     "id": 1099,
@@ -23747,12 +24965,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1133
+    "sortOrder": 1135
   },
   {
     "id": 1100,
@@ -23768,12 +24987,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1134
+    "sortOrder": 1136
   },
   {
     "id": 1101,
@@ -23789,12 +25009,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1135
+    "sortOrder": 1137
   },
   {
     "id": 1102,
@@ -23810,12 +25031,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1136
+    "sortOrder": 1138
   },
   {
     "id": 1103,
@@ -23831,12 +25053,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1137
+    "sortOrder": 1139
   },
   {
     "id": 1104,
@@ -23852,12 +25075,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1138
+    "sortOrder": 1140
   },
   {
     "id": 1105,
@@ -23873,12 +25097,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1139
+    "sortOrder": 1141
   },
   {
     "id": 1106,
@@ -23894,12 +25119,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1140
+    "sortOrder": 1142
   },
   {
     "id": 1107,
@@ -23915,12 +25141,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1141
+    "sortOrder": 1143
   },
   {
     "id": 1108,
@@ -23936,12 +25163,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1142
+    "sortOrder": 1144
   },
   {
     "id": 1109,
@@ -23957,12 +25185,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1143
+    "sortOrder": 1145
   },
   {
     "id": 1110,
@@ -23978,12 +25207,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1144
+    "sortOrder": 1146
   },
   {
     "id": 1111,
@@ -23999,12 +25229,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1145
+    "sortOrder": 1147
   },
   {
     "id": 1112,
@@ -24020,12 +25251,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1146
+    "sortOrder": 1148
   },
   {
     "id": 1113,
@@ -24041,12 +25273,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1147
+    "sortOrder": 1149
   },
   {
     "id": 1114,
@@ -24062,12 +25295,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1148
+    "sortOrder": 1150
   },
   {
     "id": 1115,
@@ -24083,12 +25317,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1149
+    "sortOrder": 1151
   },
   {
     "id": 1116,
@@ -24104,12 +25339,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1150
+    "sortOrder": 1152
   },
   {
     "id": 1118,
@@ -24125,12 +25361,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1151
+    "sortOrder": 1153
   },
   {
     "id": 1119,
@@ -24146,12 +25383,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1152
+    "sortOrder": 1154
   },
   {
     "id": 1120,
@@ -24167,12 +25405,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1153
+    "sortOrder": 1155
   },
   {
     "id": 1122,
@@ -24188,12 +25427,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1154
+    "sortOrder": 1156
   },
   {
     "id": 1123,
@@ -24209,12 +25449,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1155
+    "sortOrder": 1157
   },
   {
     "id": 1124,
@@ -24230,12 +25471,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1156
+    "sortOrder": 1158
   },
   {
     "id": 1125,
@@ -24251,12 +25493,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1157
+    "sortOrder": 1159
   },
   {
     "id": 1126,
@@ -24272,12 +25515,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1158
+    "sortOrder": 1160
   },
   {
     "id": 1127,
@@ -24293,12 +25537,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1159
+    "sortOrder": 1161
   },
   {
     "id": 1128,
@@ -24314,12 +25559,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1160
+    "sortOrder": 1162
   },
   {
     "id": 1129,
@@ -24335,12 +25581,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1161
+    "sortOrder": 1163
   },
   {
     "id": 1130,
@@ -24356,12 +25603,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1162
+    "sortOrder": 1164
   },
   {
     "id": 1131,
@@ -24377,12 +25625,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1163
+    "sortOrder": 1165
   },
   {
     "id": 1132,
@@ -24398,12 +25647,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1164
+    "sortOrder": 1166
   },
   {
     "id": 1133,
@@ -24419,12 +25669,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1165
+    "sortOrder": 1167
   },
   {
     "id": 1134,
@@ -24440,12 +25691,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1166
+    "sortOrder": 1168
   },
   {
     "id": 1135,
@@ -24461,12 +25713,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1167
+    "sortOrder": 1169
   },
   {
     "id": 1136,
@@ -24482,12 +25735,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1168
+    "sortOrder": 1170
   },
   {
     "id": 1137,
@@ -24503,12 +25757,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1169
+    "sortOrder": 1171
   },
   {
     "id": 1138,
@@ -24524,12 +25779,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1170
+    "sortOrder": 1172
   },
   {
     "id": 1139,
@@ -24545,12 +25801,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1171
+    "sortOrder": 1173
   },
   {
     "id": 1140,
@@ -24566,12 +25823,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1172
+    "sortOrder": 1174
   },
   {
     "id": 1141,
@@ -24587,12 +25845,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1173
+    "sortOrder": 1175
   },
   {
     "id": 1142,
@@ -24608,12 +25867,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1174
+    "sortOrder": 1176
   },
   {
     "id": 1143,
@@ -24629,12 +25889,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1175
+    "sortOrder": 1177
   },
   {
     "id": 1144,
@@ -24650,12 +25911,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1176
+    "sortOrder": 1178
   },
   {
     "id": 1145,
@@ -24671,12 +25933,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1177
+    "sortOrder": 1179
   },
   {
     "id": 1146,
@@ -24692,12 +25955,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1178
+    "sortOrder": 1180
   },
   {
     "id": 1147,
@@ -24713,12 +25977,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1179
+    "sortOrder": 1181
   },
   {
     "id": 1148,
@@ -24734,12 +25999,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1180
+    "sortOrder": 1182
   },
   {
     "id": 1149,
@@ -24755,12 +26021,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1181
+    "sortOrder": 1183
   },
   {
     "id": 1150,
@@ -24776,12 +26043,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1182
+    "sortOrder": 1184
   },
   {
     "id": 1151,
@@ -24797,12 +26065,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1183
+    "sortOrder": 1185
   },
   {
     "id": 1152,
@@ -24818,12 +26087,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1184
+    "sortOrder": 1186
   },
   {
     "id": 1153,
@@ -24839,12 +26109,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1185
+    "sortOrder": 1187
   },
   {
     "id": 1155,
@@ -24860,12 +26131,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1186
+    "sortOrder": 1188
   },
   {
     "id": 1156,
@@ -24881,12 +26153,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1187
+    "sortOrder": 1189
   },
   {
     "id": 1157,
@@ -24902,12 +26175,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1188
+    "sortOrder": 1190
   },
   {
     "id": 1158,
@@ -24923,12 +26197,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1189
+    "sortOrder": 1191
   },
   {
     "id": 1159,
@@ -24944,12 +26219,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1190
+    "sortOrder": 1192
   },
   {
     "id": 1160,
@@ -24965,12 +26241,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1191
+    "sortOrder": 1193
   },
   {
     "id": 1161,
@@ -24986,12 +26263,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1192
+    "sortOrder": 1194
   },
   {
     "id": 1162,
@@ -25007,12 +26285,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1193
+    "sortOrder": 1195
   },
   {
     "id": 1163,
@@ -25028,12 +26307,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1194
+    "sortOrder": 1196
   },
   {
     "id": 1164,
@@ -25049,12 +26329,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1195
+    "sortOrder": 1197
   },
   {
     "id": 1166,
@@ -25070,12 +26351,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1196
+    "sortOrder": 1198
   },
   {
     "id": 1167,
@@ -25091,12 +26373,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1197
+    "sortOrder": 1199
   },
   {
     "id": 1168,
@@ -25112,12 +26395,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 5,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1198
+    "sortOrder": 1200
   },
   {
     "id": 1169,
@@ -25133,12 +26417,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOHCOfeLXRlD50MueEaDcJxJA1?pwd=tirk",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 10,
     "updateTime": 1779073729544,
-    "sortOrder": 1199
+    "sortOrder": 1201
   },
   {
     "id": 1170,
@@ -25154,12 +26439,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1200
+    "sortOrder": 1202
   },
   {
     "id": 1171,
@@ -25175,12 +26461,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1201
+    "sortOrder": 1203
   },
   {
     "id": 1172,
@@ -25196,12 +26483,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1202
+    "sortOrder": 1204
   },
   {
     "id": 1173,
@@ -25217,12 +26505,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1203
+    "sortOrder": 1205
   },
   {
     "id": 1174,
@@ -25238,12 +26527,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1204
+    "sortOrder": 1206
   },
   {
     "id": 1175,
@@ -25259,12 +26549,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1205
+    "sortOrder": 1207
   },
   {
     "id": 1176,
@@ -25280,12 +26571,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1206
+    "sortOrder": 1208
   },
   {
     "id": 1177,
@@ -25301,12 +26593,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOED9jvaoHufl_CSkLpLQVaoA1?pwd=d26r",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1207
+    "sortOrder": 1209
   },
   {
     "id": 1178,
@@ -25322,12 +26615,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1208
+    "sortOrder": 1210
   },
   {
     "id": 1179,
@@ -25343,12 +26637,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1209
+    "sortOrder": 1211
   },
   {
     "id": 1180,
@@ -25364,12 +26659,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1210
+    "sortOrder": 1212
   },
   {
     "id": 1181,
@@ -25385,12 +26681,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1211
+    "sortOrder": 1213
   },
   {
     "id": 1182,
@@ -25406,12 +26703,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1212
+    "sortOrder": 1214
   },
   {
     "id": 1183,
@@ -25427,12 +26725,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1213
+    "sortOrder": 1215
   },
   {
     "id": 1184,
@@ -25448,12 +26747,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1214
+    "sortOrder": 1216
   },
   {
     "id": 1185,
@@ -25469,12 +26769,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1215
+    "sortOrder": 1217
   },
   {
     "id": 1186,
@@ -25490,12 +26791,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1216
+    "sortOrder": 1218
   },
   {
     "id": 1187,
@@ -25511,12 +26813,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1217
+    "sortOrder": 1219
   },
   {
     "id": 1188,
@@ -25532,12 +26835,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1218
+    "sortOrder": 1220
   },
   {
     "id": 1189,
@@ -25553,12 +26857,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1219
+    "sortOrder": 1221
   },
   {
     "id": 1190,
@@ -25574,12 +26879,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1220
+    "sortOrder": 1222
   },
   {
     "id": 1191,
@@ -25595,12 +26901,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1221
+    "sortOrder": 1223
   },
   {
     "id": 1192,
@@ -25616,12 +26923,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1222
+    "sortOrder": 1224
   },
   {
     "id": 1204,
@@ -25637,12 +26945,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1223
+    "sortOrder": 1225
   },
   {
     "id": 1193,
@@ -25658,12 +26967,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1224
+    "sortOrder": 1226
   },
   {
     "id": 1194,
@@ -25679,12 +26989,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1225
+    "sortOrder": 1227
   },
   {
     "id": 1195,
@@ -25700,12 +27011,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1226
+    "sortOrder": 1228
   },
   {
     "id": 1196,
@@ -25721,12 +27033,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1227
+    "sortOrder": 1229
   },
   {
     "id": 1197,
@@ -25742,12 +27055,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1228
+    "sortOrder": 1230
   },
   {
     "id": 1198,
@@ -25763,12 +27077,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1229
+    "sortOrder": 1231
   },
   {
     "id": 1199,
@@ -25784,12 +27099,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1230
+    "sortOrder": 1232
   },
   {
     "id": 1200,
@@ -25805,12 +27121,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1231
+    "sortOrder": 1233
   },
   {
     "id": 1201,
@@ -25826,12 +27143,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1232
+    "sortOrder": 1234
   },
   {
     "id": 1202,
@@ -25847,12 +27165,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1233
+    "sortOrder": 1235
   },
   {
     "id": 1203,
@@ -25868,12 +27187,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1234
+    "sortOrder": 1236
   },
   {
     "id": 1205,
@@ -25889,12 +27209,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1235
+    "sortOrder": 1237
   },
   {
     "id": 1206,
@@ -25910,12 +27231,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1236
+    "sortOrder": 1238
   },
   {
     "id": 1207,
@@ -25931,12 +27253,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1237
+    "sortOrder": 1239
   },
   {
     "id": 1208,
@@ -25952,12 +27275,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1238
+    "sortOrder": 1240
   },
   {
     "id": 1209,
@@ -25973,12 +27297,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1239
+    "sortOrder": 1241
   },
   {
     "id": 1210,
@@ -25994,12 +27319,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1240
+    "sortOrder": 1242
   },
   {
     "id": 1211,
@@ -26015,12 +27341,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1241
+    "sortOrder": 1243
   },
   {
     "id": 1212,
@@ -26036,12 +27363,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1242
+    "sortOrder": 1244
   },
   {
     "id": 1213,
@@ -26057,12 +27385,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1243
+    "sortOrder": 1245
   },
   {
     "id": 1214,
@@ -26078,12 +27407,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1244
+    "sortOrder": 1246
   },
   {
     "id": 1215,
@@ -26099,12 +27429,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1245
+    "sortOrder": 1247
   },
   {
     "id": 1216,
@@ -26120,12 +27451,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1246
+    "sortOrder": 1248
   },
   {
     "id": 1217,
@@ -26141,12 +27473,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1247
+    "sortOrder": 1249
   },
   {
     "id": 1218,
@@ -26162,12 +27495,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1248
+    "sortOrder": 1250
   },
   {
     "id": 1219,
@@ -26183,12 +27517,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1249
+    "sortOrder": 1251
   },
   {
     "id": 1220,
@@ -26204,12 +27539,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1250
+    "sortOrder": 1252
   },
   {
     "id": 1221,
@@ -26225,12 +27561,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1251
+    "sortOrder": 1253
   },
   {
     "id": 1222,
@@ -26246,12 +27583,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1252
+    "sortOrder": 1254
   },
   {
     "id": 1223,
@@ -26267,12 +27605,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1253
+    "sortOrder": 1255
   },
   {
     "id": 1224,
@@ -26288,12 +27627,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1254
+    "sortOrder": 1256
   },
   {
     "id": 1225,
@@ -26309,12 +27649,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1255
+    "sortOrder": 1257
   },
   {
     "id": 1226,
@@ -26330,12 +27671,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1256
+    "sortOrder": 1258
   },
   {
     "id": 1227,
@@ -26351,12 +27693,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1257
+    "sortOrder": 1259
   },
   {
     "id": 1228,
@@ -26372,12 +27715,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1258
+    "sortOrder": 1260
   },
   {
     "id": 1229,
@@ -26393,12 +27737,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1259
+    "sortOrder": 1261
   },
   {
     "id": 1230,
@@ -26414,12 +27759,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1260
+    "sortOrder": 1262
   },
   {
     "id": 1231,
@@ -26435,12 +27781,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1261
+    "sortOrder": 1263
   },
   {
     "id": 1232,
@@ -26456,12 +27803,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1262
+    "sortOrder": 1264
   },
   {
     "id": 1233,
@@ -26477,12 +27825,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1263
+    "sortOrder": 1265
   },
   {
     "id": 1234,
@@ -26498,12 +27847,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1264
+    "sortOrder": 1266
   },
   {
     "id": 1235,
@@ -26519,12 +27869,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1265
+    "sortOrder": 1267
   },
   {
     "id": 1236,
@@ -26540,12 +27891,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1266
+    "sortOrder": 1268
   },
   {
     "id": 1238,
@@ -26561,12 +27913,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1267
+    "sortOrder": 1269
   },
   {
     "id": 1239,
@@ -26582,12 +27935,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1268
+    "sortOrder": 1270
   },
   {
     "id": 1240,
@@ -26603,12 +27957,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 1269
+    "sortOrder": 1271
   },
   {
     "id": 1241,
@@ -26624,12 +27979,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1270
+    "sortOrder": 1272
   },
   {
     "id": 1242,
@@ -26645,12 +28001,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1271
+    "sortOrder": 1273
   },
   {
     "id": 1243,
@@ -26666,12 +28023,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1272
+    "sortOrder": 1274
   },
   {
     "id": 1244,
@@ -26687,12 +28045,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1273
+    "sortOrder": 1275
   },
   {
     "id": 1245,
@@ -26708,12 +28067,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1274
+    "sortOrder": 1276
   },
   {
     "id": 1246,
@@ -26729,12 +28089,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1275
+    "sortOrder": 1277
   },
   {
     "id": 1247,
@@ -26750,12 +28111,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1276
+    "sortOrder": 1278
   },
   {
     "id": 1248,
@@ -26771,12 +28133,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1277
+    "sortOrder": 1279
   },
   {
     "id": 1249,
@@ -26792,12 +28155,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1278
+    "sortOrder": 1280
   },
   {
     "id": 1250,
@@ -26813,12 +28177,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1279
+    "sortOrder": 1281
   },
   {
     "id": 1251,
@@ -26834,12 +28199,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1280
+    "sortOrder": 1282
   },
   {
     "id": 1252,
@@ -26855,12 +28221,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1281
+    "sortOrder": 1283
   },
   {
     "id": 1253,
@@ -26876,12 +28243,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1282
+    "sortOrder": 1284
   },
   {
     "id": 1254,
@@ -26897,12 +28265,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1283
+    "sortOrder": 1285
   },
   {
     "id": 1255,
@@ -26918,12 +28287,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1284
+    "sortOrder": 1286
   },
   {
     "id": 1256,
@@ -26939,12 +28309,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1285
+    "sortOrder": 1287
   },
   {
     "id": 1257,
@@ -26960,12 +28331,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1286
+    "sortOrder": 1288
   },
   {
     "id": 1258,
@@ -26981,12 +28353,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1287
+    "sortOrder": 1289
   },
   {
     "id": 1259,
@@ -27002,12 +28375,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1288
+    "sortOrder": 1290
   },
   {
     "id": 1260,
@@ -27023,12 +28397,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1289
+    "sortOrder": 1291
   },
   {
     "id": 1261,
@@ -27044,12 +28419,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
-    "sortOrder": 1290
+    "sortOrder": 1292
   },
   {
     "id": 1262,
@@ -27065,12 +28441,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1291
+    "sortOrder": 1293
   },
   {
     "id": 1263,
@@ -27086,12 +28463,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1292
+    "sortOrder": 1294
   },
   {
     "id": 1264,
@@ -27107,12 +28485,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1293
+    "sortOrder": 1295
   },
   {
     "id": 1265,
@@ -27128,12 +28507,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1294
+    "sortOrder": 1296
   },
   {
     "id": 1266,
@@ -27149,12 +28529,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1295
+    "sortOrder": 1297
   },
   {
     "id": 1267,
@@ -27170,12 +28551,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1296
+    "sortOrder": 1298
   },
   {
     "id": 1268,
@@ -27191,12 +28573,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1297
+    "sortOrder": 1299
   },
   {
     "id": 1269,
@@ -27212,12 +28595,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1298
+    "sortOrder": 1300
   },
   {
     "id": 1270,
@@ -27233,12 +28617,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1299
+    "sortOrder": 1301
   },
   {
     "id": 1271,
@@ -27254,12 +28639,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1300
+    "sortOrder": 1302
   },
   {
     "id": 1272,
@@ -27275,12 +28661,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1301
+    "sortOrder": 1303
   },
   {
     "id": 1273,
@@ -27296,12 +28683,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1302
+    "sortOrder": 1304
   },
   {
     "id": 1274,
@@ -27317,12 +28705,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1303
+    "sortOrder": 1305
   },
   {
     "id": 1275,
@@ -27338,12 +28727,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1304
+    "sortOrder": 1306
   },
   {
     "id": 1276,
@@ -27359,12 +28749,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1305
+    "sortOrder": 1307
   },
   {
     "id": 1277,
@@ -27380,12 +28771,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1306
+    "sortOrder": 1308
   },
   {
     "id": 1278,
@@ -27401,12 +28793,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1307
+    "sortOrder": 1309
   },
   {
     "id": 1279,
@@ -27422,12 +28815,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1308
+    "sortOrder": 1310
   },
   {
     "id": 1280,
@@ -27443,12 +28837,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1309
+    "sortOrder": 1311
   },
   {
     "id": 1281,
@@ -27464,12 +28859,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1310
+    "sortOrder": 1312
   },
   {
     "id": 1282,
@@ -27485,12 +28881,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1311
+    "sortOrder": 1313
   },
   {
     "id": 1283,
@@ -27506,12 +28903,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1312
+    "sortOrder": 1314
   },
   {
     "id": 1284,
@@ -27527,12 +28925,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1313
+    "sortOrder": 1315
   },
   {
     "id": 1285,
@@ -27548,12 +28947,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1314
+    "sortOrder": 1316
   },
   {
     "id": 1286,
@@ -27569,12 +28969,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1315
+    "sortOrder": 1317
   },
   {
     "id": 1287,
@@ -27590,12 +28991,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1316
+    "sortOrder": 1318
   },
   {
     "id": 1288,
@@ -27611,12 +29013,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1317
+    "sortOrder": 1319
   },
   {
     "id": 1289,
@@ -27632,12 +29035,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1318
+    "sortOrder": 1320
   },
   {
     "id": 1290,
@@ -27653,12 +29057,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1319
+    "sortOrder": 1321
   },
   {
     "id": 1291,
@@ -27674,12 +29079,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1320
+    "sortOrder": 1322
   },
   {
     "id": 1292,
@@ -27695,12 +29101,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1321
+    "sortOrder": 1323
   },
   {
     "id": 1293,
@@ -27716,12 +29123,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1322
+    "sortOrder": 1324
   },
   {
     "id": 1294,
@@ -27737,12 +29145,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1323
+    "sortOrder": 1325
   },
   {
     "id": 1295,
@@ -27758,12 +29167,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1324
+    "sortOrder": 1326
   },
   {
     "id": 1296,
@@ -27779,12 +29189,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1325
+    "sortOrder": 1327
   },
   {
     "id": 1298,
@@ -27800,12 +29211,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1327
+    "sortOrder": 1328
   },
   {
     "id": 1299,
@@ -27821,12 +29233,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1328
+    "sortOrder": 1329
   },
   {
     "id": 1300,
@@ -27842,12 +29255,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCHJEYXb-JCwjP6KaDR--X-A1?pwd=yyex",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1329
+    "sortOrder": 1330
   },
   {
     "id": 1301,
@@ -27863,12 +29277,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1330
+    "sortOrder": 1331
   },
   {
     "id": 1302,
@@ -27884,12 +29299,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1331
+    "sortOrder": 1332
   },
   {
     "id": 1303,
@@ -27905,12 +29321,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1332
+    "sortOrder": 1333
   },
   {
     "id": 1304,
@@ -27926,12 +29343,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1333
+    "sortOrder": 1334
   },
   {
     "id": 1305,
@@ -27947,12 +29365,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1334
+    "sortOrder": 1335
   },
   {
     "id": 1306,
@@ -27968,12 +29387,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1335
+    "sortOrder": 1336
   },
   {
     "id": 1307,
@@ -27989,12 +29409,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1336
+    "sortOrder": 1337
   },
   {
     "id": 1308,
@@ -28010,12 +29431,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1337
+    "sortOrder": 1338
   },
   {
     "id": 1310,
@@ -28031,12 +29453,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1338
+    "sortOrder": 1339
   },
   {
     "id": 1311,
@@ -28052,12 +29475,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1339
+    "sortOrder": 1340
   },
   {
     "id": 1312,
@@ -28073,12 +29497,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1340
+    "sortOrder": 1341
   },
   {
     "id": 1313,
@@ -28094,12 +29519,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1341
+    "sortOrder": 1342
   },
   {
     "id": 1314,
@@ -28115,12 +29541,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1342
+    "sortOrder": 1343
   },
   {
     "id": 1315,
@@ -28136,12 +29563,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1343
+    "sortOrder": 1344
   },
   {
     "id": 1316,
@@ -28157,12 +29585,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1344
+    "sortOrder": 1345
   },
   {
     "id": 1317,
@@ -28178,12 +29607,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1345
+    "sortOrder": 1346
   },
   {
     "id": 1318,
@@ -28199,12 +29629,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1346
+    "sortOrder": 1347
   },
   {
     "id": 1319,
@@ -28220,12 +29651,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1347
+    "sortOrder": 1348
   },
   {
     "id": 1320,
@@ -28241,12 +29673,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1348
+    "sortOrder": 1349
   },
   {
     "id": 1321,
@@ -28262,12 +29695,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1349
+    "sortOrder": 1350
   },
   {
     "id": 1322,
@@ -28283,12 +29717,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1350
+    "sortOrder": 1351
   },
   {
     "id": 1323,
@@ -28304,12 +29739,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1351
+    "sortOrder": 1352
   },
   {
     "id": 1324,
@@ -28325,12 +29761,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1352
+    "sortOrder": 1353
   },
   {
     "id": 1325,
@@ -28346,12 +29783,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1353
+    "sortOrder": 1354
   },
   {
     "id": 1326,
@@ -28367,12 +29805,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1354
+    "sortOrder": 1355
   },
   {
     "id": 1327,
@@ -28388,12 +29827,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1355
+    "sortOrder": 1356
   },
   {
     "id": 1328,
@@ -28409,12 +29849,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1356
+    "sortOrder": 1357
   },
   {
     "id": 1329,
@@ -28430,12 +29871,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1357
+    "sortOrder": 1358
   },
   {
     "id": 1330,
@@ -28451,12 +29893,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1358
+    "sortOrder": 1359
   },
   {
     "id": 1331,
@@ -28472,12 +29915,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1359
+    "sortOrder": 1360
   },
   {
     "id": 1332,
@@ -28493,12 +29937,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1360
+    "sortOrder": 1361
   },
   {
     "id": 1333,
@@ -28514,12 +29959,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1361
+    "sortOrder": 1362
   },
   {
     "id": 1334,
@@ -28535,12 +29981,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1362
+    "sortOrder": 1363
   },
   {
     "id": 1335,
@@ -28556,12 +30003,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1363
+    "sortOrder": 1364
   },
   {
     "id": 1336,
@@ -28577,12 +30025,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1364
+    "sortOrder": 1365
   },
   {
     "id": 1337,
@@ -28598,12 +30047,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1365
+    "sortOrder": 1366
   },
   {
     "id": 1338,
@@ -28619,12 +30069,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1366
+    "sortOrder": 1367
   },
   {
     "id": 1339,
@@ -28640,12 +30091,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1367
+    "sortOrder": 1368
   },
   {
     "id": 1340,
@@ -28661,12 +30113,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1368
+    "sortOrder": 1369
   },
   {
     "id": 1341,
@@ -28682,12 +30135,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1369
+    "sortOrder": 1370
   },
   {
     "id": 1342,
@@ -28703,12 +30157,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1370
+    "sortOrder": 1371
   },
   {
     "id": 1343,
@@ -28724,12 +30179,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1371
+    "sortOrder": 1372
   },
   {
     "id": 1344,
@@ -28745,12 +30201,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1372
+    "sortOrder": 1373
   },
   {
     "id": 1345,
@@ -28766,12 +30223,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1373
+    "sortOrder": 1374
   },
   {
     "id": 1346,
@@ -28787,12 +30245,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1374
+    "sortOrder": 1375
   },
   {
     "id": 1347,
@@ -28808,12 +30267,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1375
+    "sortOrder": 1376
   },
   {
     "id": 1348,
@@ -28829,12 +30289,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1376
+    "sortOrder": 1377
   },
   {
     "id": 1349,
@@ -28850,12 +30311,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1377
+    "sortOrder": 1378
   },
   {
     "id": 1350,
@@ -28871,12 +30333,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1378
+    "sortOrder": 1379
   },
   {
     "id": 1351,
@@ -28892,12 +30355,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1379
+    "sortOrder": 1380
   },
   {
     "id": 1352,
@@ -28913,12 +30377,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1380
+    "sortOrder": 1381
   },
   {
     "id": 1353,
@@ -28934,12 +30399,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1381
+    "sortOrder": 1382
   },
   {
     "id": 1354,
@@ -28955,12 +30421,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1382
+    "sortOrder": 1383
   },
   {
     "id": 1355,
@@ -28976,12 +30443,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1383
+    "sortOrder": 1384
   },
   {
     "id": 1356,
@@ -28997,12 +30465,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1384
+    "sortOrder": 1385
   },
   {
     "id": 1357,
@@ -29018,12 +30487,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1385
+    "sortOrder": 1386
   },
   {
     "id": 1358,
@@ -29039,12 +30509,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1386
+    "sortOrder": 1387
   },
   {
     "id": 1359,
@@ -29060,12 +30531,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1387
+    "sortOrder": 1388
   },
   {
     "id": 1360,
@@ -29081,12 +30553,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1388
+    "sortOrder": 1389
   },
   {
     "id": 1361,
@@ -29102,12 +30575,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1389
+    "sortOrder": 1390
   },
   {
     "id": 1362,
@@ -29123,12 +30597,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1390
+    "sortOrder": 1391
   },
   {
     "id": 1363,
@@ -29144,12 +30619,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1391
+    "sortOrder": 1392
   },
   {
     "id": 1364,
@@ -29165,12 +30641,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1392
+    "sortOrder": 1393
   },
   {
     "id": 1365,
@@ -29186,12 +30663,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1393
+    "sortOrder": 1394
   },
   {
     "id": 1366,
@@ -29207,12 +30685,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1394
+    "sortOrder": 1395
   },
   {
     "id": 1367,
@@ -29228,12 +30707,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1395
+    "sortOrder": 1396
   },
   {
     "id": 1368,
@@ -29249,12 +30729,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1396
+    "sortOrder": 1397
   },
   {
     "id": 1369,
@@ -29270,12 +30751,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1397
+    "sortOrder": 1398
   },
   {
     "id": 1370,
@@ -29291,12 +30773,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1398
+    "sortOrder": 1399
   },
   {
     "id": 1371,
@@ -29312,12 +30795,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1399
+    "sortOrder": 1400
   },
   {
     "id": 1372,
@@ -29333,12 +30817,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1400
+    "sortOrder": 1401
   },
   {
     "id": 1373,
@@ -29354,12 +30839,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1401
+    "sortOrder": 1402
   },
   {
     "id": 1374,
@@ -29375,12 +30861,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1402
+    "sortOrder": 1403
   },
   {
     "id": 1375,
@@ -29396,12 +30883,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1403
+    "sortOrder": 1404
   },
   {
     "id": 1376,
@@ -29417,12 +30905,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1404
+    "sortOrder": 1405
   },
   {
     "id": 1377,
@@ -29438,12 +30927,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1405
+    "sortOrder": 1406
   },
   {
     "id": 1378,
@@ -29459,12 +30949,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1406
+    "sortOrder": 1407
   },
   {
     "id": 1379,
@@ -29480,12 +30971,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1407
+    "sortOrder": 1408
   },
   {
     "id": 1380,
@@ -29501,12 +30993,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1408
+    "sortOrder": 1409
   },
   {
     "id": 1381,
@@ -29522,12 +31015,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1409
+    "sortOrder": 1410
   },
   {
     "id": 1382,
@@ -29543,12 +31037,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1410
+    "sortOrder": 1411
   },
   {
     "id": 1383,
@@ -29564,12 +31059,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1411
+    "sortOrder": 1412
   },
   {
     "id": 1384,
@@ -29585,12 +31081,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1412
+    "sortOrder": 1413
   },
   {
     "id": 1385,
@@ -29606,12 +31103,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1413
+    "sortOrder": 1414
   },
   {
     "id": 1386,
@@ -29627,12 +31125,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 1414
+    "sortOrder": 1415
   },
   {
     "id": 1387,
@@ -29648,12 +31147,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1415
+    "sortOrder": 1416
   },
   {
     "id": 1388,
@@ -29669,12 +31169,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1416
+    "sortOrder": 1417
   },
   {
     "id": 1389,
@@ -29690,12 +31191,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1417
+    "sortOrder": 1418
   },
   {
     "id": 1390,
@@ -29711,12 +31213,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1418
+    "sortOrder": 1419
   },
   {
     "id": 1391,
@@ -29732,12 +31235,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1419
+    "sortOrder": 1420
   },
   {
     "id": 1392,
@@ -29753,12 +31257,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1420
+    "sortOrder": 1421
   },
   {
     "id": 1393,
@@ -29774,12 +31279,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1421
+    "sortOrder": 1422
   },
   {
     "id": 1394,
@@ -29795,12 +31301,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1422
+    "sortOrder": 1423
   },
   {
     "id": 1395,
@@ -29816,12 +31323,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1423
+    "sortOrder": 1424
   },
   {
     "id": 1396,
@@ -29837,12 +31345,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1424
+    "sortOrder": 1425
   },
   {
     "id": 1397,
@@ -29858,12 +31367,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1425
+    "sortOrder": 1426
   },
   {
     "id": 1398,
@@ -29879,12 +31389,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1426
+    "sortOrder": 1427
   },
   {
     "id": 1399,
@@ -29900,12 +31411,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1427
+    "sortOrder": 1428
   },
   {
     "id": 1400,
@@ -29921,12 +31433,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1428
+    "sortOrder": 1429
   },
   {
     "id": 1401,
@@ -29942,12 +31455,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1429
+    "sortOrder": 1430
   },
   {
     "id": 1402,
@@ -29963,12 +31477,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1430
+    "sortOrder": 1431
   },
   {
     "id": 1403,
@@ -29984,12 +31499,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1431
+    "sortOrder": 1432
   },
   {
     "id": 1404,
@@ -30005,12 +31521,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1432
+    "sortOrder": 1433
   },
   {
     "id": 1405,
@@ -30026,12 +31543,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1433
+    "sortOrder": 1434
   },
   {
     "id": 1406,
@@ -30047,12 +31565,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1434
+    "sortOrder": 1435
   },
   {
     "id": 1407,
@@ -30068,12 +31587,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1435
+    "sortOrder": 1436
   },
   {
     "id": 1408,
@@ -30089,12 +31609,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1436
+    "sortOrder": 1437
   },
   {
     "id": 1409,
@@ -30110,12 +31631,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1437
+    "sortOrder": 1438
   },
   {
     "id": 1410,
@@ -30131,12 +31653,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1438
+    "sortOrder": 1439
   },
   {
     "id": 1411,
@@ -30152,12 +31675,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1439
+    "sortOrder": 1440
   },
   {
     "id": 1412,
@@ -30173,12 +31697,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1440
+    "sortOrder": 1441
   },
   {
     "id": 1413,
@@ -30194,12 +31719,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1441
+    "sortOrder": 1442
   },
   {
     "id": 1414,
@@ -30215,12 +31741,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1442
+    "sortOrder": 1443
   },
   {
     "id": 1415,
@@ -30236,12 +31763,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1443
+    "sortOrder": 1444
   },
   {
     "id": 1416,
@@ -30257,12 +31785,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1444
+    "sortOrder": 1445
   },
   {
     "id": 1417,
@@ -30278,12 +31807,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1445
+    "sortOrder": 1446
   },
   {
     "id": 1418,
@@ -30299,12 +31829,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1446
+    "sortOrder": 1447
   },
   {
     "id": 1419,
@@ -30320,12 +31851,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1447
+    "sortOrder": 1448
   },
   {
     "id": 1420,
@@ -30341,12 +31873,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1448
+    "sortOrder": 1449
   },
   {
     "id": 1421,
@@ -30362,12 +31895,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1449
+    "sortOrder": 1450
   },
   {
     "id": 1422,
@@ -30383,12 +31917,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1450
+    "sortOrder": 1451
   },
   {
     "id": 1423,
@@ -30404,12 +31939,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1451
+    "sortOrder": 1452
   },
   {
     "id": 1424,
@@ -30425,12 +31961,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1452
+    "sortOrder": 1453
   },
   {
     "id": 1425,
@@ -30446,12 +31983,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1453
+    "sortOrder": 1454
   },
   {
     "id": 1426,
@@ -30467,12 +32005,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1454
+    "sortOrder": 1455
   },
   {
     "id": 1427,
@@ -30488,12 +32027,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1455
+    "sortOrder": 1456
   },
   {
     "id": 1428,
@@ -30509,12 +32049,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1456
+    "sortOrder": 1457
   },
   {
     "id": 1429,
@@ -30530,12 +32071,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1457
+    "sortOrder": 1458
   },
   {
     "id": 1430,
@@ -30551,12 +32093,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1458
+    "sortOrder": 1459
   },
   {
     "id": 1431,
@@ -30572,12 +32115,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1459
+    "sortOrder": 1460
   },
   {
     "id": 1432,
@@ -30593,12 +32137,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1460
+    "sortOrder": 1461
   },
   {
     "id": 1433,
@@ -30614,12 +32159,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1461
+    "sortOrder": 1462
   },
   {
     "id": 1434,
@@ -30635,12 +32181,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1462
+    "sortOrder": 1463
   },
   {
     "id": 1435,
@@ -30656,12 +32203,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1463
+    "sortOrder": 1464
   },
   {
     "id": 1436,
@@ -30677,12 +32225,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1464
+    "sortOrder": 1465
   },
   {
     "id": 1437,
@@ -30698,12 +32247,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1465
+    "sortOrder": 1466
   },
   {
     "id": 1438,
@@ -30719,12 +32269,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1466
+    "sortOrder": 1467
   },
   {
     "id": 1439,
@@ -30740,12 +32291,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1467
+    "sortOrder": 1468
   },
   {
     "id": 1440,
@@ -30761,12 +32313,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1468
+    "sortOrder": 1469
   },
   {
     "id": 1441,
@@ -30782,12 +32335,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1469
+    "sortOrder": 1470
   },
   {
     "id": 1442,
@@ -30803,12 +32357,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1470
+    "sortOrder": 1471
   },
   {
     "id": 1443,
@@ -30824,12 +32379,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1471
+    "sortOrder": 1472
   },
   {
     "id": 1444,
@@ -30845,12 +32401,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1472
+    "sortOrder": 1473
   },
   {
     "id": 1445,
@@ -30866,12 +32423,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1473
+    "sortOrder": 1474
   },
   {
     "id": 1446,
@@ -30887,12 +32445,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1474
+    "sortOrder": 1475
   },
   {
     "id": 1447,
@@ -30908,12 +32467,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1475
+    "sortOrder": 1476
   },
   {
     "id": 1448,
@@ -30929,12 +32489,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1476
+    "sortOrder": 1477
   },
   {
     "id": 1449,
@@ -30950,12 +32511,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1477
+    "sortOrder": 1478
   },
   {
     "id": 1450,
@@ -30971,12 +32533,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1478
+    "sortOrder": 1479
   },
   {
     "id": 1451,
@@ -30992,12 +32555,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1479
+    "sortOrder": 1480
   },
   {
     "id": 1452,
@@ -31013,12 +32577,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1480
+    "sortOrder": 1481
   },
   {
     "id": 1453,
@@ -31034,12 +32599,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1481
+    "sortOrder": 1482
   },
   {
     "id": 1454,
@@ -31055,12 +32621,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1482
+    "sortOrder": 1483
   },
   {
     "id": 1455,
@@ -31076,12 +32643,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1483
+    "sortOrder": 1484
   },
   {
     "id": 1456,
@@ -31097,12 +32665,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1484
+    "sortOrder": 1485
   },
   {
     "id": 1457,
@@ -31118,12 +32687,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1485
+    "sortOrder": 1486
   },
   {
     "id": 1458,
@@ -31139,12 +32709,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1486
+    "sortOrder": 1487
   },
   {
     "id": 1459,
@@ -31160,12 +32731,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1487
+    "sortOrder": 1488
   },
   {
     "id": 1460,
@@ -31181,12 +32753,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1488
+    "sortOrder": 1489
   },
   {
     "id": 1461,
@@ -31202,12 +32775,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1489
+    "sortOrder": 1490
   },
   {
     "id": 1462,
@@ -31223,12 +32797,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1490
+    "sortOrder": 1491
   },
   {
     "id": 1463,
@@ -31244,12 +32819,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1491
+    "sortOrder": 1492
   },
   {
     "id": 1464,
@@ -31265,12 +32841,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1492
+    "sortOrder": 1493
   },
   {
     "id": 1465,
@@ -31286,12 +32863,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1493
+    "sortOrder": 1494
   },
   {
     "id": 1466,
@@ -31307,12 +32885,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1494
+    "sortOrder": 1495
   },
   {
     "id": 1467,
@@ -31328,12 +32907,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1495
+    "sortOrder": 1496
   },
   {
     "id": 1468,
@@ -31349,12 +32929,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1496
+    "sortOrder": 1497
   },
   {
     "id": 1469,
@@ -31370,12 +32951,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1497
+    "sortOrder": 1498
   },
   {
     "id": 1470,
@@ -31391,12 +32973,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1498
+    "sortOrder": 1499
   },
   {
     "id": 1471,
@@ -31412,12 +32995,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1499
+    "sortOrder": 1500
   },
   {
     "id": 1472,
@@ -31433,12 +33017,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1500
+    "sortOrder": 1501
   },
   {
     "id": 1473,
@@ -31454,12 +33039,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1501
+    "sortOrder": 1502
   },
   {
     "id": 1474,
@@ -31475,12 +33061,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1502
+    "sortOrder": 1503
   },
   {
     "id": 1475,
@@ -31496,12 +33083,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1503
+    "sortOrder": 1504
   },
   {
     "id": 1476,
@@ -31517,12 +33105,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1504
+    "sortOrder": 1505
   },
   {
     "id": 1477,
@@ -31538,12 +33127,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1505
+    "sortOrder": 1506
   },
   {
     "id": 1478,
@@ -31559,12 +33149,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1506
+    "sortOrder": 1507
   },
   {
     "id": 1479,
@@ -31580,12 +33171,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1507
+    "sortOrder": 1508
   },
   {
     "id": 1480,
@@ -31601,12 +33193,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1508
+    "sortOrder": 1509
   },
   {
     "id": 1481,
@@ -31622,12 +33215,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1509
+    "sortOrder": 1510
   },
   {
     "id": 1482,
@@ -31643,12 +33237,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1510
+    "sortOrder": 1511
   },
   {
     "id": 1483,
@@ -31664,12 +33259,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1511
+    "sortOrder": 1512
   },
   {
     "id": 1484,
@@ -31685,12 +33281,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1512
+    "sortOrder": 1513
   },
   {
     "id": 1485,
@@ -31706,12 +33303,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1513
+    "sortOrder": 1514
   },
   {
     "id": 1486,
@@ -31727,12 +33325,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1514
+    "sortOrder": 1515
   },
   {
     "id": 1487,
@@ -31748,12 +33347,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1515
+    "sortOrder": 1516
   },
   {
     "id": 1488,
@@ -31769,12 +33369,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1516
+    "sortOrder": 1517
   },
   {
     "id": 1489,
@@ -31790,12 +33391,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1517
+    "sortOrder": 1518
   },
   {
     "id": 1490,
@@ -31811,12 +33413,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1518
+    "sortOrder": 1519
   },
   {
     "id": 1491,
@@ -31832,12 +33435,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1519
+    "sortOrder": 1520
   },
   {
     "id": 1492,
@@ -31853,12 +33457,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1520
+    "sortOrder": 1521
   },
   {
     "id": 1493,
@@ -31874,12 +33479,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1521
+    "sortOrder": 1522
   },
   {
     "id": 1494,
@@ -31895,12 +33501,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1522
+    "sortOrder": 1523
   },
   {
     "id": 1495,
@@ -31916,12 +33523,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1523
+    "sortOrder": 1524
   },
   {
     "id": 1496,
@@ -31937,12 +33545,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1524
+    "sortOrder": 1525
   },
   {
     "id": 1497,
@@ -31958,12 +33567,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1525
+    "sortOrder": 1526
   },
   {
     "id": 1498,
@@ -31979,12 +33589,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1526
+    "sortOrder": 1527
   },
   {
     "id": 1499,
@@ -32000,12 +33611,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1527
+    "sortOrder": 1528
   },
   {
     "id": 1500,
@@ -32021,12 +33633,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1528
+    "sortOrder": 1529
   },
   {
     "id": 1501,
@@ -32042,12 +33655,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1529
+    "sortOrder": 1530
   },
   {
     "id": 1504,
@@ -32063,8 +33677,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32084,8 +33699,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32105,8 +33721,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32126,8 +33743,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32147,8 +33765,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32168,8 +33787,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32189,8 +33809,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32210,8 +33831,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32231,8 +33853,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32252,8 +33875,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32273,8 +33897,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32294,8 +33919,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32315,8 +33941,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32336,8 +33963,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32357,8 +33985,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32378,8 +34007,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32399,8 +34029,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32420,8 +34051,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32441,8 +34073,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32462,8 +34095,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -32483,8 +34117,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32504,8 +34139,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32525,8 +34161,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32546,8 +34183,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32567,8 +34205,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32588,8 +34227,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32609,8 +34249,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32630,8 +34271,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32651,8 +34293,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32672,8 +34315,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -32693,8 +34337,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32714,8 +34359,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32735,8 +34381,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32756,8 +34403,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32777,8 +34425,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32798,8 +34447,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32819,8 +34469,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32840,8 +34491,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32861,8 +34513,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32882,8 +34535,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32903,8 +34557,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32924,8 +34579,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32945,8 +34601,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32966,8 +34623,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -32987,8 +34645,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33008,8 +34667,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -33029,8 +34689,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33050,8 +34711,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33071,8 +34733,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33092,8 +34755,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33113,8 +34777,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33134,8 +34799,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33155,8 +34821,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33176,8 +34843,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33197,8 +34865,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33218,8 +34887,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 3,
     "updateTime": 1779073729544,
@@ -33239,8 +34909,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33260,8 +34931,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33281,8 +34953,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33302,8 +34975,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33323,8 +34997,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33344,8 +35019,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33365,8 +35041,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33386,8 +35063,9 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1qDOdOXUfzDt8L5XaltsyDQ?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOED9sm5oHufl_CSkLpLQYOZA1?pwd=nb44",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33407,8 +35085,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33428,8 +35107,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33449,8 +35129,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33470,8 +35151,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33491,8 +35173,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33512,8 +35195,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -33533,8 +35217,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33554,8 +35239,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33575,8 +35261,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33596,8 +35283,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33617,8 +35305,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33638,8 +35327,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33659,8 +35349,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33680,8 +35371,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
@@ -33701,8 +35393,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33722,8 +35415,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33743,8 +35437,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33764,8 +35459,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33785,8 +35481,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33806,8 +35503,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33827,8 +35525,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33848,8 +35547,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33869,8 +35569,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33890,8 +35591,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33911,8 +35613,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33932,8 +35635,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33953,8 +35657,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -33974,8 +35679,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -33995,8 +35701,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34016,8 +35723,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34037,8 +35745,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34058,8 +35767,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34079,8 +35789,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34100,8 +35811,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34121,8 +35833,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34142,8 +35855,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34163,8 +35877,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34184,8 +35899,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34205,8 +35921,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34226,8 +35943,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34247,8 +35965,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34268,8 +35987,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34289,8 +36009,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34310,8 +36031,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34331,8 +36053,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34352,8 +36075,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34373,8 +36097,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34394,8 +36119,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34415,8 +36141,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34436,8 +36163,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34457,8 +36185,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34478,8 +36207,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34499,8 +36229,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -34520,8 +36251,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34541,8 +36273,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34562,8 +36295,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34583,8 +36317,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34604,8 +36339,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34625,8 +36361,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34646,8 +36383,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34667,8 +36405,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34688,8 +36427,9 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1iz6gDxOBmsVH3lubCdNBaw?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOED79KxVyaiuRDTFLKDpATlA1?pwd=5hmh",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 8,
     "updateTime": 1779073729544,
@@ -34709,8 +36449,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34730,8 +36471,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34751,8 +36493,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34772,8 +36515,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779724686770,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779724686770,
@@ -34793,8 +36537,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34814,8 +36559,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34835,8 +36581,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34856,8 +36603,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34877,8 +36625,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34898,8 +36647,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34919,8 +36669,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34940,8 +36691,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34961,8 +36713,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -34982,8 +36735,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35003,8 +36757,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35024,8 +36779,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35045,8 +36801,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35066,8 +36823,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35087,8 +36845,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35108,8 +36867,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35129,8 +36889,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35150,8 +36911,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35171,8 +36933,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35192,8 +36955,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35213,8 +36977,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 6,
     "updateTime": 1779073729544,
@@ -35234,8 +36999,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35255,8 +37021,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35276,8 +37043,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35297,8 +37065,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35318,8 +37087,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35339,8 +37109,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35360,8 +37131,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35381,8 +37153,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35402,8 +37175,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35423,8 +37197,9 @@ const importedGames = [
     "baiduLink3": "https://pan.baidu.com/s/1K9-vMu0hkaNRFWi1_NNVIw?pwd=8888",
     "thunderLink": "https://pan.xunlei.com/s/VOEDJO63ADJazUzgaaeKWp8UA1?pwd=nkb3",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35444,8 +37219,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35465,8 +37241,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35486,8 +37263,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35507,8 +37285,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35528,8 +37307,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -35549,8 +37329,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCHIwiSFolzLDug9ab8riIYA1?pwd=aq8g",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35570,8 +37351,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35591,8 +37373,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35612,8 +37395,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35633,8 +37417,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35654,8 +37439,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35675,8 +37461,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35696,8 +37483,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35717,8 +37505,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35738,8 +37527,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35759,8 +37549,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35780,8 +37571,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35801,8 +37593,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35822,8 +37615,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35843,8 +37637,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCY3kJSvU1rJK2lQRRNz_wFA1?pwd=8agz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
@@ -35864,8 +37659,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCboQ6JMpXmczB05Y0_BXaiA1?pwd=7wzx",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35885,8 +37681,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCboUB2D2SZwcfbtZkWCRfJA1?pwd=sk54",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35906,8 +37703,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOCboZWOZdM-WVonm_sVLrGoA1?pwd=dgrw",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35927,8 +37725,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOD0f9Wzvp_aoCAofMHCjVTHA1?pwd=dcnc",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35948,8 +37747,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VODYm17Av-ZWVvvmUMfmiH0yA1?pwd=zb69",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
@@ -35969,8 +37769,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOE768oVbmF_v-CZA2LuxgctA1?pwd=eame",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
@@ -35990,8 +37791,9 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG3_5xKYqd2CTgLTVGBGPZcA1?pwd=6qgf",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
@@ -36011,12 +37813,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOG3_Dpmb_iKs1kdLh75xqb7A1?pwd=usgs",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1720
+    "sortOrder": 1719
   },
   {
     "id": 1702,
@@ -36032,12 +37835,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOI01JWuSLiqhxn2N1RwZ3XcA1?pwd=whtd",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1721
+    "sortOrder": 1720
   },
   {
     "id": 1703,
@@ -36053,12 +37857,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVGNL1DdDtYKw1C7DoNCCoA1?pwd=tdb9",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1722
+    "sortOrder": 1721
   },
   {
     "id": 1704,
@@ -36074,12 +37879,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVGYbgdoGG_RkzzYTc9CewA1?pwd=wdhz",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1723
+    "sortOrder": 1722
   },
   {
     "id": 1706,
@@ -36095,12 +37901,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVIKobdScSPOuj3xwETVLtA1?pwd=na8i",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1724
+    "sortOrder": 1723
   },
   {
     "id": 1707,
@@ -36116,12 +37923,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVJz9-IehFU5sCIKdzvKSnA1?pwd=msbk",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1725
+    "sortOrder": 1724
   },
   {
     "id": 1708,
@@ -36137,12 +37945,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVVJJFBAJa9Oy4TiZe-v46A1?pwd=gxuj",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1726
+    "sortOrder": 1725
   },
   {
     "id": 1709,
@@ -36158,12 +37967,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVMsk_INrZVIOtP44oi_aOA1?pwd=ycy3",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1727
+    "sortOrder": 1726
   },
   {
     "id": 1710,
@@ -36179,12 +37989,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVOFlbdScSPOuj3xwEWwjlA1?pwd=w6cu",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1728
+    "sortOrder": 1727
   },
   {
     "id": 1712,
@@ -36200,12 +38011,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIVdFOCwhDLLY0_bwhzt7hkA1?pwd=muic",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1730
+    "sortOrder": 1728
   },
   {
     "id": 1713,
@@ -36221,12 +38033,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "https://pan.xunlei.com/s/VOIV_FeKV2BkOrFott_NobBQA1?pwd=494j",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1731
+    "sortOrder": 1729
   },
   {
     "id": 1714,
@@ -36242,12 +38055,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1732
+    "sortOrder": 1730
   },
   {
     "id": 1715,
@@ -36263,12 +38077,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1733
+    "sortOrder": 1731
   },
   {
     "id": 1716,
@@ -36284,12 +38099,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1734
+    "sortOrder": 1732
   },
   {
     "id": 1717,
@@ -36305,12 +38121,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1735
+    "sortOrder": 1733
   },
   {
     "id": 1718,
@@ -36326,12 +38143,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1736
+    "sortOrder": 1734
   },
   {
     "id": 1720,
@@ -36347,12 +38165,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1738
+    "sortOrder": 1735
   },
   {
     "id": 1721,
@@ -36368,12 +38187,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1739
+    "sortOrder": 1736
   },
   {
     "id": 1722,
@@ -36389,12 +38209,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1740
+    "sortOrder": 1737
   },
   {
     "id": 1723,
@@ -36410,12 +38231,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1741
+    "sortOrder": 1738
   },
   {
     "id": 1724,
@@ -36431,12 +38253,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1742
+    "sortOrder": 1739
   },
   {
     "id": 1725,
@@ -36452,12 +38275,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1743
+    "sortOrder": 1740
   },
   {
     "id": 1726,
@@ -36473,12 +38297,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1744
+    "sortOrder": 1741
   },
   {
     "id": 1727,
@@ -36494,12 +38319,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1745
+    "sortOrder": 1742
   },
   {
     "id": 1728,
@@ -36515,12 +38341,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1746
+    "sortOrder": 1743
   },
   {
     "id": 1729,
@@ -36536,12 +38363,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1747
+    "sortOrder": 1744
   },
   {
     "id": 1730,
@@ -36557,12 +38385,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1748
+    "sortOrder": 1745
   },
   {
     "id": 1731,
@@ -36578,12 +38407,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1749
+    "sortOrder": 1746
   },
   {
     "id": 1732,
@@ -36599,12 +38429,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1750
+    "sortOrder": 1747
   },
   {
     "id": 1733,
@@ -36620,12 +38451,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1751
+    "sortOrder": 1748
   },
   {
     "id": 1734,
@@ -36641,12 +38473,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1752
+    "sortOrder": 1749
   },
   {
     "id": 1735,
@@ -36662,12 +38495,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1753
+    "sortOrder": 1750
   },
   {
     "id": 1736,
@@ -36683,12 +38517,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1754
+    "sortOrder": 1751
   },
   {
     "id": 1737,
@@ -36704,12 +38539,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1755
+    "sortOrder": 1752
   },
   {
     "id": 1738,
@@ -36725,12 +38561,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1756
+    "sortOrder": 1753
   },
   {
     "id": 1739,
@@ -36746,12 +38583,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1757
+    "sortOrder": 1754
   },
   {
     "id": 1741,
@@ -36767,12 +38605,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1758
+    "sortOrder": 1755
   },
   {
     "id": 1742,
@@ -36788,12 +38627,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1759
+    "sortOrder": 1756
   },
   {
     "id": 1743,
@@ -36809,12 +38649,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1760
+    "sortOrder": 1757
   },
   {
     "id": 1744,
@@ -36830,12 +38671,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 13,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 1761
+    "sortOrder": 1758
   },
   {
     "id": 1745,
@@ -36851,12 +38693,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1762
+    "sortOrder": 1759
   },
   {
     "id": 1746,
@@ -36872,12 +38715,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1763
+    "sortOrder": 1760
   },
   {
     "id": 1747,
@@ -36893,12 +38737,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1764
+    "sortOrder": 1761
   },
   {
     "id": 1748,
@@ -36914,12 +38759,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1765
+    "sortOrder": 1762
   },
   {
     "id": 1749,
@@ -36935,12 +38781,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1766
+    "sortOrder": 1763
   },
   {
     "id": 1750,
@@ -36956,12 +38803,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1767
+    "sortOrder": 1764
   },
   {
     "id": 1751,
@@ -36977,12 +38825,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1768
+    "sortOrder": 1765
   },
   {
     "id": 1752,
@@ -36998,12 +38847,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1769
+    "sortOrder": 1766
   },
   {
     "id": 1753,
@@ -37019,12 +38869,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1770
+    "sortOrder": 1767
   },
   {
     "id": 1754,
@@ -37040,12 +38891,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1771
+    "sortOrder": 1768
   },
   {
     "id": 1755,
@@ -37061,12 +38913,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1772
+    "sortOrder": 1769
   },
   {
     "id": 1756,
@@ -37082,12 +38935,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1773
+    "sortOrder": 1770
   },
   {
     "id": 1757,
@@ -37103,12 +38957,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1774
+    "sortOrder": 1771
   },
   {
     "id": 1758,
@@ -37124,12 +38979,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1775
+    "sortOrder": 1772
   },
   {
     "id": 1759,
@@ -37145,12 +39001,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1776
+    "sortOrder": 1773
   },
   {
     "id": 1760,
@@ -37166,12 +39023,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1777
+    "sortOrder": 1774
   },
   {
     "id": 1761,
@@ -37187,12 +39045,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1778
+    "sortOrder": 1775
   },
   {
     "id": 1762,
@@ -37208,12 +39067,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1779
+    "sortOrder": 1776
   },
   {
     "id": 1763,
@@ -37229,12 +39089,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1780
+    "sortOrder": 1777
   },
   {
     "id": 1764,
@@ -37250,12 +39111,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1781
+    "sortOrder": 1778
   },
   {
     "id": 1765,
@@ -37271,12 +39133,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1782
+    "sortOrder": 1779
   },
   {
     "id": 1766,
@@ -37292,12 +39155,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1783
+    "sortOrder": 1780
   },
   {
     "id": 1767,
@@ -37313,12 +39177,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1784
+    "sortOrder": 1781
   },
   {
     "id": 1768,
@@ -37334,12 +39199,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1785
+    "sortOrder": 1782
   },
   {
     "id": 1769,
@@ -37355,12 +39221,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1786
+    "sortOrder": 1783
   },
   {
     "id": 1770,
@@ -37376,12 +39243,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1787
+    "sortOrder": 1784
   },
   {
     "id": 1771,
@@ -37397,12 +39265,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1788
+    "sortOrder": 1785
   },
   {
     "id": 1772,
@@ -37418,12 +39287,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1789
+    "sortOrder": 1786
   },
   {
     "id": 1773,
@@ -37439,12 +39309,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1790
+    "sortOrder": 1787
   },
   {
     "id": 1774,
@@ -37460,12 +39331,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1791
+    "sortOrder": 1788
   },
   {
     "id": 1775,
@@ -37481,12 +39353,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1792
+    "sortOrder": 1789
   },
   {
     "id": 1776,
@@ -37502,12 +39375,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1793
+    "sortOrder": 1790
   },
   {
     "id": 1777,
@@ -37523,12 +39397,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1794
+    "sortOrder": 1791
   },
   {
     "id": 1778,
@@ -37544,12 +39419,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 4,
     "updateTime": 1779073729544,
-    "sortOrder": 1795
+    "sortOrder": 1792
   },
   {
     "id": 1779,
@@ -37565,12 +39441,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1796
+    "sortOrder": 1793
   },
   {
     "id": 1780,
@@ -37586,12 +39463,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1797
+    "sortOrder": 1794
   },
   {
     "id": 1781,
@@ -37607,12 +39485,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1798
+    "sortOrder": 1795
   },
   {
     "id": 1782,
@@ -37628,12 +39507,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1799
+    "sortOrder": 1796
   },
   {
     "id": 1783,
@@ -37649,12 +39529,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1800
+    "sortOrder": 1797
   },
   {
     "id": 1784,
@@ -37670,12 +39551,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1801
+    "sortOrder": 1798
   },
   {
     "id": 1785,
@@ -37691,12 +39573,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1802
+    "sortOrder": 1799
   },
   {
     "id": 1786,
@@ -37712,12 +39595,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1803
+    "sortOrder": 1800
   },
   {
     "id": 1787,
@@ -37733,12 +39617,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1804
+    "sortOrder": 1801
   },
   {
     "id": 1788,
@@ -37754,12 +39639,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1805
+    "sortOrder": 1802
   },
   {
     "id": 1789,
@@ -37775,12 +39661,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1806
+    "sortOrder": 1803
   },
   {
     "id": 1790,
@@ -37796,12 +39683,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1807
+    "sortOrder": 1804
   },
   {
     "id": 1791,
@@ -37817,12 +39705,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1808
+    "sortOrder": 1805
   },
   {
     "id": 1792,
@@ -37838,12 +39727,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1809
+    "sortOrder": 1806
   },
   {
     "id": 1793,
@@ -37859,12 +39749,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1810
+    "sortOrder": 1807
   },
   {
     "id": 1794,
@@ -37880,12 +39771,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716736876,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779716736876,
-    "sortOrder": 1811
+    "sortOrder": 1808
   },
   {
     "id": 1795,
@@ -37901,12 +39793,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "剑星夸克：https://pan.quark.cn/s/63913fd338ce?pwd=w7Wc",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1812
+    "sortOrder": 1809
   },
   {
     "id": 1797,
@@ -37922,12 +39815,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1813
+    "sortOrder": 1810
   },
   {
     "id": 1798,
@@ -37943,12 +39837,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1814
+    "sortOrder": 1811
   },
   {
     "id": 1799,
@@ -37964,12 +39859,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1815
+    "sortOrder": 1812
   },
   {
     "id": 1800,
@@ -37985,12 +39881,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1816
+    "sortOrder": 1813
   },
   {
     "id": 1802,
@@ -38006,12 +39903,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1817
+    "sortOrder": 1814
   },
   {
     "id": 818,
@@ -38027,12 +39925,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 29,
     "downloadsApp": 20,
     "updateTime": 1779073729544,
-    "sortOrder": 1818
+    "sortOrder": 1815
   },
   {
     "id": 1803,
@@ -38048,12 +39947,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1818
+    "sortOrder": 1816
   },
   {
     "id": 1804,
@@ -38069,12 +39969,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1819
+    "sortOrder": 1817
   },
   {
     "id": 1805,
@@ -38090,12 +39991,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1820
+    "sortOrder": 1818
   },
   {
     "id": 1806,
@@ -38111,12 +40013,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1821
+    "sortOrder": 1819
   },
   {
     "id": 1807,
@@ -38132,12 +40035,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1822
+    "sortOrder": 1820
   },
   {
     "id": 1808,
@@ -38153,12 +40057,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1823
+    "sortOrder": 1821
   },
   {
     "id": 1809,
@@ -38174,12 +40079,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1824
+    "sortOrder": 1822
   },
   {
     "id": 1810,
@@ -38195,12 +40101,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1825
+    "sortOrder": 1823
   },
   {
     "id": 1811,
@@ -38216,12 +40123,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1826
+    "sortOrder": 1824
   },
   {
     "id": 1812,
@@ -38237,12 +40145,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1827
+    "sortOrder": 1825
   },
   {
     "id": 1813,
@@ -38258,12 +40167,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1828
+    "sortOrder": 1826
   },
   {
     "id": 1814,
@@ -38279,12 +40189,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1829
+    "sortOrder": 1827
   },
   {
     "id": 1815,
@@ -38300,12 +40211,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1830
+    "sortOrder": 1828
   },
   {
     "id": 1816,
@@ -38321,12 +40233,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1831
+    "sortOrder": 1829
   },
   {
     "id": 1817,
@@ -38342,12 +40255,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1832
+    "sortOrder": 1830
   },
   {
     "id": 1818,
@@ -38363,12 +40277,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1833
+    "sortOrder": 1831
   },
   {
     "id": 1819,
@@ -38384,12 +40299,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1834
+    "sortOrder": 1832
   },
   {
     "id": 1820,
@@ -38405,12 +40321,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1835
+    "sortOrder": 1833
   },
   {
     "id": 1821,
@@ -38426,12 +40343,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1836
+    "sortOrder": 1834
   },
   {
     "id": 1822,
@@ -38447,12 +40365,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1837
+    "sortOrder": 1835
   },
   {
     "id": 1823,
@@ -38468,12 +40387,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1838
+    "sortOrder": 1836
   },
   {
     "id": 1824,
@@ -38489,12 +40409,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1839
+    "sortOrder": 1837
   },
   {
     "id": 1825,
@@ -38510,12 +40431,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1840
+    "sortOrder": 1838
   },
   {
     "id": 1826,
@@ -38531,12 +40453,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1841
+    "sortOrder": 1839
   },
   {
     "id": 1827,
@@ -38552,12 +40475,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1842
+    "sortOrder": 1840
   },
   {
     "id": 1828,
@@ -38573,12 +40497,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1843
+    "sortOrder": 1841
   },
   {
     "id": 1829,
@@ -38594,12 +40519,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1844
+    "sortOrder": 1842
   },
   {
     "id": 1830,
@@ -38615,12 +40541,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1845
+    "sortOrder": 1843
   },
   {
     "id": 1831,
@@ -38636,12 +40563,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1846
+    "sortOrder": 1844
   },
   {
     "id": 1832,
@@ -38657,12 +40585,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1847
+    "sortOrder": 1845
   },
   {
     "id": 1833,
@@ -38678,12 +40607,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1848
+    "sortOrder": 1846
   },
   {
     "id": 1834,
@@ -38699,12 +40629,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1849
+    "sortOrder": 1847
   },
   {
     "id": 1835,
@@ -38720,12 +40651,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1850
+    "sortOrder": 1848
   },
   {
     "id": 1836,
@@ -38741,12 +40673,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1851
+    "sortOrder": 1849
   },
   {
     "id": 1837,
@@ -38762,12 +40695,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1852
+    "sortOrder": 1850
   },
   {
     "id": 1838,
@@ -38783,12 +40717,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1853
+    "sortOrder": 1851
   },
   {
     "id": 1839,
@@ -38804,12 +40739,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1854
+    "sortOrder": 1852
   },
   {
     "id": 1840,
@@ -38825,12 +40761,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1855
+    "sortOrder": 1853
   },
   {
     "id": 1841,
@@ -38846,12 +40783,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1856
+    "sortOrder": 1854
   },
   {
     "id": 1842,
@@ -38867,12 +40805,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1857
+    "sortOrder": 1855
   },
   {
     "id": 1843,
@@ -38888,12 +40827,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1858
+    "sortOrder": 1856
   },
   {
     "id": 1844,
@@ -38909,12 +40849,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1859
+    "sortOrder": 1857
   },
   {
     "id": 1845,
@@ -38930,12 +40871,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1860
+    "sortOrder": 1858
   },
   {
     "id": 1846,
@@ -38951,12 +40893,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1861
+    "sortOrder": 1859
   },
   {
     "id": 1847,
@@ -38972,12 +40915,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1862
+    "sortOrder": 1860
   },
   {
     "id": 1848,
@@ -38993,12 +40937,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1863
+    "sortOrder": 1861
   },
   {
     "id": 1849,
@@ -39014,12 +40959,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1864
+    "sortOrder": 1862
   },
   {
     "id": 1850,
@@ -39035,12 +40981,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1865
+    "sortOrder": 1863
   },
   {
     "id": 1851,
@@ -39056,12 +41003,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1866
+    "sortOrder": 1864
   },
   {
     "id": 1852,
@@ -39077,12 +41025,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1867
+    "sortOrder": 1865
   },
   {
     "id": 1853,
@@ -39098,12 +41047,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1868
+    "sortOrder": 1866
   },
   {
     "id": 1854,
@@ -39119,12 +41069,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1869
+    "sortOrder": 1867
   },
   {
     "id": 1855,
@@ -39140,12 +41091,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1870
+    "sortOrder": 1868
   },
   {
     "id": 1856,
@@ -39161,12 +41113,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1871
+    "sortOrder": 1869
   },
   {
     "id": 1857,
@@ -39182,12 +41135,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1872
+    "sortOrder": 1870
   },
   {
     "id": 1858,
@@ -39203,12 +41157,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1873
+    "sortOrder": 1871
   },
   {
     "id": 1859,
@@ -39224,12 +41179,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1874
+    "sortOrder": 1872
   },
   {
     "id": 1860,
@@ -39245,12 +41201,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1875
+    "sortOrder": 1873
   },
   {
     "id": 1861,
@@ -39266,12 +41223,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1876
+    "sortOrder": 1874
   },
   {
     "id": 1862,
@@ -39287,12 +41245,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1877
+    "sortOrder": 1875
   },
   {
     "id": 1863,
@@ -39308,12 +41267,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1878
+    "sortOrder": 1876
   },
   {
     "id": 1864,
@@ -39329,12 +41289,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1879
+    "sortOrder": 1877
   },
   {
     "id": 1865,
@@ -39350,12 +41311,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1880
+    "sortOrder": 1878
   },
   {
     "id": 1867,
@@ -39371,12 +41333,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1881
+    "sortOrder": 1879
   },
   {
     "id": 1868,
@@ -39392,12 +41355,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1882
+    "sortOrder": 1880
   },
   {
     "id": 1869,
@@ -39413,12 +41377,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1883
+    "sortOrder": 1881
   },
   {
     "id": 1870,
@@ -39434,12 +41399,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1884
+    "sortOrder": 1882
   },
   {
     "id": 1871,
@@ -39455,12 +41421,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1885
+    "sortOrder": 1883
   },
   {
     "id": 1872,
@@ -39476,12 +41443,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1886
+    "sortOrder": 1884
   },
   {
     "id": 1873,
@@ -39497,12 +41465,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1887
+    "sortOrder": 1885
   },
   {
     "id": 1874,
@@ -39518,12 +41487,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1888
+    "sortOrder": 1886
   },
   {
     "id": 1875,
@@ -39539,12 +41509,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1889
+    "sortOrder": 1887
   },
   {
     "id": 1876,
@@ -39560,12 +41531,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1890
+    "sortOrder": 1888
   },
   {
     "id": 1877,
@@ -39581,12 +41553,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1891
+    "sortOrder": 1889
   },
   {
     "id": 1878,
@@ -39602,12 +41575,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1892
+    "sortOrder": 1890
   },
   {
     "id": 1879,
@@ -39623,12 +41597,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1893
+    "sortOrder": 1891
   },
   {
     "id": 1880,
@@ -39644,12 +41619,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1894
+    "sortOrder": 1892
   },
   {
     "id": 1881,
@@ -39665,12 +41641,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1895
+    "sortOrder": 1893
   },
   {
     "id": 1882,
@@ -39686,12 +41663,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1896
+    "sortOrder": 1894
   },
   {
     "id": 1883,
@@ -39707,12 +41685,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1897
+    "sortOrder": 1895
   },
   {
     "id": 1884,
@@ -39728,12 +41707,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1898
+    "sortOrder": 1896
   },
   {
     "id": 1885,
@@ -39749,12 +41729,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1899
+    "sortOrder": 1897
   },
   {
     "id": 1886,
@@ -39770,12 +41751,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1900
+    "sortOrder": 1898
   },
   {
     "id": 1888,
@@ -39791,12 +41773,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1901
+    "sortOrder": 1899
   },
   {
     "id": 1889,
@@ -39812,12 +41795,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1902
+    "sortOrder": 1900
   },
   {
     "id": 1890,
@@ -39833,12 +41817,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1903
+    "sortOrder": 1901
   },
   {
     "id": 1891,
@@ -39854,12 +41839,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1904
+    "sortOrder": 1902
   },
   {
     "id": 1892,
@@ -39875,12 +41861,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1905
+    "sortOrder": 1903
   },
   {
     "id": 1893,
@@ -39896,12 +41883,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1906
+    "sortOrder": 1904
   },
   {
     "id": 1894,
@@ -39917,12 +41905,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1907
+    "sortOrder": 1905
   },
   {
     "id": 1895,
@@ -39938,12 +41927,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1908
+    "sortOrder": 1906
   },
   {
     "id": 1896,
@@ -39959,12 +41949,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1909
+    "sortOrder": 1907
   },
   {
     "id": 1898,
@@ -39980,12 +41971,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1910
+    "sortOrder": 1908
   },
   {
     "id": 1899,
@@ -40001,12 +41993,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1911
+    "sortOrder": 1909
   },
   {
     "id": 1900,
@@ -40022,12 +42015,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1912
+    "sortOrder": 1910
   },
   {
     "id": 1901,
@@ -40043,12 +42037,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1913
+    "sortOrder": 1911
   },
   {
     "id": 1902,
@@ -40064,12 +42059,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1914
+    "sortOrder": 1912
   },
   {
     "id": 1903,
@@ -40085,12 +42081,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1915
+    "sortOrder": 1913
   },
   {
     "id": 1904,
@@ -40106,12 +42103,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1916
+    "sortOrder": 1914
   },
   {
     "id": 1906,
@@ -40127,12 +42125,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1917
+    "sortOrder": 1915
   },
   {
     "id": 1907,
@@ -40148,12 +42147,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1918
+    "sortOrder": 1916
   },
   {
     "id": 1909,
@@ -40169,12 +42169,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1919
+    "sortOrder": 1917
   },
   {
     "id": 1910,
@@ -40190,12 +42191,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1920
+    "sortOrder": 1918
   },
   {
     "id": 1911,
@@ -40211,12 +42213,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1921
+    "sortOrder": 1919
   },
   {
     "id": 1912,
@@ -40232,12 +42235,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1922
+    "sortOrder": 1920
   },
   {
     "id": 1913,
@@ -40253,12 +42257,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1923
+    "sortOrder": 1921
   },
   {
     "id": 1914,
@@ -40274,12 +42279,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1924
+    "sortOrder": 1922
   },
   {
     "id": 1915,
@@ -40295,12 +42301,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1925
+    "sortOrder": 1923
   },
   {
     "id": 1916,
@@ -40316,12 +42323,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1926
+    "sortOrder": 1924
   },
   {
     "id": 1917,
@@ -40337,12 +42345,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1927
+    "sortOrder": 1925
   },
   {
     "id": 1918,
@@ -40358,12 +42367,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1928
+    "sortOrder": 1926
   },
   {
     "id": 1919,
@@ -40379,12 +42389,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1929
+    "sortOrder": 1927
   },
   {
     "id": 1921,
@@ -40400,12 +42411,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1930
+    "sortOrder": 1928
   },
   {
     "id": 1922,
@@ -40421,12 +42433,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1931
+    "sortOrder": 1929
   },
   {
     "id": 1924,
@@ -40442,12 +42455,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1932
+    "sortOrder": 1930
   },
   {
     "id": 1925,
@@ -40463,12 +42477,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1933
+    "sortOrder": 1931
   },
   {
     "id": 1926,
@@ -40484,12 +42499,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1934
+    "sortOrder": 1932
   },
   {
     "id": 1927,
@@ -40505,12 +42521,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1935
+    "sortOrder": 1933
   },
   {
     "id": 1928,
@@ -40526,12 +42543,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1936
+    "sortOrder": 1934
   },
   {
     "id": 1776951911209,
@@ -40547,12 +42565,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1937
+    "sortOrder": 1935
   },
   {
     "id": 1776956080984,
@@ -40568,12 +42587,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1938
+    "sortOrder": 1936
   },
   {
     "id": 1776956080985,
@@ -40589,12 +42609,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1939
+    "sortOrder": 1937
   },
   {
     "id": 1776956080986,
@@ -40610,12 +42631,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1940
+    "sortOrder": 1938
   },
   {
     "id": 1776956080987,
@@ -40631,12 +42653,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1941
+    "sortOrder": 1939
   },
   {
     "id": 1776956080991,
@@ -40652,12 +42675,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1942
+    "sortOrder": 1940
   },
   {
     "id": 1776956080992,
@@ -40673,12 +42697,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1943
+    "sortOrder": 1941
   },
   {
     "id": 1776956081001,
@@ -40694,12 +42719,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1944
+    "sortOrder": 1942
   },
   {
     "id": 1776956080993,
@@ -40715,12 +42741,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1945
+    "sortOrder": 1943
   },
   {
     "id": 1776956081002,
@@ -40736,12 +42763,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1946
+    "sortOrder": 1944
   },
   {
     "id": 1776956081003,
@@ -40757,12 +42785,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1947
+    "sortOrder": 1945
   },
   {
     "id": 1776956081004,
@@ -40778,12 +42807,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1948
+    "sortOrder": 1946
   },
   {
     "id": 1776956081005,
@@ -40799,12 +42829,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1949
+    "sortOrder": 1947
   },
   {
     "id": 1776956081006,
@@ -40820,12 +42851,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1950
+    "sortOrder": 1948
   },
   {
     "id": 1776956081007,
@@ -40841,12 +42873,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1951
+    "sortOrder": 1949
   },
   {
     "id": 1776956081008,
@@ -40862,12 +42895,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1952
+    "sortOrder": 1950
   },
   {
     "id": 1776956081009,
@@ -40883,12 +42917,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1953
+    "sortOrder": 1951
   },
   {
     "id": 1776956081010,
@@ -40904,12 +42939,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1954
+    "sortOrder": 1952
   },
   {
     "id": 1776956081011,
@@ -40925,12 +42961,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 1955
+    "sortOrder": 1953
   },
   {
     "id": 1776956081012,
@@ -40946,12 +42983,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1956
+    "sortOrder": 1954
   },
   {
     "id": 1776956081013,
@@ -40967,12 +43005,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
     "updateTime": 1779073729544,
-    "sortOrder": 1957
+    "sortOrder": 1955
   },
   {
     "id": 1776956081014,
@@ -40988,12 +43027,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1958
+    "sortOrder": 1956
   },
   {
     "id": 1776956081015,
@@ -41009,12 +43049,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1959
+    "sortOrder": 1957
   },
   {
     "id": 1996,
@@ -41030,12 +43071,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1960
+    "sortOrder": 1958
   },
   {
     "id": 1997,
@@ -41051,12 +43093,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779073729544,
-    "sortOrder": 1961
+    "sortOrder": 1959
   },
   {
     "id": 1998,
@@ -41072,12 +43115,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779925453843,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779925453843,
-    "sortOrder": 1962
+    "sortOrder": 1960
   },
   {
     "id": 2002,
@@ -41093,12 +43137,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716856813,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779716856813,
-    "sortOrder": 1963
+    "sortOrder": 1961
   },
   {
     "id": 2003,
@@ -41114,12 +43159,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716886580,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1779716886580,
-    "sortOrder": 1964
+    "sortOrder": 1962
   },
   {
     "id": 1999,
@@ -41135,12 +43181,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779925456146,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779925456146,
-    "sortOrder": 1965
+    "sortOrder": 1963
   },
   {
     "id": 2005,
@@ -41156,12 +43203,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716925519,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779716925519,
-    "sortOrder": 1966
+    "sortOrder": 1964
   },
   {
     "id": 2006,
@@ -41177,12 +43225,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716938458,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779716938458,
-    "sortOrder": 1967
+    "sortOrder": 1965
   },
   {
     "id": 2007,
@@ -41198,12 +43247,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779716961777,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779716961777,
-    "sortOrder": 1968
+    "sortOrder": 1966
   },
   {
     "id": 2008,
@@ -41219,12 +43269,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717009834,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717009834,
-    "sortOrder": 1969
+    "sortOrder": 1967
   },
   {
     "id": 2009,
@@ -41240,12 +43291,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717047183,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717047183,
-    "sortOrder": 1970
+    "sortOrder": 1968
   },
   {
     "id": 2010,
@@ -41261,12 +43313,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779927085587,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779927085587,
-    "sortOrder": 1971
+    "sortOrder": 1969
   },
   {
     "id": 2011,
@@ -41282,12 +43335,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717101377,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717101377,
-    "sortOrder": 1972
+    "sortOrder": 1970
   },
   {
     "id": 2012,
@@ -41303,12 +43357,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717175472,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717175472,
-    "sortOrder": 1973
+    "sortOrder": 1971
   },
   {
     "id": 2013,
@@ -41324,12 +43379,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717194586,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1779717194586,
-    "sortOrder": 1974
+    "sortOrder": 1972
   },
   {
     "id": 2014,
@@ -41345,12 +43401,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717205146,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717205146,
-    "sortOrder": 1975
+    "sortOrder": 1973
   },
   {
     "id": 2016,
@@ -41366,12 +43423,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717227018,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717227018,
-    "sortOrder": 1976
+    "sortOrder": 1974
   },
   {
     "id": 2017,
@@ -41387,12 +43445,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717241113,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717241113,
-    "sortOrder": 1977
+    "sortOrder": 1975
   },
   {
     "id": 2018,
@@ -41408,12 +43467,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717274438,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717274438,
-    "sortOrder": 1978
+    "sortOrder": 1976
   },
   {
     "id": 2019,
@@ -41429,12 +43489,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717275688,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717275688,
-    "sortOrder": 1979
+    "sortOrder": 1977
   },
   {
     "id": 2020,
@@ -41450,12 +43511,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717332499,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717332499,
-    "sortOrder": 1980
+    "sortOrder": 1978
   },
   {
     "id": 2021,
@@ -41471,12 +43533,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717344372,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717344372,
-    "sortOrder": 1981
+    "sortOrder": 1979
   },
   {
     "id": 2022,
@@ -41492,12 +43555,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717382166,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717382166,
-    "sortOrder": 1982
+    "sortOrder": 1980
   },
   {
     "id": 2023,
@@ -41513,12 +43577,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717417983,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717417983,
-    "sortOrder": 1983
+    "sortOrder": 1981
   },
   {
     "id": 2025,
@@ -41534,12 +43599,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717466425,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717466425,
-    "sortOrder": 1984
+    "sortOrder": 1982
   },
   {
     "id": 2026,
@@ -41555,12 +43621,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717514040,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717514040,
-    "sortOrder": 1985
+    "sortOrder": 1983
   },
   {
     "id": 2027,
@@ -41576,12 +43643,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717572546,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717572546,
-    "sortOrder": 1986
+    "sortOrder": 1984
   },
   {
     "id": 2028,
@@ -41597,12 +43665,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717611484,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717611484,
-    "sortOrder": 1987
+    "sortOrder": 1985
   },
   {
     "id": 2029,
@@ -41618,12 +43687,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717606812,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717606812,
-    "sortOrder": 1988
+    "sortOrder": 1986
   },
   {
     "id": 2030,
@@ -41639,12 +43709,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717652778,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717652778,
-    "sortOrder": 1989
+    "sortOrder": 1987
   },
   {
     "id": 2031,
@@ -41660,12 +43731,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717677785,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717677785,
-    "sortOrder": 1990
+    "sortOrder": 1988
   },
   {
     "id": 2032,
@@ -41681,12 +43753,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779717678593,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1779717678593,
-    "sortOrder": 1991
+    "sortOrder": 1989
   },
   {
     "id": 2034,
@@ -41702,12 +43775,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 4,
     "downloadsApp": 2,
     "updateTime": 1781425929016,
-    "sortOrder": 1992
+    "sortOrder": 1990
   },
   {
     "id": 2035,
@@ -41723,12 +43797,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 1993
+    "sortOrder": 1991
   },
   {
     "id": 2036,
@@ -41744,12 +43819,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 1994
+    "sortOrder": 1992
   },
   {
     "id": 2038,
@@ -41765,12 +43841,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 1995
+    "sortOrder": 1993
   },
   {
     "id": 2039,
@@ -41786,12 +43863,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 1996
+    "sortOrder": 1994
   },
   {
     "id": 2040,
@@ -41807,12 +43885,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1781425929016,
-    "sortOrder": 1997
+    "sortOrder": 1995
   },
   {
     "id": 2041,
@@ -41828,12 +43907,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 1998
+    "sortOrder": 1996
   },
   {
     "id": 2042,
@@ -41849,12 +43929,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 1999
+    "sortOrder": 1997
   },
   {
     "id": 2043,
@@ -41870,12 +43951,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1781425929016,
-    "sortOrder": 2000
+    "sortOrder": 1998
   },
   {
     "id": 2037,
@@ -41891,12 +43973,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781433595016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1781433595016,
-    "sortOrder": 2001
+    "sortOrder": 1999
   },
   {
     "id": 2046,
@@ -41912,12 +43995,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1782129191070,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1782129191070,
-    "sortOrder": 2002
+    "sortOrder": 2000
   },
   {
     "id": 2047,
@@ -41933,12 +44017,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1782129578464,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1782129578464,
-    "sortOrder": 2003
+    "sortOrder": 2001
   },
   {
     "id": 2044,
@@ -41954,12 +44039,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1781425929016,
-    "sortOrder": 2004
+    "sortOrder": 2002
   },
   {
     "id": 2048,
@@ -41975,12 +44061,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1782129662422,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1782129662422,
-    "sortOrder": 2005
+    "sortOrder": 2003
   },
   {
     "id": 2045,
@@ -41996,12 +44083,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1781425929016,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 5,
     "updateTime": 1781425929016,
-    "sortOrder": 2006
+    "sortOrder": 2004
   },
   {
     "id": 1776956080975,
@@ -42017,12 +44105,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 7,
     "downloadsApp": 1,
     "updateTime": 1779073729544,
-    "sortOrder": 2007
+    "sortOrder": 2005
   },
   {
     "id": 2054,
@@ -42038,12 +44127,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128134158,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128134158,
-    "sortOrder": 2008
+    "sortOrder": 2006
   },
   {
     "id": 2050,
@@ -42059,12 +44149,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1782365090139,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 4,
     "updateTime": 1782365090139,
-    "sortOrder": 2009
+    "sortOrder": 2007
   },
   {
     "id": 2056,
@@ -42080,12 +44171,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128190537,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 0,
     "updateTime": 1784128190537,
-    "sortOrder": 2010
+    "sortOrder": 2008
   },
   {
     "id": 2057,
@@ -42101,12 +44193,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128212156,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1784128212156,
-    "sortOrder": 2011
+    "sortOrder": 2009
   },
   {
     "id": 2058,
@@ -42122,12 +44215,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128219259,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128219259,
-    "sortOrder": 2012
+    "sortOrder": 2010
   },
   {
     "id": 2059,
@@ -42143,12 +44237,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128280003,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128280003,
-    "sortOrder": 2013
+    "sortOrder": 2011
   },
   {
     "id": 2060,
@@ -42164,12 +44259,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128270370,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128270370,
-    "sortOrder": 2014
+    "sortOrder": 2012
   },
   {
     "id": 2061,
@@ -42185,12 +44281,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128280228,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128280228,
-    "sortOrder": 2015
+    "sortOrder": 2013
   },
   {
     "id": 2062,
@@ -42206,12 +44303,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128323330,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128323330,
-    "sortOrder": 2016
+    "sortOrder": 2014
   },
   {
     "id": 2063,
@@ -42227,12 +44325,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784128376471,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784128376471,
-    "sortOrder": 2017
+    "sortOrder": 2015
   },
   {
     "id": 2064,
@@ -42248,12 +44347,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986457412,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986457412,
-    "sortOrder": 2018
+    "sortOrder": 2016
   },
   {
     "id": 2065,
@@ -42269,12 +44369,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986516672,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986516672,
-    "sortOrder": 2019
+    "sortOrder": 2017
   },
   {
     "id": 2066,
@@ -42290,12 +44391,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986532029,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986532029,
-    "sortOrder": 2020
+    "sortOrder": 2018
   },
   {
     "id": 2067,
@@ -42311,12 +44413,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986542971,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986542971,
-    "sortOrder": 2021
+    "sortOrder": 2019
   },
   {
     "id": 2068,
@@ -42332,12 +44435,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986588531,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986588531,
-    "sortOrder": 2022
+    "sortOrder": 2020
   },
   {
     "id": 2069,
@@ -42353,12 +44457,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986607805,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986607805,
-    "sortOrder": 2023
+    "sortOrder": 2021
   },
   {
     "id": 2070,
@@ -42374,12 +44479,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986650594,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986650594,
-    "sortOrder": 2024
+    "sortOrder": 2022
   },
   {
     "id": 2071,
@@ -42395,12 +44501,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986791712,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 3,
     "downloadsApp": 1,
     "updateTime": 1784986791712,
-    "sortOrder": 2025
+    "sortOrder": 2023
   },
   {
     "id": 2073,
@@ -42416,12 +44523,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986896006,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1784986896006,
-    "sortOrder": 2026
+    "sortOrder": 2024
   },
   {
     "id": 2074,
@@ -42437,12 +44545,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986905720,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986905720,
-    "sortOrder": 2027
+    "sortOrder": 2025
   },
   {
     "id": 2075,
@@ -42458,12 +44567,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986932474,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986932474,
-    "sortOrder": 2028
+    "sortOrder": 2026
   },
   {
     "id": 2076,
@@ -42479,12 +44589,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986960263,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986960263,
-    "sortOrder": 2029
+    "sortOrder": 2027
   },
   {
     "id": 2077,
@@ -42500,12 +44611,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986981124,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986981124,
-    "sortOrder": 2030
+    "sortOrder": 2028
   },
   {
     "id": 2078,
@@ -42521,12 +44633,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1784986972735,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1784986972735,
-    "sortOrder": 2031
+    "sortOrder": 2029
   },
   {
     "id": 2080,
@@ -42542,12 +44655,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501143230,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501143230,
-    "sortOrder": 2032
+    "sortOrder": 2030
   },
   {
     "id": 2081,
@@ -42563,12 +44677,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501156642,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501156642,
-    "sortOrder": 2033
+    "sortOrder": 2031
   },
   {
     "id": 2082,
@@ -42584,12 +44699,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501181540,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501181540,
-    "sortOrder": 2034
+    "sortOrder": 2032
   },
   {
     "id": 2083,
@@ -42605,12 +44721,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501202681,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1785501202681,
-    "sortOrder": 2035
+    "sortOrder": 2033
   },
   {
     "id": 2084,
@@ -42626,12 +44743,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501230292,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1785501230292,
-    "sortOrder": 2036
+    "sortOrder": 2034
   },
   {
     "id": 2085,
@@ -42647,12 +44765,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501251830,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501251830,
-    "sortOrder": 2037
+    "sortOrder": 2035
   },
   {
     "id": 2086,
@@ -42668,12 +44787,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501269478,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501269478,
-    "sortOrder": 2038
+    "sortOrder": 2036
   },
   {
     "id": 2087,
@@ -42689,12 +44809,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501292342,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1785501292342,
-    "sortOrder": 2039
+    "sortOrder": 2037
   },
   {
     "id": 2088,
@@ -42710,12 +44831,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501300188,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1785501300188,
-    "sortOrder": 2040
+    "sortOrder": 2038
   },
   {
     "id": 2089,
@@ -42731,12 +44853,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501309479,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1785501309479,
-    "sortOrder": 2041
+    "sortOrder": 2039
   },
   {
     "id": 2090,
@@ -42752,12 +44875,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501328075,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501328075,
-    "sortOrder": 2042
+    "sortOrder": 2040
   },
   {
     "id": 2091,
@@ -42773,12 +44897,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501351055,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1785501351055,
-    "sortOrder": 2043
+    "sortOrder": 2041
   },
   {
     "id": 2092,
@@ -42794,12 +44919,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1785501360500,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1785501360500,
-    "sortOrder": 2044
+    "sortOrder": 2042
   },
   {
     "id": 1776956080997,
@@ -42815,12 +44941,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": true,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 5,
     "updateTime": 1779073729544,
-    "sortOrder": 2046
+    "sortOrder": 2043
   },
   {
     "id": 2094,
@@ -42836,12 +44963,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101264045,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1786101264045,
-    "sortOrder": 2047
+    "sortOrder": 2044
   },
   {
     "id": 2095,
@@ -42857,12 +44985,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101335975,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1786101335975,
-    "sortOrder": 2048
+    "sortOrder": 2045
   },
   {
     "id": 2096,
@@ -42878,12 +45007,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101351749,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1786101351749,
-    "sortOrder": 2049
+    "sortOrder": 2046
   },
   {
     "id": 2097,
@@ -42899,12 +45029,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101380398,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1786101380398,
-    "sortOrder": 2050
+    "sortOrder": 2047
   },
   {
     "id": 2098,
@@ -42920,12 +45051,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101430480,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 2,
     "downloadsApp": 1,
     "updateTime": 1786101430480,
-    "sortOrder": 2051
+    "sortOrder": 2048
   },
   {
     "id": 2099,
@@ -42941,12 +45073,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101490272,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 1,
     "updateTime": 1786101490272,
-    "sortOrder": 2052
+    "sortOrder": 2049
   },
   {
     "id": 2100,
@@ -42962,12 +45095,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101601303,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1786101601303,
-    "sortOrder": 2053
+    "sortOrder": 2050
   },
   {
     "id": 2101,
@@ -42983,12 +45117,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101734636,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1786101734636,
-    "sortOrder": 2054
+    "sortOrder": 2051
   },
   {
     "id": 2102,
@@ -43004,12 +45139,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1786101669705,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 1,
     "downloadsApp": 0,
     "updateTime": 1786101669705,
-    "sortOrder": 2055
+    "sortOrder": 2052
   },
   {
     "id": 2105,
@@ -43025,12 +45161,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787021409787,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 6,
     "downloadsApp": 2,
     "updateTime": 1787021409787,
-    "sortOrder": 2056
+    "sortOrder": 2053
   },
   {
     "id": 2106,
@@ -43046,12 +45183,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787021454075,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1787021454075,
-    "sortOrder": 2057
+    "sortOrder": 2054
   },
   {
     "id": 2110,
@@ -43067,12 +45205,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787709770114,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1787709770114,
-    "sortOrder": 2058
+    "sortOrder": 2055
   },
   {
     "id": 2111,
@@ -43088,12 +45227,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787709844859,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1787709844859,
-    "sortOrder": 2059
+    "sortOrder": 2056
   },
   {
     "id": 2112,
@@ -43109,12 +45249,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787710061606,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1787710061606,
-    "sortOrder": 2060
+    "sortOrder": 2057
   },
   {
     "id": 2113,
@@ -43130,12 +45271,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787710097402,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1787710097402,
-    "sortOrder": 2061
+    "sortOrder": 2058
   },
   {
     "id": 2114,
@@ -43151,12 +45293,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787710118107,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1787710118107,
-    "sortOrder": 2062
+    "sortOrder": 2059
   },
   {
     "id": 2115,
@@ -43172,12 +45315,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787710161360,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 1,
     "updateTime": 1787710161360,
-    "sortOrder": 2063
+    "sortOrder": 2060
   },
   {
     "id": 2107,
@@ -43193,12 +45337,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1787021486285,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1787021486285,
-    "sortOrder": 2064
+    "sortOrder": 2061
   },
   {
     "id": 1503,
@@ -43214,12 +45359,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498126013,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498126013,
-    "sortOrder": 2065
+    "sortOrder": 2062
   },
   {
     "id": 2117,
@@ -43235,12 +45381,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498160523,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498160523,
-    "sortOrder": 2066
+    "sortOrder": 2063
   },
   {
     "id": 2118,
@@ -43256,12 +45403,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498202372,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498202372,
-    "sortOrder": 2067
+    "sortOrder": 2064
   },
   {
     "id": 2122,
@@ -43277,12 +45425,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498323699,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498323699,
-    "sortOrder": 2068
+    "sortOrder": 2065
   },
   {
     "id": 2123,
@@ -43298,12 +45447,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498336704,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498336704,
-    "sortOrder": 2069
+    "sortOrder": 2066
   },
   {
     "id": 2124,
@@ -43319,12 +45469,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498349729,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498349729,
-    "sortOrder": 2070
+    "sortOrder": 2067
   },
   {
     "id": 2125,
@@ -43340,12 +45491,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498360899,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498360899,
-    "sortOrder": 2071
+    "sortOrder": 2068
   },
   {
     "id": 2126,
@@ -43361,12 +45513,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498373620,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498373620,
-    "sortOrder": 2072
+    "sortOrder": 2069
   },
   {
     "id": 2127,
@@ -43382,12 +45535,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498394601,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498394601,
-    "sortOrder": 2073
+    "sortOrder": 2070
   },
   {
     "id": 2128,
@@ -43403,12 +45557,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498422370,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498422370,
-    "sortOrder": 2074
+    "sortOrder": 2071
   },
   {
     "id": 2129,
@@ -43424,12 +45579,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498438367,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498438367,
-    "sortOrder": 2075
+    "sortOrder": 2072
   },
   {
     "id": 2130,
@@ -43445,12 +45601,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498491996,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498491996,
-    "sortOrder": 2076
+    "sortOrder": 2073
   },
   {
     "id": 2131,
@@ -43466,12 +45623,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498542658,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498542658,
-    "sortOrder": 2077
+    "sortOrder": 2074
   },
   {
     "id": 2132,
@@ -43487,12 +45645,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498566862,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498566862,
-    "sortOrder": 2078
+    "sortOrder": 2075
   },
   {
     "id": 2134,
@@ -43508,12 +45667,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498648685,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498648685,
-    "sortOrder": 2079
+    "sortOrder": 2076
   },
   {
     "id": 2135,
@@ -43529,12 +45689,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498672158,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498672158,
-    "sortOrder": 2080
+    "sortOrder": 2077
   },
   {
     "id": 2136,
@@ -43550,12 +45711,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498682874,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498682874,
-    "sortOrder": 2081
+    "sortOrder": 2078
   },
   {
     "id": 2137,
@@ -43571,12 +45733,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498715900,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498715900,
-    "sortOrder": 2082
+    "sortOrder": 2079
   },
   {
     "id": 2138,
@@ -43592,12 +45755,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1788498744379,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1788498744379,
-    "sortOrder": 2083
+    "sortOrder": 2080
   },
   {
     "id": 1992,
@@ -43613,222 +45777,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1779073729544,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 8,
     "downloadsApp": 7,
     "updateTime": 1779073729544,
-    "sortOrder": 2992
-  },
-  {
-    "id": 2140,
-    "name": "模拟火车世界7",
-    "nameEn": "Train Sim World 7",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2140.jpg",
-    "screenshots": [],
-    "category": "模拟驾驶",
-    "size": "27G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1Z9pymyN4wit69Dw6KQXS-w?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1TLdeiIAWyqg8p1xOYOWrAg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639136290,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639136290,
-    "sortOrder": 3140
-  },
-  {
-    "id": 2141,
-    "name": "浪客灾疫",
-    "nameEn": "Rogue Blight",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2141.jpg",
-    "screenshots": [],
-    "category": "角色扮演",
-    "size": "1.9G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1cvwuiitnXJMg1yc5YblxzA?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/18VKMXfxiMoFPDZIQ8irSRg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639185278,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639185278,
-    "sortOrder": 3141
-  },
-  {
-    "id": 2142,
-    "name": "让它去死",
-    "nameEn": "LET IT DIE",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2142.jpg",
-    "screenshots": [],
-    "category": "动作冒险",
-    "size": "28G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1JTZg1eAqWeN0tfuLPzcR1w?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1xEmEn306RRDX9-0Bh52Vkw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639226455,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639226455,
-    "sortOrder": 3142
-  },
-  {
-    "id": 2143,
-    "name": "流星洛克人完美合集",
-    "nameEn": "Mega Man Star Force Legacy Collection",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2143.jpg",
-    "screenshots": [],
-    "category": "角色扮演",
-    "size": "100G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/11agvJQTSE6-Zdy7LR5VV7A?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1LXTrtxQD2Icx2z_PYDNydw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639241640,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639241640,
-    "sortOrder": 3143
-  },
-  {
-    "id": 2144,
-    "name": "幻世录重制版",
-    "nameEn": "The Legend of Fancy Realm Remake",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2144.jpg",
-    "screenshots": [],
-    "category": "角色扮演",
-    "size": "4G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1l4ymzorue59XSrIga7LteQ?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1Wyg869S_pkw_-d8GIC-dmA?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639251259,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639251259,
-    "sortOrder": 3144
-  },
-  {
-    "id": 2145,
-    "name": "月光光心慌慌",
-    "nameEn": "Halloween: The Game",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2145.jpg",
-    "screenshots": [],
-    "category": "恐怖惊悚",
-    "size": "28G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1-wfEYHDfr87lg0ONyXMkyQ?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1mf3fUCrHFDS2jrw_jMdQqQ?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639263221,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639263221,
-    "sortOrder": 3145
-  },
-  {
-    "id": 2146,
-    "name": "遗忘之海",
-    "nameEn": "Forgotten Seas",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2146.jpg",
-    "screenshots": [],
-    "category": "动作冒险",
-    "size": "3G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1PStoGLcTp9dOELHa74u7Iw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1o2RBURyLBMMCg4p0Essehg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639294275,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639294275,
-    "sortOrder": 3146
-  },
-  {
-    "id": 2147,
-    "name": "放血医师",
-    "nameEn": "BLOODLETTER",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2147.jpg",
-    "screenshots": [],
-    "category": "策略战棋",
-    "size": "1.1G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/14Djr3Cq-Zfu_rXc1ZDF3Eg?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1X2-ukDC8QNvrR_9MGaUawQ?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639393228,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639393228,
-    "sortOrder": 3147
-  },
-  {
-    "id": 2148,
-    "name": "欢迎来到古原镇",
-    "nameEn": "Welcome to Elderfield",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2148.jpg",
-    "screenshots": [],
-    "category": "恐怖惊悚",
-    "size": "1G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1jQZKeUtz6zrf3UDwWZ-HcA?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1wu7Ti8KkUNWDH2-1wwIQLg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639326822,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639326822,
-    "sortOrder": 3148
-  },
-  {
-    "id": 2149,
-    "name": "虫群来袭",
-    "nameEn": "Here Comes The Swarm",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2149.jpg",
-    "screenshots": [],
-    "category": "策略战棋",
-    "size": "1.1G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1yL8cnahK-SxkePXytb1y0Q?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/11GIr6gpm7tpP3PFhMDHSPA?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1789639346889,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1789639346889,
-    "sortOrder": 3149
+    "sortOrder": 2081
   },
   {
     "id": 2150,
@@ -43844,54 +45799,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225041385,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225041385,
-    "sortOrder": 3150
-  },
-  {
-    "id": 2151,
-    "name": "寂静岭：小镇陷落",
-    "nameEn": "SILENT HILL: Townfall",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2151.jpg",
-    "screenshots": [],
-    "category": "恐怖惊悚",
-    "size": "52G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1pQhLD0I8dYqX2VRprkMObg?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1G4tT7u_VcPVyNVjMCbiXzA?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1790225016333,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1790225016333,
-    "sortOrder": 3151
-  },
-  {
-    "id": 2152,
-    "name": "空之轨迹 the 2nd",
-    "nameEn": "Trails in the Sky 2nd Chapter",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2152.jpg",
-    "screenshots": [],
-    "category": "角色扮演",
-    "size": "32G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1yRmi0AjLIhjfi8tMmINQBw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1ENUdYeGcf0jGYc6WYUJhFg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1790225029918,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1790225029918,
-    "sortOrder": 3152
+    "sortOrder": 2082
   },
   {
     "id": 2153,
@@ -43907,33 +45821,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225056004,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225056004,
-    "sortOrder": 3153
-  },
-  {
-    "id": 2154,
-    "name": "沙丘：觉醒",
-    "nameEn": "Dune: Awakening",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2154.jpg",
-    "screenshots": [],
-    "category": "动作冒险",
-    "size": "43G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1PQp8Euy4hXdRgxVm9u3wXg?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1xCEmwao5w29NxRcn2hSZMg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1790225064757,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1790225064757,
-    "sortOrder": 3154
+    "sortOrder": 2083
   },
   {
     "id": 2155,
@@ -43949,12 +45843,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225088135,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225088135,
-    "sortOrder": 3155
+    "sortOrder": 2084
   },
   {
     "id": 2156,
@@ -43970,12 +45865,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225125247,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225125247,
-    "sortOrder": 3156
+    "sortOrder": 2085
   },
   {
     "id": 2157,
@@ -43991,12 +45887,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225135399,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225135399,
-    "sortOrder": 3157
+    "sortOrder": 2086
   },
   {
     "id": 2158,
@@ -44012,12 +45909,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225144548,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225144548,
-    "sortOrder": 3158
+    "sortOrder": 2087
   },
   {
     "id": 2159,
@@ -44033,12 +45931,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225166196,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225166196,
-    "sortOrder": 3159
+    "sortOrder": 2088
   },
   {
     "id": 2160,
@@ -44054,12 +45953,13 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225183873,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225183873,
-    "sortOrder": 3160
+    "sortOrder": 2089
   },
   {
     "id": 2161,
@@ -44075,36 +45975,237 @@ const importedGames = [
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225195176,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
     "updateTime": 1790225195176,
-    "sortOrder": 3161
+    "sortOrder": 2090
   },
   {
-    "id": 2162,
-    "name": "控制：共振数字豪华版",
-    "nameEn": "CONTROL Resonant Digital Deluxe Edition",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2162.jpg",
+    "id": 2140,
+    "name": "模拟火车世界7",
+    "nameEn": "Train Sim World 7",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2140.jpg",
     "screenshots": [],
-    "category": "动作冒险",
-    "size": "104G",
+    "category": "模拟驾驶",
+    "size": "27G",
     "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1X6VRdki1S3UsbGGY5VzyKA?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1JiNGKw0XvJPUajngAnvCEw?pwd=6666",
+    "baiduLink1": "https://pan.baidu.com/s/1Z9pymyN4wit69Dw6KQXS-w?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1TLdeiIAWyqg8p1xOYOWrAg?pwd=6666",
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225211389,
+    "dateAdded": "2026/9/24",
     "isDrm": false,
+    "seoPriority": false,
     "downloadsWeb": 0,
     "downloadsApp": 0,
-    "updateTime": 1790225211389,
-    "sortOrder": 3162
+    "updateTime": 1789639136290,
+    "sortOrder": 2091
+  },
+  {
+    "id": 2141,
+    "name": "浪客灾疫",
+    "nameEn": "Rogue Blight",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2141.jpg",
+    "screenshots": [],
+    "category": "角色扮演",
+    "size": "1.9G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1cvwuiitnXJMg1yc5YblxzA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/18VKMXfxiMoFPDZIQ8irSRg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639185278,
+    "sortOrder": 2092
+  },
+  {
+    "id": 2142,
+    "name": "让它去死",
+    "nameEn": "LET IT DIE",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2142.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "28G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1JTZg1eAqWeN0tfuLPzcR1w?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1xEmEn306RRDX9-0Bh52Vkw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639226455,
+    "sortOrder": 2093
+  },
+  {
+    "id": 2143,
+    "name": "流星洛克人完美合集",
+    "nameEn": "Mega Man Star Force Legacy Collection",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2143.jpg",
+    "screenshots": [],
+    "category": "角色扮演",
+    "size": "100G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/11agvJQTSE6-Zdy7LR5VV7A?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1LXTrtxQD2Icx2z_PYDNydw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639241640,
+    "sortOrder": 2094
+  },
+  {
+    "id": 2144,
+    "name": "幻世录重制版",
+    "nameEn": "The Legend of Fancy Realm Remake",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2144.jpg",
+    "screenshots": [],
+    "category": "角色扮演",
+    "size": "4G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1l4ymzorue59XSrIga7LteQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1Wyg869S_pkw_-d8GIC-dmA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639251259,
+    "sortOrder": 2095
+  },
+  {
+    "id": 2145,
+    "name": "月光光心慌慌",
+    "nameEn": "Halloween: The Game",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2145.jpg",
+    "screenshots": [],
+    "category": "恐怖惊悚",
+    "size": "28G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1-wfEYHDfr87lg0ONyXMkyQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1mf3fUCrHFDS2jrw_jMdQqQ?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639263221,
+    "sortOrder": 2096
+  },
+  {
+    "id": 2146,
+    "name": "遗忘之海",
+    "nameEn": "Forgotten Seas",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2146.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "3G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1PStoGLcTp9dOELHa74u7Iw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1o2RBURyLBMMCg4p0Essehg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639294275,
+    "sortOrder": 2097
+  },
+  {
+    "id": 2147,
+    "name": "放血医师",
+    "nameEn": "BLOODLETTER",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2147.jpg",
+    "screenshots": [],
+    "category": "策略战棋",
+    "size": "1.1G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/14Djr3Cq-Zfu_rXc1ZDF3Eg?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1X2-ukDC8QNvrR_9MGaUawQ?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639393228,
+    "sortOrder": 2098
+  },
+  {
+    "id": 2148,
+    "name": "欢迎来到古原镇",
+    "nameEn": "Welcome to Elderfield",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2148.jpg",
+    "screenshots": [],
+    "category": "恐怖惊悚",
+    "size": "1G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1jQZKeUtz6zrf3UDwWZ-HcA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1wu7Ti8KkUNWDH2-1wwIQLg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639326822,
+    "sortOrder": 2099
+  },
+  {
+    "id": 2149,
+    "name": "虫群来袭",
+    "nameEn": "Here Comes The Swarm",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2149.jpg",
+    "screenshots": [],
+    "category": "策略战棋",
+    "size": "1.1G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1yL8cnahK-SxkePXytb1y0Q?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/11GIr6gpm7tpP3PFhMDHSPA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": "2026/9/24",
+    "isDrm": false,
+    "seoPriority": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1789639346889,
+    "sortOrder": 2100
   }
 ];
 
+// 导出供其他模块使用
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { importedGames };
 }
