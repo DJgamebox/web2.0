@@ -1,11 +1,32 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/9/30 06:49:42
+// 生成时间: 2026/9/30 06:52:26
 // 游戏数量: 2101
 
 const importedGames = [
   {
+    "id": 2163,
+    "name": "【无虚拟机】皇牌空战8：希孚之翼/空战奇兵8：希孚之翼",
+    "nameEn": "ACE COMBAT 8: WINGS OF THEVE",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2163.jpg",
+    "screenshots": [],
+    "category": "",
+    "size": "140G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/11Jnf8W1-Q0ZqVekcPzFFIg?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1M5R1tNpxcptlNgk--ofgKw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1790737012603,
+    "isDrm": true,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1790737012603,
+    "sortOrder": 1
+  },
+  {
     "id": 2139,
-    "name": "鬼武者：剑之道 高级豪华版",
+    "name": "【无虚拟机】鬼武者：剑之道 高级豪华版",
     "nameEn": "Onimusha: Way of the Sword‌",
     "cover": "https://api.djgamebox.com/api/covers/covers/2139.jpg",
     "screenshots": [],
@@ -44102,27 +44123,6 @@ const importedGames = [
     "downloadsApp": 0,
     "updateTime": 1789639346889,
     "sortOrder": 2101
-  },
-  {
-    "id": 2163,
-    "name": "【无虚拟机】皇牌空战8：希孚之翼/空战奇兵8：希孚之翼",
-    "nameEn": "ACE COMBAT 8: WINGS OF THEVE",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2163.jpg",
-    "screenshots": [],
-    "category": "",
-    "size": "140G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/11Jnf8W1-Q0ZqVekcPzFFIg?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1M5R1tNpxcptlNgk--ofgKw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1790737012603,
-    "isDrm": true,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1790737012603,
-    "sortOrder": 3163
   }
 ];
 

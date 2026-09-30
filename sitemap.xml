@@ -7,6 +7,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.djgamebox.com/games/2163.html</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.djgamebox.com/games/2139.html</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -12603,12 +12609,6 @@
   <url>
     <loc>https://www.djgamebox.com/games/2149.html</loc>
     <lastmod>2026-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.djgamebox.com/games/2163.html</loc>
-    <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
