@@ -1,5 +1,5 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/6 13:28:13
+// 生成时间: 2026/10/8 03:49:37
 // 游戏数量: 2101
 
 const importedGames = [
@@ -20,7 +20,7 @@ const importedGames = [
     "dateAdded": 1790737012603,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 10,
+    "downloadsApp": 12,
     "updateTime": 1790737012603,
     "sortOrder": 1
   },
@@ -41,7 +41,7 @@ const importedGames = [
     "dateAdded": 1788498758078,
     "isDrm": true,
     "downloadsWeb": 344,
-    "downloadsApp": 116,
+    "downloadsApp": 118,
     "updateTime": 1788498758078,
     "sortOrder": 2
   },
@@ -167,7 +167,7 @@ const importedGames = [
     "dateAdded": 1788498264386,
     "isDrm": false,
     "downloadsWeb": 12,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1788498264386,
     "sortOrder": 8
   },
@@ -272,7 +272,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 85,
-    "downloadsApp": 61,
+    "downloadsApp": 62,
     "updateTime": 1779073729544,
     "sortOrder": 13
   },
@@ -314,7 +314,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 38,
-    "downloadsApp": 40,
+    "downloadsApp": 41,
     "updateTime": 1779073729544,
     "sortOrder": 15
   },
@@ -566,7 +566,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 48,
-    "downloadsApp": 32,
+    "downloadsApp": 33,
     "updateTime": 1779073729544,
     "sortOrder": 27
   },
@@ -713,7 +713,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 21,
-    "downloadsApp": 18,
+    "downloadsApp": 19,
     "updateTime": 1779073729544,
     "sortOrder": 34
   },
@@ -734,7 +734,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 6,
-    "downloadsApp": 3,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 35
   },
@@ -839,7 +839,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 16,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 40
   },
@@ -986,7 +986,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 7,
-    "downloadsApp": 14,
+    "downloadsApp": 15,
     "updateTime": 1779073729544,
     "sortOrder": 47
   },
@@ -1091,7 +1091,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 3,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 52
   },
@@ -1658,7 +1658,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 9,
-    "downloadsApp": 8,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 79
   },
@@ -2183,7 +2183,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 104
   },
@@ -3380,7 +3380,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 14,
-    "downloadsApp": 9,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 161
   },
@@ -11654,7 +11654,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 555
   },
@@ -20978,7 +20978,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 999
   },
@@ -21398,7 +21398,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 107,
-    "downloadsApp": 102,
+    "downloadsApp": 103,
     "updateTime": 1779073729544,
     "sortOrder": 1019
   },
@@ -34481,7 +34481,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1642
   },
@@ -43133,7 +43133,7 @@ const importedGames = [
     "dateAdded": 1787021409787,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1787021409787,
     "sortOrder": 2054
   },
