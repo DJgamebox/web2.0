@@ -2905,6 +2905,25 @@
         const gamePageUrl = `games/${game.id}.html?page=${currentPage + 1}&filter=${currentFilter}`;
         const isPriority = index < 8; // 前8张图片优先加载
         
+        // 按名字字数分档调整字号（与桌面客户端逻辑一致）
+        const cardName = game.name || '未命名';
+        const nameLen = cardName.length;
+        let titleStyle = '';
+        if (nameLen > 16) {
+          // 超过16字：缩小字号，允许换行最多2行
+          titleStyle = 'font-size:12px;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;line-height:1.3;';
+        } else if (nameLen > 14) {
+          titleStyle = 'font-size:12px;';
+        } else if (nameLen > 10) {
+          titleStyle = 'font-size:13px;';
+        }
+        const enLen = (game.nameEn || '').length;
+        let subtitleStyle = '';
+        if (enLen > 45) subtitleStyle = 'font-size:9px;';
+        else if (enLen > 40) subtitleStyle = 'font-size:10px;';
+        else if (enLen > 35) subtitleStyle = 'font-size:10.5px;';
+        else if (enLen > 25) subtitleStyle = 'font-size:11px;';
+        
         return `
         <div class="game-card">
           <a href="${gamePageUrl}" class="card-link" style="text-decoration:none;color:inherit;">
@@ -2931,8 +2950,8 @@
           </a>
           <div class="card-info">
             <a href="${gamePageUrl}" style="text-decoration:none;color:inherit;">
-              <div class="card-title">${game.name || '未命名'}</div>
-              <div class="card-subtitle">${game.nameEn || ''}</div>
+              <div class="card-title" style="${titleStyle}">${game.name || '未命名'}</div>
+              <div class="card-subtitle" style="${subtitleStyle}">${game.nameEn || ''}</div>
             </a>
             <div class="card-tags">
               <span class="card-tag">${getMainCategory(game.category, game.name)}</span>
