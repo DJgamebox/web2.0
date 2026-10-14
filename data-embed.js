@@ -1,15 +1,15 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/14 16:42:48
+// 生成时间: 2026/10/14 16:48:57
 // 游戏数量: 2119
 
 const importedGames = [
   {
     "id": 2181,
-    "name": "动物园之星2",
+    "name": "【无需虚拟机】动物园之星2",
     "nameEn": "Planet Zoo 2",
     "cover": "https://api.djgamebox.com/api/covers/covers/2181.jpg",
     "screenshots": [],
-    "category": "模拟经营",
+    "category": "",
     "size": "43G",
     "description": "",
     "baiduLink1": "https://pan.baidu.com/s/1JVwP15fZJDxU7ynlOOLGMw?pwd=8888",
@@ -20,7 +20,7 @@ const importedGames = [
     "dateAdded": 1791983635093,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 4,
+    "downloadsApp": 0,
     "updateTime": 1791983635093,
     "sortOrder": 1
   },
@@ -32150,7 +32150,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1525
   },
