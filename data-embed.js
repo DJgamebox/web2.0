@@ -1,5 +1,5 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/9 04:10:55
+// 生成时间: 2026/10/14 13:15:21
 // 游戏数量: 2118
 
 const importedGames = [
@@ -20,7 +20,7 @@ const importedGames = [
     "dateAdded": 1791473266042,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 2,
     "updateTime": 1791473266042,
     "sortOrder": 1
   },
@@ -67,24 +67,24 @@ const importedGames = [
     "sortOrder": 4
   },
   {
-    "id": 2152,
-    "name": "空之轨迹the2nd",
-    "nameEn": "Trails in the Sky 2nd Chapter",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2152.jpg",
+    "id": 2169,
+    "name": "真三国无双2猛将传复刻版",
+    "nameEn": "DYNASTY WARRIORS 3: Complete Edition Remastered",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2169.jpg",
     "screenshots": [],
-    "category": "",
-    "size": "32G",
+    "category": "角色扮演",
+    "size": "60G",
     "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1yRmi0AjLIhjfi8tMmINQBw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1ENUdYeGcf0jGYc6WYUJhFg?pwd=6666",
+    "baiduLink1": "https://pan.baidu.com/s/1Ou4JCWA4XUdp5yxaT6oZYg?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1owXYzmIgzV_mCG9K60APMg?pwd=6666",
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1790225029918,
+    "dateAdded": 1791473112236,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
-    "updateTime": 1790225029918,
+    "downloadsApp": 3,
+    "updateTime": 1791473112236,
     "sortOrder": 5
   },
   {
@@ -104,7 +104,7 @@ const importedGames = [
     "dateAdded": 1791473199265,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1791473199265,
     "sortOrder": 6
   },
@@ -125,7 +125,7 @@ const importedGames = [
     "dateAdded": 1791473150304,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1791473150304,
     "sortOrder": 7
   },
@@ -146,29 +146,8 @@ const importedGames = [
     "dateAdded": 1791473181974,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 4,
     "updateTime": 1791473181974,
-    "sortOrder": 8
-  },
-  {
-    "id": 2139,
-    "name": "【无需虚拟机】鬼武者：剑之道 高级豪华版",
-    "nameEn": "Onimusha: Way of the Sword‌",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2139.jpg",
-    "screenshots": [],
-    "category": "动作",
-    "size": "56G",
-    "description": "<p style=\"line-height:180%; margin-bottom:1em;\">《鬼武者：剑之道 高级豪华版》是卡普空重启鬼武者系列的全新剑戟动作大作，故事设定在江户时代初期瘴气与幻魔肆虐的京都，传奇剑豪宫本武藏意外获得鬼之笼手，被迫借助鬼之力追寻真正的剑道。本作继承系列经典一闪机制，打造极具深度的拼刀剑斗系统，剧情人物刻画细腻，战斗手感扎实，是日式冷兵器动作游戏的重磅作品，高级豪华版额外收录大量限定外观与道具奖励。</p><p style=\"line-height:180%; margin-bottom:1em;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体全剧情、高级豪华版全部DLC、限定服装、鬼之笼手外观、专属道具与挑战内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是硬核日式<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置，打开即可体验完整游戏内容。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【核心玩法与特色】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏主打写实剑戟拼刀动作，玩家操控宫本武藏，自由切换单手快攻与双手重斩两种姿态，化劲、弹反、看破闪避、经典一闪等攻防机制丰富多变。击杀幻魔会产出不同颜色的魂，用于回血、充能鬼武技以及角色强化升级。关卡为宽线性京都场景，包含寺院、秘境、幻魔裂隙等区域，支持据点休整、首领再战与技巧训练，兼顾战斗爽感与策略博弈，非常考验玩家对攻防时机的把握。</p><h4 style=\"margin-bottom:1em;\">▶ 主要特色</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>经典鬼武者回归：</strong>招牌一闪系统全新进化，高风险高回报</li><li style=\"margin-bottom:0.6em;\"><strong>双姿态太刀战斗：</strong>单手快攻、双手重斩自由切换灵活对敌</li><li style=\"margin-bottom:0.6em;\"><strong>硬核拼刀博弈：</strong>化劲弹反、白刃对决、看破闪避战斗深度十足</li><li style=\"margin-bottom:0.6em;\"><strong>豪华版专属内容：</strong>限定服装、笼手外观、开局道具包全部解锁</li><li style=\"margin-bottom:0.6em;\"><strong>完整京都舞台：</strong>宽线性探索，据点训练，BOSS再战丰富耐玩</li></ul><p style=\"line-height:180%; margin-bottom:1em;\">本作<strong>单机游戏</strong>离线即可完整通关，全程无联网要求。<strong>中文绿色</strong>版汉化完整精准，剧情、技能说明、任务提示全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏内容与配置】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏主线流程约20小时，包含完整主线剧情、大量BOSS战、支线事件与场景探索，豪华版追加多套角色皮肤、鬼之笼手外观、强化素材包。通关后解锁首领再战、高难度挑战模式，全收集全挑战游玩时长可达40小时。PC端支持DLSS、FSR超分技术，需要SSD固态硬盘运行，优化调校成熟，主流配置即可稳定高帧率游玩。</p><p style=\"line-height:180%; margin-bottom:1em;\">本次提供的<strong>破解版</strong>已整合完美汉化、高级豪华全部DLC、全解锁补丁、优化补丁，完美兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失，运行稳定不掉帧、无闪退报错。</p><h4 style=\"margin-bottom:1em;\">▶ 配置要求</h4><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#e74c33;\">[最低配置]</strong> Windows 11 64位 / i5‑8400 / 16GB内存 / GTX1660 / 50GB SSD存储空间</div><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 11 64位 / i5‑10400 / 16GB内存 / RTX2060S / 50GB SSD固态硬盘</div><p style=\"line-height:180%; margin-bottom:1em;\">注意游戏需要SSD固态硬盘，开启超分技术可以进一步提升帧率，主流配置即可流畅体验热血剑戟对决。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏攻略】</h3><h4 style=\"margin-bottom:1em;\">▶ 新手战斗技巧</h4><p style=\"line-height:180%; margin-bottom:1em;\">新手不要一味猛攻，优先练习格挡、化劲弹反，观察敌人攻击前摇寻找破绽。单手快攻适合连续压制，双手重斩用来击破敌人架势条。多利用六道珍皇寺据点的训练空间练习弹反时机，熟悉一闪触发节奏再去挑战强敌。</p><h4 style=\"margin-bottom:1em;\">▶ 战斗与探索指南</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>灵活运用魂系统：</strong>黄魂回血，蓝魂充鬼武技，红魂用来角色强化</li><li style=\"margin-bottom:0.6em;\"><strong>优先打崩架势条：</strong>架势条清空之后可以处决敌人打出高额伤害</li><li style=\"margin-bottom:0.6em;\"><strong>白刃拼刀看光效：</strong>横光用重斩，竖光用轻斩，成功打出大硬直</li><li style=\"margin-bottom:0.6em;\"><strong>善用据点功能：</strong>训练弹反技巧，反复挑战BOSS拿外观奖励</li></ul><h4 style=\"margin-bottom:1em;\">▶ 通关进阶思路</h4><p style=\"line-height:180%; margin-bottom:1em;\">通关后开启高难度模式，熟练掌握一闪、连续一闪可以大幅降低战斗难度。反复挑战首领再战解锁全部外观与收集，练习无伤速通，适合动作游戏爱好者追求操作上限。</p><p style=\"text-align:center; margin-top:2em; margin-bottom:1em;\"><strong style=\"font-size:16px; color:#2ecc71;\">立即获取破解版下载地址，跟随宫本武藏开拓剑之道！</strong></p>",
-    "baiduLink1": "https://pan.baidu.com/s/1VjE07Obg-93rnb6Rw-gDpQ?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1RPDOwh0aW6eRoWXKDfjAqw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1788498758078,
-    "isDrm": true,
-    "downloadsWeb": 344,
-    "downloadsApp": 119,
-    "updateTime": 1788498758078,
     "sortOrder": 8
   },
   {
@@ -188,8 +167,29 @@ const importedGames = [
     "dateAdded": 1791473206562,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1791473206562,
+    "sortOrder": 8
+  },
+  {
+    "id": 2139,
+    "name": "【无需虚拟机】鬼武者：剑之道 高级豪华版",
+    "nameEn": "Onimusha: Way of the Sword‌",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2139.jpg",
+    "screenshots": [],
+    "category": "动作",
+    "size": "56G",
+    "description": "<p style=\"line-height:180%; margin-bottom:1em;\">《鬼武者：剑之道 高级豪华版》是卡普空重启鬼武者系列的全新剑戟动作大作，故事设定在江户时代初期瘴气与幻魔肆虐的京都，传奇剑豪宫本武藏意外获得鬼之笼手，被迫借助鬼之力追寻真正的剑道。本作继承系列经典一闪机制，打造极具深度的拼刀剑斗系统，剧情人物刻画细腻，战斗手感扎实，是日式冷兵器动作游戏的重磅作品，高级豪华版额外收录大量限定外观与道具奖励。</p><p style=\"line-height:180%; margin-bottom:1em;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁本体全剧情、高级豪华版全部DLC、限定服装、鬼之笼手外观、专属道具与挑战内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是硬核日式<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置，打开即可体验完整游戏内容。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【核心玩法与特色】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏主打写实剑戟拼刀动作，玩家操控宫本武藏，自由切换单手快攻与双手重斩两种姿态，化劲、弹反、看破闪避、经典一闪等攻防机制丰富多变。击杀幻魔会产出不同颜色的魂，用于回血、充能鬼武技以及角色强化升级。关卡为宽线性京都场景，包含寺院、秘境、幻魔裂隙等区域，支持据点休整、首领再战与技巧训练，兼顾战斗爽感与策略博弈，非常考验玩家对攻防时机的把握。</p><h4 style=\"margin-bottom:1em;\">▶ 主要特色</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>经典鬼武者回归：</strong>招牌一闪系统全新进化，高风险高回报</li><li style=\"margin-bottom:0.6em;\"><strong>双姿态太刀战斗：</strong>单手快攻、双手重斩自由切换灵活对敌</li><li style=\"margin-bottom:0.6em;\"><strong>硬核拼刀博弈：</strong>化劲弹反、白刃对决、看破闪避战斗深度十足</li><li style=\"margin-bottom:0.6em;\"><strong>豪华版专属内容：</strong>限定服装、笼手外观、开局道具包全部解锁</li><li style=\"margin-bottom:0.6em;\"><strong>完整京都舞台：</strong>宽线性探索，据点训练，BOSS再战丰富耐玩</li></ul><p style=\"line-height:180%; margin-bottom:1em;\">本作<strong>单机游戏</strong>离线即可完整通关，全程无联网要求。<strong>中文绿色</strong>版汉化完整精准，剧情、技能说明、任务提示全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏内容与配置】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏主线流程约20小时，包含完整主线剧情、大量BOSS战、支线事件与场景探索，豪华版追加多套角色皮肤、鬼之笼手外观、强化素材包。通关后解锁首领再战、高难度挑战模式，全收集全挑战游玩时长可达40小时。PC端支持DLSS、FSR超分技术，需要SSD固态硬盘运行，优化调校成熟，主流配置即可稳定高帧率游玩。</p><p style=\"line-height:180%; margin-bottom:1em;\">本次提供的<strong>破解版</strong>已整合完美汉化、高级豪华全部DLC、全解锁补丁、优化补丁，完美兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失，运行稳定不掉帧、无闪退报错。</p><h4 style=\"margin-bottom:1em;\">▶ 配置要求</h4><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#e74c33;\">[最低配置]</strong> Windows 11 64位 / i5‑8400 / 16GB内存 / GTX1660 / 50GB SSD存储空间</div><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 11 64位 / i5‑10400 / 16GB内存 / RTX2060S / 50GB SSD固态硬盘</div><p style=\"line-height:180%; margin-bottom:1em;\">注意游戏需要SSD固态硬盘，开启超分技术可以进一步提升帧率，主流配置即可流畅体验热血剑戟对决。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏攻略】</h3><h4 style=\"margin-bottom:1em;\">▶ 新手战斗技巧</h4><p style=\"line-height:180%; margin-bottom:1em;\">新手不要一味猛攻，优先练习格挡、化劲弹反，观察敌人攻击前摇寻找破绽。单手快攻适合连续压制，双手重斩用来击破敌人架势条。多利用六道珍皇寺据点的训练空间练习弹反时机，熟悉一闪触发节奏再去挑战强敌。</p><h4 style=\"margin-bottom:1em;\">▶ 战斗与探索指南</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>灵活运用魂系统：</strong>黄魂回血，蓝魂充鬼武技，红魂用来角色强化</li><li style=\"margin-bottom:0.6em;\"><strong>优先打崩架势条：</strong>架势条清空之后可以处决敌人打出高额伤害</li><li style=\"margin-bottom:0.6em;\"><strong>白刃拼刀看光效：</strong>横光用重斩，竖光用轻斩，成功打出大硬直</li><li style=\"margin-bottom:0.6em;\"><strong>善用据点功能：</strong>训练弹反技巧，反复挑战BOSS拿外观奖励</li></ul><h4 style=\"margin-bottom:1em;\">▶ 通关进阶思路</h4><p style=\"line-height:180%; margin-bottom:1em;\">通关后开启高难度模式，熟练掌握一闪、连续一闪可以大幅降低战斗难度。反复挑战首领再战解锁全部外观与收集，练习无伤速通，适合动作游戏爱好者追求操作上限。</p><p style=\"text-align:center; margin-top:2em; margin-bottom:1em;\"><strong style=\"font-size:16px; color:#2ecc71;\">立即获取破解版下载地址，跟随宫本武藏开拓剑之道！</strong></p>",
+    "baiduLink1": "https://pan.baidu.com/s/1VjE07Obg-93rnb6Rw-gDpQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1RPDOwh0aW6eRoWXKDfjAqw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1788498758078,
+    "isDrm": true,
+    "downloadsWeb": 344,
+    "downloadsApp": 129,
+    "updateTime": 1788498758078,
     "sortOrder": 9
   },
   {
@@ -214,24 +214,45 @@ const importedGames = [
     "sortOrder": 10
   },
   {
-    "id": 2169,
-    "name": "真三国无双2猛将传复刻版",
-    "nameEn": "DYNASTY WARRIORS 3: Complete Edition Remastered",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2169.jpg",
+    "id": 2152,
+    "name": "空之轨迹the2nd",
+    "nameEn": "Trails in the Sky 2nd Chapter",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2152.jpg",
     "screenshots": [],
-    "category": "角色扮演",
-    "size": "60G",
+    "category": "",
+    "size": "32G",
     "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1Ou4JCWA4XUdp5yxaT6oZYg?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1owXYzmIgzV_mCG9K60APMg?pwd=6666",
+    "baiduLink1": "https://pan.baidu.com/s/1yRmi0AjLIhjfi8tMmINQBw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1ENUdYeGcf0jGYc6WYUJhFg?pwd=6666",
     "baiduLink3": "",
     "thunderLink": "",
     "favorite": false,
-    "dateAdded": 1791473112236,
+    "dateAdded": 1790225029918,
     "isDrm": false,
     "downloadsWeb": 0,
     "downloadsApp": 2,
-    "updateTime": 1791473112236,
+    "updateTime": 1790225029918,
+    "sortOrder": 11
+  },
+  {
+    "id": 2162,
+    "name": "控制：共振数字豪华版",
+    "nameEn": "CONTROL Resonant Digital Deluxe Edition",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2162.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "104G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1X6VRdki1S3UsbGGY5VzyKA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1JiNGKw0XvJPUajngAnvCEw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1790225211389,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 2,
+    "updateTime": 1790225211389,
     "sortOrder": 11
   },
   {
@@ -272,7 +293,7 @@ const importedGames = [
     "dateAdded": 1788498233544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1788498233544,
     "sortOrder": 13
   },
@@ -293,7 +314,7 @@ const importedGames = [
     "dateAdded": 1787710135073,
     "isDrm": false,
     "downloadsWeb": 11,
-    "downloadsApp": 9,
+    "downloadsApp": 10,
     "updateTime": 1787710135073,
     "sortOrder": 14
   },
@@ -356,7 +377,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 85,
-    "downloadsApp": 62,
+    "downloadsApp": 63,
     "updateTime": 1779073729544,
     "sortOrder": 17
   },
@@ -440,30 +461,9 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 64,
-    "downloadsApp": 41,
+    "downloadsApp": 42,
     "updateTime": 1779073729544,
     "sortOrder": 20
-  },
-  {
-    "id": 2162,
-    "name": "控制：共振数字豪华版",
-    "nameEn": "CONTROL Resonant Digital Deluxe Edition",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2162.jpg",
-    "screenshots": [],
-    "category": "动作冒险",
-    "size": "104G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1X6VRdki1S3UsbGGY5VzyKA?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1JiNGKw0XvJPUajngAnvCEw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1790225211389,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 2,
-    "updateTime": 1790225211389,
-    "sortOrder": 21
   },
   {
     "id": 697,
@@ -524,7 +524,7 @@ const importedGames = [
     "dateAdded": 1785501132910,
     "isDrm": false,
     "downloadsWeb": 27,
-    "downloadsApp": 26,
+    "downloadsApp": 27,
     "updateTime": 1785501132910,
     "sortOrder": 24
   },
@@ -608,7 +608,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 18,
+    "downloadsApp": 22,
     "updateTime": 1779073729544,
     "sortOrder": 29
   },
@@ -629,7 +629,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 9,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 37
   },
@@ -734,7 +734,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 11,
-    "downloadsApp": 14,
+    "downloadsApp": 15,
     "updateTime": 1779073729544,
     "sortOrder": 50
   },
@@ -755,7 +755,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 31,
-    "downloadsApp": 16,
+    "downloadsApp": 17,
     "updateTime": 1779073729544,
     "sortOrder": 50
   },
@@ -944,7 +944,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 5,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 66
   },
@@ -1259,7 +1259,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 81
   },
@@ -1490,7 +1490,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 92
   },
@@ -2015,7 +2015,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 117
   },
@@ -2078,7 +2078,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 120
   },
@@ -2162,7 +2162,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 124
   },
@@ -2183,7 +2183,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 125
   },
@@ -2204,7 +2204,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 8,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 126
   },
@@ -2225,7 +2225,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 9,
-    "downloadsApp": 8,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 127
   },
@@ -2267,7 +2267,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 11,
+    "downloadsApp": 12,
     "updateTime": 1779073729544,
     "sortOrder": 129
   },
@@ -2330,7 +2330,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 8,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 132
   },
@@ -2351,7 +2351,7 @@ const importedGames = [
     "dateAdded": 1784986428291,
     "isDrm": false,
     "downloadsWeb": 57,
-    "downloadsApp": 16,
+    "downloadsApp": 17,
     "updateTime": 1784986428291,
     "sortOrder": 133
   },
@@ -3065,7 +3065,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 167
   },
@@ -4304,7 +4304,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 227
   },
@@ -4388,7 +4388,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 231
   },
@@ -6425,7 +6425,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 332
   },
@@ -6845,7 +6845,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 353
   },
@@ -7160,7 +7160,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 369
   },
@@ -8336,7 +8336,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 7,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 428
   },
@@ -9428,7 +9428,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 16,
+    "downloadsApp": 17,
     "updateTime": 1779073729544,
     "sortOrder": 480
   },
@@ -9764,7 +9764,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 496
   },
@@ -10583,7 +10583,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 536
   },
@@ -13586,7 +13586,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 679
   },
@@ -16694,7 +16694,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 827
   },
@@ -16715,7 +16715,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 828
   },
@@ -20075,7 +20075,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 988
   },
@@ -20306,7 +20306,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 999
   },
@@ -20327,7 +20327,7 @@ const importedGames = [
     "dateAdded": 1790737012603,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 12,
+    "downloadsApp": 15,
     "updateTime": 1790737012603,
     "sortOrder": 1000
   },
@@ -20348,7 +20348,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1000
   },
@@ -20369,7 +20369,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 1001
   },
@@ -20516,7 +20516,7 @@ const importedGames = [
     "dateAdded": 1786103186299,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1786103186299,
     "sortOrder": 1008
   },
@@ -20915,7 +20915,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 48,
-    "downloadsApp": 33,
+    "downloadsApp": 34,
     "updateTime": 1779073729544,
     "sortOrder": 1027
   },
@@ -21146,7 +21146,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 18,
-    "downloadsApp": 34,
+    "downloadsApp": 35,
     "updateTime": 1779073729544,
     "sortOrder": 1032
   },
@@ -21251,7 +21251,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 21,
-    "downloadsApp": 19,
+    "downloadsApp": 21,
     "updateTime": 1779073729544,
     "sortOrder": 1034
   },
@@ -21566,7 +21566,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 31,
-    "downloadsApp": 17,
+    "downloadsApp": 18,
     "updateTime": 1779073729544,
     "sortOrder": 1043
   },
@@ -21608,7 +21608,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 6,
-    "downloadsApp": 2,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 1044
   },
@@ -21818,7 +21818,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1051
   },
@@ -21986,7 +21986,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 19,
+    "downloadsApp": 21,
     "updateTime": 1779073729544,
     "sortOrder": 1055
   },
@@ -25136,7 +25136,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 10,
+    "downloadsApp": 11,
     "updateTime": 1779073729544,
     "sortOrder": 1202
   },
@@ -28601,7 +28601,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1361
   },
@@ -29168,7 +29168,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 8,
-    "downloadsApp": 8,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 1387
   },
@@ -35426,7 +35426,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 1682
   },
@@ -42482,7 +42482,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 107,
-    "downloadsApp": 103,
+    "downloadsApp": 104,
     "updateTime": 1779073729544,
     "sortOrder": 2021
   },
@@ -43196,7 +43196,7 @@ const importedGames = [
     "dateAdded": 1787021409787,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 3,
+    "downloadsApp": 5,
     "updateTime": 1787021409787,
     "sortOrder": 2054
   },
@@ -43385,7 +43385,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 3,
-    "downloadsApp": 3,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 2063
   },
@@ -43805,7 +43805,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 8,
-    "downloadsApp": 12,
+    "downloadsApp": 13,
     "updateTime": 1779073729544,
     "sortOrder": 2082
   },
@@ -44225,7 +44225,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 29,
-    "downloadsApp": 24,
+    "downloadsApp": 25,
     "updateTime": 1779073729544,
     "sortOrder": 2823
   },
