@@ -1,8 +1,50 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/14 13:44:44
-// 游戏数量: 2118
+// 生成时间: 2026/10/14 16:42:48
+// 游戏数量: 2119
 
 const importedGames = [
+  {
+    "id": 2181,
+    "name": "动物园之星2",
+    "nameEn": "Planet Zoo 2",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2181.jpg",
+    "screenshots": [],
+    "category": "模拟经营",
+    "size": "43G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1JVwP15fZJDxU7ynlOOLGMw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1CmugTpgZFpFpY7pAhxKLkg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1791983635093,
+    "isDrm": true,
+    "downloadsWeb": 0,
+    "downloadsApp": 4,
+    "updateTime": 1791983635093,
+    "sortOrder": 1
+  },
+  {
+    "id": 862,
+    "name": "全面战争：幕府将军2完全版+黄金版",
+    "nameEn": "Total War: SHOGUN 2 - Complete Edition",
+    "cover": "https://api.djgamebox.com/api/covers/covers/862.jpg",
+    "screenshots": [],
+    "category": "即时战略",
+    "size": "28G",
+    "description": "包含了：全面战争：幕府将军2完全版+全面战争：幕府将军2黄金版",
+    "baiduLink1": "https://pan.baidu.com/s/1DjiUxIfwmAKL22dSWgNvNw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1Sej65ktn_ynggjFy2gtXxA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1779073729544,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1779073729544,
+    "sortOrder": 2
+  },
   {
     "id": 2177,
     "name": "【无需虚拟机】EA体育足球俱乐部27",
@@ -20,9 +62,9 @@ const importedGames = [
     "dateAdded": 1791473266042,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 1,
     "updateTime": 1791473266042,
-    "sortOrder": 1
+    "sortOrder": 3
   },
   {
     "id": 2170,
@@ -83,7 +125,7 @@ const importedGames = [
     "dateAdded": 1791473112236,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 3,
+    "downloadsApp": 2,
     "updateTime": 1791473112236,
     "sortOrder": 5
   },
@@ -125,7 +167,7 @@ const importedGames = [
     "dateAdded": 1791473150304,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 1,
     "updateTime": 1791473150304,
     "sortOrder": 7
   },
@@ -146,7 +188,7 @@ const importedGames = [
     "dateAdded": 1791473181974,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 4,
+    "downloadsApp": 3,
     "updateTime": 1791473181974,
     "sortOrder": 8
   },
@@ -167,7 +209,7 @@ const importedGames = [
     "dateAdded": 1791473206562,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 0,
     "updateTime": 1791473206562,
     "sortOrder": 8
   },
@@ -188,7 +230,7 @@ const importedGames = [
     "dateAdded": 1788498758078,
     "isDrm": true,
     "downloadsWeb": 344,
-    "downloadsApp": 129,
+    "downloadsApp": 123,
     "updateTime": 1788498758078,
     "sortOrder": 9
   },
@@ -293,7 +335,7 @@ const importedGames = [
     "dateAdded": 1788498233544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 6,
+    "downloadsApp": 5,
     "updateTime": 1788498233544,
     "sortOrder": 13
   },
@@ -524,7 +566,7 @@ const importedGames = [
     "dateAdded": 1785501132910,
     "isDrm": false,
     "downloadsWeb": 27,
-    "downloadsApp": 27,
+    "downloadsApp": 26,
     "updateTime": 1785501132910,
     "sortOrder": 24
   },
@@ -629,7 +671,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 10,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 37
   },
@@ -944,7 +986,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 5,
-    "downloadsApp": 5,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 66
   },
@@ -2162,7 +2204,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 7,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 124
   },
@@ -2183,7 +2225,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 5,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 125
   },
@@ -7160,7 +7202,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 2,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 369
   },
@@ -10583,7 +10625,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 536
   },
@@ -13586,7 +13628,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 3,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 679
   },
@@ -16715,7 +16757,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 2,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 828
   },
@@ -18209,27 +18251,6 @@ const importedGames = [
     "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 899
-  },
-  {
-    "id": 862,
-    "name": "全面战争：幕府将军2（黄金版)",
-    "nameEn": "Total War:Shogun 2",
-    "cover": "https://api.djgamebox.com/api/covers/covers/862.jpg",
-    "screenshots": [],
-    "category": "即时战略",
-    "size": "28G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1DjiUxIfwmAKL22dSWgNvNw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1Sej65ktn_ynggjFy2gtXxA?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1779073729544,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1779073729544,
-    "sortOrder": 900
   },
   {
     "id": 863,
@@ -20306,7 +20327,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 5,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 999
   },
@@ -20327,7 +20348,7 @@ const importedGames = [
     "dateAdded": 1790737012603,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 15,
+    "downloadsApp": 12,
     "updateTime": 1790737012603,
     "sortOrder": 1000
   },
@@ -20348,7 +20369,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 2,
+    "downloadsApp": 0,
     "updateTime": 1779073729544,
     "sortOrder": 1000
   },
@@ -20369,7 +20390,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 7,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 1001
   },
@@ -20516,7 +20537,7 @@ const importedGames = [
     "dateAdded": 1786103186299,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 0,
     "updateTime": 1786103186299,
     "sortOrder": 1008
   },
@@ -20915,7 +20936,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 48,
-    "downloadsApp": 34,
+    "downloadsApp": 33,
     "updateTime": 1779073729544,
     "sortOrder": 1027
   },
@@ -21251,7 +21272,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 21,
-    "downloadsApp": 21,
+    "downloadsApp": 20,
     "updateTime": 1779073729544,
     "sortOrder": 1034
   },
@@ -21566,7 +21587,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 31,
-    "downloadsApp": 18,
+    "downloadsApp": 17,
     "updateTime": 1779073729544,
     "sortOrder": 1043
   },
@@ -21608,7 +21629,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 6,
-    "downloadsApp": 6,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 1044
   },
@@ -21818,7 +21839,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 1,
-    "downloadsApp": 2,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1051
   },
@@ -25136,7 +25157,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 11,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 1202
   },
@@ -29168,7 +29189,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 8,
-    "downloadsApp": 9,
+    "downloadsApp": 8,
     "updateTime": 1779073729544,
     "sortOrder": 1387
   },
@@ -32129,7 +32150,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1525
   },
@@ -43805,7 +43826,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 8,
-    "downloadsApp": 13,
+    "downloadsApp": 12,
     "updateTime": 1779073729544,
     "sortOrder": 2082
   },
