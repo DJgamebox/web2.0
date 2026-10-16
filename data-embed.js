@@ -1,6 +1,6 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/16 02:34:34
-// 游戏数量: 2128
+// 生成时间: 2026/10/16 13:03:30
+// 游戏数量: 2127
 
 const importedGames = [
   {
@@ -170,27 +170,6 @@ const importedGames = [
     "downloadsApp": 2,
     "updateTime": 1791473150304,
     "sortOrder": 7
-  },
-  {
-    "id": 2173,
-    "name": "【无需虚拟机】星球大战：银河赛车手",
-    "nameEn": "Star Wars Galactic Racer",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2173.jpg",
-    "screenshots": [],
-    "category": "赛车竞速",
-    "size": "40G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1cxdd7wuKk9pU_uUHi9cABQ?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1BNZGDAPcGh4unFC63zC3zw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1791473181974,
-    "isDrm": true,
-    "downloadsWeb": 0,
-    "downloadsApp": 5,
-    "updateTime": 1791473181974,
-    "sortOrder": 8
   },
   {
     "id": 2175,
