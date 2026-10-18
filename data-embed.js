@@ -1,8 +1,29 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/17 02:10:07
-// 游戏数量: 2127
+// 生成时间: 2026/10/18 04:53:04
+// 游戏数量: 2129
 
 const importedGames = [
+  {
+    "id": 2191,
+    "name": "使命召唤23：现代战争4",
+    "nameEn": "Call of Duty: Modern Warfare 4",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2191.jpg",
+    "screenshots": [],
+    "category": "第一人称射击",
+    "size": "74G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1ShLLxNyNqkn38qz9pnQ4dw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1Ly5t3c8P_AvIJ1ezPQVSrw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1792299036748,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1792299036748,
+    "sortOrder": 1
+  },
   {
     "id": 2181,
     "name": "【无需虚拟机】【不是假入库】动物园之星2豪华版全DLC",
@@ -22,7 +43,7 @@ const importedGames = [
     "downloadsWeb": 0,
     "downloadsApp": 14,
     "updateTime": 1791983635093,
-    "sortOrder": 1
+    "sortOrder": 2
   },
   {
     "id": 862,
@@ -44459,6 +44480,27 @@ const importedGames = [
     "downloadsApp": 0,
     "updateTime": 1792117636573,
     "sortOrder": 3118
+  },
+  {
+    "id": "_banner_config",
+    "name": "_banner_config",
+    "nameEn": "_banner_config",
+    "cover": "",
+    "screenshots": [],
+    "category": "_system",
+    "size": "",
+    "description": "",
+    "baiduLink1": "",
+    "baiduLink2": "",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1792203034615,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1792203034615,
+    "sortOrder": 3127
   },
   {
     "id": 2179,
