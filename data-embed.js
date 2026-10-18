@@ -1,29 +1,8 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/18 04:53:04
+// 生成时间: 2026/10/18 10:32:38
 // 游戏数量: 2129
 
 const importedGames = [
-  {
-    "id": 2191,
-    "name": "使命召唤23：现代战争4",
-    "nameEn": "Call of Duty: Modern Warfare 4",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2191.jpg",
-    "screenshots": [],
-    "category": "第一人称射击",
-    "size": "74G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1ShLLxNyNqkn38qz9pnQ4dw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1Ly5t3c8P_AvIJ1ezPQVSrw?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1792299036748,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1792299036748,
-    "sortOrder": 1
-  },
   {
     "id": 2181,
     "name": "【无需虚拟机】【不是假入库】动物园之星2豪华版全DLC",
@@ -44711,6 +44690,27 @@ const importedGames = [
     "downloadsApp": 0,
     "updateTime": 1792117967069,
     "sortOrder": 3190
+  },
+  {
+    "id": 2191,
+    "name": "使命召唤23：现代战争4",
+    "nameEn": "Call of Duty: Modern Warfare 4",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2191.jpg",
+    "screenshots": [],
+    "category": "射击",
+    "size": "74G",
+    "description": "<p style=\"line-height:180%; margin-bottom:1em;\">《使命召唤23：现代战争4》是经典现代战争系列正统续作，延续普莱斯、肥皂等传奇小队的故事线，带来电影级单人战役、全新DMZ撤离模式与海量多人对战内容。游戏采用全新引擎升级画面、物理与音效，战场细节、爆炸特效、武器手感全面进化，兼具沉浸式剧情叙事与爽快激烈的FPS对战，是年度顶级3A射击大作。</p><p style=\"line-height:180%; margin-bottom:1em;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁单人战役、全部多人地图、DMZ模式、全武器、全皮肤与DLC内容，<strong>网盘</strong>资源高速稳定，支持<strong>百度网盘下载</strong>。本作是顶级第一人称<strong>单机游戏</strong>，搭载完整<strong>中文版</strong>，<strong>免安装</strong><strong>绿色</strong>版本，<strong>解压即玩</strong>，<strong>PC</strong>玩家无需复杂设置，打开即可体验完整游戏内容。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【核心玩法与特色】</h3><p style=\"line-height:180%; margin-bottom:1em;\">游戏包含三大核心模块：电影质感单人战役，跟随141特遣队奔赴全球热点区域执行特种作战；DMZ撤离模式，在危险战区搜集物资、对抗AI与其他玩家，成功撤离带出战利品；多人对战包含爆破、据点、团队死斗等多种经典模式，支持海量武器改装、配件、迷彩与角色外观，武器手感真实，战术选择丰富。</p><h4 style=\"margin-bottom:1em;\">▶ 主要特色</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>141特遣队回归：</strong>史诗单人战役，电影化叙事体验</li><li style=\"margin-bottom:0.6em;\"><strong>三大游玩模式：</strong>单人战役、DMZ撤离、多人对战</li><li style=\"margin-bottom:0.6em;\"><strong>深度武器改装：</strong>上百种配件自由调整枪械属性</li><li style=\"margin-bottom:0.6em;\"><strong>超写实战场表现：</strong>爆炸、环境破坏、音效全面升级</li><li style=\"margin-bottom:0.6em;\"><strong>丰富地图与模式：</strong>多场景作战，战术玩法多样</li></ul><p style=\"line-height:180%; margin-bottom:1em;\">本作<strong>单机游戏</strong>离线即可完整通关单人战役，全程无联网要求。<strong>中文绿色</strong>版汉化完整精准，剧情、武器说明、任务提示全部中文化，<strong>百度云</strong>资源安全无毒，<strong>免费下载</strong>解压直接运行，无广告无捆绑。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏内容与配置】</h3><p style=\"line-height:180%; margin-bottom:1em;\">单人战役主线时长约12小时，包含大量高燃特种作战关卡。DMZ与多人模式内容量大，全收集解锁武器、皮肤、通行证奖励游玩时长可达上百小时。本作必须安装SSD固态硬盘，支持DLSS、FSR超分技术，PC画面选项丰富，可自由调整画质参数。</p><p style=\"line-height:180%; margin-bottom:1em;\">本次提供的<strong>破解版</strong>已整合完美汉化、全解锁补丁、优化补丁，完美兼容Win10/Win11，<strong>网盘</strong>下载完整不缺失，运行稳定不掉帧、无闪退报错。</p><h4 style=\"margin-bottom:1em;\">▶ 配置要求</h4><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#e74c33;\">[最低配置]</strong> Windows 10 64位 / i5-8400 / 12GB内存 / GTX1060 / 115GB SSD存储空间</div><div style=\"background:#f8f9fa; padding:1em; border-radius:0.5em; margin-bottom:1em;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 11 64位 / i7-8700 / 16GB内存 / RTX3060 / 115GB SSD固态硬盘</div><p style=\"line-height:180%; margin-bottom:1em;\">游戏强制SSD，开启DLSS/FSR可大幅提升帧率，主流中端显卡即可高画质流畅运行战役模式。</p><h3 style=\"color:#2ecc71; margin-top:1.5em; margin-bottom:1em;\">【游戏攻略】</h3><h4 style=\"margin-bottom:1em;\">▶ 新手武器搭配技巧</h4><p style=\"line-height:180%; margin-bottom:1em;\">新手优先选择后坐力低的突击步枪，配件优先降低后坐、提升开镜速度。战役模式多用战术道具，烟雾弹、闪光弹辅助攻坚；DMZ模式优先携带护甲包与自救道具，提高撤离存活率。</p><h4 style=\"margin-bottom:1em;\">▶ 战斗与探索指南</h4><ul style=\"line-height:180%; padding-left:1.2em;\"><li style=\"margin-bottom:0.6em;\"><strong>利用掩体作战：</strong>减少暴露，优先击杀远距离敌人</li><li style=\"margin-bottom:0.6em;\"><strong>战术道具活用：</strong>闪光弹、手雷突破据点防御</li><li style=\"margin-bottom:0.6em;\"><strong>DMZ优先保命：</strong>不要贪物资，安全撤离才是目标</li><li style=\"margin-bottom:0.6em;\"><strong>武器配件微调：</strong>根据打法选择机动性或稳定性</li></ul><h4 style=\"margin-bottom:1em;\">▶ 通关进阶思路</h4><p style=\"line-height:180%; margin-bottom:1em;\">战役通关后可以挑战最高难度，解锁专属成就与外观。多人模式可以钻研不同枪械配装，练习预瞄、急停等FPS基础技巧；DMZ可以组队探索高价值区域，挑战高阶任务获取稀有道具。</p><p style=\"text-align:center; margin-top:2em; margin-bottom:1em;\"><strong style=\"font-size:16px; color:#2ecc71;\">立即获取破解版下载地址，加入141特遣队开启全球特种作战！</strong></p>",
+    "baiduLink1": "https://pan.baidu.com/s/1ShLLxNyNqkn38qz9pnQ4dw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1Ly5t3c8P_AvIJ1ezPQVSrw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1792299036748,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1792299036748,
+    "sortOrder": 3191
   }
 ];
 
