@@ -1,6 +1,6 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/10/25 14:54:24
-// 游戏数量: 2153
+// 生成时间: 2026/10/27 15:01:44
+// 游戏数量: 2157
 
 const importedGames = [
   {
@@ -19,8 +19,8 @@ const importedGames = [
     "favorite": false,
     "dateAdded": 1792748848783,
     "isDrm": true,
-    "downloadsWeb": 106,
-    "downloadsApp": 3,
+    "downloadsWeb": 199,
+    "downloadsApp": 6,
     "updateTime": 1792748848783,
     "sortOrder": 1
   },
@@ -41,7 +41,7 @@ const importedGames = [
     "dateAdded": 1792299036748,
     "isDrm": false,
     "downloadsWeb": 258,
-    "downloadsApp": 23,
+    "downloadsApp": 30,
     "updateTime": 1792299036748,
     "sortOrder": 2
   },
@@ -62,7 +62,7 @@ const importedGames = [
     "dateAdded": 1791983635093,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 32,
+    "downloadsApp": 34,
     "updateTime": 1791983635093,
     "sortOrder": 2
   },
@@ -88,6 +88,27 @@ const importedGames = [
     "sortOrder": 3
   },
   {
+    "id": 2196,
+    "name": "恶魔城：贝尔蒙特的诅咒",
+    "nameEn": "Castlevania: Belmont's Curse",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2196.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "7.6G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1m1qEF2xvfC9SlJNc3VrUiw?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1nFO1WRP9mOoQ0kU1AiEHdg?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1792939647710,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1792939647710,
+    "sortOrder": 3
+  },
+  {
     "id": 2139,
     "name": "【无需虚拟机】【不是假入库】鬼武者：剑之道 高级豪华版",
     "nameEn": "Onimusha: Way of the Sword‌",
@@ -104,7 +125,7 @@ const importedGames = [
     "dateAdded": 1788498758078,
     "isDrm": true,
     "downloadsWeb": 344,
-    "downloadsApp": 138,
+    "downloadsApp": 140,
     "updateTime": 1788498758078,
     "sortOrder": 4
   },
@@ -167,7 +188,7 @@ const importedGames = [
     "dateAdded": 1785647055011,
     "isDrm": false,
     "downloadsWeb": 201,
-    "downloadsApp": 24,
+    "downloadsApp": 25,
     "updateTime": 1785647055011,
     "sortOrder": 7
   },
@@ -251,7 +272,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 85,
-    "downloadsApp": 64,
+    "downloadsApp": 66,
     "updateTime": 1779073729544,
     "sortOrder": 10
   },
@@ -419,7 +440,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 31,
-    "downloadsApp": 18,
+    "downloadsApp": 19,
     "updateTime": 1779073729544,
     "sortOrder": 16
   },
@@ -443,27 +464,6 @@ const importedGames = [
     "downloadsApp": 8,
     "updateTime": 1788498264386,
     "sortOrder": 17
-  },
-  {
-    "id": 277,
-    "name": "【无需虚拟机】【不是假入库】无主之地4 豪华版全DLC",
-    "nameEn": "Borderlands 4",
-    "cover": "https://api.djgamebox.com/api/covers/covers/277.jpg",
-    "screenshots": [],
-    "category": "射击",
-    "size": "100G",
-    "description": "<p style=\"line-height:1.8;margin-bottom:16px;\">《无主之地4》是由<strong>Gearbox Software</strong>开发、2K发行的殿堂级美漫风FPS刷刷刷大作，作为系列正统续作，延续潘多拉星球荒诞疯狂的世界观，带来全新秘藏猎人、海量随机枪械、开放世界探索与四人联机合作，射击爽感、装备深度、幽默剧情全面升级。</p><p style=\"line-height:1.8;margin-bottom:24px;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部角色、武器、皮肤、DLC、技能，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅爽刷不卡顿。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【核心玩法与特色】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">本作核心玩法围绕<strong>亿万级随机枪械+技能流派构筑+开放世界探索+BOSS挑战+多人联机</strong>展开，装备无上限、玩法自由度极高，刷装备根本停不下来。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 主要特色</h4><ul style=\"margin-left:20px;line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>亿万枪械随机生成</strong>：元素、配件、特效、弹道完全随机，每一把都独一无二</li><li style=\"margin-bottom:8px;\"><strong>全新秘藏猎人</strong>：4名专属角色，独立技能树与战斗风格，可玩流派极多</li><li style=\"margin-bottom:8px;\"><strong>经典美漫画风</strong>：癫狂幽默、玩梗密集、剧情风格辨识度拉满</li><li style=\"margin-bottom:8px;\"><strong>超大开放地图</strong>：支线、副本、隐藏BOSS、收集要素海量</li><li style=\"margin-bottom:8px;\"><strong>4人联机爽刷</strong>：好友组队开荒、刷神装、挑战高难度，乐趣翻倍</li></ul><p style=\"line-height:1.8;margin-top:16px;margin-bottom:24px;\">作为单机/联机FPS游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【游戏内容与配置】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">主线通关时长约25–35小时，全装备收集、全成就解锁、高阶BUILD养成总游玩时长超数百小时。难度自由调节、爽感拉满，适合刷刷刷爱好者、射击游戏玩家。</p><p style=\"line-height:1.8;margin-bottom:16px;\">本次提供的版本整合<strong>本体+全DLC+全角色解锁+高掉率优化</strong>，兼容Win10/Win11，稳定无闪退。已通过安全检测，无毒无广告，放心获取。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 配置要求</h4><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;\"><strong style=\"color:#e74c3c;\">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1050Ti / 70GB空间</div><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 10/Win11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style=\"line-height:1.8;margin-bottom:24px;\">支持1080P/2K/4K、高帧率，优化出色，低配流畅、高配画质炸裂。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【新手攻略】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 开荒角色推荐</h4><p style=\"line-height:1.8;margin-bottom:16px;\">新手首选：<strong>突击/枪手型角色</strong>，输出稳定、生存能力强、操作简单，轻松熟悉射击与技能机制。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 战斗核心技巧</h4><ul style=\"margin-left:20px;line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>元素克制核心</strong>：火克肉体、电克机械、腐蚀克装甲，伤害大幅提升</li><li style=\"margin-bottom:8px;\"><strong>技能循环输出</strong>：走位拉扯+技能爆发，避免站桩硬刚</li><li style=\"margin-bottom:8px;\"><strong>装备随级更换</strong>：等级优先于品质，低等级传奇不如高等级蓝装</li><li style=\"margin-bottom:8px;\"><strong>支线顺路清理</strong>：经验、装备、货币一键拉满，高效开荒</li><li style=\"margin-bottom:8px;\"><strong>BOSS躲AOE</strong>：观察前摇动作，大范围技能提前规避</li></ul><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 入门建议</h4><p style=\"line-height:1.8;margin-bottom:24px;\">优先跟着主线熟悉角色技能与射击手感，中期开始收集套装，后期联机挑战混沌模式与终极BOSS，体验完全体刷刷刷乐趣。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【进阶技巧】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 流派构筑养成</h4><p style=\"line-height:1.8;margin-bottom:16px;\">围绕核心传奇装备+技能树打造专属流派，优先凑齐套装效果，搭配增伤、减CD、吸血词条，实现无限技能/一枪清屏的终极强度。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 高效刷装攻略</h4><p style=\"line-height:1.8;margin-bottom:16px;\">锁定高掉率BOSS与副本，组队速刷效率最高；优先刷核心武器与防具，成型后再冲击高难度混沌层数，快速毕业。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 联机战术搭配</h4><p style=\"line-height:1.8;margin-bottom:16px;\">四人小队分工：输出+控场+辅助+治疗，技能互补、覆盖全场，高难度副本轻松碾压，刷装速度直线飙升。</p><p style=\"text-align:center;margin-top:32px;margin-bottom:16px;\"><strong style=\"font-size:16px;color:#2ecc71;\">立即获取下载地址，开启疯狂刷枪之旅，成为宇宙最强秘藏猎人！</strong></p>",
-    "baiduLink1": "https://pan.baidu.com/s/1uWWCXSvUTK8lAPT0jxiZJQ?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/19JKo9Z8gvzCbI93QDAsSjg?pwd=6666",
-    "baiduLink3": "https://pan.baidu.com/s/17Q0b2L-XRhp8hlKYCTMkeA?pwd=8888",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1779073729544,
-    "isDrm": true,
-    "downloadsWeb": 16,
-    "downloadsApp": 24,
-    "updateTime": 1779073729544,
-    "sortOrder": 18
   },
   {
     "id": 461,
@@ -506,6 +506,27 @@ const importedGames = [
     "downloadsApp": 5,
     "updateTime": 1788498628658,
     "sortOrder": 19
+  },
+  {
+    "id": 277,
+    "name": "无主之地4 豪华版全DLC",
+    "nameEn": "Borderlands 4",
+    "cover": "https://api.djgamebox.com/api/covers/covers/277.jpg",
+    "screenshots": [],
+    "category": "射击",
+    "size": "189G",
+    "description": "<p style=\"line-height:1.8;margin-bottom:16px;\">《无主之地4》是由<strong>Gearbox Software</strong>开发、2K发行的殿堂级美漫风FPS刷刷刷大作，作为系列正统续作，延续潘多拉星球荒诞疯狂的世界观，带来全新秘藏猎人、海量随机枪械、开放世界探索与四人联机合作，射击爽感、装备深度、幽默剧情全面升级。</p><p style=\"line-height:1.8;margin-bottom:24px;\">游戏盒子现提供<strong>破解版下载</strong>，完整解锁全部角色、武器、皮肤、DLC、技能，PC中文版完整汉化，免安装解压即玩，兼容Win10/Win11，流畅爽刷不卡顿。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【核心玩法与特色】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">本作核心玩法围绕<strong>亿万级随机枪械+技能流派构筑+开放世界探索+BOSS挑战+多人联机</strong>展开，装备无上限、玩法自由度极高，刷装备根本停不下来。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 主要特色</h4><ul style=\"margin-left:20px;line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>亿万枪械随机生成</strong>：元素、配件、特效、弹道完全随机，每一把都独一无二</li><li style=\"margin-bottom:8px;\"><strong>全新秘藏猎人</strong>：4名专属角色，独立技能树与战斗风格，可玩流派极多</li><li style=\"margin-bottom:8px;\"><strong>经典美漫画风</strong>：癫狂幽默、玩梗密集、剧情风格辨识度拉满</li><li style=\"margin-bottom:8px;\"><strong>超大开放地图</strong>：支线、副本、隐藏BOSS、收集要素海量</li><li style=\"margin-bottom:8px;\"><strong>4人联机爽刷</strong>：好友组队开荒、刷神装、挑战高难度，乐趣翻倍</li></ul><p style=\"line-height:1.8;margin-top:16px;margin-bottom:24px;\">作为单机/联机FPS游戏，无需联网验证即可畅玩。绿色中文版完整汉化界面、剧情和教程，新手轻松上手。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【游戏内容与配置】</h3><p style=\"line-height:1.8;margin-bottom:16px;\">主线通关时长约25–35小时，全装备收集、全成就解锁、高阶BUILD养成总游玩时长超数百小时。难度自由调节、爽感拉满，适合刷刷刷爱好者、射击游戏玩家。</p><p style=\"line-height:1.8;margin-bottom:16px;\">本次提供的版本整合<strong>本体+全DLC+全角色解锁+高掉率优化</strong>，兼容Win10/Win11，稳定无闪退。已通过安全检测，无毒无广告，放心获取。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 配置要求</h4><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:8px;\"><strong style=\"color:#e74c3c;\">[最低配置]</strong> Windows 10 64位 / i5-6600K / 8GB内存 / GTX 1050Ti / 70GB空间</div><div style=\"background:#f8f9fa;padding:12px 16px;border-radius:4px;margin-bottom:16px;\"><strong style=\"color:#3498db;\">[推荐配置]</strong> Windows 10/Win11 64位 / i7-10700 / 16GB内存 / RTX 3060 / SSD硬盘</div><p style=\"line-height:1.8;margin-bottom:24px;\">支持1080P/2K/4K、高帧率，优化出色，低配流畅、高配画质炸裂。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【新手攻略】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 开荒角色推荐</h4><p style=\"line-height:1.8;margin-bottom:16px;\">新手首选：<strong>突击/枪手型角色</strong>，输出稳定、生存能力强、操作简单，轻松熟悉射击与技能机制。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 战斗核心技巧</h4><ul style=\"margin-left:20px;line-height:1.8;\"><li style=\"margin-bottom:8px;\"><strong>元素克制核心</strong>：火克肉体、电克机械、腐蚀克装甲，伤害大幅提升</li><li style=\"margin-bottom:8px;\"><strong>技能循环输出</strong>：走位拉扯+技能爆发，避免站桩硬刚</li><li style=\"margin-bottom:8px;\"><strong>装备随级更换</strong>：等级优先于品质，低等级传奇不如高等级蓝装</li><li style=\"margin-bottom:8px;\"><strong>支线顺路清理</strong>：经验、装备、货币一键拉满，高效开荒</li><li style=\"margin-bottom:8px;\"><strong>BOSS躲AOE</strong>：观察前摇动作，大范围技能提前规避</li></ul><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 入门建议</h4><p style=\"line-height:1.8;margin-bottom:24px;\">优先跟着主线熟悉角色技能与射击手感，中期开始收集套装，后期联机挑战混沌模式与终极BOSS，体验完全体刷刷刷乐趣。</p><h3 style=\"color:#2ecc71;margin-top:24px;margin-bottom:12px;\">【进阶技巧】</h3><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 流派构筑养成</h4><p style=\"line-height:1.8;margin-bottom:16px;\">围绕核心传奇装备+技能树打造专属流派，优先凑齐套装效果，搭配增伤、减CD、吸血词条，实现无限技能/一枪清屏的终极强度。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 高效刷装攻略</h4><p style=\"line-height:1.8;margin-bottom:16px;\">锁定高掉率BOSS与副本，组队速刷效率最高；优先刷核心武器与防具，成型后再冲击高难度混沌层数，快速毕业。</p><h4 style=\"margin-top:16px;margin-bottom:8px;\">▶ 联机战术搭配</h4><p style=\"line-height:1.8;margin-bottom:16px;\">四人小队分工：输出+控场+辅助+治疗，技能互补、覆盖全场，高难度副本轻松碾压，刷装速度直线飙升。</p><p style=\"text-align:center;margin-top:32px;margin-bottom:16px;\"><strong style=\"font-size:16px;color:#2ecc71;\">立即获取下载地址，开启疯狂刷枪之旅，成为宇宙最强秘藏猎人！</strong></p>",
+    "baiduLink1": "https://pan.baidu.com/s/1uWWCXSvUTK8lAPT0jxiZJQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/19JKo9Z8gvzCbI93QDAsSjg?pwd=6666",
+    "baiduLink3": "https://pan.baidu.com/s/17Q0b2L-XRhp8hlKYCTMkeA?pwd=8888",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1779073729544,
+    "isDrm": false,
+    "downloadsWeb": 16,
+    "downloadsApp": 24,
+    "updateTime": 1779073729544,
+    "sortOrder": 20
   },
   {
     "id": 46,
@@ -713,7 +734,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 22
   },
@@ -734,7 +755,7 @@ const importedGames = [
     "dateAdded": 1788498307657,
     "isDrm": false,
     "downloadsWeb": 5,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1788498307657,
     "sortOrder": 22
   },
@@ -881,7 +902,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 23,
+    "downloadsApp": 24,
     "updateTime": 1779073729544,
     "sortOrder": 29
   },
@@ -986,7 +1007,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 15,
-    "downloadsApp": 14,
+    "downloadsApp": 15,
     "updateTime": 1779073729544,
     "sortOrder": 49
   },
@@ -1028,7 +1049,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 31,
-    "downloadsApp": 18,
+    "downloadsApp": 19,
     "updateTime": 1779073729544,
     "sortOrder": 50
   },
@@ -1406,7 +1427,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 75
   },
@@ -1427,7 +1448,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 5,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 76
   },
@@ -1448,7 +1469,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 3,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 77
   },
@@ -1469,7 +1490,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 78
   },
@@ -2225,7 +2246,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 8,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 114
   },
@@ -2267,7 +2288,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 116
   },
@@ -2372,7 +2393,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 121
   },
@@ -2393,7 +2414,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 8,
+    "downloadsApp": 9,
     "updateTime": 1779073729544,
     "sortOrder": 122
   },
@@ -2414,7 +2435,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 123
   },
@@ -2435,7 +2456,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 10,
+    "downloadsApp": 11,
     "updateTime": 1779073729544,
     "sortOrder": 124
   },
@@ -2498,7 +2519,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 9,
-    "downloadsApp": 9,
+    "downloadsApp": 10,
     "updateTime": 1779073729544,
     "sortOrder": 127
   },
@@ -2582,7 +2603,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 3,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 131
   },
@@ -2624,7 +2645,7 @@ const importedGames = [
     "dateAdded": 1784986428291,
     "isDrm": false,
     "downloadsWeb": 57,
-    "downloadsApp": 18,
+    "downloadsApp": 19,
     "updateTime": 1784986428291,
     "sortOrder": 133
   },
@@ -3422,7 +3443,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 3,
+    "downloadsApp": 4,
     "updateTime": 1779073729544,
     "sortOrder": 171
   },
@@ -3884,7 +3905,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 193
   },
@@ -6173,7 +6194,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 305
   },
@@ -12095,7 +12116,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 595
   },
@@ -12116,7 +12137,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 596
   },
@@ -15665,7 +15686,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 765
   },
@@ -15896,7 +15917,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 776
   },
@@ -16022,7 +16043,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 782
   },
@@ -17639,7 +17660,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 859
   },
@@ -21734,7 +21755,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 21,
+    "downloadsApp": 22,
     "updateTime": 1779073729544,
     "sortOrder": 1055
   },
@@ -30722,7 +30743,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1488
   },
@@ -31037,7 +31058,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1503
   },
@@ -33284,7 +33305,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 1609
   },
@@ -33605,7 +33626,7 @@ const importedGames = [
   },
   {
     "id": 1598,
-    "name": "塔洛斯的法则2",
+    "name": "塔罗斯的法则2/塔洛斯的法则2",
     "nameEn": "The Talos Principle 2",
     "cover": "https://api.djgamebox.com/api/covers/covers/1598.jpg",
     "screenshots": [],
@@ -36287,7 +36308,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 1,
-    "downloadsApp": 1,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 1752
   },
@@ -41747,7 +41768,7 @@ const importedGames = [
     "dateAdded": 1784128190537,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1784128190537,
     "sortOrder": 2009
   },
@@ -42650,7 +42671,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 4,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 2044
   },
@@ -44776,27 +44797,6 @@ const importedGames = [
     "sortOrder": 3195
   },
   {
-    "id": 2196,
-    "name": "恶魔城：贝尔蒙特的诅咒",
-    "nameEn": "Castlevania: Belmont's Curse",
-    "cover": "https://api.djgamebox.com/api/covers/covers/2196.jpg",
-    "screenshots": [],
-    "category": "动作冒险",
-    "size": "7.6G",
-    "description": "",
-    "baiduLink1": "https://pan.baidu.com/s/1m1qEF2xvfC9SlJNc3VrUiw?pwd=8888",
-    "baiduLink2": "https://pan.baidu.com/s/1nFO1WRP9mOoQ0kU1AiEHdg?pwd=6666",
-    "baiduLink3": "",
-    "thunderLink": "",
-    "favorite": false,
-    "dateAdded": 1792939647710,
-    "isDrm": false,
-    "downloadsWeb": 0,
-    "downloadsApp": 0,
-    "updateTime": 1792939647710,
-    "sortOrder": 3196
-  },
-  {
     "id": 2197,
     "name": "恶魔城：主宰合集",
     "nameEn": "Castlevania Dominus Collection",
@@ -45215,6 +45215,90 @@ const importedGames = [
     "downloadsApp": 0,
     "updateTime": 1792940024823,
     "sortOrder": 3216
+  },
+  {
+    "id": 2217,
+    "name": "使命召唤22：黑色行动7",
+    "nameEn": "Call of Duty: Black Ops 7 - Endgame",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2217.jpg",
+    "screenshots": [],
+    "category": "第一人称射击",
+    "size": "198G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1y5U7AJtr5KjnD4TDlNjzoQ?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/19y9otxsm78dlAGzvQ4Smqw?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1793113185693,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1793113185693,
+    "sortOrder": 3217
+  },
+  {
+    "id": 2218,
+    "name": "皇牌空战零：贝尔卡战争",
+    "nameEn": "ACE COMBAT ZERO: THE BELKAN WAR",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2218.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "3.3G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1M6bR59_uQmaTtzE9pyiuxA?pwd=8888",
+    "baiduLink2": "https://pan.baidu.com/s/1Ae6QiRum7JkmjIVkVd-jdA?pwd=6666",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1793113213656,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1793113213656,
+    "sortOrder": 3218
+  },
+  {
+    "id": 2219,
+    "name": "教团：1886",
+    "nameEn": "The Order：1886",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2219.jpg",
+    "screenshots": [],
+    "category": "动作冒险",
+    "size": "31G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1SmHiPwQub5xh8njxjp8JHw?pwd=8888",
+    "baiduLink2": "",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1793113225598,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1793113225598,
+    "sortOrder": 3219
+  },
+  {
+    "id": 2220,
+    "name": "桌游模拟器",
+    "nameEn": "Tabletop Simulator",
+    "cover": "https://api.djgamebox.com/api/covers/covers/2220.jpg",
+    "screenshots": [],
+    "category": "模拟经营",
+    "size": "3G",
+    "description": "",
+    "baiduLink1": "https://pan.baidu.com/s/1t0fO4DvuygEfECqT8qso1A?pwd=8888",
+    "baiduLink2": "",
+    "baiduLink3": "",
+    "thunderLink": "",
+    "favorite": false,
+    "dateAdded": 1793113251560,
+    "isDrm": false,
+    "downloadsWeb": 0,
+    "downloadsApp": 0,
+    "updateTime": 1793113251560,
+    "sortOrder": 3220
   }
 ];
 
