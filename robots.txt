@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# 屏蔽谷歌爬虫（站点主动退出Google索引）
+User-agent: Googlebot
+Disallow: /
+
 # Sitemap
 Sitemap: https://www.djgamebox.com/sitemap.xml
 
