@@ -1,5 +1,5 @@
 // 游戏数据 - 由 GitHub Actions 从云端 API 自动生成
-// 生成时间: 2026/11/1 12:53:38
+// 生成时间: 2026/11/3 04:10:23
 // 游戏数量: 2166
 
 const importedGames = [
@@ -41,7 +41,7 @@ const importedGames = [
     "dateAdded": 1792748848783,
     "isDrm": true,
     "downloadsWeb": 200,
-    "downloadsApp": 12,
+    "downloadsApp": 13,
     "updateTime": 1792748848783,
     "sortOrder": 2
   },
@@ -83,7 +83,7 @@ const importedGames = [
     "dateAdded": 1792299036748,
     "isDrm": false,
     "downloadsWeb": 258,
-    "downloadsApp": 36,
+    "downloadsApp": 37,
     "updateTime": 1792299036748,
     "sortOrder": 3
   },
@@ -104,7 +104,7 @@ const importedGames = [
     "dateAdded": 1788498758078,
     "isDrm": false,
     "downloadsWeb": 344,
-    "downloadsApp": 146,
+    "downloadsApp": 147,
     "updateTime": 1788498758078,
     "sortOrder": 3
   },
@@ -125,7 +125,7 @@ const importedGames = [
     "dateAdded": 1791983635093,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 36,
+    "downloadsApp": 37,
     "updateTime": 1791983635093,
     "sortOrder": 4
   },
@@ -146,7 +146,7 @@ const importedGames = [
     "dateAdded": 1791473266042,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1791473266042,
     "sortOrder": 5
   },
@@ -293,7 +293,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 85,
-    "downloadsApp": 67,
+    "downloadsApp": 68,
     "updateTime": 1779073729544,
     "sortOrder": 14
   },
@@ -902,7 +902,7 @@ const importedGames = [
     "dateAdded": 1787022676307,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1787022676307,
     "sortOrder": 43
   },
@@ -965,7 +965,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 13,
-    "downloadsApp": 17,
+    "downloadsApp": 18,
     "updateTime": 1779073729544,
     "sortOrder": 46
   },
@@ -1280,7 +1280,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 61
   },
@@ -1490,7 +1490,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 71
   },
@@ -1511,7 +1511,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 3,
-    "downloadsApp": 6,
+    "downloadsApp": 7,
     "updateTime": 1779073729544,
     "sortOrder": 72
   },
@@ -3527,7 +3527,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 6,
-    "downloadsApp": 2,
+    "downloadsApp": 3,
     "updateTime": 1779073729544,
     "sortOrder": 168
   },
@@ -3548,7 +3548,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 169
   },
@@ -3569,7 +3569,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 12,
+    "downloadsApp": 13,
     "updateTime": 1779073729544,
     "sortOrder": 170
   },
@@ -5690,7 +5690,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 5,
+    "downloadsApp": 6,
     "updateTime": 1779073729544,
     "sortOrder": 271
   },
@@ -15938,7 +15938,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 2,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 759
   },
@@ -16946,7 +16946,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 4,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 807
   },
@@ -17240,7 +17240,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 821
   },
@@ -20936,7 +20936,7 @@ const importedGames = [
     "dateAdded": 1783836155460,
     "isDrm": false,
     "downloadsWeb": 30,
-    "downloadsApp": 46,
+    "downloadsApp": 47,
     "updateTime": 1783836155460,
     "sortOrder": 997
   },
@@ -21776,7 +21776,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 10,
-    "downloadsApp": 22,
+    "downloadsApp": 23,
     "updateTime": 1779073729544,
     "sortOrder": 1037
   },
@@ -23918,7 +23918,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1139
   },
@@ -29966,7 +29966,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 1,
+    "downloadsApp": 2,
     "updateTime": 1779073729544,
     "sortOrder": 1427
   },
@@ -34502,7 +34502,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 1,
     "updateTime": 1779073729544,
     "sortOrder": 1643
   },
@@ -40802,7 +40802,7 @@ const importedGames = [
     "dateAdded": 1790737012603,
     "isDrm": true,
     "downloadsWeb": 0,
-    "downloadsApp": 23,
+    "downloadsApp": 24,
     "updateTime": 1790737012603,
     "sortOrder": 1943
   },
@@ -41915,7 +41915,7 @@ const importedGames = [
     "dateAdded": 1779073729544,
     "isDrm": true,
     "downloadsWeb": 6,
-    "downloadsApp": 4,
+    "downloadsApp": 5,
     "updateTime": 1779073729544,
     "sortOrder": 1996
   },
@@ -44750,7 +44750,7 @@ const importedGames = [
     "dateAdded": 1792117954597,
     "isDrm": false,
     "downloadsWeb": 0,
-    "downloadsApp": 0,
+    "downloadsApp": 2,
     "updateTime": 1792117954597,
     "sortOrder": 2132
   },
