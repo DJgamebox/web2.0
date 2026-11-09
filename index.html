@@ -2546,10 +2546,20 @@
     }
     
     // 后台静默同步（不阻塞UI）
+    // 共享请求：lite 精简模式（不含游戏描述，约省 8MB），同一时刻只发一次
+    let _gamesLitePromise = null;
+    function fetchGamesLite() {
+      if (!_gamesLitePromise) {
+        _gamesLitePromise = fetch(`${CONFIG.apiBaseUrl}/api/games?lite=1`)
+          .then(r => r.json())
+          .catch(e => { _gamesLitePromise = null; throw e; });
+      }
+      return _gamesLitePromise;
+    }
+
     async function syncFromCloudSilent() {
       try {
-        const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`);
-        const data = await response.json();
+        const data = await fetchGamesLite();
         if (data.games && data.games.length > 0) {
           // ID 映射表：将旧ID映射到新ID
           const idMapping = {
@@ -2686,18 +2696,15 @@
     // 获取宣传栏数据
     async function fetchBanner() {
       try {
-        // 优先从 API 获取宣传栏配置
-        const response = await fetch(`${CONFIG.apiBaseUrl}/api/games`);
-        if (response.ok) {
-          const data = await response.json();
-          if (data.games) {
-            const bannerGame = data.games.find(g => g.id === '_banner_config');
-            if (bannerGame && bannerGame.desc) {
-              const bannerData = JSON.parse(bannerGame.desc);
-              if (bannerData.text) {
-                renderBanner(bannerData);
-                return;
-              }
+        // 优先从 API 获取宣传栏配置（复用共享的精简请求，不再单独拉全量数据）
+        const data = await fetchGamesLite();
+        if (data.games) {
+          const bannerGame = data.games.find(g => g.id === '_banner_config');
+          if (bannerGame && bannerGame.desc) {
+            const bannerData = JSON.parse(bannerGame.desc);
+            if (bannerData.text) {
+              renderBanner(bannerData);
+              return;
             }
           }
         }
