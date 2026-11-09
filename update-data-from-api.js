@@ -51,10 +51,11 @@ https.get(API_URL, (res) => {
           name: game.cn || game.name || '',
           nameEn: game.en || game.nameEn || '',
           cover: game.cover || '',
-          screenshots: game.screenshots || [],
+          // 注意：description 和 screenshots 是大字段，首页列表/搜索用不到，
+          // 不写入 data-embed.js（否则文件会膨胀到 8MB+ 拖慢首页）。
+          // 描述保留在 web-descriptions.json 和各游戏静态详情页中，不受影响。
           category: game.type || game.category || '',
           size: game.size || '',
-          description: game.desc || game.description || '',
           baiduLink1: game.baiduLink1 || game.link1 || '',
           baiduLink2: game.baiduLink2 || game.link2 || '',
           baiduLink3: game.baiduLink3 || game.link3 || '',
@@ -73,7 +74,7 @@ https.get(API_URL, (res) => {
 // 生成时间: ${new Date().toLocaleString('zh-CN')}
 // 游戏数量: ${importedGames.length}
 
-const importedGames = ${JSON.stringify(importedGames, null, 2)};
+const importedGames = ${JSON.stringify(importedGames)};
 
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = { importedGames };
